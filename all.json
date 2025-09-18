@@ -1,9 +1,9 @@
 [
   {
     "entityRef": {
-      "name": "elasticsearch",
-      "kind": "Component",
-      "namespace": "default"
+      "kind": "component",
+      "name": "elasticsearch"
+      
     },
     "scorePercent": 50,
     "scoreLabel": "Yellow",
@@ -32,9 +32,8 @@
   },
   {
     "entityRef": {
-      "name": "kibana",
-      "kind": "Component",
-      "namespace": "default"
+      "kind": "component",
+      "name": "kibana"
     },
     "scorePercent": 70,
     "scoreLabel": "Green",
@@ -63,9 +62,8 @@
   },
   {
     "entityRef": {
-      "name": "elastic-apm",
-      "kind": "Component",
-      "namespace": "default"
+      "kind": "component",
+      "name": "elastic-apm"
     },
     "scorePercent": 40,
     "scoreLabel": "Red",
