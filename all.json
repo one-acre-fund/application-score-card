@@ -1,6 +1,10 @@
 [
   {
-    "entityRef": "component:default/elasticsearch",
+    "entityRef": {
+      "name": "elasticsearch",
+      "kind": "component",
+      "namespace": "default"
+    },
     "metadata": {
       "name": "elasticsearch"
     },
@@ -30,7 +34,11 @@
     ]
   },
   {
-    "entityRef": "component:default/kibana",
+    "entityRef": {
+      "name": "kibana",
+      "kind": "component",
+      "namespace": "default"
+    },
     "metadata": {
       "name": "kibana"
     },
@@ -60,7 +68,11 @@
     ]
   },
   {
-    "entityRef": "component:default/elastic-apm",
+    "entityRef": {
+      "name": "elastic-apm",
+      "kind": "component",
+      "namespace": "default"
+    },
     "metadata": {
       "name": "elastic-apm"
     },
