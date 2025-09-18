@@ -4,6 +4,9 @@
       "kind": "Component",
       "name": "elasticsearch"
     },
+    "metadata": {
+    "name": "elasticsearch"
+    },
     "scorePercent": 50,
     "scoreLabel": "Yellow",
     "scoringReviewDate": "2022-01-01T08:00:00Z",
