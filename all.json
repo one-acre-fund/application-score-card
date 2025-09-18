@@ -1,8 +1,8 @@
 [
   {
     "entityRef": {
-      "kind": "api",
-      "name": "hello-world"
+      "kind": "Component",
+      "name": "elasticsearch"
     },
     "scorePercent": 50,
     "scoreLabel": "Yellow",
