@@ -1,9 +1,6 @@
 [
   {
-    "entityRef": {
-      "kind": "Component",
-      "name": "elasticsearch"
-    },
+    "entityRef": "component:default/elasticsearch",
     "metadata": {
     "name": "elasticsearch"
     },
