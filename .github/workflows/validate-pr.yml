@@ -3,7 +3,7 @@ name: Validate Self-Review Scores
 on:
   pull_request:
     paths:
-      - '*.json'
+      - './entity-scores/**/*.json'
 
 jobs:
   validate-scores:
