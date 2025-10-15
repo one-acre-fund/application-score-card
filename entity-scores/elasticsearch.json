@@ -121,7 +121,7 @@
         {
           "id": 2205,
           "title": "SLA",
-          "scorePercent": 0,
+          "scorePercent": 40,
           "scoreSuccess": "unknown",
           "details": "..."
         },

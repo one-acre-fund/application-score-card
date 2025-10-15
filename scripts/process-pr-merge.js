@@ -74,7 +74,7 @@ class PRMergeProcessor {
       // Get the list of changed files in the PR
       // This assumes the script runs in a GitHub Action with proper git setup
       const output = execSync('git diff --name-only HEAD~1 HEAD', { encoding: 'utf8' });
-      this.changedFiles = output.trim().split('\\n').filter(file => file.length > 0);
+      this.changedFiles = output.trim().split('\n').filter(file => file.length > 0);
       
       console.log(`📋 Changed files in PR: ${this.changedFiles.length}`);
       if (this.changedFiles.length <= 10) {
@@ -87,7 +87,8 @@ class PRMergeProcessor {
   }
 
   filterEntityScoreFiles() {
-    const entityScorePattern = /^entity-scores\/.*\.json$/;
+    // Matches files in the entity-scores directory ending with .json
+    const entityScorePattern = /^entity-scores\/[^/]+\.json$/;
     
     if (this.changedFiles.length === 0) {
       // If we can't get changed files, process all entity score files
@@ -100,9 +101,19 @@ class PRMergeProcessor {
       return [];
     }
 
-    return this.changedFiles
+    console.log('🔍 Debugging file filtering:');
+    this.changedFiles.forEach(file => {
+      const matches = entityScorePattern.test(file);
+      const exists = fs.existsSync(file);
+      console.log(`   File: ${file} | Pattern match: ${matches} | Exists: ${exists}`);
+    });
+
+    let changedFiles = this.changedFiles
       .filter(file => entityScorePattern.test(file))
       .filter(file => fs.existsSync(file)); // Only existing files
+    
+      console.log(`📂 Found ${changedFiles.length} changed entity score files`);
+    return changedFiles;
   }
 
   async validateChangedFiles(files) {
@@ -218,7 +229,7 @@ Please fix the validation errors and try again.`;
     return `## ✅ Score Processing Completed
 
 **Summary:**
-- Processed ${result.processedFiles?.length || 0} entity score files
+- Processed ${result.processedFiles && result.processedFiles.length || 0} entity score files
 - Updated scores for ${result.updatedScores} entities
 - All.json has been updated with the latest scores
 
