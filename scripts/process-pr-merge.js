@@ -87,11 +87,11 @@ class PRMergeProcessor {
   }
 
   filterEntityScoreFiles() {
-    const entityScorePattern = /^self-review-process\/entity-scores\/.*\.json$/;
+    const entityScorePattern = /^entity-scores\/.*\.json$/;
     
     if (this.changedFiles.length === 0) {
       // If we can't get changed files, process all entity score files
-      const entityScoresDir = './self-review-process/entity-scores';
+      const entityScoresDir = './entity-scores';
       if (fs.existsSync(entityScoresDir)) {
         return fs.readdirSync(entityScoresDir)
           .filter(file => file.endsWith('.json'))
