@@ -140,7 +140,7 @@ class PRMergeProcessor {
     console.log('\\n🔢 Calculating and updating scores...');
     
     const calculator = new ScoreCalculator({
-      entityScoresDir: './self-review-process/entity-scores',
+      entityScoresDir: './entity-scores',
       outputFile: './all.json',
       verbose: true
     });
