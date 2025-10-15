@@ -5,13 +5,14 @@
     "name": "elasticsearch"
   },
   "generatedDateTimeUtc": "2021-07-22 10:00",
-  "scorePercent": 57,
+  "scorePercent": 73,
   "scoreLabel": "Yellow",
   "scoreSuccess": "almost-failure",
   "scoringReviewer": "Guest",
   "scoringReviewDate": "2022-01-04T08:00:00Z",
   "areaScores": [
     {
+      "id": 2198,
       "title": "Extensibility",
       "scorePercent": 50,
       "scoreLabel": "Yellow",
@@ -69,7 +70,7 @@
           "title": "Application Insights",
           "scorePercent": 80,
           "scoreLabel": "B",
-          "scoreSuccess": ["AppInsights configured", "Dashboard present"],
+          "scoreSuccess": "success",
           "details": "Lorem ipsum for **AppInsights** sit amet, consectetuer adipiscing elit. Aliquam erat volutpat. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Nullam at arcu a est sollicitudin euismod. Aliquam id dolor. Fusce nibh. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris elementum mauris vitae tortor. Maecenas libero. Duis pulvinar. Pellentesque pretium lectus id turpis. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Etiam commodo dui eget wisi. Nunc dapibus tortor vel mi dapibus sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Duis risus."
         }
       ]
@@ -280,7 +281,7 @@
         {
           "id": 2191,
           "title": "Unit Tests",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
@@ -294,21 +295,21 @@
         {
           "id": 2190,
           "title": "Performance Tests",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 2186,
           "title": "Automation Tests",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 2188,
           "title": "Design Reviews",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         }
