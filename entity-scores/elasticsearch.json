@@ -78,7 +78,7 @@
     {
       "id": 3937,
       "title": "Documentation",
-      "scorePercent": 25,
+      "scorePercent": 30,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
@@ -103,6 +103,7 @@
           "id": 2207,
           "title": "README",
           "scoreSuccess": "unknown",
+          "scorePercent": 30,
           "details": "..."
         },
         {
