@@ -28,7 +28,7 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v40
         with:
-          files: 'entity-scores/**/*.json'
+          files: 'entity-scores/*.json'
 
       - name: Validate entity score files
         if: steps.changed-files.outputs.any_changed == 'true'
