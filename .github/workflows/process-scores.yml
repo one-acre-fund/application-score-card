@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [closed]
     paths:
-      - 'entity-scores/**/*.json'
+      - './entity-scores/**/*.json'
 
 permissions:
   contents: write
