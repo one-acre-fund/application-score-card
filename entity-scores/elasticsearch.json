@@ -231,28 +231,28 @@
           "id": 2172,
           "title": "AB Testing",
           "isOptional": true,
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 3941,
           "title": "Disaster Recovery Plan",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 2179,
           "title": "Data Refresh For Testing Environments",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 2174,
           "title": "Basic Ops Handed Over to L2",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         }
