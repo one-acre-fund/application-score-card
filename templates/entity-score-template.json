@@ -1,0 +1,379 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "YOUR_ENTITY_NAME_HERE",
+    "namespace": "default"
+  },
+  "generatedDateTimeUtc": "2025-10-15T10:00:00Z",
+  "scoringReviewer": null,
+  "scoringReviewDate": null,
+  "meetingNotes": "",
+  "actionItems": [],
+  "areaScores": [
+    {
+      "id": 2199,
+      "title": "Code",
+      "scoreEntries": [
+        {
+          "id": 2157,
+          "title": "GitFlow",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "",
+          "details": "Assessment: Does the project follow GitFlow branching strategy?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2159,
+          "title": "Identity Management",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Is proper authentication and authorization implemented?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2163,
+          "title": "Swagger/API Documentation",
+          "isOptional": true,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are APIs properly documented with Swagger/OpenAPI?",
+          "selfAssessmentComments": "TODO: Add your assessment here (or mark as N/A if no APIs)",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2158,
+          "title": "HTTPS",
+          "isOptional": true,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Is HTTPS properly configured for all endpoints?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2153,
+          "title": "Application Insights/Monitoring",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Is application monitoring and telemetry properly configured?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        }
+      ]
+    },
+    {
+      "id": 3937,
+      "title": "Documentation",
+      "scoreEntries": [
+        {
+          "id": 3938,
+          "title": "Project Introduction",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Is there a clear project introduction with purpose and scope?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 3940,
+          "title": "Project Wiki",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Is there comprehensive project documentation in a wiki?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2207,
+          "title": "README",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Is there a comprehensive README with setup and usage instructions?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2170,
+          "title": "RFP/Requirements Document",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are requirements and specifications properly documented?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2164,
+          "title": "Architecture Diagrams",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are system architecture diagrams available and up-to-date?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2205,
+          "title": "SLA Documentation",
+          "isOptional": true,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are service level agreements documented?",
+          "selfAssessmentComments": "TODO: Add your assessment here (or mark as N/A)",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2165,
+          "title": "Business Documentation",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Is business context and process documentation available?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2171,
+          "title": "Road Map",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Is there a clear development roadmap?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        }
+      ]
+    },
+    {
+      "id": 2208,
+      "title": "Operations",
+      "scoreEntries": [
+        {
+          "id": 2210,
+          "title": "Health Checks",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are health check endpoints implemented and monitored?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2185,
+          "title": "Semantic Versioning",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Is semantic versioning properly implemented?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2176,
+          "title": "CI Pipelines",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are continuous integration pipelines set up and working?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2175,
+          "title": "CD Pipelines",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are continuous deployment pipelines configured?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2181,
+          "title": "Insights Dashboard",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are operational dashboards available for monitoring?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2173,
+          "title": "Alerts",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are proper alerting mechanisms configured?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2184,
+          "title": "Release Notes",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are release notes maintained for deployments?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2183,
+          "title": "Release Annotations to App Insights",
+          "isOptional": true,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are release annotations sent to monitoring systems?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2178,
+          "title": "DNS Record Management",
+          "isOptional": true,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are DNS records properly managed and documented?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2180,
+          "title": "GitOps",
+          "isOptional": true,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Is GitOps methodology implemented for deployments?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2177,
+          "title": "Canary Checks",
+          "isOptional": true,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are canary deployments and checks implemented?",
+          "selfAssessmentComments": "TODO: Add your assessment here (depends on tier/SLA)",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2172,
+          "title": "A/B Testing",
+          "isOptional": true,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are A/B testing capabilities available?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 3941,
+          "title": "Disaster Recovery Plan",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Is there a documented disaster recovery plan?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2179,
+          "title": "Data Refresh For Testing Environments",
+          "isOptional": true,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are test data refresh processes documented and automated?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2174,
+          "title": "Basic Ops Handed Over to L2",
+          "isOptional": true,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Have basic operations been handed over to Level 2 support?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        }
+      ]
+    },
+    {
+      "id": 4333,
+      "title": "Quality",
+      "scoreEntries": [
+        {
+          "id": 2187,
+          "title": "Code Reviews",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are code reviews mandatory and properly conducted?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2191,
+          "title": "Unit Tests",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are comprehensive unit tests written and maintained?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2189,
+          "title": "Integration Tests",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are integration tests implemented and run regularly?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2190,
+          "title": "Performance Tests",
+          "isOptional": true,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are performance tests implemented and run?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2186,
+          "title": "Automation Tests",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are end-to-end automation tests available?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        },
+        {
+          "id": 2188,
+          "title": "Design Reviews",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "details": "Assessment: Are design reviews conducted for major changes?",
+          "selfAssessmentComments": "TODO: Add your assessment here",
+          "improvementPlan": ""
+        }
+      ]
+    }
+  ]
+}

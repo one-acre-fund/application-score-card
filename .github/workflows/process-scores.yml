@@ -1,0 +1,66 @@
+name: Process Self-Review Scores
+
+on:
+  pull_request:
+    types: [closed]
+    paths:
+      - 'entity-scores/**/*.json'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  process-scores:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # Need previous commit for diff
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: 'package.json'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      - name: Process merged PR scores
+        id: process-scores
+        run: |
+          npm run process-pr
+
+      - name: Comment on PR
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            let comment = '';
+            if ('${{ steps.process-scores.outcome }}' === 'success') {
+              comment = `## ✅ Score Processing Completed
+              
+            The entity scores have been successfully processed and the main all.json file has been updated.
+            Your self-assessment scores are now visible in the Backstage score-card plugin.
+
+            Thank you for completing your self-review! 🎉`;
+            } else {
+              comment = `## ❌ Score Processing Failed
+              
+            There was an issue processing the entity scores. Please check the workflow logs for details.
+            The team will review the issue and may need to process the scores manually.`;
+            }
+
+            await github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });

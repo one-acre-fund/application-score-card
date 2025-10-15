@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://backstage.io/entity-score-schema.json",
+  "title": "Entity Self-Assessment Score",
+  "description": "Schema for entity self-assessment scores compatible with Backstage score-card plugin",
+  "type": "object",
+  "required": [
+    "entityRef",
+    "generatedDateTimeUtc",
+    "areaScores"
+  ],
+  "properties": {
+    "entityRef": {
+      "type": "object",
+      "description": "Reference to the Backstage catalog entity",
+      "required": ["kind", "name"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["component", "api", "system", "resource"],
+          "description": "The kind of entity (usually 'component')"
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the entity as defined in catalog-info.yaml"
+        },
+        "namespace": {
+          "type": "string",
+          "default": "default",
+          "description": "The namespace of the entity"
+        }
+      }
+    },
+    "generatedDateTimeUtc": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO datetime when this assessment was created"
+    },
+    "scorePercent": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Overall score percentage (calculated automatically from area scores)"
+    },
+    "scoreLabel": {
+      "type": "string",
+      "enum": ["Green", "Yellow", "Red"],
+      "description": "Color label for the score (calculated automatically)"
+    },
+    "scoreSuccess": {
+      "type": "string",
+      "enum": ["success", "almost-success", "partial", "almost-failure", "failure"],
+      "description": "Success category (calculated automatically)"
+    },
+    "scoringReviewer": {
+      "type": ["string", "object", "null"],
+      "description": "Reviewer information (filled after review meeting)"
+    },
+    "scoringReviewDate": {
+      "type": ["string", "null"],
+      "format": "date-time",
+      "description": "ISO datetime of the review meeting"
+    },
+    "meetingNotes": {
+      "type": "string",
+      "description": "Summary of review meeting discussion"
+    },
+    "actionItems": {
+      "type": "array",
+      "description": "Improvement actions agreed upon in review meeting",
+      "items": {
+        "type": "object",
+        "required": ["description", "owner", "deadline"],
+        "properties": {
+          "description": {
+            "type": "string",
+            "description": "What needs to be done"
+          },
+          "owner": {
+            "type": "string",
+            "description": "Who is responsible"
+          },
+          "deadline": {
+            "type": "string",
+            "format": "date",
+            "description": "When it should be completed"
+          }
+        }
+      }
+    },
+    "areaScores": {
+      "type": "array",
+      "description": "Scores for different assessment areas",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "scoreEntries"],
+        "properties": {
+          "id": {
+            "type": "number",
+            "description": "Unique identifier for the score area"
+          },
+          "title": {
+            "type": "string",
+            "description": "Name of the assessment area"
+          },
+          "scorePercent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Area score percentage (calculated from entries)"
+          },
+          "scoreLabel": {
+            "type": "string",
+            "enum": ["Green", "Yellow", "Red"],
+            "description": "Color label (calculated automatically)"
+          },
+          "scoreSuccess": {
+            "type": "string",
+            "enum": ["success", "almost-success", "partial", "almost-failure", "failure"],
+            "description": "Success category (calculated automatically)"
+          },
+          "scoreEntries": {
+            "type": "array",
+            "description": "Individual assessment entries within this area",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["id", "title", "scoreSuccess", "details"],
+              "properties": {
+                "id": {
+                  "type": "number",
+                  "description": "Unique identifier for the entry"
+                },
+                "title": {
+                  "type": "string",
+                  "description": "Name of the assessment item"
+                },
+                "isOptional": {
+                  "type": "boolean",
+                  "default": false,
+                  "description": "Whether this item is optional for the entity type"
+                },
+                "scorePercent": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100,
+                  "description": "Score percentage for this specific item"
+                },
+                "scoreLabel": {
+                  "type": "string",
+                  "enum": ["A", "B", "C", "D", "F"],
+                  "description": "Letter grade for the score"
+                },
+                "scoreSuccess": {
+                  "type": "string",
+                  "enum": ["success", "almost-success", "partial", "almost-failure", "failure", "unknown"],
+                  "description": "Success category for this item"
+                },
+                "scoreHints": {
+                  "type": ["string", "array"],
+                  "description": "Hints or evidence supporting the score",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "details": {
+                  "type": "string",
+                  "description": "Detailed explanation of the assessment and evidence"
+                },
+                "selfAssessmentComments": {
+                  "type": "string",
+                  "description": "Developer's comments on their self-assessment"
+                },
+                "improvementPlan": {
+                  "type": "string",
+                  "description": "Plan for improving this score"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

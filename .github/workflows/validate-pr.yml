@@ -1,0 +1,80 @@
+name: Validate Self-Review Scores
+
+on:
+  pull_request:
+    paths:
+      - '*.json'
+
+jobs:
+  validate-scores:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: 'package.json'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v40
+        with:
+          files: 'entity-scores/**/*.json'
+
+      - name: Validate entity score files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          cd entity-scores
+          echo "Validating changed entity score files:"
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "Validating $file"
+            npm run validate "../$file"
+          done
+
+      - name: Comment validation results
+        if: always() && steps.changed-files.outputs.any_changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const outcome = '${{ job.status }}';
+            let comment = '';
+            
+            if (outcome === 'success') {
+              comment = `## ✅ Score Validation Passed
+              
+            All entity score files have been validated successfully! 
+            
+            **Files validated:**
+            ${{ steps.changed-files.outputs.all_changed_files }}
+            
+            Your self-review is ready for the review meeting.`;
+            } else {
+              comment = `## ❌ Score Validation Failed
+              
+            Some entity score files have validation errors. Please check the workflow logs and fix the issues.
+            
+            **Common issues to check:**
+            - Missing required fields
+            - Invalid score percentages (must be 0-100)
+            - Incomplete self-assessment comments (remove TODO placeholders)
+            - Invalid entity reference (must match catalog entity)
+            
+            **Files with issues:**
+            ${{ steps.changed-files.outputs.all_changed_files }}`;
+            }
+
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });

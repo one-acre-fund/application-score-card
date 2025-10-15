@@ -1,0 +1,33 @@
+{
+  "name": "backstage-self-review-process",
+  "version": "1.0.0",
+  "description": "Self-review process automation for Backstage score-card plugin",
+  "scripts": {
+    "validate": "node scripts/validate-scores.js",
+    "calculate": "node scripts/calculate-scores.js",
+    "process-pr": "node scripts/process-pr-merge.js",
+    "lint": "eslint scripts/**/*.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "backstage",
+    "scorecard",
+    "self-review",
+    "automation"
+  ],
+  "author": "bisonlou@gmail.com",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
+  },
+  "files": [
+    "scripts/",
+    "templates/",
+    "entity-score-schema.json",
+    "README.md"
+  ]
+}
