@@ -294,21 +294,21 @@
         {
           "id": 2190,
           "title": "Performance Tests",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 2186,
           "title": "Automation Tests",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 2188,
           "title": "Design Reviews",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         }
