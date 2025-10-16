@@ -12,24 +12,6 @@
   "scoringReviewDate": "2022-01-04T08:00:00Z",
   "areaScores": [
     {
-      "id": 2198,
-      "title": "Extensibility",
-      "scorePercent": 50,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "almost-failure",
-      "scoreEntries": [
-        {
-          "id": 2157,
-          "title": "GitFlow",
-          "scorePercent": 100,
-          "scoreLabel": "A",
-          "scoreSuccess": "success",
-          "scoreHints": "Gitflow: 100%",
-          "details": "..."
-        }
-      ]
-    },
-    {
       "id": 2199,
       "title": "Code",
       "scorePercent": 90,
