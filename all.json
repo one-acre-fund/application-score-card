@@ -5,19 +5,12 @@
       "name": "elasticsearch"
     },
     "generatedDateTimeUtc": "2021-07-22 10:00",
-    "scorePercent": 91,
+    "scorePercent": 88,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
     "scoringReviewer": "Guest",
     "scoringReviewDate": "2022-01-04T08:00:00Z",
     "areaScores": [
-      {
-        "id": 2198,
-        "title": "Extensibility",
-        "scorePercent": 100,
-        "scoreLabel": "Green",
-        "scoreSuccess": "success"
-      },
       {
         "id": 2199,
         "title": "Code",
