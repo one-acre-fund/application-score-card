@@ -245,18 +245,26 @@ class ScoreValidator {
 
 // CLI Usage
 if (require.main === module) {
-  const filePath = process.argv[2];
+  const args = process.argv.slice(2);
   
-  if (!filePath) {
-    console.error('Usage: node validate-scores.js <entity-score-file.json>');
+  if (args.length === 0) {
+    console.error('Usage: node validate-scores.js <entity-score-file.json> [<file2.json> ...]');
+    console.error('   or: node validate-scores.js entity-scores/*.json');
     process.exit(1);
   }
 
   const validator = new ScoreValidator();
-  const isValid = validator.validateFile(filePath);
-  validator.printResults();
+  let allValid = true;
   
-  process.exit(isValid ? 0 : 1);
+  // Validate each file
+  args.forEach((filePath, index) => {
+    if (index > 0) console.log('\n' + '='.repeat(50));
+    const isValid = validator.validateFile(filePath);
+    if (!isValid) allValid = false;
+  });
+  
+  validator.printResults();
+  process.exit(allValid ? 0 : 1);
 }
 
 module.exports = { ScoreValidator };
