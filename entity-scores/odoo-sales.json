@@ -42,7 +42,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Feature flagging is not implemented for any production features.",
-          "details": "One POC Feature flag is required for succes"
+          "details": "One POC Feature flag is required for success"
         },
         {
           "id": 3940,
