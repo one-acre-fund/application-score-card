@@ -39,26 +39,26 @@
         {
           "id": 3938,
           "title": "Feature Flagging",
-          "scorePercent": 100,
-          "scoreSuccess": "success",
-          "scoreHints": "Well structured/documented/linked with the wiki: 100%",
-          "details": "Project home page is linked to **devops wiki**."
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Feature flagging is not implemented for any production features.",
+          "details": "One POC Feature flag is required for success"
         },
         {
           "id": 3940,
           "title": "Automated rollbacks",
           "isOptional": false,
-          "scorePercent": 50,
-          "scoreSuccess": "partial",
-          "scoreHints": "Somewhat usefull: 50%",
-          "details": "Project wiki contains basic information however it is not well structured. It contains brief introduction and few pages about the technology used, but it is missing business context, processes description etc."
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Not started",
+          "details": "Ability to automatically rollback failed deployments"
         },
         {
           "id": 2207,
           "title": "Post Deployment Validation",
-          "scoreSuccess": "unknown",
-          "scorePercent": 30,
-          "details": "..."
+          "scoreSuccess": "failure",
+          "scorePercent": 10,
+          "details": "We need to have a step in our deployment pipeline that validates the deployment was successful."
         }
       ]
     },
@@ -72,16 +72,16 @@
         {
           "id": 2210,
           "title": "Performance monitoring",
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
-          "details": "Completelly missing healthchecks."
+          "scorePercent": 70,
+          "scoreSuccess": "almost-success",
+          "details": "Monitor the service performance metrics such as response times, throughput, and resource utilization."
         },
         {
           "id": 2185,
           "title": "Preventive Alerting",
           "scorePercent": 0,
           "scoreSuccess": "unknown",
-          "details": "..."
+          "details": "Monitor metrics that can indicate potential issues before they impact users, such as increased error rates or latency."
         }
       ]
     }

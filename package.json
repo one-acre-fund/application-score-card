@@ -4,10 +4,12 @@
   "description": "Self-review process automation for Backstage score-card plugin",
   "scripts": {
     "validate": "node scripts/validate-scores.js",
+    "validate-all": "node scripts/validate-scores.js entity-scores/*.json",
     "calculate": "node scripts/calculate-scores.js",
     "process-pr": "node scripts/process-pr-merge.js",
     "lint": "eslint scripts/**/*.js",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "keywords": [
     "backstage",
@@ -18,16 +20,26 @@
   "author": "bisonlou@gmail.com",
   "license": "Apache-2.0",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "devDependencies": {
     "eslint": "^8.0.0",
-    "jest": "^29.0.0"
+    "jest": "^29.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.0.0"
   },
   "files": [
     "scripts/",
     "templates/",
     "entity-score-schema.json",
     "README.md"
-  ]
+  ],
+  "lint-staged": {
+    "entity-scores/*.json": [
+      "npm run validate"
+    ],
+    "scripts/**/*.js": [
+      "eslint --fix"
+    ]
+  }
 }

@@ -79,4 +79,4 @@ After the review meeting, the entity score file should include:
 - `scoringReviewer`: Name/ID of the reviewer
 - `scoringReviewDate`: ISO date of the review meeting
 - `meetingNotes`: Summary of discussion and agreements
-- `actionItems`: List of improvement tasks with owners and deadlines
+- `actionItems`: List of improvement tasks with owners and deadlines# Test
