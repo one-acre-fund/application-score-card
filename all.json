@@ -3,58 +3,39 @@
     "entityRef": {
       "kind": "component",
       "name": "elasticsearch"
-      
     },
-    "scorePercent": 50,
-    "scoreLabel": "Yellow",
-    "scoringReviewDate": "2022-01-01T08:00:00Z",
-    "scoreSuccess": "almost-failure",
-    "areaScores": [
-      {
-        "title": "Code",
-        "scorePercent": 100,
-        "scoreLabel": "Green",
-        "scoreSuccess": "success"
-      },
-      {
-        "title": "Documentation",
-        "scorePercent": 25,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "title": "Operations",
-        "scorePercent": 100,
-        "scoreLabel": "Green",
-        "scoreSuccess": "success"
-      }
-    ]
-  },
-  {
-    "entityRef": {
-      "kind": "component",
-      "name": "kibana"
-    },
-    "scorePercent": 70,
+    "generatedDateTimeUtc": "2021-07-22 10:00",
+    "scorePercent": 88,
     "scoreLabel": "Green",
-    "scoringReviewDate": "2022-01-01T08:00:00Z",
     "scoreSuccess": "success",
+    "scoringReviewer": "Guest",
+    "scoringReviewDate": "2022-01-04T08:00:00Z",
     "areaScores": [
       {
+        "id": 2199,
         "title": "Code",
-        "scorePercent": 80,
+        "scorePercent": 90,
         "scoreLabel": "Green",
         "scoreSuccess": "success"
       },
       {
+        "id": 3937,
         "title": "Documentation",
-        "scorePercent": 60,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "almost-failure"
+        "scorePercent": 75,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
       },
       {
+        "id": 2208,
         "title": "Operations",
-        "scorePercent": 70,
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 4333,
+        "title": "Quality",
+        "scorePercent": 100,
         "scoreLabel": "Green",
         "scoreSuccess": "success"
       }
@@ -63,30 +44,35 @@
   {
     "entityRef": {
       "kind": "component",
-      "name": "elastic-apm"
+      "name": "odoo-sales"
     },
-    "scorePercent": 40,
-    "scoreLabel": "Red",
-    "scoringReviewDate": "2022-01-01T08:00:00Z",
-    "scoreSuccess": "failure",
+    "generatedDateTimeUtc": "2021-07-22 10:00",
+    "scorePercent": 54,
+    "scoreLabel": "Yellow",
+    "scoreSuccess": "partial",
+    "scoringReviewer": "Guest",
+    "scoringReviewDate": "2022-01-04T08:00:00Z",
     "areaScores": [
       {
-        "title": "Code",
-        "scorePercent": 50,
+        "id": 2199,
+        "title": "Quality",
+        "scorePercent": 33,
         "scoreLabel": "Yellow",
         "scoreSuccess": "almost-failure"
       },
       {
-        "title": "Documentation",
-        "scorePercent": 20,
+        "id": 3937,
+        "title": "Reliability",
+        "scorePercent": 75,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "id": 2208,
+        "title": "Monitoring",
+        "scorePercent": 0,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
-      },
-      {
-        "title": "Operations",
-        "scorePercent": 50,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "almost-failure"
       }
     ]
   }

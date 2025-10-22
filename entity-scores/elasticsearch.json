@@ -5,30 +5,12 @@
     "name": "elasticsearch"
   },
   "generatedDateTimeUtc": "2021-07-22 10:00",
-  "scorePercent": 57,
+  "scorePercent": 73,
   "scoreLabel": "Yellow",
   "scoreSuccess": "almost-failure",
   "scoringReviewer": "Guest",
   "scoringReviewDate": "2022-01-04T08:00:00Z",
   "areaScores": [
-    {
-      "id": 2198,
-      "title": "Extensibility",
-      "scorePercent": 50,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "almost-failure",
-      "scoreEntries": [
-        {
-          "id": 2157,
-          "title": "GitFlow",
-          "scorePercent": 100,
-          "scoreLabel": "A",
-          "scoreSuccess": "success",
-          "scoreHints": "Gitflow: 100%",
-          "details": "..."
-        }
-      ]
-    },
     {
       "id": 2199,
       "title": "Code",
@@ -78,7 +60,7 @@
     {
       "id": 3937,
       "title": "Documentation",
-      "scorePercent": 25,
+      "scorePercent": 30,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
@@ -103,6 +85,7 @@
           "id": 2207,
           "title": "README",
           "scoreSuccess": "unknown",
+          "scorePercent": 30,
           "details": "..."
         },
         {
@@ -120,7 +103,7 @@
         {
           "id": 2205,
           "title": "SLA",
-          "scorePercent": 0,
+          "scorePercent": 40,
           "scoreSuccess": "unknown",
           "details": "..."
         },
@@ -230,28 +213,28 @@
           "id": 2172,
           "title": "AB Testing",
           "isOptional": true,
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 3941,
           "title": "Disaster Recovery Plan",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 2179,
           "title": "Data Refresh For Testing Environments",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 2174,
           "title": "Basic Ops Handed Over to L2",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         }
@@ -281,7 +264,7 @@
         {
           "id": 2191,
           "title": "Unit Tests",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
@@ -295,21 +278,21 @@
         {
           "id": 2190,
           "title": "Performance Tests",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 2186,
           "title": "Automation Tests",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         },
         {
           "id": 2188,
           "title": "Design Reviews",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "scoreSuccess": "unknown",
           "details": "..."
         }
