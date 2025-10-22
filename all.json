@@ -40,5 +40,40 @@
         "scoreSuccess": "success"
       }
     ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
+      "name": "odoo-sales"
+    },
+    "generatedDateTimeUtc": "2021-07-22 10:00",
+    "scorePercent": 54,
+    "scoreLabel": "Yellow",
+    "scoreSuccess": "partial",
+    "scoringReviewer": "Guest",
+    "scoringReviewDate": "2022-01-04T08:00:00Z",
+    "areaScores": [
+      {
+        "id": 2199,
+        "title": "Quality",
+        "scorePercent": 33,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
+      },
+      {
+        "id": 3937,
+        "title": "Reliability",
+        "scorePercent": 75,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "id": 2208,
+        "title": "Monitoring",
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      }
+    ]
   }
 ]
