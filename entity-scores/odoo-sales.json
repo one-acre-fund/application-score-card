@@ -1,0 +1,89 @@
+
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "odoo-sales"
+  },
+  "generatedDateTimeUtc": "2021-07-22 10:00",
+  "scorePercent": 36,
+  "scoreLabel": "Yellow",
+  "scoreSuccess": "almost-failure",
+  "scoringReviewer": "Guest",
+  "scoringReviewDate": "2022-01-04T08:00:00Z",
+  "areaScores": [
+    {
+      "id": 2199,
+      "title": "Quality",
+      "scorePercent": 90,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 2157,
+          "title": "Code Coverage",
+          "scorePercent": 33.1,
+          "scoreLabel": "C",
+          "scoreSuccess": "almost-failure",
+          "scoreHints": "Code coverage: 33.1%",
+          "details": "Target is 50% coverage, current is 33.1%"
+        }
+      ]
+    },
+    {
+      "id": 3937,
+      "title": "Reliability",
+      "scorePercent": 30,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
+      "scoreEntries": [
+        {
+          "id": 3938,
+          "title": "Feature Flagging",
+          "scorePercent": 100,
+          "scoreSuccess": "success",
+          "scoreHints": "Well structured/documented/linked with the wiki: 100%",
+          "details": "Project home page is linked to **devops wiki**."
+        },
+        {
+          "id": 3940,
+          "title": "Automated rollbacks",
+          "isOptional": false,
+          "scorePercent": 50,
+          "scoreSuccess": "partial",
+          "scoreHints": "Somewhat usefull: 50%",
+          "details": "Project wiki contains basic information however it is not well structured. It contains brief introduction and few pages about the technology used, but it is missing business context, processes description etc."
+        },
+        {
+          "id": 2207,
+          "title": "Post Deployment Validation",
+          "scoreSuccess": "unknown",
+          "scorePercent": 30,
+          "details": "..."
+        }
+      ]
+    },
+    {
+      "id": 2208,
+      "title": "Monitoring",
+      "scorePercent": 50,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
+      "scoreEntries": [
+        {
+          "id": 2210,
+          "title": "Performance monitoring",
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "details": "Completelly missing healthchecks."
+        },
+        {
+          "id": 2185,
+          "title": "Preventive Alerting",
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "details": "..."
+        }
+      ]
+    }
+  ]
+}
