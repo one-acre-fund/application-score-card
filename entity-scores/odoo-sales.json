@@ -73,7 +73,7 @@
           "id": 2210,
           "title": "Performance monitoring",
           "scorePercent": 70,
-          "scoreSuccess": "success",
+          "scoreSuccess": "almost-success",
           "details": "Monitor the service performance metrics such as response times, throughput, and resource utilization."
         },
         {
