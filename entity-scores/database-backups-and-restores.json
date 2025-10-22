@@ -2,7 +2,7 @@
   "scorecardVersion": "2.0",
   "entityRef": {
     "kind": "component",
-    "name": "elasticsearch"
+    "name": "database-backups-and-restores"
   },
   "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
   "scorePercent": 0,
@@ -10,10 +10,10 @@
   "scoreSuccess": "unknown",
   "scoringReviewer": "Pending Review",
   "scoringReviewDate": null,
-  "owner": "Innocent Lou",
+  "owner": "Orchide Irakoze",
   "backupOwners": [
-    "Ivy Nzioka",
-    "Orchide Irakoze"
+    "Rahma Ahmed",
+    "Robert Angote"
   ],
   "areaScores": [
     {

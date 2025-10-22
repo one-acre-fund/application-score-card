@@ -2,7 +2,7 @@
   "scorecardVersion": "2.0",
   "entityRef": {
     "kind": "component",
-    "name": "elasticsearch"
+    "name": "aws"
   },
   "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
   "scorePercent": 0,
@@ -10,11 +10,8 @@
   "scoreSuccess": "unknown",
   "scoringReviewer": "Pending Review",
   "scoringReviewDate": null,
-  "owner": "Innocent Lou",
-  "backupOwners": [
-    "Ivy Nzioka",
-    "Orchide Irakoze"
-  ],
+  "owner": "Orchide Irakoze",
+  "backupOwners": [],
   "areaScores": [
     {
       "id": 1000,
