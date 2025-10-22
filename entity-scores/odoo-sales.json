@@ -5,7 +5,7 @@
     "name": "odoo-sales"
   },
   "generatedDateTimeUtc": "2021-07-22 10:00",
-  "scorePercent": 73,
+  "scorePercent": 36,
   "scoreLabel": "Yellow",
   "scoreSuccess": "almost-failure",
   "scoringReviewer": "Guest",
@@ -22,10 +22,10 @@
           "id": 2157,
           "title": "Code Coverage",
           "scorePercent": 33.1,
-          "scoreLabel": "A",
-          "scoreSuccess": "success",
-          "scoreHints": "Gitflow: 100%",
-          "details": "..."
+          "scoreLabel": "C",
+          "scoreSuccess": "almost-failure",
+          "scoreHints": "Code coverage: 33.1%",
+          "details": "Target is 50% coverage, current is 33.1%"
         }
       ]
     },
