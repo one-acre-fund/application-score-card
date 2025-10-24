@@ -181,6 +181,11 @@ class ScoreValidator {
     let totalScore = 0;
     let totalWeight = 0;
 
+    // Guard against undefined or non-array areaScores
+    if (!data.areaScores || !Array.isArray(data.areaScores)) {
+      return { overall: 0 };
+    }
+
     data.areaScores.forEach(area => {
       let areaScore = 0;
       let areaWeight = 0;
