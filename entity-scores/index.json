@@ -1,11 +1,11 @@
 {
   "scorecardFrameworkVersion": "2.0",
   "generatedDate": "2025-10-22T00:00:00Z",
-  "totalApplications": 42,
+  "totalApplications": 43,
   "summary": {
     "byOwner": {
       "Orchide Irakoze": 13,
-      "Rahma Ahmed": 14,
+      "Rahma Ahmed": 15,
       "Innocent Lou": 11,
       "Ivy Nzioka": 4
     },
@@ -383,6 +383,18 @@
       "scoreLabel": "Unknown",
       "scoreSuccess": "unknown",
       "lastReviewDate": null,
+      "nextReviewDate": "2025-11-22T00:00:00Z"
+    },
+    {
+      "name": "Odoo Sales",
+      "kebabName": "odoo-sales",
+      "filePath": "entity-scores/odoo-sales.json",
+      "owner": "Rahma Ahmed",
+      "backupOwners": ["Orchide Irakoze"],
+      "currentScore": 36,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
+      "lastReviewDate": "2022-01-04T08:00:00Z",
       "nextReviewDate": "2025-11-22T00:00:00Z"
     },
     {
