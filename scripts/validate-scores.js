@@ -181,6 +181,11 @@ class ScoreValidator {
     let totalScore = 0;
     let totalWeight = 0;
 
+    // Guard against undefined or non-array areaScores
+    if (!data.areaScores || !Array.isArray(data.areaScores)) {
+      return { overall: 0 };
+    }
+
     data.areaScores.forEach(area => {
       let areaScore = 0;
       let areaWeight = 0;
@@ -258,6 +263,12 @@ if (require.main === module) {
   
   // Validate each file
   args.forEach((filePath, index) => {
+    // Skip index.json as it's not an entity score file
+    if (path.basename(filePath) === 'index.json') {
+      console.log(`⏭️  Skipping index file: ${filePath}`);
+      return;
+    }
+    
     if (index > 0) console.log('\n' + '='.repeat(50));
     const isValid = validator.validateFile(filePath);
     if (!isValid) allValid = false;
