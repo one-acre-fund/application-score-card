@@ -18,7 +18,7 @@
     {
       "id": 1000,
       "title": "Documentation & Knowledge",
-      "weight": 20,
+      "weight": 17,
       "scorePercent": 0,
       "scoreLabel": "Unknown",
       "scoreSuccess": "unknown",
@@ -88,7 +88,7 @@
     {
       "id": 2000,
       "title": "Observability & Monitoring",
-      "weight": 30,
+      "weight": 25,
       "scorePercent": 0,
       "scoreLabel": "Unknown",
       "scoreSuccess": "unknown",
@@ -158,7 +158,7 @@
     {
       "id": 3000,
       "title": "CI/CD & Deployment",
-      "weight": 25,
+      "weight": 21,
       "scorePercent": 0,
       "scoreLabel": "Unknown",
       "scoreSuccess": "unknown",
@@ -228,7 +228,7 @@
     {
       "id": 4000,
       "title": "Security & Compliance",
-      "weight": 15,
+      "weight": 12,
       "scorePercent": 0,
       "scoreLabel": "Unknown",
       "scoreSuccess": "unknown",
@@ -298,7 +298,7 @@
     {
       "id": 5000,
       "title": "Testing & Quality Assurance",
-      "weight": 15,
+      "weight": 13,
       "scorePercent": 0,
       "scoreLabel": "Unknown",
       "scoreSuccess": "unknown",
@@ -368,7 +368,7 @@
     {
       "id": 6000,
       "title": "Operations & Support",
-      "weight": 15,
+      "weight": 12,
       "scorePercent": 0,
       "scoreLabel": "Unknown",
       "scoreSuccess": "unknown",
