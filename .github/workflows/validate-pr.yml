@@ -35,11 +35,6 @@ jobs:
         run: |
           echo "Validating changed entity score files:"
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            # Skip index.json as it's not an entity score file
-            if [[ "$(basename "$file")" == "index.json" ]]; then
-              echo "⏭️  Skipping index file: $file"
-              continue
-            fi
             echo "Validating $file"
             npm run validate "$file"
           done
