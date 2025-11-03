@@ -33,7 +33,6 @@ jobs:
       - name: Validate entity score files
         if: steps.changed-files.outputs.any_changed == 'true'
         run: |
-          cd entity-scores
           echo "Validating changed entity score files:"
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "Validating $file"

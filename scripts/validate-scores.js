@@ -6,7 +6,6 @@
  */
 
 const fs = require('fs');
-const path = require('path');
 
 // Score success mapping based on percentage
 const SCORE_SUCCESS_MAPPING = {
@@ -32,7 +31,7 @@ class ScoreValidator {
 
   validateFile(filePath) {
     console.log(`🔍 Validating score file: ${filePath}`);
-    
+
     // Check file exists
     if (!fs.existsSync(filePath)) {
       this.addError(`File not found: ${filePath}`);
@@ -54,13 +53,13 @@ class ScoreValidator {
   validateEntityScore(data) {
     // Validate required fields
     this.validateRequired(data, ['entityRef', 'generatedDateTimeUtc', 'areaScores']);
-    
+
     // Validate entity reference
     this.validateEntityRef(data.entityRef);
-    
+
     // Validate date format
     this.validateDateTime(data.generatedDateTimeUtc, 'generatedDateTimeUtc');
-    
+
     if (data.scoringReviewDate) {
       this.validateDateTime(data.scoringReviewDate, 'scoringReviewDate');
     }
@@ -263,12 +262,6 @@ if (require.main === module) {
   
   // Validate each file
   args.forEach((filePath, index) => {
-    // Skip index.json as it's not an entity score file
-    if (path.basename(filePath) === 'index.json') {
-      console.log(`⏭️  Skipping index file: ${filePath}`);
-      return;
-    }
-    
     if (index > 0) console.log('\n' + '='.repeat(50));
     const isValid = validator.validateFile(filePath);
     if (!isValid) allValid = false;
