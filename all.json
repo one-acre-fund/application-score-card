@@ -5,32 +5,32 @@
       "name": "couchbase"
     },
     "generatedDateTimeUtc": "2021-07-22 10:00",
-    "scorePercent": 88,
-    "scoreLabel": "Green",
-    "scoreSuccess": "success",
+    "scorePercent": 38,
+    "scoreLabel": "Yellow",
+    "scoreSuccess": "almost-failure",
     "scoringReviewer": "Guest",
     "scoringReviewDate": "2022-01-04T08:00:00Z",
     "areaScores": [
       {
         "id": 3937,
         "title": "Documentation",
-        "scorePercent": 75,
+        "scorePercent": 10,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 2208,
+        "title": "Operations",
+        "scorePercent": 70,
         "scoreLabel": "Green",
         "scoreSuccess": "almost-success"
       },
       {
         "id": 2208,
-        "title": "Operations",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "id": 4333,
-        "title": "Quality",
-        "scorePercent": 100,
-        "scoreLabel": "Green",
-        "scoreSuccess": "success"
+        "title": "Monitoring",
+        "scorePercent": 33,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
       }
     ]
   },
