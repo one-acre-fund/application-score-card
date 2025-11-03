@@ -444,53 +444,33 @@
       "kind": "component",
       "name": "couchbase"
     },
-    "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
-    "scorePercent": 0,
-    "scoreLabel": "Red",
-    "scoreSuccess": "failure",
-    "scoringReviewer": "Pending Review",
+    "generatedDateTimeUtc": "2021-07-22 10:00",
+    "scorePercent": 88,
+    "scoreLabel": "Green",
+    "scoreSuccess": "success",
+    "scoringReviewer": "Guest",
+    "scoringReviewDate": "2022-01-04T08:00:00Z",
     "areaScores": [
       {
-        "id": 1000,
-        "title": "Documentation & Knowledge",
+        "id": 3937,
+        "title": "Documentation",
+        "scorePercent": 75,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "id": 2208,
+        "title": "Operations",
         "scorePercent": 0,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
-        "id": 2000,
-        "title": "Observability & Monitoring",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "id": 3000,
-        "title": "CI/CD & Deployment",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "id": 4000,
-        "title": "Security & Compliance",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "id": 5000,
-        "title": "Testing & Quality Assurance",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "id": 6000,
-        "title": "Operations & Support",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "id": 4333,
+        "title": "Quality",
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       }
     ]
   },
