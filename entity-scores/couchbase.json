@@ -71,7 +71,7 @@
         {
           "id": 1004,
           "title": "Runbooks & Operations",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "isOptional": false,
           "scoreSuccess": "unknown",
           "scoreHints": "Operational procedures and troubleshooting guides",
@@ -96,7 +96,7 @@
         {
           "id": 2001,
           "title": "Application Monitoring",
-          "scorePercent": 0,
+          "scorePercent": 80,
           "isOptional": false,
           "scoreSuccess": "unknown",
           "scoreHints": "Comprehensive application performance monitoring",
@@ -109,24 +109,9 @@
           }
         },
         {
-          "id": 2002,
-          "title": "Logging & Centralization",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "unknown",
-          "scoreHints": "Centralized logging with structured format",
-          "details": "",
-          "criteria": {
-            "0": "No centralized logging",
-            "50": "Basic logging implementation",
-            "75": "Centralized logging with basic structure",
-            "100": "Structured logging + centralized + searchable + retention"
-          }
-        },
-        {
           "id": 2003,
           "title": "Alerting & Notifications",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "isOptional": false,
           "scoreSuccess": "unknown",
           "scoreHints": "Proactive alerting on key metrics",
@@ -141,7 +126,7 @@
         {
           "id": 2004,
           "title": "Health Checks & Dashboards",
-          "scorePercent": 0,
+          "scorePercent": 50,
           "isOptional": false,
           "scoreSuccess": "unknown",
           "scoreHints": "Health endpoints and monitoring dashboards",
@@ -166,7 +151,7 @@
         {
           "id": 3001,
           "title": "Continuous Integration",
-          "scorePercent": 0,
+          "scorePercent": 70,
           "isOptional": false,
           "scoreSuccess": "unknown",
           "scoreHints": "Automated build and test pipeline",
@@ -196,7 +181,7 @@
         {
           "id": 3003,
           "title": "Environment Management",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "unknown",
           "scoreHints": "Proper environment separation and configuration",
@@ -211,7 +196,7 @@
         {
           "id": 3004,
           "title": "Release Management",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "unknown",
           "scoreHints": "Structured release process and versioning",
@@ -251,7 +236,7 @@
         {
           "id": 4002,
           "title": "Authentication & Authorization",
-          "scorePercent": 0,
+          "scorePercent": 75,
           "isOptional": false,
           "scoreSuccess": "unknown",
           "scoreHints": "Proper identity and access management",
@@ -266,7 +251,7 @@
         {
           "id": 4003,
           "title": "Data Protection",
-          "scorePercent": 0,
+          "scorePercent": 50,
           "isOptional": false,
           "scoreSuccess": "unknown",
           "scoreHints": "Data encryption and privacy controls",
@@ -373,21 +358,6 @@
       "scoreLabel": "Unknown",
       "scoreSuccess": "unknown",
       "scoreEntries": [
-        {
-          "id": 6001,
-          "title": "Incident Management",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "unknown",
-          "scoreHints": "Incident response and management process",
-          "details": "",
-          "criteria": {
-            "0": "No incident process",
-            "50": "Informal incident handling",
-            "75": "Basic incident management",
-            "100": "Formal incident process + postmortems + escalation + SLA tracking"
-          }
-        },
         {
           "id": 6002,
           "title": "Support Documentation",
