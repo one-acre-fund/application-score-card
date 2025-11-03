@@ -198,7 +198,7 @@ class PRMergeProcessor {
       execSync('git commit -m "🤖 Update aggregated scores from entity assessments [skip ci]"', { stdio: 'inherit' });
       
       // Push the commit
-      execSync('git push origin main', { stdio: 'inherit' });
+      execSync('git push origin main -f', { stdio: 'inherit' });
       
       console.log('✅ Updated scores committed and pushed to main branch');
       
