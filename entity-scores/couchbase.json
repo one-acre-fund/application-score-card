@@ -391,7 +391,7 @@
         {
           "id": 6004,
           "title": "Knowledge Transfer",
-          "scorePercent": 10,
+          "scorePercent": 20,
           "isOptional": false,
           "scoreSuccess": "unknown",
           "scoreHints": "Team knowledge sharing and transfer",
