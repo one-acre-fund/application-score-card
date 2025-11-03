@@ -6,7 +6,6 @@
  */
 
 const fs = require('fs');
-const path = require('path');
 
 // Score success mapping based on percentage
 const SCORE_SUCCESS_MAPPING = {
@@ -48,89 +47,7 @@ class ScoreValidator {
       return false;
     }
 
-    // Determine file type and validate accordingly
-    const fileName = path.basename(filePath);
-    if (fileName === 'index.json') {
-      return this.validateIndexFile(data);
-    } else {
-      return this.validateEntityScore(data);
-    }
-  }
-
-  validateIndexFile(data) {
-    // Validate required fields for index.json
-    this.validateRequired(data, ['scorecardFrameworkVersion', 'generatedDate', 'totalApplications', 'applications']);
-
-    // Validate date format
-    this.validateDateTime(data.generatedDate, 'generatedDate');
-
-    // Validate totalApplications is a number
-    if (typeof data.totalApplications !== 'number') {
-      this.addError('totalApplications must be a number');
-    }
-
-    // Validate applications array
-    if (!Array.isArray(data.applications)) {
-      this.addError('applications must be an array');
-      return this.errors.length === 0;
-    }
-
-    // Validate count matches
-    if (data.applications.length !== data.totalApplications) {
-      this.addWarning(`totalApplications (${data.totalApplications}) doesn't match actual applications count (${data.applications.length})`);
-    }
-
-    // Validate each application entry
-    data.applications.forEach((app, index) => {
-      this.validateApplicationEntry(app, index);
-    });
-
-    // Validate summary if present
-    if (data.summary) {
-      if (typeof data.summary.averageScore !== 'number') {
-        this.addError('summary.averageScore must be a number');
-      }
-    }
-
-    return this.errors.length === 0;
-  }
-
-  validateApplicationEntry(app, index) {
-    const prefix = `applications[${index}]`;
-
-    this.validateRequired(app, ['name', 'kebabName', 'filePath', 'owner', 'currentScore', 'scoreLabel', 'scoreSuccess']);
-
-    // Validate file path exists
-    if (app.filePath) {
-      const fullPath = path.join(path.dirname(process.cwd()), app.filePath);
-      if (!fs.existsSync(fullPath) && !fs.existsSync(app.filePath)) {
-        this.addWarning(`${prefix}: Referenced file not found: ${app.filePath}`);
-      }
-    }
-
-    // Validate score
-    if (typeof app.currentScore !== 'number' || app.currentScore < 0 || app.currentScore > 100) {
-      this.addError(`${prefix}.currentScore must be a number between 0-100`);
-    }
-
-    // Validate scoreSuccess
-    if (!['success', 'almost-success', 'partial', 'almost-failure', 'failure', 'unknown'].includes(app.scoreSuccess)) {
-      this.addError(`${prefix}.scoreSuccess must be one of: success, almost-success, partial, almost-failure, failure, unknown`);
-    }
-
-    // Validate dates if present
-    if (app.lastReviewDate && app.lastReviewDate !== null) {
-      this.validateDateTime(app.lastReviewDate, `${prefix}.lastReviewDate`);
-    }
-
-    if (app.nextReviewDate) {
-      this.validateDateTime(app.nextReviewDate, `${prefix}.nextReviewDate`);
-    }
-
-    // Validate backupOwners is an array
-    if (app.backupOwners && !Array.isArray(app.backupOwners)) {
-      this.addError(`${prefix}.backupOwners must be an array`);
-    }
+    return this.validateEntityScore(data);
   }
 
   validateEntityScore(data) {

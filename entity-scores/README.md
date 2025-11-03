@@ -35,10 +35,9 @@ Each application has been assessed across 6 key areas with specific weightings t
 ```
 entity-scores/
 ├── README.md                           # This documentation
-├── index.json                          # Master index of all applications
 ├── adminer.json                        # Adminer scorecard
 ├── airbyte.json                        # Airbyte scorecard
-└── ...                                 # Additional application scorecards (42 total)
+└── ...                                 # Additional application scorecards (43 total)
 ```
 
 ## Ownership and Responsibilities
