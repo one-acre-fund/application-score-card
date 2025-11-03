@@ -8,8 +8,7 @@
     "calculate": "node scripts/calculate-scores.js",
     "process-pr": "node scripts/process-pr-merge.js",
     "lint": "eslint scripts/**/*.js",
-    "test": "jest",
-    "prepare": "husky install"
+    "test": "jest"
   },
   "keywords": [
     "backstage",
@@ -24,9 +23,7 @@
   },
   "devDependencies": {
     "eslint": "^8.0.0",
-    "jest": "^29.0.0",
-    "husky": "^8.0.0",
-    "lint-staged": "^15.0.0"
+    "jest": "^29.0.0"
   },
   "files": [
     "scripts/",
@@ -34,12 +31,5 @@
     "entity-score-schema.json",
     "README.md"
   ],
-  "lint-staged": {
-    "entity-scores/*.json": [
-      "npm run validate"
-    ],
-    "scripts/**/*.js": [
-      "eslint --fix"
-    ]
-  }
+  "dependencies": {}
 }

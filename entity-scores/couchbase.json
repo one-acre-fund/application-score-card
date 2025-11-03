@@ -319,21 +319,6 @@
           }
         },
         {
-          "id": 5003,
-          "title": "Quality Gates",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "unknown",
-          "scoreHints": "Automated quality checks in pipeline",
-          "details": "",
-          "criteria": {
-            "0": "No quality gates",
-            "50": "Manual quality checks",
-            "75": "Basic quality gates in CI",
-            "100": "Comprehensive quality gates + coverage + complexity + duplication"
-          }
-        },
-        {
           "id": 5004,
           "title": "Performance Testing",
           "scorePercent": 0,
@@ -406,6 +391,5 @@
       ]
     }
   ],
-  "recommendations": [],
   "nextReviewDate": "2025-11-22T00:00:00Z"
 }
