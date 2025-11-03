@@ -5,7 +5,7 @@
     "name": "couchbase"
   },
   "generatedDateTimeUtc": "2021-07-22 10:00",
-  "scorePercent": 58.3,
+  "scorePercent": 37.8,
   "scoreLabel": "Yellow",
   "scoreSuccess": "almost-failure",
   "scoringReviewer": "Guest",
@@ -21,19 +21,19 @@
         {
           "id": 3938,
           "title": "Project introduction",
-          "scorePercent": 100,
-          "scoreSuccess": "success",
-          "scoreHints": "Well structured/documented/linked with the wiki: 100%",
-          "details": "Project home page is linked to **devops wiki**."
+          "scorePercent": 10,
+          "scoreSuccess": "failure",
+          "scoreHints": "We have scattered documentation",
+          "details": "Need to move everything to backstage"
         },
         {
           "id": 3940,
-          "title": "Project wiki",
+          "title": "Architecture",
           "isOptional": false,
-          "scorePercent": 50,
-          "scoreSuccess": "partial",
-          "scoreHints": "Somewhat usefull: 50%",
-          "details": "Project wiki contains basic information however it is not well structured. It contains brief introduction and few pages about the technology used, but it is missing business context, processes description etc."
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "None whatsoever: 50%",
+          "details": "Need to document couchbase ecosystedm architecture"
         },
         {
           "id": 2207,
@@ -44,36 +44,17 @@
         },
         {
           "id": 2170,
-          "title": "RFP",
-          "scoreSuccess": "unknown",
-          "details": "..."
+          "title": "Monitoring Guides",
+          "scoreSuccess": "almost-failure",
+          "scorePercent": 30,
+          "details": "Scattered documentation"
         },
         {
-          "id": 2164,
-          "title": "Architecture Diagrams",
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2205,
-          "title": "SLA",
-          "scorePercent": 40,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2165,
-          "title": "Business Documentation",
+          "id": 2210,
+          "title": "Maintanance Procedures",
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2171,
-          "title": "Road Map",
-          "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
+          "scoreSuccess": "failure",
+          "details": "Need to coordinate with Dev team"
         }
       ]
     },
@@ -85,91 +66,18 @@
       "scoreSuccess": "almost-failure",
       "scoreEntries": [
         {
-          "id": 2210,
-          "title": "Health Checks",
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
-          "details": "Completelly missing healthchecks."
-        },
-        {
-          "id": 2185,
-          "title": "Semantic Versioning",
-          "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
           "id": 2176,
           "title": "CI Pipelines",
-          "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
+          "scorePercent": 100,
+          "scoreSuccess": "success",
+          "details": "We have a working pipeline in GitHub Actions that builds and tests the application on every commit."
         },
         {
           "id": 2175,
           "title": "CD Pipelines",
-          "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2181,
-          "title": "Insights Dashboard",
-          "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2173,
-          "title": "Alerts",
-          "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2184,
-          "title": "Release-Notes",
-          "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2183,
-          "title": "Release-Annotations-to-App-Insights",
-          "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2178,
-          "title": "DNS Record",
-          "isOptional": true,
-          "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2180,
-          "title": "GitOps",
-          "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2177,
-          "title": "Canary-Checks",
-          "isOptional": true,
-          "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "...depends on tier/SLA..."
-        },
-        {
-          "id": 2172,
-          "title": "AB Testing",
-          "isOptional": true,
-          "scorePercent": 10,
-          "scoreSuccess": "unknown",
-          "details": "..."
+          "scorePercent": 70,
+          "scoreSuccess": "almost-success",
+          "details": "Some manual changes require to deploy to production"
         },
         {
           "id": 3941,
@@ -181,74 +89,46 @@
         {
           "id": 2179,
           "title": "Data Refresh For Testing Environments",
-          "scorePercent": 10,
-          "scoreSuccess": "unknown",
-          "details": "..."
+          "scorePercent": 100,
+          "scoreSuccess": "success",
+          "details": "We have a process in place to backup the data"
         },
         {
           "id": 2174,
-          "title": "Basic Ops Handed Over to L2",
+          "title": "Basic Ops Handed Over to Tier 2",
           "scorePercent": 10,
-          "scoreSuccess": "unknown",
-          "details": "..."
+          "scoreSuccess": "failure",
+          "details": "Not yet done formally"
         }
       ]
     },
     {
-      "id": 4333,
-      "title": "Quality",
-      "scorePercent": 25,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "id": 2208,
+      "title": "Monitoring",
+      "scorePercent": 50,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
       "scoreEntries": [
         {
-          "id": 2187,
-          "title": "Code Reviews",
+          "id": 2181,
+          "title": "Insights Dashboard",
           "scorePercent": 100,
           "scoreSuccess": "success",
-          "scoreHints": [
-            "PR requires reviewer",
-            "No override possible",
-            "PRs are well described",
-            "PRs are small",
-            "PRs has comments"
-          ],
-          "details": "Development policy is defined. Code review process is done during the pull request with minimum of 2 reviewers."
+          "details": "We have comprehensive dashbords from elastic agent metrics"
         },
         {
-          "id": 2191,
-          "title": "Unit Tests",
-          "scorePercent": 10,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2189,
-          "title": "Integration Tests",
+          "id": 2173,
+          "title": "Preventive Alerts",
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "..."
+          "scoreSuccess": "failure",
+          "details": "No preventive alerts yet"
         },
         {
-          "id": 2190,
-          "title": "Performance Tests",
-          "scorePercent": 10,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2186,
-          "title": "Automation Tests",
-          "scorePercent": 10,
-          "scoreSuccess": "unknown",
-          "details": "..."
-        },
-        {
-          "id": 2188,
-          "title": "Design Reviews",
-          "scorePercent": 10,
-          "scoreSuccess": "unknown",
-          "details": "..."
+          "id": 2173,
+          "title": "Disaster Alerts",
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "details": "No alerting in place yet!"
         }
       ]
     }
