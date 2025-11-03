@@ -35,7 +35,7 @@
     "README.md"
   ],
   "lint-staged": {
-    "entity-scores/*.json": [
+    "entity-scores/!(index).json": [
       "npm run validate"
     ],
     "scripts/**/*.js": [
