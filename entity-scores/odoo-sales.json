@@ -14,6 +14,7 @@
     {
       "id": 2199,
       "title": "Quality",
+      "weight": 35,
       "scorePercent": 90,
       "scoreLabel": "Green",
       "scoreSuccess": "success",
@@ -32,6 +33,7 @@
     {
       "id": 3937,
       "title": "Reliability",
+      "weight": 40,
       "scorePercent": 30,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
@@ -65,6 +67,7 @@
     {
       "id": 2208,
       "title": "Monitoring",
+      "weight": 25,
       "scorePercent": 50,
       "scoreLabel": "Yellow",
       "scoreSuccess": "almost-failure",

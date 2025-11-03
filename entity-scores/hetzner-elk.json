@@ -2,7 +2,7 @@
   "scorecardVersion": "2.0",
   "entityRef": {
     "kind": "component",
-    "name": "elasticsearch"
+    "name": "hetzner-elk"
   },
   "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
   "scorePercent": 0,
@@ -10,10 +10,9 @@
   "scoreSuccess": "unknown",
   "scoringReviewer": "Pending Review",
   "scoringReviewDate": null,
-  "owner": "Innocent Lou",
+  "owner": "Rahma Ahmed",
   "backupOwners": [
-    "Ivy Nzioka",
-    "Orchide Irakoze"
+    "Innocent Lou"
   ],
   "areaScores": [
     {

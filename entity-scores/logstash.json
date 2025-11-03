@@ -2,7 +2,7 @@
   "scorecardVersion": "2.0",
   "entityRef": {
     "kind": "component",
-    "name": "elasticsearch"
+    "name": "logstash"
   },
   "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
   "scorePercent": 0,
@@ -13,7 +13,7 @@
   "owner": "Innocent Lou",
   "backupOwners": [
     "Ivy Nzioka",
-    "Orchide Irakoze"
+    "Rahma Ahmed"
   ],
   "areaScores": [
     {
