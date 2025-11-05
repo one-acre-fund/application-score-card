@@ -4,7 +4,7 @@
     "name": "odoo-sales"
   },
   "generatedDateTimeUtc": "2021-07-22 10:00",
-  "scorePercent": 36,
+  "scorePercent": 35,
   "scoreLabel": "Yellow",
   "scoreSuccess": "almost-failure",
   "scoringReviewer": "Guest",
@@ -14,9 +14,9 @@
       "id": 2199,
       "title": "Quality",
       "weight": 35,
-      "scorePercent": 90,
-      "scoreLabel": "Green",
-      "scoreSuccess": "success",
+      "scorePercent": 33,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
       "scoreEntries": [
         {
           "id": 2157,
@@ -33,7 +33,7 @@
       "id": 3937,
       "title": "Reliability",
       "weight": 40,
-      "scorePercent": 30,
+      "scorePercent": 3,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
@@ -67,9 +67,9 @@
       "id": 2208,
       "title": "Monitoring",
       "weight": 25,
-      "scorePercent": 50,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "almost-failure",
+      "scorePercent": 70,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
       "scoreEntries": [
         {
           "id": 2210,

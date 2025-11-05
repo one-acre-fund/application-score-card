@@ -34,19 +34,21 @@ class ScoreCalculator {
 
   async calculateAllScores() {
     console.log('🔢 Starting score calculation process...');
-    
+
     // Get all entity score files
     const entityFiles = this.getEntityScoreFiles();
     console.log(`📁 Found ${entityFiles.length} entity score files`);
 
     const allScores = [];
     const errors = [];
+    const entityFileMap = new Map();
 
     for (const file of entityFiles) {
       try {
         const entityScore = this.processEntityFile(file);
         if (entityScore) {
           allScores.push(entityScore);
+          entityFileMap.set(file, entityScore);
           if (this.verbose) {
             console.log(`✅ Processed: ${entityScore.entityRef.name} (${entityScore.scorePercent}%)`);
           }
@@ -65,16 +67,19 @@ class ScoreCalculator {
     // Sort by entity name for consistent output
     allScores.sort((a, b) => a.entityRef.name.localeCompare(b.entityRef.name));
 
+    // Update individual entity files with calculated scores
+    await this.updateIndividualEntityFiles(entityFileMap);
+
     // Write output file
     await this.writeOutputFile(allScores);
-    
+
     console.log(`\\n✅ Score calculation complete! Generated scores for ${allScores.length} entities`);
     this.printSummaryStats(allScores);
 
-    return { 
-      scores: allScores, 
+    return {
+      scores: allScores,
       errors,
-      totalEntities: allScores.length 
+      totalEntities: allScores.length
     };
   }
 
@@ -184,6 +189,57 @@ class ScoreCalculator {
       }
     }
     return 'failure'; // default
+  }
+
+  async updateIndividualEntityFiles(entityFileMap) {
+    console.log('\\n🔄 Updating individual entity files with calculated scores...');
+    let updated = 0;
+
+    for (const [filePath, calculatedScore] of entityFileMap.entries()) {
+      try {
+        // Read the original file
+        const content = fs.readFileSync(filePath, 'utf8');
+        const originalData = JSON.parse(content);
+
+        // Update top-level scores
+        originalData.scorePercent = calculatedScore.scorePercent;
+        originalData.scoreLabel = calculatedScore.scoreLabel;
+        originalData.scoreSuccess = calculatedScore.scoreSuccess;
+
+        // Update area scores while preserving scoreEntries
+        if (originalData.areaScores && calculatedScore.areaScores) {
+          originalData.areaScores = originalData.areaScores.map(originalArea => {
+            const calculatedArea = calculatedScore.areaScores.find(
+              ca => ca.id === originalArea.id
+            );
+
+            if (calculatedArea) {
+              return {
+                ...originalArea,
+                scorePercent: calculatedArea.scorePercent,
+                scoreLabel: calculatedArea.scoreLabel,
+                scoreSuccess: calculatedArea.scoreSuccess
+              };
+            }
+
+            return originalArea;
+          });
+        }
+
+        // Write back to file
+        const output = JSON.stringify(originalData, null, 2);
+        fs.writeFileSync(filePath, output, 'utf8');
+        updated++;
+
+        if (this.verbose) {
+          console.log(`   ✅ Updated ${path.basename(filePath)}`);
+        }
+      } catch (error) {
+        console.error(`   ❌ Failed to update ${filePath}: ${error.message}`);
+      }
+    }
+
+    console.log(`📝 Updated ${updated} individual entity files`);
   }
 
   async writeOutputFile(scores) {
