@@ -5,50 +5,51 @@
       "name": "adminer"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-    "scorePercent": 0,
+    "scorePercent": 20,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "Pending Review",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 40000,
         "title": "Documentation & Knowledge",
-        "scorePercent": 0,
+        "scorePercent": 17,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 40100,
         "title": "Observability & Monitoring",
-        "scorePercent": 0,
+        "scorePercent": 16,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 40200,
         "title": "CI/CD & Deployment",
-        "scorePercent": 0,
+        "scorePercent": 28,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 40300,
         "title": "Security & Compliance",
-        "scorePercent": 0,
+        "scorePercent": 28,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 40400,
         "title": "Testing & Quality Assurance",
-        "scorePercent": 0,
+        "scorePercent": 12,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 40500,
         "title": "Operations & Support",
-        "scorePercent": 0,
+        "scorePercent": 18,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       }
@@ -60,50 +61,51 @@
       "name": "bytebase"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-    "scorePercent": 0,
+    "scorePercent": 24,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "Pending Review",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 30000,
         "title": "Documentation & Knowledge",
-        "scorePercent": 0,
+        "scorePercent": 22,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 30100,
         "title": "Observability & Monitoring",
-        "scorePercent": 0,
+        "scorePercent": 25,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 30200,
         "title": "CI/CD & Deployment",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 30,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
       },
       {
         "id": 30300,
         "title": "Security & Compliance",
-        "scorePercent": 0,
+        "scorePercent": 26,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 30400,
         "title": "Testing & Quality Assurance",
-        "scorePercent": 0,
+        "scorePercent": 20,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 30500,
         "title": "Operations & Support",
-        "scorePercent": 0,
+        "scorePercent": 23,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       }
@@ -202,53 +204,54 @@
   {
     "entityRef": {
       "kind": "component",
-      "name": "jenkins"
+      "name": "Jenkins Job Engine"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-    "scorePercent": 0,
+    "scorePercent": 30,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "Pending Review",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 20000,
         "title": "Documentation & Knowledge",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 32,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
       },
       {
         "id": 20100,
         "title": "Observability & Monitoring",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 34,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
       },
       {
         "id": 20200,
         "title": "CI/CD & Deployment",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 33,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
       },
       {
         "id": 20300,
         "title": "Security & Compliance",
-        "scorePercent": 0,
+        "scorePercent": 28,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 20400,
         "title": "Testing & Quality Assurance",
-        "scorePercent": 0,
+        "scorePercent": 27,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 20500,
         "title": "Operations & Support",
-        "scorePercent": 0,
+        "scorePercent": 28,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       }
@@ -295,50 +298,51 @@
       "name": "praeco"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-    "scorePercent": 0,
+    "scorePercent": 14,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "Pending Review",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 10000,
         "title": "Documentation & Knowledge",
-        "scorePercent": 0,
+        "scorePercent": 13,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 10100,
         "title": "Observability & Monitoring",
-        "scorePercent": 0,
+        "scorePercent": 14,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 10200,
         "title": "CI/CD & Deployment",
-        "scorePercent": 0,
+        "scorePercent": 19,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 10300,
         "title": "Security & Compliance",
-        "scorePercent": 0,
+        "scorePercent": 18,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 10400,
         "title": "Testing & Quality Assurance",
-        "scorePercent": 0,
+        "scorePercent": 7,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 10500,
         "title": "Operations & Support",
-        "scorePercent": 0,
+        "scorePercent": 13,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       }
