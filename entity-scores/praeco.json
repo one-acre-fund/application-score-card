@@ -4,9 +4,9 @@
     "name": "praeco"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 14,
-  "scoreLabel": "Red",
-  "scoreSuccess": "failure",
+  "scorePercent": 72,
+  "scoreLabel": "Green",
+  "scoreSuccess": "almost-success",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -60,32 +60,23 @@
       "id": 10100,
       "title": "Observability & Monitoring",
       "weight": 25,
-      "scorePercent": 14,
+      "scorePercent": 0,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 10101,
           "title": "Application Monitoring",
-          "scorePercent": 15,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
           "details": "No application monitoring configured"
         },
         {
-          "id": 10102,
-          "title": "Logging & Centralization",
-          "scorePercent": 25,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Centralized logging with structured format",
-          "details": "Basic logging, not centralized"
-        },
-        {
           "id": 10103,
           "title": "Alerting & Notifications",
-          "scorePercent": 10,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Proactive alerting on key metrics",
@@ -94,7 +85,7 @@
         {
           "id": 10104,
           "title": "Health Checks & Dashboards",
-          "scorePercent": 5,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Health endpoints and monitoring dashboards",
@@ -106,14 +97,14 @@
       "id": 10200,
       "title": "CI/CD & Deployment",
       "weight": 21,
-      "scorePercent": 19,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 10201,
           "title": "Continuous Integration",
-          "scorePercent": 30,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Automated build and test pipeline",
@@ -122,7 +113,7 @@
         {
           "id": 10202,
           "title": "Continuous Deployment",
-          "scorePercent": 10,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated deployment pipeline",
@@ -131,20 +122,11 @@
         {
           "id": 10203,
           "title": "Environment Management",
-          "scorePercent": 20,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Proper environment separation and configuration",
           "details": "Single environment, no separation"
-        },
-        {
-          "id": 10204,
-          "title": "Release Management",
-          "scorePercent": 15,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Structured release process and versioning",
-          "details": "No release management process"
         }
       ]
     },
@@ -152,91 +134,18 @@
       "id": 10300,
       "title": "Security & Compliance",
       "weight": 12,
-      "scorePercent": 18,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
-        {
-          "id": 10301,
-          "title": "Security Scanning",
-          "scorePercent": 5,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Automated security vulnerability scanning",
-          "details": "No security scanning"
-        },
         {
           "id": 10302,
           "title": "Authentication & Authorization",
-          "scorePercent": 30,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Proper identity and access management",
           "details": "Basic authentication only"
-        },
-        {
-          "id": 10303,
-          "title": "Data Protection",
-          "scorePercent": 20,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Data encryption and privacy controls",
-          "details": "No data encryption implemented"
-        },
-        {
-          "id": 10304,
-          "title": "Security Configuration",
-          "scorePercent": 15,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Secure configuration and hardening",
-          "details": "Default security configurations"
-        }
-      ]
-    },
-    {
-      "id": 10400,
-      "title": "Testing & Quality Assurance",
-      "weight": 13,
-      "scorePercent": 7,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
-      "scoreEntries": [
-        {
-          "id": 10401,
-          "title": "Unit Testing",
-          "scorePercent": 15,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Comprehensive unit test coverage",
-          "details": "Few unit tests, very low coverage"
-        },
-        {
-          "id": 10402,
-          "title": "Integration Testing",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "System integration and API testing",
-          "details": "No integration tests"
-        },
-        {
-          "id": 10403,
-          "title": "Quality Gates",
-          "scorePercent": 5,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Automated quality checks in pipeline",
-          "details": "No quality gates"
-        },
-        {
-          "id": 10404,
-          "title": "Performance Testing",
-          "scorePercent": 0,
-          "isOptional": true,
-          "scoreSuccess": "failure",
-          "scoreHints": "Load and performance testing",
-          "details": "No performance testing"
         }
       ]
     },
@@ -244,14 +153,14 @@
       "id": 10500,
       "title": "Operations & Support",
       "weight": 12,
-      "scorePercent": 13,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 75,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
       "scoreEntries": [
         {
           "id": 10501,
           "title": "Incident Management",
-          "scorePercent": 10,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Incident response and management process",
@@ -260,7 +169,7 @@
         {
           "id": 10502,
           "title": "Support Documentation",
-          "scorePercent": 15,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Support procedures and knowledge base",
@@ -269,7 +178,7 @@
         {
           "id": 10503,
           "title": "Maintenance Procedures",
-          "scorePercent": 20,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Routine maintenance and updates",
@@ -278,7 +187,7 @@
         {
           "id": 10504,
           "title": "Knowledge Transfer",
-          "scorePercent": 5,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Team knowledge sharing and transfer",
