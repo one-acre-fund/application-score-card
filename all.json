@@ -207,53 +207,46 @@
       "name": "jenkins-jobs"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-    "scorePercent": 30,
-    "scoreLabel": "Red",
-    "scoreSuccess": "failure",
+    "scorePercent": 70,
+    "scoreLabel": "Green",
+    "scoreSuccess": "almost-success",
     "scoringReviewer": "System Review",
     "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 20000,
         "title": "Documentation & Knowledge",
-        "scorePercent": 32,
+        "scorePercent": 40,
         "scoreLabel": "Yellow",
         "scoreSuccess": "almost-failure"
       },
       {
         "id": 20100,
         "title": "Observability & Monitoring",
-        "scorePercent": 34,
+        "scorePercent": 58,
         "scoreLabel": "Yellow",
-        "scoreSuccess": "almost-failure"
+        "scoreSuccess": "partial"
       },
       {
         "id": 20200,
         "title": "CI/CD & Deployment",
-        "scorePercent": 33,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "almost-failure"
+        "scorePercent": 93,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
         "id": 20300,
         "title": "Security & Compliance",
-        "scorePercent": 28,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "id": 20400,
-        "title": "Testing & Quality Assurance",
-        "scorePercent": 27,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
         "id": 20500,
         "title": "Operations & Support",
-        "scorePercent": 28,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 57,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
       }
     ]
   },
