@@ -4,9 +4,9 @@
     "name": "adminer"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 0,
-  "scoreLabel": "Unknown",
-  "scoreSuccess": "unknown",
+  "scorePercent": 20,
+  "scoreLabel": "Red",
+  "scoreSuccess": "failure",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -14,9 +14,9 @@
       "id": 40000,
       "title": "Documentation & Knowledge",
       "weight": 17,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 17,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 40001,
@@ -60,9 +60,9 @@
       "id": 40100,
       "title": "Observability & Monitoring",
       "weight": 25,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 16,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 40101,
@@ -106,9 +106,9 @@
       "id": 40200,
       "title": "CI/CD & Deployment",
       "weight": 21,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 28,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 40201,
@@ -152,9 +152,9 @@
       "id": 40300,
       "title": "Security & Compliance",
       "weight": 12,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 28,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 40301,
@@ -198,9 +198,9 @@
       "id": 40400,
       "title": "Testing & Quality Assurance",
       "weight": 13,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 12,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 40401,
@@ -244,9 +244,9 @@
       "id": 40500,
       "title": "Operations & Support",
       "weight": 12,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 18,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 40501,

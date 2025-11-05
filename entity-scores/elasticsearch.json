@@ -5,8 +5,8 @@
   },
   "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
   "scorePercent": 0,
-  "scoreLabel": "Unknown",
-  "scoreSuccess": "unknown",
+  "scoreLabel": "Red",
+  "scoreSuccess": "failure",
   "scoringReviewer": "Pending Review",
   "scoringReviewDate": null,
   "areaScores": [
@@ -15,8 +15,8 @@
       "title": "Documentation & Knowledge",
       "weight": 17,
       "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 1001,
@@ -61,8 +61,8 @@
       "title": "Observability & Monitoring",
       "weight": 25,
       "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 2001,
@@ -107,8 +107,8 @@
       "title": "CI/CD & Deployment",
       "weight": 21,
       "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 3001,
@@ -153,8 +153,8 @@
       "title": "Security & Compliance",
       "weight": 12,
       "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 4001,
@@ -199,8 +199,8 @@
       "title": "Testing & Quality Assurance",
       "weight": 13,
       "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 5001,
@@ -245,8 +245,8 @@
       "title": "Operations & Support",
       "weight": 12,
       "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 6001,

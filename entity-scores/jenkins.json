@@ -1,12 +1,12 @@
 {
   "entityRef": {
     "kind": "component",
-    "name": "Jenkins Job Engine"
+    "name": "jenkins-jobs"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 0,
-  "scoreLabel": "Unknown",
-  "scoreSuccess": "unknown",
+  "scorePercent": 30,
+  "scoreLabel": "Red",
+  "scoreSuccess": "failure",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -14,9 +14,9 @@
       "id": 20000,
       "title": "Documentation & Knowledge",
       "weight": 17,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 32,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
       "scoreEntries": [
         {
           "id": 20001,
@@ -60,9 +60,9 @@
       "id": 20100,
       "title": "Observability & Monitoring",
       "weight": 25,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 34,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
       "scoreEntries": [
         {
           "id": 20101,
@@ -106,9 +106,9 @@
       "id": 20200,
       "title": "CI/CD & Deployment",
       "weight": 21,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 33,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
       "scoreEntries": [
         {
           "id": 20201,
@@ -152,9 +152,9 @@
       "id": 20300,
       "title": "Security & Compliance",
       "weight": 12,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 28,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 20301,
@@ -198,9 +198,9 @@
       "id": 20400,
       "title": "Testing & Quality Assurance",
       "weight": 13,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 27,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 20401,
@@ -244,9 +244,9 @@
       "id": 20500,
       "title": "Operations & Support",
       "weight": 12,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 28,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 20501,

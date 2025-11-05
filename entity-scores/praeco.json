@@ -4,9 +4,9 @@
     "name": "praeco"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 0,
-  "scoreLabel": "Unknown",
-  "scoreSuccess": "unknown",
+  "scorePercent": 14,
+  "scoreLabel": "Red",
+  "scoreSuccess": "failure",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -14,9 +14,9 @@
       "id": 10000,
       "title": "Documentation & Knowledge",
       "weight": 17,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 13,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 10001,
@@ -60,9 +60,9 @@
       "id": 10100,
       "title": "Observability & Monitoring",
       "weight": 25,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 14,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 10101,
@@ -106,9 +106,9 @@
       "id": 10200,
       "title": "CI/CD & Deployment",
       "weight": 21,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 19,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 10201,
@@ -152,9 +152,9 @@
       "id": 10300,
       "title": "Security & Compliance",
       "weight": 12,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 18,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 10301,
@@ -198,9 +198,9 @@
       "id": 10400,
       "title": "Testing & Quality Assurance",
       "weight": 13,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 7,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 10401,
@@ -244,9 +244,9 @@
       "id": 10500,
       "title": "Operations & Support",
       "weight": 12,
-      "scorePercent": 0,
-      "scoreLabel": "Unknown",
-      "scoreSuccess": "unknown",
+      "scorePercent": 13,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 10501,
