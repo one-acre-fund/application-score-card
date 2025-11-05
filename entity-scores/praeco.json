@@ -4,9 +4,9 @@
     "name": "praeco"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 14,
-  "scoreLabel": "Red",
-  "scoreSuccess": "failure",
+  "scorePercent": 72,
+  "scoreLabel": "Green",
+  "scoreSuccess": "almost-success",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -60,7 +60,7 @@
       "id": 10100,
       "title": "Observability & Monitoring",
       "weight": 25,
-      "scorePercent": 14,
+      "scorePercent": 0,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
@@ -97,9 +97,9 @@
       "id": 10200,
       "title": "CI/CD & Deployment",
       "weight": 21,
-      "scorePercent": 19,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 10201,
@@ -134,9 +134,9 @@
       "id": 10300,
       "title": "Security & Compliance",
       "weight": 12,
-      "scorePercent": 18,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 10302,
@@ -153,9 +153,9 @@
       "id": 10500,
       "title": "Operations & Support",
       "weight": 12,
-      "scorePercent": 13,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 75,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
       "scoreEntries": [
         {
           "id": 10501,

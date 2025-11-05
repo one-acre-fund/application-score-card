@@ -291,9 +291,9 @@
       "name": "praeco"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-    "scorePercent": 14,
-    "scoreLabel": "Red",
-    "scoreSuccess": "failure",
+    "scorePercent": 72,
+    "scoreLabel": "Green",
+    "scoreSuccess": "almost-success",
     "scoringReviewer": "System Review",
     "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
@@ -307,37 +307,30 @@
       {
         "id": 10100,
         "title": "Observability & Monitoring",
-        "scorePercent": 14,
+        "scorePercent": 0,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 10200,
         "title": "CI/CD & Deployment",
-        "scorePercent": 19,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
         "id": 10300,
         "title": "Security & Compliance",
-        "scorePercent": 18,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "id": 10400,
-        "title": "Testing & Quality Assurance",
-        "scorePercent": 7,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
         "id": 10500,
         "title": "Operations & Support",
-        "scorePercent": 13,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 75,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
       }
     ]
   }
