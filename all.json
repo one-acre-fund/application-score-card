@@ -117,7 +117,7 @@
       "name": "couchbase"
     },
     "generatedDateTimeUtc": "2021-07-22 10:00",
-    "scorePercent": 38,
+    "scorePercent": 35,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "Guest",
@@ -126,16 +126,16 @@
       {
         "id": 3937,
         "title": "Documentation",
-        "scorePercent": 10,
+        "scorePercent": 14,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 2208,
         "title": "Operations",
-        "scorePercent": 70,
-        "scoreLabel": "Green",
-        "scoreSuccess": "almost-success"
+        "scorePercent": 58,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
       },
       {
         "id": 2208,
@@ -256,9 +256,9 @@
       "name": "odoo-sales"
     },
     "generatedDateTimeUtc": "2021-07-22 10:00",
-    "scorePercent": 35,
-    "scoreLabel": "Yellow",
-    "scoreSuccess": "almost-failure",
+    "scorePercent": 24,
+    "scoreLabel": "Red",
+    "scoreSuccess": "failure",
     "scoringReviewer": "Guest",
     "scoringReviewDate": "2022-01-04T08:00:00Z",
     "areaScores": [
@@ -279,9 +279,9 @@
       {
         "id": 2208,
         "title": "Monitoring",
-        "scorePercent": 70,
-        "scoreLabel": "Green",
-        "scoreSuccess": "almost-success"
+        "scorePercent": 35,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
       }
     ]
   },
