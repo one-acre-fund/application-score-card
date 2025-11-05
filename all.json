@@ -204,7 +204,7 @@
   {
     "entityRef": {
       "kind": "component",
-      "name": "jenkins"
+      "name": "Jenkins Job Engine"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 30,
