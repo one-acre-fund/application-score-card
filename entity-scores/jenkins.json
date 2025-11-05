@@ -1,9 +1,9 @@
 {
   "entityRef": {
     "kind": "component",
-    "name": "elasticsearch"
+    "name": "jenkins"
   },
-  "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
+  "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
   "scorePercent": 0,
   "scoreLabel": "Unknown",
   "scoreSuccess": "unknown",
@@ -11,7 +11,7 @@
   "scoringReviewDate": null,
   "areaScores": [
     {
-      "id": 1000,
+      "id": 20000,
       "title": "Documentation & Knowledge",
       "weight": 17,
       "scorePercent": 0,
@@ -19,7 +19,7 @@
       "scoreSuccess": "unknown",
       "scoreEntries": [
         {
-          "id": 1001,
+          "id": 20001,
           "title": "README & Setup Documentation",
           "scorePercent": 0,
           "isOptional": false,
@@ -28,7 +28,7 @@
           "details": ""
         },
         {
-          "id": 1002,
+          "id": 20002,
           "title": "Architecture Documentation",
           "scorePercent": 0,
           "isOptional": false,
@@ -37,7 +37,7 @@
           "details": ""
         },
         {
-          "id": 1003,
+          "id": 20003,
           "title": "API Documentation",
           "scorePercent": 0,
           "isOptional": true,
@@ -46,7 +46,7 @@
           "details": ""
         },
         {
-          "id": 1004,
+          "id": 20004,
           "title": "Runbooks & Operations",
           "scorePercent": 0,
           "isOptional": false,
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": 2000,
+      "id": 20100,
       "title": "Observability & Monitoring",
       "weight": 25,
       "scorePercent": 0,
@@ -65,7 +65,7 @@
       "scoreSuccess": "unknown",
       "scoreEntries": [
         {
-          "id": 2001,
+          "id": 20101,
           "title": "Application Monitoring",
           "scorePercent": 0,
           "isOptional": false,
@@ -74,7 +74,7 @@
           "details": ""
         },
         {
-          "id": 2002,
+          "id": 20102,
           "title": "Logging & Centralization",
           "scorePercent": 0,
           "isOptional": false,
@@ -83,7 +83,7 @@
           "details": ""
         },
         {
-          "id": 2003,
+          "id": 20103,
           "title": "Alerting & Notifications",
           "scorePercent": 0,
           "isOptional": false,
@@ -92,7 +92,7 @@
           "details": ""
         },
         {
-          "id": 2004,
+          "id": 20104,
           "title": "Health Checks & Dashboards",
           "scorePercent": 0,
           "isOptional": false,
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "id": 3000,
+      "id": 20200,
       "title": "CI/CD & Deployment",
       "weight": 21,
       "scorePercent": 0,
@@ -111,7 +111,7 @@
       "scoreSuccess": "unknown",
       "scoreEntries": [
         {
-          "id": 3001,
+          "id": 20201,
           "title": "Continuous Integration",
           "scorePercent": 0,
           "isOptional": false,
@@ -120,7 +120,7 @@
           "details": ""
         },
         {
-          "id": 3002,
+          "id": 20202,
           "title": "Continuous Deployment",
           "scorePercent": 0,
           "isOptional": false,
@@ -129,7 +129,7 @@
           "details": ""
         },
         {
-          "id": 3003,
+          "id": 20203,
           "title": "Environment Management",
           "scorePercent": 0,
           "isOptional": false,
@@ -138,7 +138,7 @@
           "details": ""
         },
         {
-          "id": 3004,
+          "id": 20204,
           "title": "Release Management",
           "scorePercent": 0,
           "isOptional": false,
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "id": 4000,
+      "id": 20300,
       "title": "Security & Compliance",
       "weight": 12,
       "scorePercent": 0,
@@ -157,7 +157,7 @@
       "scoreSuccess": "unknown",
       "scoreEntries": [
         {
-          "id": 4001,
+          "id": 20301,
           "title": "Security Scanning",
           "scorePercent": 0,
           "isOptional": false,
@@ -166,7 +166,7 @@
           "details": ""
         },
         {
-          "id": 4002,
+          "id": 20302,
           "title": "Authentication & Authorization",
           "scorePercent": 0,
           "isOptional": false,
@@ -175,7 +175,7 @@
           "details": ""
         },
         {
-          "id": 4003,
+          "id": 20303,
           "title": "Data Protection",
           "scorePercent": 0,
           "isOptional": false,
@@ -184,7 +184,7 @@
           "details": ""
         },
         {
-          "id": 4004,
+          "id": 20304,
           "title": "Security Configuration",
           "scorePercent": 0,
           "isOptional": false,
@@ -195,7 +195,7 @@
       ]
     },
     {
-      "id": 5000,
+      "id": 20400,
       "title": "Testing & Quality Assurance",
       "weight": 13,
       "scorePercent": 0,
@@ -203,7 +203,7 @@
       "scoreSuccess": "unknown",
       "scoreEntries": [
         {
-          "id": 5001,
+          "id": 20401,
           "title": "Unit Testing",
           "scorePercent": 0,
           "isOptional": false,
@@ -212,7 +212,7 @@
           "details": ""
         },
         {
-          "id": 5002,
+          "id": 20402,
           "title": "Integration Testing",
           "scorePercent": 0,
           "isOptional": false,
@@ -221,7 +221,7 @@
           "details": ""
         },
         {
-          "id": 5003,
+          "id": 20403,
           "title": "Quality Gates",
           "scorePercent": 0,
           "isOptional": false,
@@ -230,7 +230,7 @@
           "details": ""
         },
         {
-          "id": 5004,
+          "id": 20404,
           "title": "Performance Testing",
           "scorePercent": 0,
           "isOptional": true,
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "id": 6000,
+      "id": 20500,
       "title": "Operations & Support",
       "weight": 12,
       "scorePercent": 0,
@@ -249,7 +249,7 @@
       "scoreSuccess": "unknown",
       "scoreEntries": [
         {
-          "id": 6001,
+          "id": 20501,
           "title": "Incident Management",
           "scorePercent": 0,
           "isOptional": false,
@@ -258,7 +258,7 @@
           "details": ""
         },
         {
-          "id": 6002,
+          "id": 20502,
           "title": "Support Documentation",
           "scorePercent": 0,
           "isOptional": false,
@@ -267,7 +267,7 @@
           "details": ""
         },
         {
-          "id": 6003,
+          "id": 20503,
           "title": "Maintenance Procedures",
           "scorePercent": 0,
           "isOptional": false,
@@ -276,7 +276,7 @@
           "details": ""
         },
         {
-          "id": 6004,
+          "id": 20504,
           "title": "Knowledge Transfer",
           "scorePercent": 0,
           "isOptional": false,
