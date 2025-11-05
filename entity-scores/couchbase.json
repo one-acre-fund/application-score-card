@@ -4,7 +4,7 @@
     "name": "couchbase"
   },
   "generatedDateTimeUtc": "2021-07-22 10:00",
-  "scorePercent": 38,
+  "scorePercent": 35,
   "scoreLabel": "Yellow",
   "scoreSuccess": "almost-failure",
   "scoringReviewer": "Guest",
@@ -13,7 +13,7 @@
     {
       "id": 3937,
       "title": "Documentation",
-      "scorePercent": 10,
+      "scorePercent": 14,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
@@ -65,9 +65,9 @@
     {
       "id": 2208,
       "title": "Operations",
-      "scorePercent": 70,
-      "scoreLabel": "Green",
-      "scoreSuccess": "almost-success",
+      "scorePercent": 58,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial",
       "scoreEntries": [
         {
           "id": 2176,
@@ -114,9 +114,9 @@
     {
       "id": 2208,
       "title": "Monitoring",
-      "scorePercent": 70,
-      "scoreLabel": "Green",
-      "scoreSuccess": "almost-success",
+      "scorePercent": 58,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial",
       "scoreEntries": [
         {
           "id": 2181,

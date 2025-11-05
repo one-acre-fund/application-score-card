@@ -4,9 +4,9 @@
     "name": "adminer"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 20,
-  "scoreLabel": "Red",
-  "scoreSuccess": "failure",
+  "scorePercent": 72,
+  "scoreLabel": "Green",
+  "scoreSuccess": "almost-success",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -14,7 +14,7 @@
       "id": 40000,
       "title": "Documentation & Knowledge",
       "weight": 17,
-      "scorePercent": 17,
+      "scorePercent": 0,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
@@ -44,7 +44,7 @@
       "id": 40100,
       "title": "Observability & Monitoring",
       "weight": 25,
-      "scorePercent": 16,
+      "scorePercent": 0,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
@@ -58,7 +58,6 @@
           "details": "Basic server monitoring only, no application-level metrics",
           "scoreLabel": "Red"
         },
-
         {
           "id": 40103,
           "title": "Alerting & Notifications",
@@ -85,39 +84,39 @@
       "id": 40200,
       "title": "CI/CD & Deployment",
       "weight": 21,
-      "scorePercent": 28,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 40201,
           "title": "Continuous Integration",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "almost-failure",
+          "scoreSuccess": "success",
           "scoreHints": "Automated build and test pipeline",
           "details": "Basic CI setup exists but lacks comprehensive testing",
-          "scoreLabel": "Yellow"
+          "scoreLabel": "Green"
         },
         {
           "id": 40202,
           "title": "Continuous Deployment",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Automated deployment pipeline",
           "details": "Manual deployment process",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 40203,
           "title": "Environment Management",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "almost-failure",
+          "scoreSuccess": "success",
           "scoreHints": "Proper environment separation and configuration",
           "details": "Dev and prod environments exist but lack proper separation",
-          "scoreLabel": "Yellow"
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -125,19 +124,19 @@
       "id": 40300,
       "title": "Security & Compliance",
       "weight": 12,
-      "scorePercent": 28,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 40302,
           "title": "Authentication & Authorization",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "almost-failure",
+          "scoreSuccess": "success",
           "scoreHints": "Proper identity and access management",
           "details": "Basic auth exists but lacks role-based access control",
-          "scoreLabel": "Yellow"
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -145,7 +144,7 @@
       "id": 40500,
       "title": "Operations & Support",
       "weight": 12,
-      "scorePercent": 18,
+      "scorePercent": 15,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
@@ -184,10 +183,10 @@
           "title": "Knowledge Transfer",
           "scorePercent": 60,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "partial",
           "scoreHints": "Team knowledge sharing and transfer",
           "details": "No formal knowledge transfer process",
-          "scoreLabel": "Red"
+          "scoreLabel": "Yellow"
         }
       ]
     }

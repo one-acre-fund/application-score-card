@@ -4,9 +4,9 @@
     "name": "odoo-sales"
   },
   "generatedDateTimeUtc": "2021-07-22 10:00",
-  "scorePercent": 35,
-  "scoreLabel": "Yellow",
-  "scoreSuccess": "almost-failure",
+  "scorePercent": 24,
+  "scoreLabel": "Red",
+  "scoreSuccess": "failure",
   "scoringReviewer": "Guest",
   "scoringReviewDate": "2022-01-04T08:00:00Z",
   "areaScores": [
@@ -70,9 +70,9 @@
       "id": 2208,
       "title": "Monitoring",
       "weight": 25,
-      "scorePercent": 70,
-      "scoreLabel": "Green",
-      "scoreSuccess": "almost-success",
+      "scorePercent": 35,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
       "scoreEntries": [
         {
           "id": 2210,
