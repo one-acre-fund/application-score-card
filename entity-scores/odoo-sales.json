@@ -22,7 +22,7 @@
           "id": 2157,
           "title": "Code Coverage",
           "scorePercent": 33.1,
-          "scoreLabel": "C",
+          "scoreLabel": "Yellow",
           "scoreSuccess": "almost-failure",
           "scoreHints": "Code coverage: 33.1%",
           "details": "Target is 50% coverage, current is 33.1%"
@@ -43,7 +43,8 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Feature flagging is not implemented for any production features.",
-          "details": "One POC Feature flag is required for success"
+          "details": "One POC Feature flag is required for success",
+          "scoreLabel": "Red"
         },
         {
           "id": 3940,
@@ -52,14 +53,16 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Not started",
-          "details": "Ability to automatically rollback failed deployments"
+          "details": "Ability to automatically rollback failed deployments",
+          "scoreLabel": "Red"
         },
         {
           "id": 2207,
           "title": "Post Deployment Validation",
           "scoreSuccess": "failure",
           "scorePercent": 10,
-          "details": "We need to have a step in our deployment pipeline that validates the deployment was successful."
+          "details": "We need to have a step in our deployment pipeline that validates the deployment was successful.",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -76,14 +79,16 @@
           "title": "Performance monitoring",
           "scorePercent": 70,
           "scoreSuccess": "almost-success",
-          "details": "Monitor the service performance metrics such as response times, throughput, and resource utilization."
+          "details": "Monitor the service performance metrics such as response times, throughput, and resource utilization.",
+          "scoreLabel": "Green"
         },
         {
           "id": 2185,
           "title": "Preventive Alerting",
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
-          "details": "Monitor metrics that can indicate potential issues before they impact users, such as increased error rates or latency."
+          "scoreSuccess": "failure",
+          "details": "Monitor metrics that can indicate potential issues before they impact users, such as increased error rates or latency.",
+          "scoreLabel": "Red"
         }
       ]
     }

@@ -23,7 +23,8 @@
           "scorePercent": 10,
           "scoreSuccess": "failure",
           "scoreHints": "We have scattered documentation",
-          "details": "Need to move everything to backstage"
+          "details": "Need to move everything to backstage",
+          "scoreLabel": "Red"
         },
         {
           "id": 3940,
@@ -32,28 +33,32 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "None whatsoever: 50%",
-          "details": "Need to document couchbase ecosystedm architecture"
+          "details": "Need to document couchbase ecosystedm architecture",
+          "scoreLabel": "Red"
         },
         {
           "id": 2207,
           "title": "README",
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "almost-failure",
           "scorePercent": 30,
-          "details": "..."
+          "details": "...",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 2170,
           "title": "Monitoring Guides",
           "scoreSuccess": "almost-failure",
           "scorePercent": 30,
-          "details": "Scattered documentation"
+          "details": "Scattered documentation",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 2210,
           "title": "Maintanance Procedures",
           "scorePercent": 0,
           "scoreSuccess": "failure",
-          "details": "Need to coordinate with Dev team"
+          "details": "Need to coordinate with Dev team",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -69,35 +74,40 @@
           "title": "CI Pipelines",
           "scorePercent": 100,
           "scoreSuccess": "success",
-          "details": "We have a working pipeline in GitHub Actions that builds and tests the application on every commit."
+          "details": "We have a working pipeline in GitHub Actions that builds and tests the application on every commit.",
+          "scoreLabel": "Green"
         },
         {
           "id": 2175,
           "title": "CD Pipelines",
           "scorePercent": 70,
           "scoreSuccess": "almost-success",
-          "details": "Some manual changes require to deploy to production"
+          "details": "Some manual changes require to deploy to production",
+          "scoreLabel": "Green"
         },
         {
           "id": 3941,
           "title": "Disaster Recovery Plan",
           "scorePercent": 10,
-          "scoreSuccess": "unknown",
-          "details": "..."
+          "scoreSuccess": "failure",
+          "details": "...",
+          "scoreLabel": "Red"
         },
         {
           "id": 2179,
           "title": "Data Refresh For Testing Environments",
           "scorePercent": 100,
           "scoreSuccess": "success",
-          "details": "We have a process in place to backup the data"
+          "details": "We have a process in place to backup the data",
+          "scoreLabel": "Green"
         },
         {
           "id": 2174,
           "title": "Basic Ops Handed Over to Tier 2",
           "scorePercent": 10,
           "scoreSuccess": "failure",
-          "details": "Not yet done formally"
+          "details": "Not yet done formally",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -113,21 +123,24 @@
           "title": "Insights Dashboard",
           "scorePercent": 100,
           "scoreSuccess": "success",
-          "details": "We have comprehensive dashbords from elastic agent metrics"
+          "details": "We have comprehensive dashbords from elastic agent metrics",
+          "scoreLabel": "Green"
         },
         {
           "id": 2173,
           "title": "Preventive Alerts",
           "scorePercent": 0,
           "scoreSuccess": "failure",
-          "details": "No preventive alerts yet"
+          "details": "No preventive alerts yet",
+          "scoreLabel": "Red"
         },
         {
           "id": 2173,
           "title": "Disaster Alerts",
           "scorePercent": 0,
           "scoreSuccess": "failure",
-          "details": "No alerting in place yet!"
+          "details": "No alerting in place yet!",
+          "scoreLabel": "Red"
         }
       ]
     }

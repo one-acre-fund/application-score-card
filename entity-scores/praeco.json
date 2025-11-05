@@ -25,7 +25,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "Minimal README, lacks detailed setup guide"
+          "details": "Minimal README, lacks detailed setup guide",
+          "scoreLabel": "Red"
         },
         {
           "id": 10002,
@@ -34,7 +35,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "System architecture and design documentation",
-          "details": "No architecture documentation"
+          "details": "No architecture documentation",
+          "scoreLabel": "Red"
         },
         {
           "id": 10003,
@@ -43,7 +45,8 @@
           "isOptional": true,
           "scoreSuccess": "failure",
           "scoreHints": "API endpoints documented with examples",
-          "details": "Very limited API docs"
+          "details": "Very limited API docs",
+          "scoreLabel": "Red"
         },
         {
           "id": 10004,
@@ -52,7 +55,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "No runbooks available"
+          "details": "No runbooks available",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -71,7 +75,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
-          "details": "No application monitoring configured"
+          "details": "No application monitoring configured",
+          "scoreLabel": "Red"
         },
         {
           "id": 10103,
@@ -80,7 +85,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Proactive alerting on key metrics",
-          "details": "No alerting system"
+          "details": "No alerting system",
+          "scoreLabel": "Red"
         },
         {
           "id": 10104,
@@ -89,7 +95,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "No health checks or dashboards"
+          "details": "No health checks or dashboards",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -106,27 +113,30 @@
           "title": "Continuous Integration",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "almost-failure",
+          "scoreSuccess": "success",
           "scoreHints": "Automated build and test pipeline",
-          "details": "Basic CI, minimal testing"
+          "details": "Basic CI, minimal testing",
+          "scoreLabel": "Green"
         },
         {
           "id": 10202,
           "title": "Continuous Deployment",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Automated deployment pipeline",
-          "details": "Fully manual deployment"
+          "details": "Fully manual deployment",
+          "scoreLabel": "Green"
         },
         {
           "id": 10203,
           "title": "Environment Management",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Proper environment separation and configuration",
-          "details": "Single environment, no separation"
+          "details": "Single environment, no separation",
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -143,9 +153,10 @@
           "title": "Authentication & Authorization",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "almost-failure",
+          "scoreSuccess": "success",
           "scoreHints": "Proper identity and access management",
-          "details": "Basic authentication only"
+          "details": "Basic authentication only",
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -164,34 +175,38 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Incident response and management process",
-          "details": "No incident management process"
+          "details": "No incident management process",
+          "scoreLabel": "Red"
         },
         {
           "id": 10502,
           "title": "Support Documentation",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "Very minimal support documentation"
+          "details": "Very minimal support documentation",
+          "scoreLabel": "Green"
         },
         {
           "id": 10503,
           "title": "Maintenance Procedures",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Routine maintenance and updates",
-          "details": "No documented maintenance procedures"
+          "details": "No documented maintenance procedures",
+          "scoreLabel": "Green"
         },
         {
           "id": 10504,
           "title": "Knowledge Transfer",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Team knowledge sharing and transfer",
-          "details": "No knowledge transfer process"
+          "details": "No knowledge transfer process",
+          "scoreLabel": "Green"
         }
       ]
     }

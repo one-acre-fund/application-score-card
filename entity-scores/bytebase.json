@@ -25,7 +25,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "README exists with basic setup, needs more detail"
+          "details": "README exists with basic setup, needs more detail",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 30002,
@@ -34,7 +35,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "System architecture and design documentation",
-          "details": "High-level architecture exists but incomplete"
+          "details": "High-level architecture exists but incomplete",
+          "scoreLabel": "Red"
         },
         {
           "id": 30003,
@@ -43,7 +45,8 @@
           "isOptional": true,
           "scoreSuccess": "failure",
           "scoreHints": "API endpoints documented with examples",
-          "details": "Partial API documentation"
+          "details": "Partial API documentation",
+          "scoreLabel": "Red"
         },
         {
           "id": 30004,
@@ -52,7 +55,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "Very limited runbook content"
+          "details": "Very limited runbook content",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -71,7 +75,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
-          "details": "Basic metrics collection, no comprehensive monitoring"
+          "details": "Basic metrics collection, no comprehensive monitoring",
+          "scoreLabel": "Red"
         },
         {
           "id": 30102,
@@ -80,7 +85,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Centralized logging with structured format",
-          "details": "Logs are centralized but not well structured"
+          "details": "Logs are centralized but not well structured",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 30103,
@@ -89,7 +95,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Proactive alerting on key metrics",
-          "details": "Minimal alerting, only for critical failures"
+          "details": "Minimal alerting, only for critical failures",
+          "scoreLabel": "Red"
         },
         {
           "id": 30104,
@@ -98,7 +105,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "Basic health check exists, no comprehensive dashboard"
+          "details": "Basic health check exists, no comprehensive dashboard",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -117,7 +125,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Automated build and test pipeline",
-          "details": "CI pipeline exists with basic tests"
+          "details": "CI pipeline exists with basic tests",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 30202,
@@ -126,7 +135,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated deployment pipeline",
-          "details": "Semi-automated deployment, requires manual approval"
+          "details": "Semi-automated deployment, requires manual approval",
+          "scoreLabel": "Red"
         },
         {
           "id": 30203,
@@ -135,7 +145,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Proper environment separation and configuration",
-          "details": "Environments exist but configuration management needs work"
+          "details": "Environments exist but configuration management needs work",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 30204,
@@ -144,7 +155,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Structured release process and versioning",
-          "details": "Basic versioning exists, release process informal"
+          "details": "Basic versioning exists, release process informal",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -163,7 +175,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated security vulnerability scanning",
-          "details": "Manual security reviews only, no automated scanning"
+          "details": "Manual security reviews only, no automated scanning",
+          "scoreLabel": "Red"
         },
         {
           "id": 30302,
@@ -172,7 +185,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Proper identity and access management",
-          "details": "Basic authentication exists, authorization needs improvement"
+          "details": "Basic authentication exists, authorization needs improvement",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 30303,
@@ -181,7 +195,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Data encryption and privacy controls",
-          "details": "In-transit encryption enabled, at-rest needs work"
+          "details": "In-transit encryption enabled, at-rest needs work",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 30304,
@@ -190,7 +205,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Secure configuration and hardening",
-          "details": "Basic security settings, not fully hardened"
+          "details": "Basic security settings, not fully hardened",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -209,7 +225,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Comprehensive unit test coverage",
-          "details": "Unit tests exist for core functions (~25% coverage)"
+          "details": "Unit tests exist for core functions (~25% coverage)",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 30402,
@@ -218,7 +235,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "System integration and API testing",
-          "details": "Very limited integration tests"
+          "details": "Very limited integration tests",
+          "scoreLabel": "Red"
         },
         {
           "id": 30403,
@@ -227,7 +245,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated quality checks in pipeline",
-          "details": "Basic linting only, no comprehensive quality gates"
+          "details": "Basic linting only, no comprehensive quality gates",
+          "scoreLabel": "Red"
         },
         {
           "id": 30404,
@@ -236,7 +255,8 @@
           "isOptional": true,
           "scoreSuccess": "failure",
           "scoreHints": "Load and performance testing",
-          "details": "No formal performance testing"
+          "details": "No formal performance testing",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -255,7 +275,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Incident response and management process",
-          "details": "Informal incident response, needs structure"
+          "details": "Informal incident response, needs structure",
+          "scoreLabel": "Red"
         },
         {
           "id": 30502,
@@ -264,7 +285,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "Basic support docs, not comprehensive"
+          "details": "Basic support docs, not comprehensive",
+          "scoreLabel": "Red"
         },
         {
           "id": 30503,
@@ -273,7 +295,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Routine maintenance and updates",
-          "details": "Some maintenance procedures documented"
+          "details": "Some maintenance procedures documented",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 30504,
@@ -282,7 +305,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Team knowledge sharing and transfer",
-          "details": "Informal knowledge sharing only"
+          "details": "Informal knowledge sharing only",
+          "scoreLabel": "Red"
         }
       ]
     }
