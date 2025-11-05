@@ -107,18 +107,22 @@ class ScoreCalculator {
     const overallScore = this.calculateOverallScore(processedAreaScores);
 
     // Build final score object compatible with all.json format
+    const roundedScore = Math.round(overallScore.scorePercent);
+    const calculatedLabel = this.getScoreLabel(roundedScore);
+    const calculatedSuccess = this.getScoreSuccess(roundedScore);
+
     const finalScore = {
       entityRef: {
         kind: data.entityRef.kind,
         name: data.entityRef.name,
-        ...(data.entityRef.namespace && data.entityRef.namespace !== 'default' && { 
-          namespace: data.entityRef.namespace 
+        ...(data.entityRef.namespace && data.entityRef.namespace !== 'default' && {
+          namespace: data.entityRef.namespace
         })
       },
       generatedDateTimeUtc: data.generatedDateTimeUtc || new Date().toISOString(),
-      scorePercent: Math.round(overallScore.scorePercent),
-      scoreLabel: this.getScoreLabel(overallScore.scorePercent),
-      scoreSuccess: this.getScoreSuccess(overallScore.scorePercent),
+      scorePercent: roundedScore,
+      scoreLabel: calculatedLabel,
+      scoreSuccess: calculatedSuccess,
       ...(data.scoringReviewer && { scoringReviewer: data.scoringReviewer }),
       ...(data.scoringReviewDate && { scoringReviewDate: data.scoringReviewDate }),
       areaScores: processedAreaScores.map(area => ({
