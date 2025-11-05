@@ -25,7 +25,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "Basic README exists but lacks comprehensive setup instructions"
+          "details": "Basic README exists but lacks comprehensive setup instructions",
+          "scoreLabel": "Red"
         },
         {
           "id": 40002,
@@ -34,7 +35,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "System architecture and design documentation",
-          "details": "No formal architecture documentation available"
+          "details": "No formal architecture documentation available",
+          "scoreLabel": "Red"
         },
         {
           "id": 40003,
@@ -43,7 +45,8 @@
           "isOptional": true,
           "scoreSuccess": "failure",
           "scoreHints": "API endpoints documented with examples",
-          "details": "API documentation not present"
+          "details": "API documentation not present",
+          "scoreLabel": "Red"
         },
         {
           "id": 40004,
@@ -52,7 +55,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "Minimal operational documentation exists"
+          "details": "Minimal operational documentation exists",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -71,7 +75,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
-          "details": "Basic server monitoring only, no application-level metrics"
+          "details": "Basic server monitoring only, no application-level metrics",
+          "scoreLabel": "Red"
         },
         {
           "id": 40102,
@@ -80,7 +85,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Centralized logging with structured format",
-          "details": "Logs exist but are not centralized or structured"
+          "details": "Logs exist but are not centralized or structured",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 40103,
@@ -89,7 +95,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Proactive alerting on key metrics",
-          "details": "No alerting configured"
+          "details": "No alerting configured",
+          "scoreLabel": "Red"
         },
         {
           "id": 40104,
@@ -98,7 +105,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "No health endpoints or dashboards available"
+          "details": "No health endpoints or dashboards available",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -117,7 +125,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Automated build and test pipeline",
-          "details": "Basic CI setup exists but lacks comprehensive testing"
+          "details": "Basic CI setup exists but lacks comprehensive testing",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 40202,
@@ -126,7 +135,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated deployment pipeline",
-          "details": "Manual deployment process"
+          "details": "Manual deployment process",
+          "scoreLabel": "Red"
         },
         {
           "id": 40203,
@@ -135,7 +145,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Proper environment separation and configuration",
-          "details": "Dev and prod environments exist but lack proper separation"
+          "details": "Dev and prod environments exist but lack proper separation",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 40204,
@@ -144,7 +155,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Structured release process and versioning",
-          "details": "No formal release process"
+          "details": "No formal release process",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -163,7 +175,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated security vulnerability scanning",
-          "details": "No automated security scanning in place"
+          "details": "No automated security scanning in place",
+          "scoreLabel": "Red"
         },
         {
           "id": 40302,
@@ -172,7 +185,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Proper identity and access management",
-          "details": "Basic auth exists but lacks role-based access control"
+          "details": "Basic auth exists but lacks role-based access control",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 40303,
@@ -181,7 +195,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Data encryption and privacy controls",
-          "details": "Data at rest not encrypted, in-transit encryption partial"
+          "details": "Data at rest not encrypted, in-transit encryption partial",
+          "scoreLabel": "Red"
         },
         {
           "id": 40304,
@@ -190,7 +205,8 @@
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Secure configuration and hardening",
-          "details": "Some security configs in place but not hardened"
+          "details": "Some security configs in place but not hardened",
+          "scoreLabel": "Yellow"
         }
       ]
     },
@@ -209,7 +225,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive unit test coverage",
-          "details": "Minimal unit test coverage (~15%)"
+          "details": "Minimal unit test coverage (~15%)",
+          "scoreLabel": "Red"
         },
         {
           "id": 40402,
@@ -218,7 +235,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "System integration and API testing",
-          "details": "No integration tests"
+          "details": "No integration tests",
+          "scoreLabel": "Red"
         },
         {
           "id": 40403,
@@ -227,7 +245,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated quality checks in pipeline",
-          "details": "No quality gates configured"
+          "details": "No quality gates configured",
+          "scoreLabel": "Red"
         },
         {
           "id": 40404,
@@ -236,7 +255,8 @@
           "isOptional": true,
           "scoreSuccess": "failure",
           "scoreHints": "Load and performance testing",
-          "details": "No performance testing"
+          "details": "No performance testing",
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -255,7 +275,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Incident response and management process",
-          "details": "Ad-hoc incident response, no formal process"
+          "details": "Ad-hoc incident response, no formal process",
+          "scoreLabel": "Red"
         },
         {
           "id": 40502,
@@ -264,7 +285,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "Limited support documentation available"
+          "details": "Limited support documentation available",
+          "scoreLabel": "Red"
         },
         {
           "id": 40503,
@@ -273,7 +295,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Routine maintenance and updates",
-          "details": "Basic maintenance procedures documented"
+          "details": "Basic maintenance procedures documented",
+          "scoreLabel": "Red"
         },
         {
           "id": 40504,
@@ -282,7 +305,8 @@
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Team knowledge sharing and transfer",
-          "details": "No formal knowledge transfer process"
+          "details": "No formal knowledge transfer process",
+          "scoreLabel": "Red"
         }
       ]
     }

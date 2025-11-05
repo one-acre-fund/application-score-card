@@ -218,12 +218,24 @@ class ScoreCalculator {
             );
 
             if (calculatedArea) {
-              return {
+              // Update area-level scores
+              const updatedArea = {
                 ...originalArea,
                 scorePercent: calculatedArea.scorePercent,
                 scoreLabel: calculatedArea.scoreLabel,
                 scoreSuccess: calculatedArea.scoreSuccess
               };
+
+              // Update scoreLabel for each scoreEntry based on its scorePercent
+              if (updatedArea.scoreEntries) {
+                updatedArea.scoreEntries = updatedArea.scoreEntries.map(entry => ({
+                  ...entry,
+                  scoreLabel: this.getScoreLabel(entry.scorePercent || 0),
+                  scoreSuccess: this.getScoreSuccess(entry.scorePercent || 0)
+                }));
+              }
+
+              return updatedArea;
             }
 
             return originalArea;
