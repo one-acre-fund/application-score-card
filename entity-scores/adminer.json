@@ -21,7 +21,7 @@
         {
           "id": 40001,
           "title": "README & Setup Documentation",
-          "scorePercent": 25,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive setup and usage documentation",
@@ -29,29 +29,9 @@
           "scoreLabel": "Red"
         },
         {
-          "id": 40002,
-          "title": "Architecture Documentation",
-          "scorePercent": 10,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "System architecture and design documentation",
-          "details": "No formal architecture documentation available",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 40003,
-          "title": "API Documentation",
-          "scorePercent": 0,
-          "isOptional": true,
-          "scoreSuccess": "failure",
-          "scoreHints": "API endpoints documented with examples",
-          "details": "API documentation not present",
-          "scoreLabel": "Red"
-        },
-        {
           "id": 40004,
           "title": "Runbooks & Operations",
-          "scorePercent": 15,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
@@ -71,27 +51,18 @@
         {
           "id": 40101,
           "title": "Application Monitoring",
-          "scorePercent": 20,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
           "details": "Basic server monitoring only, no application-level metrics",
           "scoreLabel": "Red"
         },
-        {
-          "id": 40102,
-          "title": "Logging & Centralization",
-          "scorePercent": 30,
-          "isOptional": false,
-          "scoreSuccess": "almost-failure",
-          "scoreHints": "Centralized logging with structured format",
-          "details": "Logs exist but are not centralized or structured",
-          "scoreLabel": "Yellow"
-        },
+
         {
           "id": 40103,
           "title": "Alerting & Notifications",
-          "scorePercent": 5,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Proactive alerting on key metrics",
@@ -101,7 +72,7 @@
         {
           "id": 40104,
           "title": "Health Checks & Dashboards",
-          "scorePercent": 10,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Health endpoints and monitoring dashboards",
@@ -121,7 +92,7 @@
         {
           "id": 40201,
           "title": "Continuous Integration",
-          "scorePercent": 35,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Automated build and test pipeline",
@@ -131,7 +102,7 @@
         {
           "id": 40202,
           "title": "Continuous Deployment",
-          "scorePercent": 15,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated deployment pipeline",
@@ -141,22 +112,12 @@
         {
           "id": 40203,
           "title": "Environment Management",
-          "scorePercent": 40,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Proper environment separation and configuration",
           "details": "Dev and prod environments exist but lack proper separation",
           "scoreLabel": "Yellow"
-        },
-        {
-          "id": 40204,
-          "title": "Release Management",
-          "scorePercent": 20,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Structured release process and versioning",
-          "details": "No formal release process",
-          "scoreLabel": "Red"
         }
       ]
     },
@@ -169,94 +130,14 @@
       "scoreSuccess": "failure",
       "scoreEntries": [
         {
-          "id": 40301,
-          "title": "Security Scanning",
-          "scorePercent": 10,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Automated security vulnerability scanning",
-          "details": "No automated security scanning in place",
-          "scoreLabel": "Red"
-        },
-        {
           "id": 40302,
           "title": "Authentication & Authorization",
-          "scorePercent": 45,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "almost-failure",
           "scoreHints": "Proper identity and access management",
           "details": "Basic auth exists but lacks role-based access control",
           "scoreLabel": "Yellow"
-        },
-        {
-          "id": 40303,
-          "title": "Data Protection",
-          "scorePercent": 25,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Data encryption and privacy controls",
-          "details": "Data at rest not encrypted, in-transit encryption partial",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 40304,
-          "title": "Security Configuration",
-          "scorePercent": 30,
-          "isOptional": false,
-          "scoreSuccess": "almost-failure",
-          "scoreHints": "Secure configuration and hardening",
-          "details": "Some security configs in place but not hardened",
-          "scoreLabel": "Yellow"
-        }
-      ]
-    },
-    {
-      "id": 40400,
-      "title": "Testing & Quality Assurance",
-      "weight": 13,
-      "scorePercent": 12,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
-      "scoreEntries": [
-        {
-          "id": 40401,
-          "title": "Unit Testing",
-          "scorePercent": 20,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Comprehensive unit test coverage",
-          "details": "Minimal unit test coverage (~15%)",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 40402,
-          "title": "Integration Testing",
-          "scorePercent": 5,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "System integration and API testing",
-          "details": "No integration tests",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 40403,
-          "title": "Quality Gates",
-          "scorePercent": 10,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Automated quality checks in pipeline",
-          "details": "No quality gates configured",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 40404,
-          "title": "Performance Testing",
-          "scorePercent": 0,
-          "isOptional": true,
-          "scoreSuccess": "failure",
-          "scoreHints": "Load and performance testing",
-          "details": "No performance testing",
-          "scoreLabel": "Red"
         }
       ]
     },
@@ -271,7 +152,7 @@
         {
           "id": 40501,
           "title": "Incident Management",
-          "scorePercent": 15,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Incident response and management process",
@@ -281,7 +162,7 @@
         {
           "id": 40502,
           "title": "Support Documentation",
-          "scorePercent": 20,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Support procedures and knowledge base",
@@ -291,7 +172,7 @@
         {
           "id": 40503,
           "title": "Maintenance Procedures",
-          "scorePercent": 25,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Routine maintenance and updates",
@@ -301,7 +182,7 @@
         {
           "id": 40504,
           "title": "Knowledge Transfer",
-          "scorePercent": 10,
+          "scorePercent": 60,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Team knowledge sharing and transfer",
