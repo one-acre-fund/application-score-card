@@ -14,20 +14,10 @@
       "id": 10000,
       "title": "Documentation & Knowledge",
       "weight": 17,
-      "scorePercent": 13,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 50,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
       "scoreEntries": [
-        {
-          "id": 10001,
-          "title": "README & Setup Documentation",
-          "scorePercent": 20,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "Minimal README, lacks detailed setup guide",
-          "scoreLabel": "Red"
-        },
         {
           "id": 10002,
           "title": "Architecture Documentation",
@@ -39,24 +29,14 @@
           "scoreLabel": "Red"
         },
         {
-          "id": 10003,
-          "title": "API Documentation",
-          "scorePercent": 10,
-          "isOptional": true,
-          "scoreSuccess": "failure",
-          "scoreHints": "API endpoints documented with examples",
-          "details": "Very limited API docs",
-          "scoreLabel": "Red"
-        },
-        {
           "id": 10004,
           "title": "Runbooks & Operations",
-          "scorePercent": 5,
+          "scorePercent": 50,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "No runbooks available",
-          "scoreLabel": "Red"
+          "details": "Runbooks available",
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -64,39 +44,19 @@
       "id": 10100,
       "title": "Observability & Monitoring",
       "weight": 25,
-      "scorePercent": 0,
-      "scoreLabel": "Red",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
       "scoreSuccess": "failure",
       "scoreEntries": [
         {
-          "id": 10101,
-          "title": "Application Monitoring",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Comprehensive application performance monitoring",
-          "details": "No application monitoring configured",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 10103,
-          "title": "Alerting & Notifications",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Proactive alerting on key metrics",
-          "details": "No alerting system",
-          "scoreLabel": "Red"
-        },
-        {
           "id": 10104,
           "title": "Health Checks & Dashboards",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "No health checks or dashboards",
-          "scoreLabel": "Red"
+          "details": "Uptime monitoring triggers an alert if the Praeco service is down.",
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -168,16 +128,6 @@
       "scoreLabel": "Green",
       "scoreSuccess": "almost-success",
       "scoreEntries": [
-        {
-          "id": 10501,
-          "title": "Incident Management",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Incident response and management process",
-          "details": "No incident management process",
-          "scoreLabel": "Red"
-        },
         {
           "id": 10502,
           "title": "Support Documentation",
