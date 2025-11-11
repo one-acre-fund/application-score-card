@@ -284,25 +284,25 @@
       "name": "praeco"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-    "scorePercent": 72,
+    "scorePercent": 87,
     "scoreLabel": "Green",
-    "scoreSuccess": "almost-success",
+    "scoreSuccess": "success",
     "scoringReviewer": "System Review",
     "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 10000,
         "title": "Documentation & Knowledge",
-        "scorePercent": 13,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 33,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
       },
       {
         "id": 10100,
         "title": "Observability & Monitoring",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
         "id": 10200,
@@ -321,9 +321,9 @@
       {
         "id": 10500,
         "title": "Operations & Support",
-        "scorePercent": 75,
+        "scorePercent": 100,
         "scoreLabel": "Green",
-        "scoreSuccess": "almost-success"
+        "scoreSuccess": "success"
       }
     ]
   }
