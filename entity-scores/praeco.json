@@ -15,8 +15,8 @@
       "title": "Documentation & Knowledge",
       "weight": 17,
       "scorePercent": 50,
-      "scoreLabel": "Green",
-      "scoreSuccess": "almost-success",
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 10002,
