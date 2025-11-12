@@ -109,12 +109,12 @@
       "kind": "component",
       "name": "couchbase"
     },
-    "generatedDateTimeUtc": "2025-11-12T12:34:51.142Z",
+    "generatedDateTimeUtc": "2021-07-22 10:00",
     "scorePercent": 76,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2025-11-12T12:34:51.142Z",
+    "scoringReviewer": "Guest",
+    "scoringReviewDate": "2022-01-04T08:00:00Z",
     "areaScores": [
       {
         "id": 3937,
