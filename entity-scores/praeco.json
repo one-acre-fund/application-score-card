@@ -1,0 +1,164 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "praeco"
+  },
+  "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+  "scorePercent": 72,
+  "scoreLabel": "Green",
+  "scoreSuccess": "almost-success",
+  "scoringReviewer": "System Review",
+  "scoringReviewDate": "2025-11-05T00:00:00Z",
+  "areaScores": [
+    {
+      "id": 10000,
+      "title": "Documentation & Knowledge",
+      "weight": 17,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 10002,
+          "title": "Architecture Documentation",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "System architecture and design documentation",
+          "details": "Architecture documentation are available",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10004,
+          "title": "Runbooks & Operations",
+          "scorePercent": 50,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "Runbooks available",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 10100,
+      "title": "Observability & Monitoring",
+      "weight": 25,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 10104,
+          "title": "Health Checks & Dashboards",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Health endpoints and monitoring dashboards",
+          "details": "Uptime monitoring is available and triggers an alert if the Praeco service is down.",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "title": "CI/CD & Deployment",
+      "weight": 21,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 10201,
+          "title": "Continuous Integration",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Automated build and test pipeline",
+          "details": "Basic CI, minimal testing",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10202,
+          "title": "Continuous Deployment",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Automated deployment pipeline",
+          "details": "Fully automated deployment",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10203,
+          "title": "Environment Management",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Proper environment separation and configuration",
+          "details": "Environments include Integration, QA and Production",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 10300,
+      "title": "Security & Compliance",
+      "weight": 12,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 10302,
+          "title": "Authentication & Authorization",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Proper identity and access management",
+          "details": "Authentication and access management are handled through Keycloak, providing centralized Single Sign-On (SSO) and role-based access control.",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 10500,
+      "title": "Operations & Support",
+      "weight": 12,
+      "scorePercent": 75,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 10502,
+          "title": "Support Documentation",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Support procedures and knowledge base",
+          "details": "Support documentation is available",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10503,
+          "title": "Maintenance Procedures",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Routine maintenance and updates",
+          "details": "Documented maintenance procedures available",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10504,
+          "title": "Knowledge Transfer",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Team knowledge sharing and transfer",
+          "details": "Completed team training sessions; recording available for review.",
+          "scoreLabel": "Green"
+        }
+      ]
+    }
+  ]
+}

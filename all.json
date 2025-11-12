@@ -2,55 +2,140 @@
   {
     "entityRef": {
       "kind": "component",
-      "name": "couchbase"
+      "name": "adminer"
     },
-    "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
-    "scorePercent": 0,
-    "scoreLabel": "Red",
-    "scoreSuccess": "failure",
-    "scoringReviewer": "Pending Review",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+    "scorePercent": 72,
+    "scoreLabel": "Green",
+    "scoreSuccess": "almost-success",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
-        "id": 1000,
+        "id": 40000,
         "title": "Documentation & Knowledge",
         "scorePercent": 0,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
-        "id": 2000,
+        "id": 40100,
         "title": "Observability & Monitoring",
         "scorePercent": 0,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
-        "id": 3000,
+        "id": 40200,
         "title": "CI/CD & Deployment",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
-        "id": 4000,
+        "id": 40300,
         "title": "Security & Compliance",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
-        "id": 5000,
-        "title": "Testing & Quality Assurance",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "id": 6000,
+        "id": 40500,
         "title": "Operations & Support",
-        "scorePercent": 0,
+        "scorePercent": 15,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
+      "name": "bytebase"
+    },
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+    "scorePercent": 24,
+    "scoreLabel": "Red",
+    "scoreSuccess": "failure",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
+    "areaScores": [
+      {
+        "id": 30000,
+        "title": "Documentation & Knowledge",
+        "scorePercent": 22,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 30100,
+        "title": "Observability & Monitoring",
+        "scorePercent": 25,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 30200,
+        "title": "CI/CD & Deployment",
+        "scorePercent": 30,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
+      },
+      {
+        "id": 30300,
+        "title": "Security & Compliance",
+        "scorePercent": 26,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 30400,
+        "title": "Testing & Quality Assurance",
+        "scorePercent": 20,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 30500,
+        "title": "Operations & Support",
+        "scorePercent": 23,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
+      "name": "couchbase"
+    },
+    "generatedDateTimeUtc": "2021-07-22 10:00",
+    "scorePercent": 35,
+    "scoreLabel": "Yellow",
+    "scoreSuccess": "almost-failure",
+    "scoringReviewer": "Guest",
+    "scoringReviewDate": "2022-01-04T08:00:00Z",
+    "areaScores": [
+      {
+        "id": 3937,
+        "title": "Documentation",
+        "scorePercent": 14,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 2208,
+        "title": "Operations",
+        "scorePercent": 58,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
+      },
+      {
+        "id": 2208,
+        "title": "Monitoring",
+        "scorePercent": 33,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
       }
     ]
   },
@@ -112,12 +197,61 @@
   {
     "entityRef": {
       "kind": "component",
+      "name": "jenkins-jobs"
+    },
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+    "scorePercent": 70,
+    "scoreLabel": "Green",
+    "scoreSuccess": "almost-success",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
+    "areaScores": [
+      {
+        "id": 20000,
+        "title": "Documentation & Knowledge",
+        "scorePercent": 40,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
+      },
+      {
+        "id": 20100,
+        "title": "Observability & Monitoring",
+        "scorePercent": 58,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
+      },
+      {
+        "id": 20200,
+        "title": "CI/CD & Deployment",
+        "scorePercent": 93,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 20300,
+        "title": "Security & Compliance",
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 20500,
+        "title": "Operations & Support",
+        "scorePercent": 57,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
       "name": "odoo-sales"
     },
     "generatedDateTimeUtc": "2021-07-22 10:00",
-    "scorePercent": 35,
-    "scoreLabel": "Yellow",
-    "scoreSuccess": "almost-failure",
+    "scorePercent": 24,
+    "scoreLabel": "Red",
+    "scoreSuccess": "failure",
     "scoringReviewer": "Guest",
     "scoringReviewDate": "2022-01-04T08:00:00Z",
     "areaScores": [
@@ -138,9 +272,58 @@
       {
         "id": 2208,
         "title": "Monitoring",
-        "scorePercent": 70,
+        "scorePercent": 35,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
+      "name": "praeco"
+    },
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+    "scorePercent": 95,
+    "scoreLabel": "Green",
+    "scoreSuccess": "success",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
+    "areaScores": [
+      {
+        "id": 10000,
+        "title": "Documentation & Knowledge",
+        "scorePercent": 75,
         "scoreLabel": "Green",
         "scoreSuccess": "almost-success"
+      },
+      {
+        "id": 10100,
+        "title": "Observability & Monitoring",
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 10200,
+        "title": "CI/CD & Deployment",
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 10300,
+        "title": "Security & Compliance",
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 10500,
+        "title": "Operations & Support",
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       }
     ]
   }

@@ -1,11 +1,10 @@
-
 {
   "entityRef": {
     "kind": "component",
     "name": "couchbase"
   },
   "generatedDateTimeUtc": "2021-07-22 10:00",
-  "scorePercent": 37.8,
+  "scorePercent": 35,
   "scoreLabel": "Yellow",
   "scoreSuccess": "almost-failure",
   "scoringReviewer": "Guest",
@@ -14,7 +13,7 @@
     {
       "id": 3937,
       "title": "Documentation",
-      "scorePercent": 30,
+      "scorePercent": 14,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
@@ -25,6 +24,7 @@
           "scoreSuccess": "success",
           "scoreHints": "Documentations is fully in place",
           "details": "https://backstage.oneacrefund.org/catalog/default/component/couchbase/docs"
+
         },
         {
           "id": 3940,
@@ -61,23 +61,25 @@
     {
       "id": 2208,
       "title": "Operations",
-      "scorePercent": 50,
+      "scorePercent": 58,
       "scoreLabel": "Yellow",
-      "scoreSuccess": "almost-failure",
+      "scoreSuccess": "partial",
       "scoreEntries": [
         {
           "id": 2176,
           "title": "CI Pipelines",
           "scorePercent": 100,
           "scoreSuccess": "success",
-          "details": "We have a working pipeline in GitHub Actions that builds and tests the application on every commit."
+          "details": "We have a working pipeline in GitHub Actions that builds and tests the application on every commit.",
+          "scoreLabel": "Green"
         },
         {
           "id": 2175,
           "title": "CD Pipelines",
           "scorePercent": 70,
           "scoreSuccess": "almost-success",
-          "details": "Some manual changes require to deploy to production"
+          "details": "Some manual changes require to deploy to production",
+          "scoreLabel": "Green"
         },
         {
           "id": 3941,
@@ -91,30 +93,33 @@
           "title": "Data Refresh For Testing Environments",
           "scorePercent": 100,
           "scoreSuccess": "success",
-          "details": "We have a process in place to backup the data"
+          "details": "We have a process in place to backup the data",
+          "scoreLabel": "Green"
         },
         {
           "id": 2174,
           "title": "Basic Ops Handed Over to Tier 2",
           "scorePercent": 10,
           "scoreSuccess": "failure",
-          "details": "Not yet done formally"
+          "details": "Not yet done formally",
+          "scoreLabel": "Red"
         }
       ]
     },
     {
       "id": 2208,
       "title": "Monitoring",
-      "scorePercent": 50,
+      "scorePercent": 58,
       "scoreLabel": "Yellow",
-      "scoreSuccess": "almost-failure",
+      "scoreSuccess": "partial",
       "scoreEntries": [
         {
           "id": 2181,
           "title": "Insights Dashboard",
           "scorePercent": 100,
           "scoreSuccess": "success",
-          "details": "We have comprehensive dashbords from elastic agent metrics"
+          "details": "We have comprehensive dashbords from elastic agent metrics",
+          "scoreLabel": "Green"
         },
         {
           "id": 2173,
@@ -128,7 +133,8 @@
           "title": "Disaster Alerts",
           "scorePercent": 0,
           "scoreSuccess": "failure",
-          "details": "No alerting in place yet!"
+          "details": "No alerting in place yet!",
+          "scoreLabel": "Red"
         }
       ]
     }

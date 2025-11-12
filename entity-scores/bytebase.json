@@ -1,311 +1,311 @@
 {
   "entityRef": {
     "kind": "component",
-    "name": "elasticsearch"
+    "name": "bytebase"
   },
-  "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
-  "scorePercent": 0,
+  "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+  "scorePercent": 24,
   "scoreLabel": "Red",
   "scoreSuccess": "failure",
-  "scoringReviewer": "Pending Review",
-  "scoringReviewDate": null,
+  "scoringReviewer": "System Review",
+  "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
     {
-      "id": 1000,
+      "id": 30000,
       "title": "Documentation & Knowledge",
       "weight": 17,
-      "scorePercent": 0,
+      "scorePercent": 22,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
         {
-          "id": 1001,
+          "id": 30001,
           "title": "README & Setup Documentation",
-          "scorePercent": 0,
+          "scorePercent": 35,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-failure",
           "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "",
-          "scoreLabel": "Red"
+          "details": "README exists with basic setup, needs more detail",
+          "scoreLabel": "Yellow"
         },
         {
-          "id": 1002,
+          "id": 30002,
           "title": "Architecture Documentation",
-          "scorePercent": 0,
+          "scorePercent": 20,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "System architecture and design documentation",
-          "details": "",
+          "details": "High-level architecture exists but incomplete",
           "scoreLabel": "Red"
         },
         {
-          "id": 1003,
+          "id": 30003,
           "title": "API Documentation",
-          "scorePercent": 0,
+          "scorePercent": 15,
           "isOptional": true,
           "scoreSuccess": "failure",
           "scoreHints": "API endpoints documented with examples",
-          "details": "",
+          "details": "Partial API documentation",
           "scoreLabel": "Red"
         },
         {
-          "id": 1004,
+          "id": 30004,
           "title": "Runbooks & Operations",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "",
+          "details": "Very limited runbook content",
           "scoreLabel": "Red"
         }
       ]
     },
     {
-      "id": 2000,
+      "id": 30100,
       "title": "Observability & Monitoring",
       "weight": 25,
-      "scorePercent": 0,
+      "scorePercent": 25,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
         {
-          "id": 2001,
+          "id": 30101,
           "title": "Application Monitoring",
-          "scorePercent": 0,
+          "scorePercent": 25,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
-          "details": "",
+          "details": "Basic metrics collection, no comprehensive monitoring",
           "scoreLabel": "Red"
         },
         {
-          "id": 2002,
+          "id": 30102,
           "title": "Logging & Centralization",
-          "scorePercent": 0,
+          "scorePercent": 40,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-failure",
           "scoreHints": "Centralized logging with structured format",
-          "details": "",
-          "scoreLabel": "Red"
+          "details": "Logs are centralized but not well structured",
+          "scoreLabel": "Yellow"
         },
         {
-          "id": 2003,
+          "id": 30103,
           "title": "Alerting & Notifications",
-          "scorePercent": 0,
+          "scorePercent": 15,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Proactive alerting on key metrics",
-          "details": "",
+          "details": "Minimal alerting, only for critical failures",
           "scoreLabel": "Red"
         },
         {
-          "id": 2004,
+          "id": 30104,
           "title": "Health Checks & Dashboards",
-          "scorePercent": 0,
+          "scorePercent": 20,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "",
+          "details": "Basic health check exists, no comprehensive dashboard",
           "scoreLabel": "Red"
         }
       ]
     },
     {
-      "id": 3000,
+      "id": 30200,
       "title": "CI/CD & Deployment",
       "weight": 21,
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 30,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
       "scoreEntries": [
         {
-          "id": 3001,
+          "id": 30201,
           "title": "Continuous Integration",
-          "scorePercent": 0,
+          "scorePercent": 45,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-failure",
           "scoreHints": "Automated build and test pipeline",
-          "details": "",
-          "scoreLabel": "Red"
+          "details": "CI pipeline exists with basic tests",
+          "scoreLabel": "Yellow"
         },
         {
-          "id": 3002,
+          "id": 30202,
           "title": "Continuous Deployment",
-          "scorePercent": 0,
+          "scorePercent": 20,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated deployment pipeline",
-          "details": "",
+          "details": "Semi-automated deployment, requires manual approval",
           "scoreLabel": "Red"
         },
         {
-          "id": 3003,
+          "id": 30203,
           "title": "Environment Management",
-          "scorePercent": 0,
+          "scorePercent": 30,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-failure",
           "scoreHints": "Proper environment separation and configuration",
-          "details": "",
-          "scoreLabel": "Red"
+          "details": "Environments exist but configuration management needs work",
+          "scoreLabel": "Yellow"
         },
         {
-          "id": 3004,
+          "id": 30204,
           "title": "Release Management",
-          "scorePercent": 0,
+          "scorePercent": 25,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Structured release process and versioning",
-          "details": "",
+          "details": "Basic versioning exists, release process informal",
           "scoreLabel": "Red"
         }
       ]
     },
     {
-      "id": 4000,
+      "id": 30300,
       "title": "Security & Compliance",
       "weight": 12,
-      "scorePercent": 0,
+      "scorePercent": 26,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
         {
-          "id": 4001,
+          "id": 30301,
           "title": "Security Scanning",
-          "scorePercent": 0,
+          "scorePercent": 15,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated security vulnerability scanning",
-          "details": "",
+          "details": "Manual security reviews only, no automated scanning",
           "scoreLabel": "Red"
         },
         {
-          "id": 4002,
+          "id": 30302,
           "title": "Authentication & Authorization",
-          "scorePercent": 0,
+          "scorePercent": 40,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-failure",
           "scoreHints": "Proper identity and access management",
-          "details": "",
-          "scoreLabel": "Red"
+          "details": "Basic authentication exists, authorization needs improvement",
+          "scoreLabel": "Yellow"
         },
         {
-          "id": 4003,
+          "id": 30303,
           "title": "Data Protection",
-          "scorePercent": 0,
+          "scorePercent": 30,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-failure",
           "scoreHints": "Data encryption and privacy controls",
-          "details": "",
-          "scoreLabel": "Red"
+          "details": "In-transit encryption enabled, at-rest needs work",
+          "scoreLabel": "Yellow"
         },
         {
-          "id": 4004,
+          "id": 30304,
           "title": "Security Configuration",
-          "scorePercent": 0,
+          "scorePercent": 20,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Secure configuration and hardening",
-          "details": "",
+          "details": "Basic security settings, not fully hardened",
           "scoreLabel": "Red"
         }
       ]
     },
     {
-      "id": 5000,
+      "id": 30400,
       "title": "Testing & Quality Assurance",
       "weight": 13,
-      "scorePercent": 0,
+      "scorePercent": 20,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
         {
-          "id": 5001,
+          "id": 30401,
           "title": "Unit Testing",
-          "scorePercent": 0,
+          "scorePercent": 30,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-failure",
           "scoreHints": "Comprehensive unit test coverage",
-          "details": "",
-          "scoreLabel": "Red"
+          "details": "Unit tests exist for core functions (~25% coverage)",
+          "scoreLabel": "Yellow"
         },
         {
-          "id": 5002,
+          "id": 30402,
           "title": "Integration Testing",
-          "scorePercent": 0,
+          "scorePercent": 10,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "System integration and API testing",
-          "details": "",
+          "details": "Very limited integration tests",
           "scoreLabel": "Red"
         },
         {
-          "id": 5003,
+          "id": 30403,
           "title": "Quality Gates",
-          "scorePercent": 0,
+          "scorePercent": 20,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated quality checks in pipeline",
-          "details": "",
+          "details": "Basic linting only, no comprehensive quality gates",
           "scoreLabel": "Red"
         },
         {
-          "id": 5004,
+          "id": 30404,
           "title": "Performance Testing",
-          "scorePercent": 0,
+          "scorePercent": 5,
           "isOptional": true,
           "scoreSuccess": "failure",
           "scoreHints": "Load and performance testing",
-          "details": "",
+          "details": "No formal performance testing",
           "scoreLabel": "Red"
         }
       ]
     },
     {
-      "id": 6000,
+      "id": 30500,
       "title": "Operations & Support",
       "weight": 12,
-      "scorePercent": 0,
+      "scorePercent": 23,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
         {
-          "id": 6001,
+          "id": 30501,
           "title": "Incident Management",
-          "scorePercent": 0,
+          "scorePercent": 20,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Incident response and management process",
-          "details": "",
+          "details": "Informal incident response, needs structure",
           "scoreLabel": "Red"
         },
         {
-          "id": 6002,
+          "id": 30502,
           "title": "Support Documentation",
-          "scorePercent": 0,
+          "scorePercent": 25,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "",
+          "details": "Basic support docs, not comprehensive",
           "scoreLabel": "Red"
         },
         {
-          "id": 6003,
+          "id": 30503,
           "title": "Maintenance Procedures",
-          "scorePercent": 0,
+          "scorePercent": 30,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-failure",
           "scoreHints": "Routine maintenance and updates",
-          "details": "",
-          "scoreLabel": "Red"
+          "details": "Some maintenance procedures documented",
+          "scoreLabel": "Yellow"
         },
         {
-          "id": 6004,
+          "id": 30504,
           "title": "Knowledge Transfer",
-          "scorePercent": 0,
+          "scorePercent": 15,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Team knowledge sharing and transfer",
-          "details": "",
+          "details": "Informal knowledge sharing only",
           "scoreLabel": "Red"
         }
       ]

@@ -1,0 +1,194 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "adminer"
+  },
+  "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+  "scorePercent": 72,
+  "scoreLabel": "Green",
+  "scoreSuccess": "almost-success",
+  "scoringReviewer": "System Review",
+  "scoringReviewDate": "2025-11-05T00:00:00Z",
+  "areaScores": [
+    {
+      "id": 40000,
+      "title": "Documentation & Knowledge",
+      "weight": 17,
+      "scorePercent": 0,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
+      "scoreEntries": [
+        {
+          "id": 40001,
+          "title": "README & Setup Documentation",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Comprehensive setup and usage documentation",
+          "details": "Basic README exists but lacks comprehensive setup instructions",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 40004,
+          "title": "Runbooks & Operations",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "Minimal operational documentation exists",
+          "scoreLabel": "Red"
+        }
+      ]
+    },
+    {
+      "id": 40100,
+      "title": "Observability & Monitoring",
+      "weight": 25,
+      "scorePercent": 0,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
+      "scoreEntries": [
+        {
+          "id": 40101,
+          "title": "Application Monitoring",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Comprehensive application performance monitoring",
+          "details": "Basic server monitoring only, no application-level metrics",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 40103,
+          "title": "Alerting & Notifications",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Proactive alerting on key metrics",
+          "details": "No alerting configured",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 40104,
+          "title": "Health Checks & Dashboards",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Health endpoints and monitoring dashboards",
+          "details": "No health endpoints or dashboards available",
+          "scoreLabel": "Red"
+        }
+      ]
+    },
+    {
+      "id": 40200,
+      "title": "CI/CD & Deployment",
+      "weight": 21,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 40201,
+          "title": "Continuous Integration",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Automated build and test pipeline",
+          "details": "Basic CI setup exists but lacks comprehensive testing",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 40202,
+          "title": "Continuous Deployment",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Automated deployment pipeline",
+          "details": "Manual deployment process",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 40203,
+          "title": "Environment Management",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Proper environment separation and configuration",
+          "details": "Dev and prod environments exist but lack proper separation",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 40300,
+      "title": "Security & Compliance",
+      "weight": 12,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 40302,
+          "title": "Authentication & Authorization",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Proper identity and access management",
+          "details": "Basic auth exists but lacks role-based access control",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 40500,
+      "title": "Operations & Support",
+      "weight": 12,
+      "scorePercent": 15,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
+      "scoreEntries": [
+        {
+          "id": 40501,
+          "title": "Incident Management",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Incident response and management process",
+          "details": "Ad-hoc incident response, no formal process",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 40502,
+          "title": "Support Documentation",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Support procedures and knowledge base",
+          "details": "Limited support documentation available",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 40503,
+          "title": "Maintenance Procedures",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Routine maintenance and updates",
+          "details": "Basic maintenance procedures documented",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 40504,
+          "title": "Knowledge Transfer",
+          "scorePercent": 60,
+          "isOptional": false,
+          "scoreSuccess": "partial",
+          "scoreHints": "Team knowledge sharing and transfer",
+          "details": "No formal knowledge transfer process",
+          "scoreLabel": "Yellow"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "jenkins-jobs"
+  },
+  "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+  "scorePercent": 70,
+  "scoreLabel": "Green",
+  "scoreSuccess": "almost-success",
+  "scoringReviewer": "System Review",
+  "scoringReviewDate": "2025-11-05T00:00:00Z",
+  "areaScores": [
+    {
+      "id": 20000,
+      "title": "Documentation & Knowledge",
+      "weight": 17,
+      "scorePercent": 40,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
+      "scoreEntries": [
+        {
+          "id": 20001,
+          "title": "README & Setup Documentation",
+          "scorePercent": 20,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Comprehensive setup and usage documentation",
+          "details": "README present with setup instructions but incomplete",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 20004,
+          "title": "Runbooks & Operations",
+          "scorePercent": 60,
+          "isOptional": false,
+          "scoreSuccess": "partial",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "Some runbooks exist but need updates",
+          "scoreLabel": "Yellow"
+        }
+      ]
+    },
+    {
+      "id": 20100,
+      "title": "Observability & Monitoring",
+      "weight": 25,
+      "scorePercent": 58,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial",
+      "scoreEntries": [
+        {
+          "id": 20101,
+          "title": "Application Monitoring",
+          "scorePercent": 35,
+          "isOptional": false,
+          "scoreSuccess": "almost-failure",
+          "scoreHints": "Comprehensive application performance monitoring",
+          "details": "Basic monitoring in place, needs expansion",
+          "scoreLabel": "Yellow"
+        },
+        {
+          "id": 20103,
+          "title": "Alerting & Notifications",
+          "scorePercent": 70,
+          "isOptional": false,
+          "scoreSuccess": "almost-success",
+          "scoreHints": "Proactive alerting on key metrics",
+          "details": "Basic alerts configured",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 20104,
+          "title": "Health Checks & Dashboards",
+          "scorePercent": 70,
+          "isOptional": false,
+          "scoreSuccess": "almost-success",
+          "scoreHints": "Health endpoints and monitoring dashboards",
+          "details": "Health check exists, dashboard basic",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 20200,
+      "title": "CI/CD & Deployment",
+      "weight": 21,
+      "scorePercent": 93,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 20201,
+          "title": "Continuous Integration",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Automated build and test pipeline",
+          "details": "CI pipeline functional but needs better test coverage",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 20202,
+          "title": "Continuous Deployment",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Automated deployment pipeline",
+          "details": "Partial automation, manual steps required",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 20203,
+          "title": "Environment Management",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Proper environment separation and configuration",
+          "details": "Environments separated but config management weak",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 20204,
+          "title": "Release Management",
+          "scorePercent": 70,
+          "isOptional": false,
+          "scoreSuccess": "almost-success",
+          "scoreHints": "Structured release process and versioning",
+          "details": "Version control exists, release process ad-hoc",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 20300,
+      "title": "Security & Compliance",
+      "weight": 12,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 20302,
+          "title": "Authentication & Authorization",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Proper identity and access management",
+          "details": "Auth implemented, authorization granularity lacking",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 20303,
+          "title": "Data Protection",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Data encryption and privacy controls",
+          "details": "Partial encryption, data protection needs work",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 20304,
+          "title": "Security Configuration",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Secure configuration and hardening",
+          "details": "Basic security config, not hardened",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 20500,
+      "title": "Operations & Support",
+      "weight": 12,
+      "scorePercent": 57,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial",
+      "scoreEntries": [
+        {
+          "id": 20502,
+          "title": "Support Documentation",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Support procedures and knowledge base",
+          "details": "Support docs exist but scattered",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 20503,
+          "title": "Maintenance Procedures",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Routine maintenance and updates",
+          "details": "Maintenance procedures partially documented",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 20504,
+          "title": "Knowledge Transfer",
+          "scorePercent": 70,
+          "isOptional": false,
+          "scoreSuccess": "almost-success",
+          "scoreHints": "Team knowledge sharing and transfer",
+          "details": "Limited knowledge documentation",
+          "scoreLabel": "Green"
+        }
+      ]
+    }
+  ]
+}
