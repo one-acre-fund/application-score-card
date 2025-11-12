@@ -13,9 +13,9 @@
     {
       "id": 3937,
       "title": "Documentation",
-      "scorePercent": 14,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 86,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 3938,
@@ -51,7 +51,7 @@
         },
         {
           "id": 2210,
-          "title": "Maintanance Procedures",
+          "title": "Maintenance Procedures",
           "scorePercent": 50,
           "scoreSuccess": "almost-success",
           "details": "Need to coordinate with Dev team"
@@ -86,7 +86,7 @@
           "title": "Disaster Recovery Plan",
           "scorePercent": 90,
           "scoreSuccess": "success",
-          "details": "we have regular backups at https://portal.azure.com/#@oneacrefund.org/resource/subscriptions/08ad88d6-3943-4db4-bff0-05b76389669f/resourceGroups/rg-storageaccounts-prod/providers/Microsoft.Storage/storageAccounts/oafdatabasebackups/storagebrowser"
+          "details": "we have regular backups at azure blob storage"
         },
         {
           "id": 2179,
