@@ -30,6 +30,8 @@ class ScoreCalculator {
     this.entityScoresDir = options.entityScoresDir || './entity-scores';
     this.outputFile = options.outputFile || './all.json';
     this.verbose = options.verbose || false;
+    this.reviewer = options.reviewer || null;
+    this.updateTimestamp = options.updateTimestamp || false;
   }
 
   async calculateAllScores() {
@@ -110,6 +112,8 @@ class ScoreCalculator {
     const roundedScore = Math.round(overallScore.scorePercent);
     const calculatedLabel = this.getScoreLabel(roundedScore);
     const calculatedSuccess = this.getScoreSuccess(roundedScore);
+    
+    const now = new Date().toISOString();
 
     const finalScore = {
       entityRef: {
@@ -119,12 +123,12 @@ class ScoreCalculator {
           namespace: data.entityRef.namespace
         })
       },
-      generatedDateTimeUtc: data.generatedDateTimeUtc || new Date().toISOString(),
+      generatedDateTimeUtc: this.updateTimestamp ? now : (data.generatedDateTimeUtc || now),
       scorePercent: roundedScore,
       scoreLabel: calculatedLabel,
       scoreSuccess: calculatedSuccess,
-      ...(data.scoringReviewer && { scoringReviewer: data.scoringReviewer }),
-      ...(data.scoringReviewDate && { scoringReviewDate: data.scoringReviewDate }),
+      scoringReviewer: this.reviewer ? this.reviewer : (data.scoringReviewer || 'System Review'),
+      scoringReviewDate: this.updateTimestamp ? now : (data.scoringReviewDate || now),
       areaScores: processedAreaScores.map(area => ({
         id: area.id,
         title: area.title,
@@ -206,9 +210,19 @@ class ScoreCalculator {
         const originalData = JSON.parse(content);
 
         // Update top-level scores
+        const now = new Date().toISOString();
         originalData.scorePercent = calculatedScore.scorePercent;
         originalData.scoreLabel = calculatedScore.scoreLabel;
         originalData.scoreSuccess = calculatedScore.scoreSuccess;
+        
+        // Update timestamp and reviewer if options are set
+        if (this.updateTimestamp) {
+          originalData.generatedDateTimeUtc = now;
+          originalData.scoringReviewDate = now;
+        }
+        if (this.reviewer) {
+          originalData.scoringReviewer = this.reviewer;
+        }
 
         // Update area scores while preserving scoreEntries
         if (originalData.areaScores && calculatedScore.areaScores) {
@@ -319,6 +333,12 @@ if (require.main === module) {
         break;
       case '--output':
         options.outputFile = args[++i];
+        break;
+      case '--reviewer':
+        options.reviewer = args[++i];
+        break;
+      case '--update-timestamp':
+        options.updateTimestamp = true;
         break;
       case '--verbose':
         options.verbose = true;
