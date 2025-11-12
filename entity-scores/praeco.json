@@ -14,18 +14,18 @@
       "id": 10000,
       "title": "Documentation & Knowledge",
       "weight": 17,
-      "scorePercent": 50,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 10002,
           "title": "Architecture Documentation",
-          "scorePercent": 15,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "System architecture and design documentation",
-          "details": "No architecture documentation",
+          "details": "Architecture documentation are available",
           "scoreLabel": "Red"
         },
         {
