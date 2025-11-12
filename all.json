@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "adminer"
     },
-    "generatedDateTimeUtc": "2025-11-12T12:34:51.141Z",
+    "generatedDateTimeUtc": "2025-11-12T12:38:45.489Z",
     "scorePercent": 72,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2025-11-12T12:34:51.141Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2025-11-12T12:38:45.489Z",
     "areaScores": [
       {
         "id": 40000,
@@ -53,12 +53,12 @@
       "kind": "component",
       "name": "bytebase"
     },
-    "generatedDateTimeUtc": "2025-11-12T12:34:51.142Z",
+    "generatedDateTimeUtc": "2025-11-12T12:38:45.489Z",
     "scorePercent": 24,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2025-11-12T12:34:51.142Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2025-11-12T12:38:45.489Z",
     "areaScores": [
       {
         "id": 30000,
@@ -109,12 +109,12 @@
       "kind": "component",
       "name": "couchbase"
     },
-    "generatedDateTimeUtc": "2021-07-22 10:00",
+    "generatedDateTimeUtc": "2025-11-12T12:38:45.489Z",
     "scorePercent": 76,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
-    "scoringReviewer": "Guest",
-    "scoringReviewDate": "2022-01-04T08:00:00Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2025-11-12T12:38:45.489Z",
     "areaScores": [
       {
         "id": 3937,
@@ -144,12 +144,12 @@
       "kind": "component",
       "name": "elasticsearch"
     },
-    "generatedDateTimeUtc": "2025-11-12T12:34:51.143Z",
+    "generatedDateTimeUtc": "2025-11-12T12:38:45.490Z",
     "scorePercent": 0,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2025-11-12T12:34:51.143Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2025-11-12T12:38:45.490Z",
     "areaScores": [
       {
         "id": 1000,
@@ -200,12 +200,12 @@
       "kind": "component",
       "name": "jenkins-jobs"
     },
-    "generatedDateTimeUtc": "2025-11-12T12:34:51.143Z",
+    "generatedDateTimeUtc": "2025-11-12T12:38:45.490Z",
     "scorePercent": 70,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2025-11-12T12:34:51.143Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2025-11-12T12:38:45.490Z",
     "areaScores": [
       {
         "id": 20000,
@@ -249,12 +249,12 @@
       "kind": "component",
       "name": "odoo-sales"
     },
-    "generatedDateTimeUtc": "2025-11-12T12:34:51.143Z",
+    "generatedDateTimeUtc": "2025-11-12T12:38:45.490Z",
     "scorePercent": 24,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2025-11-12T12:34:51.143Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2025-11-12T12:38:45.490Z",
     "areaScores": [
       {
         "id": 2199,
@@ -284,12 +284,12 @@
       "kind": "component",
       "name": "praeco"
     },
-    "generatedDateTimeUtc": "2025-11-12T12:34:51.143Z",
+    "generatedDateTimeUtc": "2025-11-12T12:38:45.490Z",
     "scorePercent": 95,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2025-11-12T12:34:51.143Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2025-11-12T12:38:45.490Z",
     "areaScores": [
       {
         "id": 10000,
