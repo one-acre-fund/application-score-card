@@ -26,7 +26,7 @@
           "scoreSuccess": "success",
           "scoreHints": "System architecture and design documentation",
           "details": "Architecture documentation are available",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 10004,
@@ -55,7 +55,7 @@
           "isOptional": false,
           "scoreSuccess": "success",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "Uptime monitoring triggers an alert if the Praeco service is down.",
+          "details": "Uptime monitoring is available and triggers an alert if the Praeco service is down.",
           "scoreLabel": "Green"
         }
       ]
@@ -85,7 +85,7 @@
           "isOptional": false,
           "scoreSuccess": "success",
           "scoreHints": "Automated deployment pipeline",
-          "details": "Fully manual deployment",
+          "details": "Fully automated deployment",
           "scoreLabel": "Green"
         },
         {
@@ -95,7 +95,7 @@
           "isOptional": false,
           "scoreSuccess": "success",
           "scoreHints": "Proper environment separation and configuration",
-          "details": "Single environment, no separation",
+          "details": "Environments include Integration, QA and Production",
           "scoreLabel": "Green"
         }
       ]
@@ -115,7 +115,7 @@
           "isOptional": false,
           "scoreSuccess": "success",
           "scoreHints": "Proper identity and access management",
-          "details": "Basic authentication only",
+          "details": "Authentication and access management are handled through Keycloak, providing centralized Single Sign-On (SSO) and role-based access control.",
           "scoreLabel": "Green"
         }
       ]
@@ -126,7 +126,7 @@
       "weight": 12,
       "scorePercent": 75,
       "scoreLabel": "Green",
-      "scoreSuccess": "almost-success",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 10502,
@@ -135,7 +135,7 @@
           "isOptional": false,
           "scoreSuccess": "success",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "Very minimal support documentation",
+          "details": "Support documentation is available",
           "scoreLabel": "Green"
         },
         {
@@ -145,7 +145,7 @@
           "isOptional": false,
           "scoreSuccess": "success",
           "scoreHints": "Routine maintenance and updates",
-          "details": "No documented maintenance procedures",
+          "details": "Documented maintenance procedures available",
           "scoreLabel": "Green"
         },
         {
@@ -155,7 +155,7 @@
           "isOptional": false,
           "scoreSuccess": "success",
           "scoreHints": "Team knowledge sharing and transfer",
-          "details": "No knowledge transfer process",
+          "details": "Completed team training sessions; recording available for review.",
           "scoreLabel": "Green"
         }
       ]
