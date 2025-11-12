@@ -3,12 +3,12 @@
     "kind": "component",
     "name": "couchbase"
   },
-  "generatedDateTimeUtc": "2021-07-22 10:00",
-  "scorePercent": 35,
-  "scoreLabel": "Yellow",
-  "scoreSuccess": "almost-failure",
-  "scoringReviewer": "Guest",
-  "scoringReviewDate": "2022-01-04T08:00:00Z",
+  "generatedDateTimeUtc": "2025-11-12T12:34:51.152Z",
+  "scorePercent": 76,
+  "scoreLabel": "Green",
+  "scoreSuccess": "almost-success",
+  "scoringReviewer": "GitHub Action",
+  "scoringReviewDate": "2025-11-12T12:34:51.152Z",
   "areaScores": [
     {
       "id": 3937,
@@ -23,8 +23,8 @@
           "scorePercent": 100,
           "scoreSuccess": "success",
           "scoreHints": "Documentations is fully in place",
-          "details": "https://backstage.oneacrefund.org/catalog/default/component/couchbase/docs"
-
+          "details": "https://backstage.oneacrefund.org/catalog/default/component/couchbase/docs",
+          "scoreLabel": "Green"
         },
         {
           "id": 3940,
@@ -33,37 +33,41 @@
           "scorePercent": 100,
           "scoreSuccess": "success",
           "scoreHints": "In place continually add to documentation as architecture evolves",
-          "details": "https://backstage.oneacrefund.org/catalog/default/component/couchbase/docs/architecture/"
+          "details": "https://backstage.oneacrefund.org/catalog/default/component/couchbase/docs/architecture/",
+          "scoreLabel": "Green"
         },
         {
           "id": 2207,
           "title": "README",
           "scoreSuccess": "success",
           "scorePercent": 100,
-          "details": "https://github.com/one-acre-fund/couchbase-k8s/blob/master/README.md"
+          "details": "https://github.com/one-acre-fund/couchbase-k8s/blob/master/README.md",
+          "scoreLabel": "Green"
         },
         {
           "id": 2170,
           "title": "Monitoring Guides",
           "scoreSuccess": "success",
           "scorePercent": 80,
-          "details": "https://backstage.oneacrefund.org/catalog/default/component/couchbase/docs/guides/monitoring/"
+          "details": "https://backstage.oneacrefund.org/catalog/default/component/couchbase/docs/guides/monitoring/",
+          "scoreLabel": "Green"
         },
         {
           "id": 2210,
           "title": "Maintenance Procedures",
           "scorePercent": 50,
-          "scoreSuccess": "almost-success",
-          "details": "Need to coordinate with Dev team"
+          "scoreSuccess": "partial",
+          "details": "Need to coordinate with Dev team",
+          "scoreLabel": "Yellow"
         }
       ]
     },
     {
       "id": 2208,
       "title": "Operations",
-      "scorePercent": 58,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "partial",
+      "scorePercent": 74,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
       "scoreEntries": [
         {
           "id": 2176,
@@ -110,9 +114,9 @@
     {
       "id": 2208,
       "title": "Monitoring",
-      "scorePercent": 58,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "partial",
+      "scorePercent": 74,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
       "scoreEntries": [
         {
           "id": 2181,

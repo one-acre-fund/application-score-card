@@ -150,10 +150,16 @@ class PRMergeProcessor {
   async updateScores() {
     console.log('\\n🔢 Calculating and updating scores...');
     
+    // Get GitHub username from environment or git config
+    const reviewer = this.getReviewer();
+    console.log(`📝 Reviewer: ${reviewer}`);
+    
     const calculator = new ScoreCalculator({
       entityScoresDir: './entity-scores',
       outputFile: './all.json',
-      verbose: true
+      verbose: true,
+      reviewer: reviewer,
+      updateTimestamp: true
     });
 
     try {
@@ -215,6 +221,52 @@ class PRMergeProcessor {
     } catch (error) {
       return false;
     }
+  }
+
+  getReviewer() {
+    // Try to get GitHub username from various sources
+    // 1. GitHub Actions environment variable (actor who triggered the workflow)
+    if (process.env.GITHUB_ACTOR) {
+      return process.env.GITHUB_ACTOR;
+    }
+    
+    // 2. Pull request author from GitHub context
+    if (process.env.GITHUB_EVENT_PATH) {
+      try {
+        const eventData = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
+        if (eventData.pull_request && eventData.pull_request.merged_by && eventData.pull_request.merged_by.login) {
+          return eventData.pull_request.merged_by.login;
+        }
+        if (eventData.pull_request && eventData.pull_request.user && eventData.pull_request.user.login) {
+          return eventData.pull_request.user.login;
+        }
+      } catch (error) {
+        console.warn('⚠️  Could not read GitHub event data:', error.message);
+      }
+    }
+    
+    // 3. Git config user
+    try {
+      const gitUser = execSync('git config user.name', { encoding: 'utf8' }).trim();
+      if (gitUser) {
+        return gitUser;
+      }
+    } catch (error) {
+      console.warn('⚠️  Could not get git user name:', error.message);
+    }
+    
+    // 4. Fallback to system user
+    try {
+      const systemUser = execSync('whoami', { encoding: 'utf8' }).trim();
+      if (systemUser) {
+        return systemUser;
+      }
+    } catch (error) {
+      console.warn('⚠️  Could not get system user:', error.message);
+    }
+    
+    // 5. Final fallback
+    return 'Unknown';
   }
 
   generatePRComment(result) {
