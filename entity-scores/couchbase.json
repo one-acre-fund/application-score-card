@@ -86,7 +86,8 @@
           "title": "Disaster Recovery Plan",
           "scorePercent": 90,
           "scoreSuccess": "success",
-          "details": "we have regular backups at azure blob storage"
+          "details": "we have regular backups at azure blob storage",
+          "scoreLabel": "Green"
         },
         {
           "id": 2179,
@@ -126,7 +127,8 @@
           "title": "Preventive Alerts",
           "scorePercent": 100,
           "scoreSuccess": "success",
-          "details": "https://alerts.oneacrefund.org/folders/rules/Field%20Apps%2FCouchbase%2F"
+          "details": "https://alerts.oneacrefund.org/folders/rules/Field%20Apps%2FCouchbase%2F",
+          "scoreLabel": "Green"
         },
         {
           "id": 2173,
