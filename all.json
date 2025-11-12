@@ -284,7 +284,7 @@
       "name": "praeco"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-    "scorePercent": 87,
+    "scorePercent": 95,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
     "scoringReviewer": "System Review",
@@ -293,9 +293,9 @@
       {
         "id": 10000,
         "title": "Documentation & Knowledge",
-        "scorePercent": 33,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "almost-failure"
+        "scorePercent": 75,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
       },
       {
         "id": 10100,
