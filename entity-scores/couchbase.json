@@ -13,52 +13,48 @@
     {
       "id": 3937,
       "title": "Documentation",
-      "scorePercent": 14,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 86,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 3938,
           "title": "Project introduction",
-          "scorePercent": 10,
-          "scoreSuccess": "failure",
-          "scoreHints": "We have scattered documentation",
-          "details": "Need to move everything to backstage",
-          "scoreLabel": "Red"
+          "scorePercent": 100,
+          "scoreSuccess": "success",
+          "scoreHints": "Documentations is fully in place",
+          "details": "https://backstage.oneacrefund.org/catalog/default/component/couchbase/docs"
+
         },
         {
           "id": 3940,
           "title": "Architecture",
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
-          "scoreHints": "None whatsoever: 50%",
-          "details": "Need to document couchbase ecosystedm architecture",
-          "scoreLabel": "Red"
+          "scorePercent": 100,
+          "scoreSuccess": "success",
+          "scoreHints": "In place continually add to documentation as architecture evolves",
+          "details": "https://backstage.oneacrefund.org/catalog/default/component/couchbase/docs/architecture/"
         },
         {
           "id": 2207,
           "title": "README",
-          "scoreSuccess": "almost-failure",
-          "scorePercent": 30,
-          "details": "...",
-          "scoreLabel": "Yellow"
+          "scoreSuccess": "success",
+          "scorePercent": 100,
+          "details": "https://github.com/one-acre-fund/couchbase-k8s/blob/master/README.md"
         },
         {
           "id": 2170,
           "title": "Monitoring Guides",
-          "scoreSuccess": "almost-failure",
-          "scorePercent": 30,
-          "details": "Scattered documentation",
-          "scoreLabel": "Yellow"
+          "scoreSuccess": "success",
+          "scorePercent": 80,
+          "details": "https://backstage.oneacrefund.org/catalog/default/component/couchbase/docs/guides/monitoring/"
         },
         {
           "id": 2210,
-          "title": "Maintanance Procedures",
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
-          "details": "Need to coordinate with Dev team",
-          "scoreLabel": "Red"
+          "title": "Maintenance Procedures",
+          "scorePercent": 50,
+          "scoreSuccess": "almost-success",
+          "details": "Need to coordinate with Dev team"
         }
       ]
     },
@@ -88,10 +84,9 @@
         {
           "id": 3941,
           "title": "Disaster Recovery Plan",
-          "scorePercent": 10,
-          "scoreSuccess": "failure",
-          "details": "...",
-          "scoreLabel": "Red"
+          "scorePercent": 90,
+          "scoreSuccess": "success",
+          "details": "we have regular backups at azure blob storage"
         },
         {
           "id": 2179,
@@ -129,10 +124,9 @@
         {
           "id": 2173,
           "title": "Preventive Alerts",
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
-          "details": "No preventive alerts yet",
-          "scoreLabel": "Red"
+          "scorePercent": 100,
+          "scoreSuccess": "success",
+          "details": "https://alerts.oneacrefund.org/folders/rules/Field%20Apps%2FCouchbase%2F"
         },
         {
           "id": 2173,
