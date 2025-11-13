@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "adminer"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:42:23.347Z",
+    "generatedDateTimeUtc": "2025-11-13T11:48:56.906Z",
     "scorePercent": 65,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:42:23.347Z",
+    "scoringReviewDate": "2025-11-13T11:48:56.906Z",
     "areaScores": [
       {
         "id": 40000,
@@ -46,12 +46,12 @@
       "kind": "component",
       "name": "bytebase"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:42:23.347Z",
+    "generatedDateTimeUtc": "2025-11-13T11:48:56.907Z",
     "scorePercent": 23,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:42:23.347Z",
+    "scoringReviewDate": "2025-11-13T11:48:56.907Z",
     "areaScores": [
       {
         "id": 30000,
@@ -95,12 +95,12 @@
       "kind": "component",
       "name": "couchbase"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:42:23.348Z",
+    "generatedDateTimeUtc": "2025-11-13T11:48:56.907Z",
     "scorePercent": 76,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:42:23.348Z",
+    "scoringReviewDate": "2025-11-13T11:48:56.907Z",
     "areaScores": [
       {
         "id": 3937,
@@ -130,12 +130,12 @@
       "kind": "component",
       "name": "elasticsearch"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:42:23.348Z",
+    "generatedDateTimeUtc": "2025-11-13T11:48:56.907Z",
     "scorePercent": 0,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:42:23.348Z",
+    "scoringReviewDate": "2025-11-13T11:48:56.907Z",
     "areaScores": [
       {
         "id": 1000,
@@ -172,12 +172,12 @@
       "kind": "component",
       "name": "jenkins"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:42:23.348Z",
+    "generatedDateTimeUtc": "2025-11-13T11:48:56.908Z",
     "scorePercent": 64,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:42:23.348Z",
+    "scoringReviewDate": "2025-11-13T11:48:56.908Z",
     "areaScores": [
       {
         "id": 20000,
@@ -214,12 +214,12 @@
       "kind": "component",
       "name": "odoo-sales"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:42:23.348Z",
+    "generatedDateTimeUtc": "2025-11-13T11:48:56.908Z",
     "scorePercent": 24,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:42:23.348Z",
+    "scoringReviewDate": "2025-11-13T11:48:56.908Z",
     "areaScores": [
       {
         "id": 2199,
@@ -249,23 +249,23 @@
       "kind": "component",
       "name": "praeco"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:42:23.349Z",
+    "generatedDateTimeUtc": "2025-11-13T11:48:56.908Z",
     "scorePercent": 95,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:42:23.349Z",
+    "scoringReviewDate": "2025-11-13T11:48:56.908Z",
     "areaScores": [
       {
         "id": 10000,
-        "title": "Documentation & Knowledge",
+        "title": "Documentation",
         "scorePercent": 75,
         "scoreLabel": "Green",
         "scoreSuccess": "almost-success"
       },
       {
         "id": 10100,
-        "title": "Observability & Monitoring",
+        "title": "Monitoring",
         "scorePercent": 100,
         "scoreLabel": "Green",
         "scoreSuccess": "success"
@@ -279,14 +279,14 @@
       },
       {
         "id": 10300,
-        "title": "Security & Compliance",
+        "title": "Security",
         "scorePercent": 100,
         "scoreLabel": "Green",
         "scoreSuccess": "success"
       },
       {
         "id": 10500,
-        "title": "Operations & Support",
+        "title": "Operations",
         "scorePercent": 100,
         "scoreLabel": "Green",
         "scoreSuccess": "success"
