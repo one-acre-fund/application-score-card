@@ -61,46 +61,6 @@
       ]
     },
     {
-      "id": 10200,
-      "title": "CI/CD & Deployment",
-      "weight": 21,
-      "scorePercent": 100,
-      "scoreLabel": "Green",
-      "scoreSuccess": "success",
-      "scoreEntries": [
-        {
-          "id": 10201,
-          "title": "Continuous Integration",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Automated build and test pipeline",
-          "details": "Basic CI, minimal testing",
-          "scoreLabel": "Green"
-        },
-        {
-          "id": 10202,
-          "title": "Continuous Deployment",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Automated deployment pipeline",
-          "details": "Fully automated deployment",
-          "scoreLabel": "Green"
-        },
-        {
-          "id": 10203,
-          "title": "Environment Management",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Proper environment separation and configuration",
-          "details": "Environments include Integration, QA and Production",
-          "scoreLabel": "Green"
-        }
-      ]
-    },
-    {
       "id": 10300,
       "title": "Security",
       "weight": 12,
