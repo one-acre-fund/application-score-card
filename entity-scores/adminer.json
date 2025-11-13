@@ -12,7 +12,7 @@
   "areaScores": [
     {
       "id": 40000,
-      "title": "Documentation & Knowledge",
+      "title": "Documentation",
       "weight": 17,
       "scorePercent": 0,
       "scoreLabel": "Red",
@@ -42,7 +42,7 @@
     },
     {
       "id": 40100,
-      "title": "Observability & Monitoring",
+      "title": "Monitoring",
       "weight": 25,
       "scorePercent": 0,
       "scoreLabel": "Red",
@@ -81,48 +81,8 @@
       ]
     },
     {
-      "id": 40200,
-      "title": "CI/CD & Deployment",
-      "weight": 21,
-      "scorePercent": 100,
-      "scoreLabel": "Green",
-      "scoreSuccess": "success",
-      "scoreEntries": [
-        {
-          "id": 40201,
-          "title": "Continuous Integration",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Automated build and test pipeline",
-          "details": "Basic CI setup exists but lacks comprehensive testing",
-          "scoreLabel": "Green"
-        },
-        {
-          "id": 40202,
-          "title": "Continuous Deployment",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Automated deployment pipeline",
-          "details": "Manual deployment process",
-          "scoreLabel": "Green"
-        },
-        {
-          "id": 40203,
-          "title": "Environment Management",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Proper environment separation and configuration",
-          "details": "Dev and prod environments exist but lack proper separation",
-          "scoreLabel": "Green"
-        }
-      ]
-    },
-    {
       "id": 40300,
-      "title": "Security & Compliance",
+      "title": "Security",
       "weight": 12,
       "scorePercent": 100,
       "scoreLabel": "Green",
@@ -148,26 +108,6 @@
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
-        {
-          "id": 40501,
-          "title": "Incident Management",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Incident response and management process",
-          "details": "Ad-hoc incident response, no formal process",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 40502,
-          "title": "Support Documentation",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Support procedures and knowledge base",
-          "details": "Limited support documentation available",
-          "scoreLabel": "Red"
-        },
         {
           "id": 40503,
           "title": "Maintenance Procedures",

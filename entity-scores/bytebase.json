@@ -12,7 +12,7 @@
   "areaScores": [
     {
       "id": 30000,
-      "title": "Documentation & Knowledge",
+      "title": "Documentation",
       "weight": 17,
       "scorePercent": 22,
       "scoreLabel": "Red",
@@ -62,7 +62,7 @@
     },
     {
       "id": 30100,
-      "title": "Observability & Monitoring",
+      "title": "Monitoring",
       "weight": 25,
       "scorePercent": 25,
       "scoreLabel": "Red",
@@ -80,7 +80,7 @@
         },
         {
           "id": 30102,
-          "title": "Logging & Centralization",
+          "title": "Logging",
           "scorePercent": 40,
           "isOptional": false,
           "scoreSuccess": "almost-failure",
@@ -111,58 +111,8 @@
       ]
     },
     {
-      "id": 30200,
-      "title": "CI/CD & Deployment",
-      "weight": 21,
-      "scorePercent": 30,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "almost-failure",
-      "scoreEntries": [
-        {
-          "id": 30201,
-          "title": "Continuous Integration",
-          "scorePercent": 45,
-          "isOptional": false,
-          "scoreSuccess": "almost-failure",
-          "scoreHints": "Automated build and test pipeline",
-          "details": "CI pipeline exists with basic tests",
-          "scoreLabel": "Yellow"
-        },
-        {
-          "id": 30202,
-          "title": "Continuous Deployment",
-          "scorePercent": 20,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Automated deployment pipeline",
-          "details": "Semi-automated deployment, requires manual approval",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 30203,
-          "title": "Environment Management",
-          "scorePercent": 30,
-          "isOptional": false,
-          "scoreSuccess": "almost-failure",
-          "scoreHints": "Proper environment separation and configuration",
-          "details": "Environments exist but configuration management needs work",
-          "scoreLabel": "Yellow"
-        },
-        {
-          "id": 30204,
-          "title": "Release Management",
-          "scorePercent": 25,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Structured release process and versioning",
-          "details": "Basic versioning exists, release process informal",
-          "scoreLabel": "Red"
-        }
-      ]
-    },
-    {
       "id": 30300,
-      "title": "Security & Compliance",
+      "title": "Security",
       "weight": 12,
       "scorePercent": 26,
       "scoreLabel": "Red",
@@ -212,7 +162,7 @@
     },
     {
       "id": 30400,
-      "title": "Testing & Quality Assurance",
+      "title": "Quality",
       "weight": 13,
       "scorePercent": 20,
       "scoreLabel": "Red",
@@ -262,32 +212,12 @@
     },
     {
       "id": 30500,
-      "title": "Operations & Support",
+      "title": "Operations",
       "weight": 12,
       "scorePercent": 23,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
-        {
-          "id": 30501,
-          "title": "Incident Management",
-          "scorePercent": 20,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Incident response and management process",
-          "details": "Informal incident response, needs structure",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 30502,
-          "title": "Support Documentation",
-          "scorePercent": 25,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Support procedures and knowledge base",
-          "details": "Basic support docs, not comprehensive",
-          "scoreLabel": "Red"
-        },
         {
           "id": 30503,
           "title": "Maintenance Procedures",

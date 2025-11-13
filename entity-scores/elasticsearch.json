@@ -12,7 +12,7 @@
   "areaScores": [
     {
       "id": 1000,
-      "title": "Documentation & Knowledge",
+      "title": "Documentation",
       "weight": 17,
       "scorePercent": 0,
       "scoreLabel": "Red",
@@ -62,7 +62,7 @@
     },
     {
       "id": 2000,
-      "title": "Observability & Monitoring",
+      "title": "Monitoring",
       "weight": 25,
       "scorePercent": 0,
       "scoreLabel": "Red",
@@ -80,7 +80,7 @@
         },
         {
           "id": 2002,
-          "title": "Logging & Centralization",
+          "title": "Logging",
           "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
@@ -111,58 +111,8 @@
       ]
     },
     {
-      "id": 3000,
-      "title": "CI/CD & Deployment",
-      "weight": 21,
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
-      "scoreEntries": [
-        {
-          "id": 3001,
-          "title": "Continuous Integration",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Automated build and test pipeline",
-          "details": "",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 3002,
-          "title": "Continuous Deployment",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Automated deployment pipeline",
-          "details": "",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 3003,
-          "title": "Environment Management",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Proper environment separation and configuration",
-          "details": "",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 3004,
-          "title": "Release Management",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Structured release process and versioning",
-          "details": "",
-          "scoreLabel": "Red"
-        }
-      ]
-    },
-    {
       "id": 4000,
-      "title": "Security & Compliance",
+      "title": "Security",
       "weight": 12,
       "scorePercent": 0,
       "scoreLabel": "Red",
@@ -211,83 +161,13 @@
       ]
     },
     {
-      "id": 5000,
-      "title": "Testing & Quality Assurance",
-      "weight": 13,
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
-      "scoreEntries": [
-        {
-          "id": 5001,
-          "title": "Unit Testing",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Comprehensive unit test coverage",
-          "details": "",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 5002,
-          "title": "Integration Testing",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "System integration and API testing",
-          "details": "",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 5003,
-          "title": "Quality Gates",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Automated quality checks in pipeline",
-          "details": "",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 5004,
-          "title": "Performance Testing",
-          "scorePercent": 0,
-          "isOptional": true,
-          "scoreSuccess": "failure",
-          "scoreHints": "Load and performance testing",
-          "details": "",
-          "scoreLabel": "Red"
-        }
-      ]
-    },
-    {
       "id": 6000,
-      "title": "Operations & Support",
+      "title": "Operations",
       "weight": 12,
       "scorePercent": 0,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
-        {
-          "id": 6001,
-          "title": "Incident Management",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Incident response and management process",
-          "details": "",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 6002,
-          "title": "Support Documentation",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Support procedures and knowledge base",
-          "details": "",
-          "scoreLabel": "Red"
-        },
         {
           "id": 6003,
           "title": "Maintenance Procedures",
