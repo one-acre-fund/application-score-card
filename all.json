@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "adminer"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:48:56.906Z",
+    "generatedDateTimeUtc": "2025-11-13T12:00:06.043Z",
     "scorePercent": 65,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:48:56.906Z",
+    "scoringReviewDate": "2025-11-13T12:00:06.043Z",
     "areaScores": [
       {
         "id": 40000,
@@ -34,7 +34,7 @@
       },
       {
         "id": 40500,
-        "title": "Operations & Support",
+        "title": "Operations",
         "scorePercent": 30,
         "scoreLabel": "Yellow",
         "scoreSuccess": "almost-failure"
@@ -46,12 +46,12 @@
       "kind": "component",
       "name": "bytebase"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:48:56.907Z",
+    "generatedDateTimeUtc": "2025-11-13T12:00:06.043Z",
     "scorePercent": 23,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:48:56.907Z",
+    "scoringReviewDate": "2025-11-13T12:00:06.043Z",
     "areaScores": [
       {
         "id": 30000,
@@ -95,12 +95,12 @@
       "kind": "component",
       "name": "couchbase"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:48:56.907Z",
+    "generatedDateTimeUtc": "2025-11-13T12:00:06.044Z",
     "scorePercent": 76,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:48:56.907Z",
+    "scoringReviewDate": "2025-11-13T12:00:06.044Z",
     "areaScores": [
       {
         "id": 3937,
@@ -130,12 +130,12 @@
       "kind": "component",
       "name": "elasticsearch"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:48:56.907Z",
+    "generatedDateTimeUtc": "2025-11-13T12:00:06.044Z",
     "scorePercent": 0,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:48:56.907Z",
+    "scoringReviewDate": "2025-11-13T12:00:06.044Z",
     "areaScores": [
       {
         "id": 1000,
@@ -172,12 +172,12 @@
       "kind": "component",
       "name": "jenkins"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:48:56.908Z",
+    "generatedDateTimeUtc": "2025-11-13T12:00:06.044Z",
     "scorePercent": 64,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:48:56.908Z",
+    "scoringReviewDate": "2025-11-13T12:00:06.044Z",
     "areaScores": [
       {
         "id": 20000,
@@ -214,12 +214,12 @@
       "kind": "component",
       "name": "odoo-sales"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:48:56.908Z",
+    "generatedDateTimeUtc": "2025-11-13T12:00:06.044Z",
     "scorePercent": 24,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:48:56.908Z",
+    "scoringReviewDate": "2025-11-13T12:00:06.044Z",
     "areaScores": [
       {
         "id": 2199,
@@ -249,12 +249,12 @@
       "kind": "component",
       "name": "praeco"
     },
-    "generatedDateTimeUtc": "2025-11-13T11:48:56.908Z",
-    "scorePercent": 95,
+    "generatedDateTimeUtc": "2025-11-13T12:00:06.045Z",
+    "scorePercent": 94,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T11:48:56.908Z",
+    "scoringReviewDate": "2025-11-13T12:00:06.045Z",
     "areaScores": [
       {
         "id": 10000,
@@ -266,13 +266,6 @@
       {
         "id": 10100,
         "title": "Monitoring",
-        "scorePercent": 100,
-        "scoreLabel": "Green",
-        "scoreSuccess": "success"
-      },
-      {
-        "id": 10200,
-        "title": "CI/CD & Deployment",
         "scorePercent": 100,
         "scoreLabel": "Green",
         "scoreSuccess": "success"
