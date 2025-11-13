@@ -12,7 +12,7 @@
   "areaScores": [
     {
       "id": 10000,
-      "title": "Documentation & Knowledge",
+      "title": "Documentation",
       "weight": 17,
       "scorePercent": 100,
       "scoreLabel": "Green",
@@ -42,7 +42,7 @@
     },
     {
       "id": 10100,
-      "title": "Observability & Monitoring",
+      "title": "Monitoring",
       "weight": 25,
       "scorePercent": 100,
       "scoreLabel": "Green",
@@ -102,7 +102,7 @@
     },
     {
       "id": 10300,
-      "title": "Security & Compliance",
+      "title": "Security",
       "weight": 12,
       "scorePercent": 100,
       "scoreLabel": "Green",
@@ -122,7 +122,7 @@
     },
     {
       "id": 10500,
-      "title": "Operations & Support",
+      "title": "Operations",
       "weight": 12,
       "scorePercent": 75,
       "scoreLabel": "Green",
