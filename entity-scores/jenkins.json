@@ -1,7 +1,7 @@
 {
   "entityRef": {
     "kind": "component",
-    "name": "jenkins-jobs"
+    "name": "jenkins"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
   "scorePercent": 70,
@@ -12,7 +12,7 @@
   "areaScores": [
     {
       "id": 20000,
-      "title": "Documentation & Knowledge",
+      "title": "Documentation",
       "weight": 17,
       "scorePercent": 40,
       "scoreLabel": "Yellow",
@@ -42,7 +42,7 @@
     },
     {
       "id": 20100,
-      "title": "Observability & Monitoring",
+      "title": "Monitoring",
       "weight": 25,
       "scorePercent": 58,
       "scoreLabel": "Yellow",
@@ -81,58 +81,8 @@
       ]
     },
     {
-      "id": 20200,
-      "title": "CI/CD & Deployment",
-      "weight": 21,
-      "scorePercent": 93,
-      "scoreLabel": "Green",
-      "scoreSuccess": "success",
-      "scoreEntries": [
-        {
-          "id": 20201,
-          "title": "Continuous Integration",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Automated build and test pipeline",
-          "details": "CI pipeline functional but needs better test coverage",
-          "scoreLabel": "Green"
-        },
-        {
-          "id": 20202,
-          "title": "Continuous Deployment",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Automated deployment pipeline",
-          "details": "Partial automation, manual steps required",
-          "scoreLabel": "Green"
-        },
-        {
-          "id": 20203,
-          "title": "Environment Management",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Proper environment separation and configuration",
-          "details": "Environments separated but config management weak",
-          "scoreLabel": "Green"
-        },
-        {
-          "id": 20204,
-          "title": "Release Management",
-          "scorePercent": 70,
-          "isOptional": false,
-          "scoreSuccess": "almost-success",
-          "scoreHints": "Structured release process and versioning",
-          "details": "Version control exists, release process ad-hoc",
-          "scoreLabel": "Green"
-        }
-      ]
-    },
-    {
       "id": 20300,
-      "title": "Security & Compliance",
+      "title": "Security",
       "weight": 12,
       "scorePercent": 100,
       "scoreLabel": "Green",
@@ -172,7 +122,7 @@
     },
     {
       "id": 20500,
-      "title": "Operations & Support",
+      "title": "Operations",
       "weight": 12,
       "scorePercent": 57,
       "scoreLabel": "Yellow",
