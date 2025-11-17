@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "adminer"
     },
-    "generatedDateTimeUtc": "2025-11-13T12:00:06.043Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 65,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
-    "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T12:00:06.043Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 40000,
@@ -46,12 +46,12 @@
       "kind": "component",
       "name": "bytebase"
     },
-    "generatedDateTimeUtc": "2025-11-13T12:00:06.043Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 23,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T12:00:06.043Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 30000,
@@ -95,12 +95,12 @@
       "kind": "component",
       "name": "couchbase"
     },
-    "generatedDateTimeUtc": "2025-11-13T12:00:06.044Z",
+    "generatedDateTimeUtc": "2025-11-12T12:34:51.152Z",
     "scorePercent": 76,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
-    "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T12:00:06.044Z",
+    "scoringReviewer": "GitHub Action",
+    "scoringReviewDate": "2025-11-12T12:34:51.152Z",
     "areaScores": [
       {
         "id": 3937,
@@ -130,12 +130,12 @@
       "kind": "component",
       "name": "elasticsearch"
     },
-    "generatedDateTimeUtc": "2025-11-13T12:00:06.044Z",
+    "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
     "scorePercent": 0,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T12:00:06.044Z",
+    "scoringReviewer": "Pending Review",
+    "scoringReviewDate": "2025-11-17T14:49:15.646Z",
     "areaScores": [
       {
         "id": 1000,
@@ -172,19 +172,19 @@
       "kind": "component",
       "name": "jenkins"
     },
-    "generatedDateTimeUtc": "2025-11-13T12:00:06.044Z",
-    "scorePercent": 64,
-    "scoreLabel": "Yellow",
-    "scoreSuccess": "partial",
-    "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T12:00:06.044Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+    "scorePercent": 80,
+    "scoreLabel": "Green",
+    "scoreSuccess": "success",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 20000,
         "title": "Documentation",
-        "scorePercent": 40,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "almost-failure"
+        "scorePercent": 80,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
         "id": 20100,
@@ -203,9 +203,9 @@
       {
         "id": 20500,
         "title": "Operations",
-        "scorePercent": 57,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "partial"
+        "scorePercent": 83,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       }
     ]
   },
@@ -214,12 +214,12 @@
       "kind": "component",
       "name": "odoo-sales"
     },
-    "generatedDateTimeUtc": "2025-11-13T12:00:06.044Z",
+    "generatedDateTimeUtc": "2021-07-22 10:00",
     "scorePercent": 24,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T12:00:06.044Z",
+    "scoringReviewer": "Guest",
+    "scoringReviewDate": "2022-01-04T08:00:00Z",
     "areaScores": [
       {
         "id": 2199,
@@ -249,12 +249,12 @@
       "kind": "component",
       "name": "praeco"
     },
-    "generatedDateTimeUtc": "2025-11-13T12:00:06.045Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 94,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
-    "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2025-11-13T12:00:06.045Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 10000,

@@ -4,9 +4,9 @@
     "name": "praeco"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 72,
+  "scorePercent": 94,
   "scoreLabel": "Green",
-  "scoreSuccess": "almost-success",
+  "scoreSuccess": "success",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -14,9 +14,9 @@
       "id": 10000,
       "title": "Documentation",
       "weight": 17,
-      "scorePercent": 100,
+      "scorePercent": 75,
       "scoreLabel": "Green",
-      "scoreSuccess": "success",
+      "scoreSuccess": "almost-success",
       "scoreEntries": [
         {
           "id": 10002,
@@ -33,10 +33,10 @@
           "title": "Runbooks & Operations",
           "scorePercent": 50,
           "isOptional": false,
-          "scoreSuccess": "success",
+          "scoreSuccess": "partial",
           "scoreHints": "Operational procedures and troubleshooting guides",
           "details": "Runbooks available",
-          "scoreLabel": "Green"
+          "scoreLabel": "Yellow"
         }
       ]
     },
@@ -84,7 +84,7 @@
       "id": 10500,
       "title": "Operations",
       "weight": 12,
-      "scorePercent": 75,
+      "scorePercent": 100,
       "scoreLabel": "Green",
       "scoreSuccess": "success",
       "scoreEntries": [
