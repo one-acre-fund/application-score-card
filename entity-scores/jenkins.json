@@ -21,7 +21,7 @@
         {
           "id": 20001,
           "title": "README & Setup Documentation",
-          "scorePercent": 20,
+          "scorePercent": 80,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive setup and usage documentation",
@@ -31,7 +31,7 @@
         {
           "id": 20004,
           "title": "Runbooks & Operations",
-          "scorePercent": 60,
+          "scorePercent": 80,
           "isOptional": false,
           "scoreSuccess": "partial",
           "scoreHints": "Operational procedures and troubleshooting guides",
@@ -131,7 +131,7 @@
         {
           "id": 20502,
           "title": "Support Documentation",
-          "scorePercent": 0,
+          "scorePercent": 80,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Support procedures and knowledge base",
