@@ -4,9 +4,9 @@
     "name": "jenkins"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 70,
+  "scorePercent": 80,
   "scoreLabel": "Green",
-  "scoreSuccess": "almost-success",
+  "scoreSuccess": "success",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -14,29 +14,29 @@
       "id": 20000,
       "title": "Documentation",
       "weight": 17,
-      "scorePercent": 40,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "almost-failure",
+      "scorePercent": 80,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 20001,
           "title": "README & Setup Documentation",
           "scorePercent": 80,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Comprehensive setup and usage documentation",
           "details": "README present with setup instructions but incomplete",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 20004,
           "title": "Runbooks & Operations",
           "scorePercent": 80,
           "isOptional": false,
-          "scoreSuccess": "partial",
+          "scoreSuccess": "success",
           "scoreHints": "Operational procedures and troubleshooting guides",
           "details": "Some runbooks exist but need updates",
-          "scoreLabel": "Yellow"
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -124,19 +124,19 @@
       "id": 20500,
       "title": "Operations",
       "weight": 12,
-      "scorePercent": 57,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "partial",
+      "scorePercent": 83,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 20502,
           "title": "Support Documentation",
           "scorePercent": 80,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Support procedures and knowledge base",
           "details": "Support docs exist but scattered",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 20503,

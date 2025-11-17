@@ -4,9 +4,9 @@
     "name": "adminer"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 72,
-  "scoreLabel": "Green",
-  "scoreSuccess": "almost-success",
+  "scorePercent": 65,
+  "scoreLabel": "Yellow",
+  "scoreSuccess": "partial",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -104,9 +104,9 @@
       "id": 40500,
       "title": "Operations",
       "weight": 12,
-      "scorePercent": 15,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 30,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure",
       "scoreEntries": [
         {
           "id": 40503,
