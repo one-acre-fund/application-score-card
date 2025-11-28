@@ -1,0 +1,164 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "logstash"
+  },
+  "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+  "scorePercent": 72,
+  "scoreLabel": "Green",
+  "scoreSuccess": "almost-success",
+  "scoringReviewer": "System Review",
+  "scoringReviewDate": "2025-11-05T00:00:00Z",
+  "areaScores": [
+    {
+      "id": 10000,
+      "title": "Documentation & Knowledge",
+      "weight": 17,
+      "scorePercent": 90,
+      "scoreLabel": "success",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 10001,
+          "title": "README & Setup Documentation",
+          "scorePercent": 20,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Comprehensive setup and usage documentation",
+          "details": "README includes CI/CD badges, environment deployment indicators, a clear overview of Logstash architecture (polling and listening nodes), Helm installation commands, and MetricBeat setup.",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10002,
+          "title": "Architecture Documentation",
+          "scorePercent": 15,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "System architecture and design documentation",
+          "details": "Comprehensive architecture documentation available, covering deployment model (StatefulSet), replication, exposed ports, pipeline configuration, persistent queues, security, observability, and network flow.",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10004,
+          "title": "Runbooks & Operations",
+          "scorePercent": 5,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "Comprehensive runbooks available, including pod health checks, log inspection, pipeline validation, Elasticsearch connectivity tests, secrets debugging, resource limit checks, and port/service validation.",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 10100,
+      "title": "Observability & Monitoring",
+      "weight": 25,
+      "scorePercent": 25,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 10104,
+          "title": "Health Checks & Dashboards",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Health endpoints and monitoring dashboards",
+          "details": "Logstash health is actively monitored using Uptime.",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "title": "CI/CD & Deployment",
+      "weight": 21,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 10201,
+          "title": "Continuous Integration",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Automated build and test pipeline",
+          "details": "CI pipeline automatically builds Docker images, validates Helm chart templates, and triggers environment deployments.",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10202,
+          "title": "Continuous Deployment",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Automated deployment pipeline",
+          "details": "Fully automated deployment pipeline. Deployment status is visible via badges in the README and updated for each environment.",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10203,
+          "title": "Environment Management",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Proper environment separation and configuration",
+          "details": "Logstash has clear environment separation with automated deployments to Integration, QA, and Production.",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 10500,
+      "title": "Operations & Support",
+      "weight": 12,
+      "scorePercent": 75,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
+      "scoreEntries": [
+        {
+          "id": 10501,
+          "title": "Incident Management",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Incident response and management process",
+          "details": "No incident management process",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 10502,
+          "title": "Support Documentation",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Support procedures and knowledge base",
+          "details": "Comprehensive FAQ covering common Logstash production issues (HTTP 429, Elasticsearch connection failures, PKIX certificate issues) is available",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10503,
+          "title": "Maintenance Procedures",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Routine maintenance and updates",
+          "details": "No documented maintenance procedures",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 10504,
+          "title": "Knowledge Transfer",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Team knowledge sharing and transfer",
+          "details": "No knowledge transfer process",
+          "scoreLabel": "Red"
+        }
+      ]
+    }
+  ]
+}
