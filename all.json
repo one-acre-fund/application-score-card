@@ -5,18 +5,18 @@
       "name": "adminer"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-    "scorePercent": 65,
-    "scoreLabel": "Yellow",
-    "scoreSuccess": "partial",
+    "scorePercent": 97,
+    "scoreLabel": "Green",
+    "scoreSuccess": "success",
     "scoringReviewer": "System Review",
     "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 40000,
         "title": "Documentation",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 90,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
         "id": 40100,
@@ -35,9 +35,9 @@
       {
         "id": 40500,
         "title": "Operations",
-        "scorePercent": 30,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "almost-failure"
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       }
     ]
   },
@@ -135,7 +135,7 @@
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "Pending Review",
-    "scoringReviewDate": "2025-12-09T10:31:46.233Z",
+    "scoringReviewDate": "2025-12-09T12:34:12.980Z",
     "areaScores": [
       {
         "id": 1000,
