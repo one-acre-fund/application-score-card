@@ -21,7 +21,7 @@
         {
           "id": 40001,
           "title": "README & Setup Documentation",
-          "scorePercent": 0,
+          "scorePercent": 90,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive setup and usage documentation",
@@ -31,7 +31,7 @@
         {
           "id": 40004,
           "title": "Runbooks & Operations",
-          "scorePercent": 0,
+          "scorePercent": 90,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
@@ -111,7 +111,7 @@
         {
           "id": 40503,
           "title": "Maintenance Procedures",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Routine maintenance and updates",
@@ -121,7 +121,7 @@
         {
           "id": 40504,
           "title": "Knowledge Transfer",
-          "scorePercent": 60,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "partial",
           "scoreHints": "Team knowledge sharing and transfer",
