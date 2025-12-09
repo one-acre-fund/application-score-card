@@ -135,7 +135,7 @@
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "Pending Review",
-    "scoringReviewDate": "2025-12-09T10:28:53.153Z",
+    "scoringReviewDate": "2025-12-09T10:31:46.233Z",
     "areaScores": [
       {
         "id": 1000,
@@ -170,7 +170,7 @@
   {
     "entityRef": {
       "kind": "component",
-      "name": "Jenkins Job Engine Docs"
+      "name": "jenkins"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 80,
