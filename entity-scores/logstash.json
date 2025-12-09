@@ -4,9 +4,9 @@
     "name": "logstash"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 72,
-  "scoreLabel": "Green",
-  "scoreSuccess": "almost-success",
+  "scorePercent": 63,
+  "scoreLabel": "Yellow",
+  "scoreSuccess": "partial",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -14,39 +14,39 @@
       "id": 10000,
       "title": "Documentation & Knowledge",
       "weight": 17,
-      "scorePercent": 90,
-      "scoreLabel": "success",
-      "scoreSuccess": "success",
+      "scorePercent": 13,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 10001,
           "title": "README & Setup Documentation",
           "scorePercent": 20,
           "isOptional": false,
-          "scoreSuccess": "success",
+          "scoreSuccess": "failure",
           "scoreHints": "Comprehensive setup and usage documentation",
           "details": "README includes CI/CD badges, environment deployment indicators, a clear overview of Logstash architecture (polling and listening nodes), Helm installation commands, and MetricBeat setup.",
-          "scoreLabel": "Green"
+          "scoreLabel": "Red"
         },
         {
           "id": 10002,
           "title": "Architecture Documentation",
           "scorePercent": 15,
           "isOptional": false,
-          "scoreSuccess": "success",
+          "scoreSuccess": "failure",
           "scoreHints": "System architecture and design documentation",
           "details": "Comprehensive architecture documentation available, covering deployment model (StatefulSet), replication, exposed ports, pipeline configuration, persistent queues, security, observability, and network flow.",
-          "scoreLabel": "Green"
+          "scoreLabel": "Red"
         },
         {
           "id": 10004,
           "title": "Runbooks & Operations",
           "scorePercent": 5,
           "isOptional": false,
-          "scoreSuccess": "success",
+          "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
           "details": "Comprehensive runbooks available, including pod health checks, log inspection, pipeline validation, Elasticsearch connectivity tests, secrets debugging, resource limit checks, and port/service validation.",
-          "scoreLabel": "Green"
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -54,19 +54,19 @@
       "id": 10100,
       "title": "Observability & Monitoring",
       "weight": 25,
-      "scorePercent": 25,
-      "scoreLabel": "Green",
-      "scoreSuccess": "success",
+      "scorePercent": 0,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 10104,
           "title": "Health Checks & Dashboards",
           "scorePercent": 0,
           "isOptional": false,
-          "scoreSuccess": "success",
+          "scoreSuccess": "failure",
           "scoreHints": "Health endpoints and monitoring dashboards",
           "details": "Logstash health is actively monitored using Uptime.",
-          "scoreLabel": "Green"
+          "scoreLabel": "Red"
         }
       ]
     },
@@ -143,20 +143,20 @@
           "title": "Maintenance Procedures",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Routine maintenance and updates",
           "details": "No documented maintenance procedures",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 10504,
           "title": "Knowledge Transfer",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Team knowledge sharing and transfer",
           "details": "No knowledge transfer process",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         }
       ]
     }

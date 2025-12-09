@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "adminer"
     },
-    "generatedDateTimeUtc": "2025-11-28T04:01:45.580Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 65,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
-    "scoringReviewer": "nziokaivy",
-    "scoringReviewDate": "2025-11-28T04:01:45.580Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 40000,
@@ -46,12 +46,12 @@
       "kind": "component",
       "name": "bytebase"
     },
-    "generatedDateTimeUtc": "2025-11-28T04:01:45.581Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 23,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "nziokaivy",
-    "scoringReviewDate": "2025-11-28T04:01:45.581Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 30000,
@@ -95,12 +95,12 @@
       "kind": "component",
       "name": "couchbase"
     },
-    "generatedDateTimeUtc": "2025-11-28T04:01:45.581Z",
+    "generatedDateTimeUtc": "2025-11-12T12:34:51.152Z",
     "scorePercent": 76,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
-    "scoringReviewer": "nziokaivy",
-    "scoringReviewDate": "2025-11-28T04:01:45.581Z",
+    "scoringReviewer": "GitHub Action",
+    "scoringReviewDate": "2025-11-12T12:34:51.152Z",
     "areaScores": [
       {
         "id": 3937,
@@ -130,12 +130,12 @@
       "kind": "component",
       "name": "elasticsearch"
     },
-    "generatedDateTimeUtc": "2025-11-28T04:01:45.581Z",
+    "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
     "scorePercent": 0,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "nziokaivy",
-    "scoringReviewDate": "2025-11-28T04:01:45.581Z",
+    "scoringReviewer": "Pending Review",
+    "scoringReviewDate": "2025-12-09T10:28:53.153Z",
     "areaScores": [
       {
         "id": 1000,
@@ -170,14 +170,14 @@
   {
     "entityRef": {
       "kind": "component",
-      "name": "jenkins"
+      "name": "Jenkins Job Engine Docs"
     },
-    "generatedDateTimeUtc": "2025-11-28T04:01:45.582Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 80,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
-    "scoringReviewer": "nziokaivy",
-    "scoringReviewDate": "2025-11-28T04:01:45.582Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 20000,
@@ -214,12 +214,12 @@
       "kind": "component",
       "name": "logstash"
     },
-    "generatedDateTimeUtc": "2025-11-28T04:01:45.582Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 63,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
-    "scoringReviewer": "nziokaivy",
-    "scoringReviewDate": "2025-11-28T04:01:45.582Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 10000,
@@ -256,12 +256,12 @@
       "kind": "component",
       "name": "odoo-sales"
     },
-    "generatedDateTimeUtc": "2025-11-28T04:01:45.582Z",
+    "generatedDateTimeUtc": "2021-07-22 10:00",
     "scorePercent": 24,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "nziokaivy",
-    "scoringReviewDate": "2025-11-28T04:01:45.582Z",
+    "scoringReviewer": "Guest",
+    "scoringReviewDate": "2022-01-04T08:00:00Z",
     "areaScores": [
       {
         "id": 2199,
@@ -291,12 +291,12 @@
       "kind": "component",
       "name": "praeco"
     },
-    "generatedDateTimeUtc": "2025-11-28T04:01:45.582Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 94,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
-    "scoringReviewer": "nziokaivy",
-    "scoringReviewDate": "2025-11-28T04:01:45.582Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 10000,
