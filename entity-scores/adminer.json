@@ -4,9 +4,9 @@
     "name": "adminer"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 65,
-  "scoreLabel": "Yellow",
-  "scoreSuccess": "partial",
+  "scorePercent": 97,
+  "scoreLabel": "Green",
+  "scoreSuccess": "success",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -14,29 +14,29 @@
       "id": 40000,
       "title": "Documentation",
       "weight": 17,
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 90,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 40001,
           "title": "README & Setup Documentation",
-          "scorePercent": 0,
+          "scorePercent": 90,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Comprehensive setup and usage documentation",
           "details": "Basic README exists but lacks comprehensive setup instructions",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 40004,
           "title": "Runbooks & Operations",
-          "scorePercent": 0,
+          "scorePercent": 90,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Operational procedures and troubleshooting guides",
           "details": "Minimal operational documentation exists",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -104,29 +104,29 @@
       "id": 40500,
       "title": "Operations",
       "weight": 12,
-      "scorePercent": 30,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "almost-failure",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 40503,
           "title": "Maintenance Procedures",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Routine maintenance and updates",
           "details": "Basic maintenance procedures documented",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 40504,
           "title": "Knowledge Transfer",
-          "scorePercent": 60,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "partial",
+          "scoreSuccess": "success",
           "scoreHints": "Team knowledge sharing and transfer",
           "details": "No formal knowledge transfer process",
-          "scoreLabel": "Yellow"
+          "scoreLabel": "Green"
         }
       ]
     }
