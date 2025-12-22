@@ -4,9 +4,9 @@
     "name": "bytebase"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 23,
-  "scoreLabel": "Red",
-  "scoreSuccess": "failure",
+  "scorePercent": 46,
+  "scoreLabel": "Yellow",
+  "scoreSuccess": "almost-failure",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
@@ -14,24 +14,24 @@
       "id": 30000,
       "title": "Documentation",
       "weight": 17,
-      "scorePercent": 22,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 57,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial",
       "scoreEntries": [
         {
           "id": 30001,
           "title": "README & Setup Documentation",
-          "scorePercent": 35,
+          "scorePercent": 70,
           "isOptional": false,
-          "scoreSuccess": "almost-failure",
+          "scoreSuccess": "almost-success",
           "scoreHints": "Comprehensive setup and usage documentation",
           "details": "README exists with basic setup, needs more detail",
-          "scoreLabel": "Yellow"
+          "scoreLabel": "Green"
         },
         {
           "id": 30002,
           "title": "Architecture Documentation",
-          "scorePercent": 20,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "System architecture and design documentation",
@@ -39,24 +39,14 @@
           "scoreLabel": "Red"
         },
         {
-          "id": 30003,
-          "title": "API Documentation",
-          "scorePercent": 15,
-          "isOptional": true,
-          "scoreSuccess": "failure",
-          "scoreHints": "API endpoints documented with examples",
-          "details": "Partial API documentation",
-          "scoreLabel": "Red"
-        },
-        {
           "id": 30004,
           "title": "Runbooks & Operations",
-          "scorePercent": 10,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Operational procedures and troubleshooting guides",
           "details": "Very limited runbook content",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -64,29 +54,19 @@
       "id": 30100,
       "title": "Monitoring",
       "weight": 25,
-      "scorePercent": 25,
+      "scorePercent": 12,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 30101,
           "title": "Application Monitoring",
-          "scorePercent": 25,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
           "details": "Basic metrics collection, no comprehensive monitoring",
           "scoreLabel": "Red"
-        },
-        {
-          "id": 30102,
-          "title": "Logging",
-          "scorePercent": 40,
-          "isOptional": false,
-          "scoreSuccess": "almost-failure",
-          "scoreHints": "Centralized logging with structured format",
-          "details": "Logs are centralized but not well structured",
-          "scoreLabel": "Yellow"
         },
         {
           "id": 30103,
@@ -114,99 +94,49 @@
       "id": 30300,
       "title": "Security",
       "weight": 12,
-      "scorePercent": 26,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 90,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 30301,
           "title": "Security Scanning",
-          "scorePercent": 15,
+          "scorePercent": 60,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "partial",
           "scoreHints": "Automated security vulnerability scanning",
           "details": "Manual security reviews only, no automated scanning",
-          "scoreLabel": "Red"
+          "scoreLabel": "Yellow"
         },
         {
           "id": 30302,
           "title": "Authentication & Authorization",
-          "scorePercent": 40,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "almost-failure",
+          "scoreSuccess": "success",
           "scoreHints": "Proper identity and access management",
           "details": "Basic authentication exists, authorization needs improvement",
-          "scoreLabel": "Yellow"
+          "scoreLabel": "Green"
         },
         {
           "id": 30303,
           "title": "Data Protection",
-          "scorePercent": 30,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "almost-failure",
+          "scoreSuccess": "success",
           "scoreHints": "Data encryption and privacy controls",
           "details": "In-transit encryption enabled, at-rest needs work",
-          "scoreLabel": "Yellow"
+          "scoreLabel": "Green"
         },
         {
           "id": 30304,
           "title": "Security Configuration",
-          "scorePercent": 20,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Secure configuration and hardening",
           "details": "Basic security settings, not fully hardened",
-          "scoreLabel": "Red"
-        }
-      ]
-    },
-    {
-      "id": 30400,
-      "title": "Quality",
-      "weight": 13,
-      "scorePercent": 20,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
-      "scoreEntries": [
-        {
-          "id": 30401,
-          "title": "Unit Testing",
-          "scorePercent": 30,
-          "isOptional": false,
-          "scoreSuccess": "almost-failure",
-          "scoreHints": "Comprehensive unit test coverage",
-          "details": "Unit tests exist for core functions (~25% coverage)",
-          "scoreLabel": "Yellow"
-        },
-        {
-          "id": 30402,
-          "title": "Integration Testing",
-          "scorePercent": 10,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "System integration and API testing",
-          "details": "Very limited integration tests",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 30403,
-          "title": "Quality Gates",
-          "scorePercent": 20,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Automated quality checks in pipeline",
-          "details": "Basic linting only, no comprehensive quality gates",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 30404,
-          "title": "Performance Testing",
-          "scorePercent": 5,
-          "isOptional": true,
-          "scoreSuccess": "failure",
-          "scoreHints": "Load and performance testing",
-          "details": "No formal performance testing",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -214,16 +144,16 @@
       "id": 30500,
       "title": "Operations",
       "weight": 12,
-      "scorePercent": 23,
+      "scorePercent": 25,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 30503,
           "title": "Maintenance Procedures",
-          "scorePercent": 30,
+          "scorePercent": 50,
           "isOptional": false,
-          "scoreSuccess": "almost-failure",
+          "scoreSuccess": "partial",
           "scoreHints": "Routine maintenance and updates",
           "details": "Some maintenance procedures documented",
           "scoreLabel": "Yellow"
@@ -231,7 +161,7 @@
         {
           "id": 30504,
           "title": "Knowledge Transfer",
-          "scorePercent": 15,
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Team knowledge sharing and transfer",

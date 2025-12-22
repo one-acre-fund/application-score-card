@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "adminer"
     },
-    "generatedDateTimeUtc": "2025-12-11T16:43:43.677Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 97,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2025-12-11T16:43:43.677Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 40000,
@@ -46,45 +46,38 @@
       "kind": "component",
       "name": "bytebase"
     },
-    "generatedDateTimeUtc": "2025-12-11T16:43:43.677Z",
-    "scorePercent": 23,
-    "scoreLabel": "Red",
-    "scoreSuccess": "failure",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2025-12-11T16:43:43.677Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+    "scorePercent": 46,
+    "scoreLabel": "Yellow",
+    "scoreSuccess": "almost-failure",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 30000,
         "title": "Documentation",
-        "scorePercent": 22,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 57,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
       },
       {
         "id": 30100,
         "title": "Monitoring",
-        "scorePercent": 25,
+        "scorePercent": 12,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 30300,
         "title": "Security",
-        "scorePercent": 26,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "id": 30400,
-        "title": "Quality",
-        "scorePercent": 20,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 90,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
         "id": 30500,
         "title": "Operations",
-        "scorePercent": 23,
+        "scorePercent": 25,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       }
@@ -95,12 +88,12 @@
       "kind": "component",
       "name": "couchbase"
     },
-    "generatedDateTimeUtc": "2025-12-11T16:43:43.678Z",
+    "generatedDateTimeUtc": "2025-11-12T12:34:51.152Z",
     "scorePercent": 76,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2025-12-11T16:43:43.678Z",
+    "scoringReviewer": "GitHub Action",
+    "scoringReviewDate": "2025-11-12T12:34:51.152Z",
     "areaScores": [
       {
         "id": 3937,
@@ -130,12 +123,12 @@
       "kind": "component",
       "name": "elasticsearch"
     },
-    "generatedDateTimeUtc": "2025-12-11T16:43:43.678Z",
+    "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
     "scorePercent": 0,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2025-12-11T16:43:43.678Z",
+    "scoringReviewer": "Pending Review",
+    "scoringReviewDate": "2025-12-22T11:42:58.713Z",
     "areaScores": [
       {
         "id": 1000,
@@ -172,12 +165,12 @@
       "kind": "component",
       "name": "jenkins"
     },
-    "generatedDateTimeUtc": "2025-12-11T16:43:43.678Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 80,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2025-12-11T16:43:43.678Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 20000,
@@ -214,12 +207,12 @@
       "kind": "component",
       "name": "logstash"
     },
-    "generatedDateTimeUtc": "2025-12-11T16:43:43.679Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 63,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2025-12-11T16:43:43.679Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 10000,
@@ -256,12 +249,12 @@
       "kind": "component",
       "name": "odoo-sales"
     },
-    "generatedDateTimeUtc": "2025-12-11T16:43:43.679Z",
+    "generatedDateTimeUtc": "2021-07-22 10:00",
     "scorePercent": 24,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2025-12-11T16:43:43.679Z",
+    "scoringReviewer": "Guest",
+    "scoringReviewDate": "2022-01-04T08:00:00Z",
     "areaScores": [
       {
         "id": 2199,
@@ -291,12 +284,12 @@
       "kind": "component",
       "name": "praeco"
     },
-    "generatedDateTimeUtc": "2025-12-11T16:43:43.679Z",
+    "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
     "scorePercent": 94,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2025-12-11T16:43:43.679Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2025-11-05T00:00:00Z",
     "areaScores": [
       {
         "id": 10000,
