@@ -71,46 +71,6 @@
       ]
     },
     {
-      "id": 10200,
-      "title": "CI/CD & Deployment",
-      "weight": 21,
-      "scorePercent": 100,
-      "scoreLabel": "Green",
-      "scoreSuccess": "success",
-      "scoreEntries": [
-        {
-          "id": 10201,
-          "title": "Continuous Integration",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Automated build and test pipeline",
-          "details": "CI pipeline automatically builds Docker images, validates Helm chart templates, and triggers environment deployments.",
-          "scoreLabel": "Green"
-        },
-        {
-          "id": 10202,
-          "title": "Continuous Deployment",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Automated deployment pipeline",
-          "details": "Fully automated deployment pipeline. Deployment status is visible via badges in the README and updated for each environment.",
-          "scoreLabel": "Green"
-        },
-        {
-          "id": 10203,
-          "title": "Environment Management",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Proper environment separation and configuration",
-          "details": "Logstash has clear environment separation with automated deployments to Integration, QA, and Production.",
-          "scoreLabel": "Green"
-        }
-      ]
-    },
-    {
       "id": 10500,
       "title": "Operations & Support",
       "weight": 12,
@@ -118,26 +78,6 @@
       "scoreLabel": "Green",
       "scoreSuccess": "almost-success",
       "scoreEntries": [
-        {
-          "id": 10501,
-          "title": "Incident Management",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Incident response and management process",
-          "details": "No incident management process",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 10502,
-          "title": "Support Documentation",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Support procedures and knowledge base",
-          "details": "Comprehensive FAQ covering common Logstash production issues (HTTP 429, Elasticsearch connection failures, PKIX certificate issues) is available",
-          "scoreLabel": "Green"
-        },
         {
           "id": 10503,
           "title": "Maintenance Procedures",
