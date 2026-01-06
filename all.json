@@ -250,32 +250,39 @@
       "name": "odoo-sales"
     },
     "generatedDateTimeUtc": "2026-01-06T09:44:27.248Z",
-    "scorePercent": 24,
+    "scorePercent": 20,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "orchide",
     "scoringReviewDate": "2026-01-06T09:44:27.248Z",
     "areaScores": [
       {
-        "id": 2199,
-        "title": "Quality",
+        "id": 20000,
+        "title": "Documentation",
         "scorePercent": 33,
         "scoreLabel": "Yellow",
         "scoreSuccess": "almost-failure"
       },
       {
-        "id": 3937,
-        "title": "Reliability",
-        "scorePercent": 3,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
-      },
-      {
-        "id": 2208,
+        "id": 20100,
         "title": "Monitoring",
         "scorePercent": 35,
         "scoreLabel": "Yellow",
         "scoreSuccess": "almost-failure"
+      },
+      {
+        "id": 20300,
+        "title": "Security",
+        "scorePercent": 10,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 20500,
+        "title": "Operations",
+        "scorePercent": 3,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
       }
     ]
   },

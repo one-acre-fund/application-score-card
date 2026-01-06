@@ -4,70 +4,44 @@
     "name": "odoo-sales"
   },
   "generatedDateTimeUtc": "2026-01-06T09:44:27.248Z",
-  "scorePercent": 24,
+  "scorePercent": 20,
   "scoreLabel": "Red",
   "scoreSuccess": "failure",
   "scoringReviewer": "orchide",
   "scoringReviewDate": "2026-01-06T09:44:27.248Z",
   "areaScores": [
     {
-      "id": 2199,
-      "title": "Quality",
-      "weight": 35,
+      "id": 20000,
+      "title": "Documentation",
+      "weight": 17,
       "scorePercent": 33,
       "scoreLabel": "Yellow",
       "scoreSuccess": "almost-failure",
       "scoreEntries": [
         {
-          "id": 2157,
-          "title": "Code Coverage",
-          "scorePercent": 33.1,
-          "scoreLabel": "Yellow",
-          "scoreSuccess": "almost-failure",
-          "scoreHints": "Code coverage: 33.1%",
-          "details": "Target is 50% coverage, current is 33.1%"
-        }
-      ]
-    },
-    {
-      "id": 3937,
-      "title": "Reliability",
-      "weight": 40,
-      "scorePercent": 3,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
-      "scoreEntries": [
-        {
-          "id": 3938,
-          "title": "Feature Flagging",
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
-          "scoreHints": "Feature flagging is not implemented for any production features.",
-          "details": "One POC Feature flag is required for success",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 3940,
-          "title": "Automated rollbacks",
+          "id": 20001,
+          "title": "README & Setup Documentation",
+          "scorePercent": 33,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
-          "scoreHints": "Not started",
-          "details": "Ability to automatically rollback failed deployments",
-          "scoreLabel": "Red"
+          "scoreSuccess": "almost-failure",
+          "scoreHints": "Comprehensive setup and usage documentation",
+          "details": "README present but incomplete setup instructions",
+          "scoreLabel": "Yellow"
         },
         {
-          "id": 2207,
-          "title": "Post Deployment Validation",
-          "scoreSuccess": "failure",
-          "scorePercent": 10,
-          "details": "We need to have a step in our deployment pipeline that validates the deployment was successful.",
-          "scoreLabel": "Red"
+          "id": 20004,
+          "title": "Runbooks & Operations",
+          "scorePercent": 33,
+          "isOptional": false,
+          "scoreSuccess": "almost-failure",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "Runbooks need to be created",
+          "scoreLabel": "Yellow"
         }
       ]
     },
     {
-      "id": 2208,
+      "id": 20100,
       "title": "Monitoring",
       "weight": 25,
       "scorePercent": 35,
@@ -75,19 +49,113 @@
       "scoreSuccess": "almost-failure",
       "scoreEntries": [
         {
-          "id": 2210,
-          "title": "Performance monitoring",
+          "id": 20101,
+          "title": "Application Monitoring",
           "scorePercent": 70,
+          "isOptional": false,
           "scoreSuccess": "almost-success",
+          "scoreHints": "Comprehensive application performance monitoring",
           "details": "Monitor the service performance metrics such as response times, throughput, and resource utilization.",
           "scoreLabel": "Green"
         },
         {
-          "id": 2185,
-          "title": "Preventive Alerting",
+          "id": 20103,
+          "title": "Alerting & Notifications",
           "scorePercent": 0,
+          "isOptional": false,
           "scoreSuccess": "failure",
+          "scoreHints": "Proactive alerting on key metrics",
           "details": "Monitor metrics that can indicate potential issues before they impact users, such as increased error rates or latency.",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 20104,
+          "title": "Health Checks & Dashboards",
+          "scorePercent": 35,
+          "isOptional": false,
+          "scoreSuccess": "almost-failure",
+          "scoreHints": "Health endpoints and monitoring dashboards",
+          "details": "Basic health check exists, dashboard needs improvement",
+          "scoreLabel": "Yellow"
+        }
+      ]
+    },
+    {
+      "id": 20300,
+      "title": "Security",
+      "weight": 12,
+      "scorePercent": 10,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
+      "scoreEntries": [
+        {
+          "id": 20302,
+          "title": "Authentication & Authorization",
+          "scorePercent": 10,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Proper identity and access management",
+          "details": "Feature flagging is not implemented for any production features.",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 20303,
+          "title": "Data Protection",
+          "scorePercent": 10,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Data encryption and privacy controls",
+          "details": "Data protection controls need implementation",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 20304,
+          "title": "Security Configuration",
+          "scorePercent": 10,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Secure configuration and hardening",
+          "details": "Security configuration not hardened",
+          "scoreLabel": "Red"
+        }
+      ]
+    },
+    {
+      "id": 20500,
+      "title": "Operations",
+      "weight": 12,
+      "scorePercent": 3,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
+      "scoreEntries": [
+        {
+          "id": 20502,
+          "title": "Support Documentation",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Support procedures and knowledge base",
+          "details": "Ability to automatically rollback failed deployments not implemented",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 20503,
+          "title": "Maintenance Procedures",
+          "scorePercent": 10,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Routine maintenance and updates",
+          "details": "We need to have a step in our deployment pipeline that validates the deployment was successful.",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 20504,
+          "title": "Knowledge Transfer",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Team knowledge sharing and transfer",
+          "details": "Knowledge documentation not started",
           "scoreLabel": "Red"
         }
       ]
