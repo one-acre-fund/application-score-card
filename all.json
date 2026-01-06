@@ -128,7 +128,7 @@
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "Pending Review",
-    "scoringReviewDate": "2025-12-22T11:42:58.713Z",
+    "scoringReviewDate": "2026-01-06T09:03:45.318Z",
     "areaScores": [
       {
         "id": 1000,
@@ -208,7 +208,7 @@
       "name": "logstash"
     },
     "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-    "scorePercent": 63,
+    "scorePercent": 57,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
     "scoringReviewer": "System Review",
@@ -229,18 +229,11 @@
         "scoreSuccess": "failure"
       },
       {
-        "id": 10200,
-        "title": "CI/CD & Deployment",
+        "id": 10500,
+        "title": "Operations & Support",
         "scorePercent": 100,
         "scoreLabel": "Green",
         "scoreSuccess": "success"
-      },
-      {
-        "id": 10500,
-        "title": "Operations & Support",
-        "scorePercent": 75,
-        "scoreLabel": "Green",
-        "scoreSuccess": "almost-success"
       }
     ]
   },

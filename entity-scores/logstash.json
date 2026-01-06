@@ -4,7 +4,7 @@
     "name": "logstash"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 63,
+  "scorePercent": 57,
   "scoreLabel": "Yellow",
   "scoreSuccess": "partial",
   "scoringReviewer": "System Review",
@@ -74,9 +74,9 @@
       "id": 10500,
       "title": "Operations & Support",
       "weight": 12,
-      "scorePercent": 75,
+      "scorePercent": 100,
       "scoreLabel": "Green",
-      "scoreSuccess": "almost-success",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 10503,
