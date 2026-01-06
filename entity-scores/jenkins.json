@@ -3,12 +3,12 @@
     "kind": "component",
     "name": "jenkins"
   },
-  "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
+  "generatedDateTimeUtc": "2026-01-06T09:44:27.246Z",
   "scorePercent": 80,
   "scoreLabel": "Green",
   "scoreSuccess": "success",
-  "scoringReviewer": "System Review",
-  "scoringReviewDate": "2025-11-05T00:00:00Z",
+  "scoringReviewer": "orchide",
+  "scoringReviewDate": "2026-01-06T09:44:27.246Z",
   "areaScores": [
     {
       "id": 20000,

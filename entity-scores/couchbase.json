@@ -3,12 +3,12 @@
     "kind": "component",
     "name": "couchbase"
   },
-  "generatedDateTimeUtc": "2025-11-12T12:34:51.152Z",
+  "generatedDateTimeUtc": "2026-01-06T09:44:27.244Z",
   "scorePercent": 76,
   "scoreLabel": "Green",
   "scoreSuccess": "almost-success",
-  "scoringReviewer": "GitHub Action",
-  "scoringReviewDate": "2025-11-12T12:34:51.152Z",
+  "scoringReviewer": "orchide",
+  "scoringReviewDate": "2026-01-06T09:44:27.244Z",
   "areaScores": [
     {
       "id": 3937,

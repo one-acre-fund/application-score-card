@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "adminer"
     },
-    "generatedDateTimeUtc": "2026-01-06T09:44:27.234Z",
+    "generatedDateTimeUtc": "2026-01-06T09:44:27.242Z",
     "scorePercent": 97,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-01-06T09:44:27.234Z",
+    "scoringReviewDate": "2026-01-06T09:44:27.242Z",
     "areaScores": [
       {
         "id": 40000,
@@ -46,12 +46,12 @@
       "kind": "component",
       "name": "bytebase"
     },
-    "generatedDateTimeUtc": "2026-01-06T09:44:27.234Z",
+    "generatedDateTimeUtc": "2026-01-06T09:44:27.243Z",
     "scorePercent": 46,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-01-06T09:44:27.234Z",
+    "scoringReviewDate": "2026-01-06T09:44:27.243Z",
     "areaScores": [
       {
         "id": 30000,
@@ -88,12 +88,12 @@
       "kind": "component",
       "name": "couchbase"
     },
-    "generatedDateTimeUtc": "2026-01-06T09:44:27.235Z",
+    "generatedDateTimeUtc": "2026-01-06T09:44:27.244Z",
     "scorePercent": 76,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-01-06T09:44:27.235Z",
+    "scoringReviewDate": "2026-01-06T09:44:27.244Z",
     "areaScores": [
       {
         "id": 3937,
@@ -123,12 +123,12 @@
       "kind": "component",
       "name": "elasticsearch"
     },
-    "generatedDateTimeUtc": "2026-01-06T09:44:27.235Z",
+    "generatedDateTimeUtc": "2026-01-06T09:44:27.245Z",
     "scorePercent": 0,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-01-06T09:44:27.235Z",
+    "scoringReviewDate": "2026-01-06T09:44:27.245Z",
     "areaScores": [
       {
         "id": 1000,
@@ -165,12 +165,12 @@
       "kind": "component",
       "name": "jenkins"
     },
-    "generatedDateTimeUtc": "2026-01-06T09:44:27.235Z",
+    "generatedDateTimeUtc": "2026-01-06T09:44:27.246Z",
     "scorePercent": 80,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-01-06T09:44:27.235Z",
+    "scoringReviewDate": "2026-01-06T09:44:27.246Z",
     "areaScores": [
       {
         "id": 20000,
@@ -207,12 +207,12 @@
       "kind": "component",
       "name": "logstash"
     },
-    "generatedDateTimeUtc": "2026-01-06T09:44:27.235Z",
+    "generatedDateTimeUtc": "2026-01-06T09:44:27.247Z",
     "scorePercent": 46,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-01-06T09:44:27.235Z",
+    "scoringReviewDate": "2026-01-06T09:44:27.247Z",
     "areaScores": [
       {
         "id": 30000,
@@ -249,12 +249,12 @@
       "kind": "component",
       "name": "odoo-sales"
     },
-    "generatedDateTimeUtc": "2026-01-06T09:44:27.235Z",
+    "generatedDateTimeUtc": "2026-01-06T09:44:27.248Z",
     "scorePercent": 24,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-01-06T09:44:27.235Z",
+    "scoringReviewDate": "2026-01-06T09:44:27.248Z",
     "areaScores": [
       {
         "id": 2199,
@@ -284,12 +284,12 @@
       "kind": "component",
       "name": "praeco"
     },
-    "generatedDateTimeUtc": "2026-01-06T09:44:27.235Z",
+    "generatedDateTimeUtc": "2026-01-06T09:44:27.248Z",
     "scorePercent": 94,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-01-06T09:44:27.235Z",
+    "scoringReviewDate": "2026-01-06T09:44:27.248Z",
     "areaScores": [
       {
         "id": 10000,

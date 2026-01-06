@@ -3,12 +3,12 @@
     "kind": "component",
     "name": "elasticsearch"
   },
-  "generatedDateTimeUtc": "2025-10-22T00:00:00Z",
+  "generatedDateTimeUtc": "2026-01-06T09:44:27.245Z",
   "scorePercent": 0,
   "scoreLabel": "Red",
   "scoreSuccess": "failure",
-  "scoringReviewer": "Pending Review",
-  "scoringReviewDate": null,
+  "scoringReviewer": "orchide",
+  "scoringReviewDate": "2026-01-06T09:44:27.245Z",
   "areaScores": [
     {
       "id": 1000,
