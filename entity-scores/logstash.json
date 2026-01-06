@@ -1,54 +1,174 @@
 {
   "entityRef": {
     "kind": "component",
-    "name": "logstash"
+    "name": "bytebase"
   },
   "generatedDateTimeUtc": "2025-11-05T00:00:00Z",
-  "scorePercent": 57,
+  "scorePercent": 46,
   "scoreLabel": "Yellow",
-  "scoreSuccess": "partial",
+  "scoreSuccess": "almost-failure",
   "scoringReviewer": "System Review",
   "scoringReviewDate": "2025-11-05T00:00:00Z",
   "areaScores": [
     {
-      "id": 10000,
-      "title": "Documentation & Knowledge",
+      "id": 30000,
+      "title": "Documentation",
       "weight": 17,
-      "scorePercent": 13,
+      "scorePercent": 57,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial",
+      "scoreEntries": [
+        {
+          "id": 30001,
+          "title": "README & Setup Documentation",
+          "scorePercent": 70,
+          "isOptional": false,
+          "scoreSuccess": "almost-success",
+          "scoreHints": "Comprehensive setup and usage documentation",
+          "details": "README exists with basic setup, needs more detail",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 30002,
+          "title": "Architecture Documentation",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "System architecture and design documentation",
+          "details": "High-level architecture exists but incomplete",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 30004,
+          "title": "Runbooks & Operations",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "Very limited runbook content",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 30100,
+      "title": "Monitoring",
+      "weight": 25,
+      "scorePercent": 12,
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
         {
-          "id": 10001,
-          "title": "README & Setup Documentation",
-          "scorePercent": 20,
+          "id": 30101,
+          "title": "Application Monitoring",
+          "scorePercent": 0,
           "isOptional": false,
           "scoreSuccess": "failure",
-          "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "README includes CI/CD badges, environment deployment indicators, a clear overview of Logstash architecture (polling and listening nodes), Helm installation commands, and MetricBeat setup.",
+          "scoreHints": "Comprehensive application performance monitoring",
+          "details": "Basic metrics collection, no comprehensive monitoring",
           "scoreLabel": "Red"
         },
         {
-          "id": 10002,
-          "title": "Architecture Documentation",
+          "id": 30103,
+          "title": "Alerting & Notifications",
           "scorePercent": 15,
           "isOptional": false,
           "scoreSuccess": "failure",
-          "scoreHints": "System architecture and design documentation",
-          "details": "Comprehensive architecture documentation available, covering deployment model (StatefulSet), replication, exposed ports, pipeline configuration, persistent queues, security, observability, and network flow.",
+          "scoreHints": "Proactive alerting on key metrics",
+          "details": "Minimal alerting, only for critical failures",
           "scoreLabel": "Red"
         },
         {
-          "id": 10004,
-          "title": "Runbooks & Operations",
-          "scorePercent": 5,
+          "id": 30104,
+          "title": "Health Checks & Dashboards",
+          "scorePercent": 20,
           "isOptional": false,
           "scoreSuccess": "failure",
-          "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "Comprehensive runbooks available, including pod health checks, log inspection, pipeline validation, Elasticsearch connectivity tests, secrets debugging, resource limit checks, and port/service validation.",
+          "scoreHints": "Health endpoints and monitoring dashboards",
+          "details": "Basic health check exists, no comprehensive dashboard",
           "scoreLabel": "Red"
         }
       ]
     },
+    {
+      "id": 30300,
+      "title": "Security",
+      "weight": 12,
+      "scorePercent": 90,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 30301,
+          "title": "Security Scanning",
+          "scorePercent": 60,
+          "isOptional": false,
+          "scoreSuccess": "partial",
+          "scoreHints": "Automated security vulnerability scanning",
+          "details": "Manual security reviews only, no automated scanning",
+          "scoreLabel": "Yellow"
+        },
+        {
+          "id": 30302,
+          "title": "Authentication & Authorization",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Proper identity and access management",
+          "details": "Basic authentication exists, authorization needs improvement",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 30303,
+          "title": "Data Protection",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Data encryption and privacy controls",
+          "details": "In-transit encryption enabled, at-rest needs work",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 30304,
+          "title": "Security Configuration",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Secure configuration and hardening",
+          "details": "Basic security settings, not fully hardened",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 30500,
+      "title": "Operations",
+      "weight": 12,
+      "scorePercent": 25,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
+      "scoreEntries": [
+        {
+          "id": 30503,
+          "title": "Maintenance Procedures",
+          "scorePercent": 50,
+          "isOptional": false,
+          "scoreSuccess": "partial",
+          "scoreHints": "Routine maintenance and updates",
+          "details": "Some maintenance procedures documented",
+          "scoreLabel": "Yellow"
+        },
+        {
+          "id": 30504,
+          "title": "Knowledge Transfer",
+          "scorePercent": 0,
+          "isOptional": false,
+          "scoreSuccess": "failure",
+          "scoreHints": "Team knowledge sharing and transfer",
+          "details": "Informal knowledge sharing only",
+          "scoreLabel": "Red"
+        }
+      ]
+    }
   ]
 }
