@@ -50,55 +50,5 @@
         }
       ]
     },
-    {
-      "id": 10100,
-      "title": "Observability & Monitoring",
-      "weight": 25,
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
-      "scoreEntries": [
-        {
-          "id": 10104,
-          "title": "Health Checks & Dashboards",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "Logstash health is actively monitored using Uptime.",
-          "scoreLabel": "Red"
-        }
-      ]
-    },
-    {
-      "id": 10500,
-      "title": "Operations & Support",
-      "weight": 12,
-      "scorePercent": 100,
-      "scoreLabel": "Green",
-      "scoreSuccess": "success",
-      "scoreEntries": [
-        {
-          "id": 10503,
-          "title": "Maintenance Procedures",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Routine maintenance and updates",
-          "details": "No documented maintenance procedures",
-          "scoreLabel": "Green"
-        },
-        {
-          "id": 10504,
-          "title": "Knowledge Transfer",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Team knowledge sharing and transfer",
-          "details": "No knowledge transfer process",
-          "scoreLabel": "Green"
-        }
-      ]
-    }
   ]
 }
