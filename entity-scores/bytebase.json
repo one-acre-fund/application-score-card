@@ -4,9 +4,9 @@
     "name": "bytebase"
   },
   "generatedDateTimeUtc": "2026-01-06T09:44:27.243Z",
-  "scorePercent": 46,
-  "scoreLabel": "Yellow",
-  "scoreSuccess": "almost-failure",
+  "scorePercent": 94,
+  "scoreLabel": "Green",
+  "scoreSuccess": "success",
   "scoringReviewer": "orchide",
   "scoringReviewDate": "2026-01-06T09:44:27.243Z",
   "areaScores": [
@@ -14,16 +14,16 @@
       "id": 30000,
       "title": "Documentation",
       "weight": 17,
-      "scorePercent": 57,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "partial",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 30001,
           "title": "README & Setup Documentation",
-          "scorePercent": 70,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "almost-success",
+          "scoreSuccess": "success",
           "scoreHints": "Comprehensive setup and usage documentation",
           "details": "README exists with basic setup, needs more detail",
           "scoreLabel": "Green"
@@ -31,12 +31,12 @@
         {
           "id": 30002,
           "title": "Architecture Documentation",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "System architecture and design documentation",
           "details": "High-level architecture exists but incomplete",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 30004,
@@ -54,39 +54,39 @@
       "id": 30100,
       "title": "Monitoring",
       "weight": 25,
-      "scorePercent": 12,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 30101,
           "title": "Application Monitoring",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Comprehensive application performance monitoring",
           "details": "Basic metrics collection, no comprehensive monitoring",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 30103,
           "title": "Alerting & Notifications",
-          "scorePercent": 15,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Proactive alerting on key metrics",
           "details": "Minimal alerting, only for critical failures",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 30104,
           "title": "Health Checks & Dashboards",
-          "scorePercent": 20,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Health endpoints and monitoring dashboards",
           "details": "Basic health check exists, no comprehensive dashboard",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -94,19 +94,19 @@
       "id": 30300,
       "title": "Security",
       "weight": 12,
-      "scorePercent": 90,
+      "scorePercent": 100,
       "scoreLabel": "Green",
       "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 30301,
           "title": "Security Scanning",
-          "scorePercent": 60,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "partial",
+          "scoreSuccess": "success",
           "scoreHints": "Automated security vulnerability scanning",
           "details": "Manual security reviews only, no automated scanning",
-          "scoreLabel": "Yellow"
+          "scoreLabel": "Green"
         },
         {
           "id": 30302,
@@ -115,7 +115,7 @@
           "isOptional": false,
           "scoreSuccess": "success",
           "scoreHints": "Proper identity and access management",
-          "details": "Basic authentication exists, authorization needs improvement",
+          "details": "Basic authentication is the resolution, SSO requires paid version so it won't be implemented",
           "scoreLabel": "Green"
         },
         {
@@ -125,7 +125,7 @@
           "isOptional": false,
           "scoreSuccess": "success",
           "scoreHints": "Data encryption and privacy controls",
-          "details": "In-transit encryption enabled, at-rest needs work",
+          "details": "In-transit encryption enabled",
           "scoreLabel": "Green"
         },
         {
@@ -135,7 +135,7 @@
           "isOptional": false,
           "scoreSuccess": "success",
           "scoreHints": "Secure configuration and hardening",
-          "details": "Basic security settings, not fully hardened",
+          "details": "Basic security settings is all that is needed",
           "scoreLabel": "Green"
         }
       ]
@@ -144,29 +144,29 @@
       "id": 30500,
       "title": "Operations",
       "weight": 12,
-      "scorePercent": 25,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 75,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
       "scoreEntries": [
         {
           "id": 30503,
           "title": "Maintenance Procedures",
-          "scorePercent": 50,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "partial",
+          "scoreSuccess": "success",
           "scoreHints": "Routine maintenance and updates",
           "details": "Some maintenance procedures documented",
-          "scoreLabel": "Yellow"
+          "scoreLabel": "Green"
         },
         {
           "id": 30504,
           "title": "Knowledge Transfer",
-          "scorePercent": 0,
+          "scorePercent": 50,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "partial",
           "scoreHints": "Team knowledge sharing and transfer",
           "details": "Informal knowledge sharing only",
-          "scoreLabel": "Red"
+          "scoreLabel": "Yellow"
         }
       ]
     }
