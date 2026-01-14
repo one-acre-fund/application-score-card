@@ -1,0 +1,124 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "uptime-kuma"
+  },
+  "generatedDateTimeUtc": "2026-01-06T09:44:27.248Z",
+  "scorePercent": 94,
+  "scoreLabel": "Green",
+  "scoreSuccess": "success",
+  "scoringReviewer": "orchide",
+  "scoringReviewDate": "2026-01-06T09:44:27.248Z",
+  "areaScores": [
+    {
+      "id": 10000,
+      "title": "Documentation",
+      "weight": 17,
+      "scorePercent": 75,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
+      "scoreEntries": [
+        {
+          "id": 10002,
+          "title": "Architecture Documentation",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "System architecture and design documentation",
+          "details": "Architecture documentation are available",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10004,
+          "title": "Runbooks & Operations",
+          "scorePercent": 50,
+          "isOptional": false,
+          "scoreSuccess": "partial",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "Runbooks available",
+          "scoreLabel": "Yellow"
+        }
+      ]
+    },
+    {
+      "id": 10100,
+      "title": "Monitoring",
+      "weight": 25,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 10104,
+          "title": "Health Checks & Dashboards",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Health endpoints and monitoring dashboards",
+          "details": "Uptime monitoring is available and triggers an alert if the uptime-kuma service is down.",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 10300,
+      "title": "Security",
+      "weight": 12,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 10302,
+          "title": "Authentication & Authorization",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Proper identity and access management",
+          "details": "Authentication and access management are handled through Keycloak, providing centralized Single Sign-On (SSO) and role-based access control.",
+          "scoreLabel": "Green"
+        }
+      ]
+    },
+    {
+      "id": 10500,
+      "title": "Operations",
+      "weight": 12,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 10502,
+          "title": "Support Documentation",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Support procedures and knowledge base",
+          "details": "Support documentation is available",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10503,
+          "title": "Maintenance Procedures",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Routine maintenance and updates",
+          "details": "Documented maintenance procedures available",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 10504,
+          "title": "Knowledge Transfer",
+          "scorePercent": 100,
+          "isOptional": false,
+          "scoreSuccess": "success",
+          "scoreHints": "Team knowledge sharing and transfer",
+          "details": "Completed team training sessions; recording available for review.",
+          "scoreLabel": "Green"
+        }
+      ]
+    }
+  ]
+}
