@@ -376,39 +376,39 @@
       "name": "uptime-kuma"
     },
     "generatedDateTimeUtc": "2026-01-06T09:44:27.248Z",
-    "scorePercent": 94,
-    "scoreLabel": "Green",
-    "scoreSuccess": "success",
+    "scorePercent": 0,
+    "scoreLabel": "Red",
+    "scoreSuccess": "failure",
     "scoringReviewer": "orchide",
     "scoringReviewDate": "2026-01-06T09:44:27.248Z",
     "areaScores": [
       {
         "id": 10000,
         "title": "Documentation",
-        "scorePercent": 75,
-        "scoreLabel": "Green",
-        "scoreSuccess": "almost-success"
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
       },
       {
         "id": 10100,
         "title": "Monitoring",
-        "scorePercent": 100,
-        "scoreLabel": "Green",
-        "scoreSuccess": "success"
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
       },
       {
         "id": 10300,
         "title": "Security",
-        "scorePercent": 100,
-        "scoreLabel": "Green",
-        "scoreSuccess": "success"
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
       },
       {
         "id": 10500,
         "title": "Operations",
-        "scorePercent": 100,
-        "scoreLabel": "Green",
-        "scoreSuccess": "success"
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
       }
     ]
   },
@@ -418,39 +418,39 @@
       "name": "weblate"
     },
     "generatedDateTimeUtc": "2026-01-06T09:44:27.248Z",
-    "scorePercent": 94,
-    "scoreLabel": "Green",
-    "scoreSuccess": "success",
+    "scorePercent": 0,
+    "scoreLabel": "Red",
+    "scoreSuccess": "failure",
     "scoringReviewer": "orchide",
     "scoringReviewDate": "2026-01-06T09:44:27.248Z",
     "areaScores": [
       {
         "id": 10000,
         "title": "Documentation",
-        "scorePercent": 75,
-        "scoreLabel": "Green",
-        "scoreSuccess": "almost-success"
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
       },
       {
         "id": 10100,
         "title": "Monitoring",
-        "scorePercent": 100,
-        "scoreLabel": "Green",
-        "scoreSuccess": "success"
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
       },
       {
         "id": 10300,
         "title": "Security",
-        "scorePercent": 100,
-        "scoreLabel": "Green",
-        "scoreSuccess": "success"
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
       },
       {
         "id": 10500,
         "title": "Operations",
-        "scorePercent": 100,
-        "scoreLabel": "Green",
-        "scoreSuccess": "success"
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
       }
     ]
   }
