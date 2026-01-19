@@ -21,7 +21,7 @@
         {
           "id": 10002,
           "title": "Architecture Documentation",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "System architecture and design documentation",
@@ -31,7 +31,7 @@
         {
           "id": 10004,
           "title": "Runbooks & Operations",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
@@ -71,7 +71,7 @@
         {
           "id": 10302,
           "title": "Authentication & Authorization",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Proper identity and access management",
@@ -91,7 +91,7 @@
         {
           "id": 10502,
           "title": "Support Documentation",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Support procedures and knowledge base",
@@ -101,7 +101,7 @@
         {
           "id": 10503,
           "title": "Maintenance Procedures",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Routine maintenance and updates",
@@ -111,7 +111,7 @@
         {
           "id": 10504,
           "title": "Knowledge Transfer",
-          "scorePercent": 0,
+          "scorePercent": 20,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Team knowledge sharing and transfer",
