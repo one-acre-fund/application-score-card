@@ -18,45 +18,26 @@
       "scoreLabel": "Red",
       "scoreSuccess": "failure",
       "scoreEntries": [
-        {
-          "id": 1001,
-          "title": "README & Setup Documentation",
-          "scorePercent": 0,
-          "isOptional": false,
-          "scoreSuccess": "failure",
-          "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "",
-          "scoreLabel": "Red"
-        },
+        
         {
           "id": 1002,
           "title": "Architecture Documentation",
-          "scorePercent": 0,
+          "scorePercent": 70,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "Success",
           "scoreHints": "System architecture and design documentation",
           "details": "",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 1003,
-          "title": "API Documentation",
-          "scorePercent": 0,
-          "isOptional": true,
-          "scoreSuccess": "failure",
-          "scoreHints": "API endpoints documented with examples",
-          "details": "",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 1004,
           "title": "Runbooks & Operations",
-          "scorePercent": 0,
+          "scorePercent": 30,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
           "details": "",
-          "scoreLabel": "Red"
+          "scoreLabel": "Yellow"
         }
       ]
     },
@@ -71,7 +52,7 @@
         {
           "id": 2001,
           "title": "Application Monitoring",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
@@ -81,32 +62,32 @@
         {
           "id": 2002,
           "title": "Logging",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Centralized logging with structured format",
           "details": "",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 2003,
           "title": "Alerting & Notifications",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Proactive alerting on key metrics",
           "details": "",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 2004,
           "title": "Health Checks & Dashboards",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Health endpoints and monitoring dashboards",
           "details": "",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -121,42 +102,42 @@
         {
           "id": 4001,
           "title": "Security Scanning",
-          "scorePercent": 0,
+          "scorePercent": 40,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Automated security vulnerability scanning",
           "details": "",
-          "scoreLabel": "Red"
+          "scoreLabel": "Yellow"
         },
         {
           "id": 4002,
           "title": "Authentication & Authorization",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Proper identity and access management",
           "details": "",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 4003,
           "title": "Data Protection",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Data encryption and privacy controls",
           "details": "",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 4004,
           "title": "Security Configuration",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Secure configuration and hardening",
           "details": "",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -171,17 +152,17 @@
         {
           "id": 6003,
           "title": "Maintenance Procedures",
-          "scorePercent": 0,
+          "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Routine maintenance and updates",
           "details": "",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 6004,
           "title": "Knowledge Transfer",
-          "scorePercent": 0,
+          "scorePercent": 30,
           "isOptional": false,
           "scoreSuccess": "failure",
           "scoreHints": "Team knowledge sharing and transfer",
