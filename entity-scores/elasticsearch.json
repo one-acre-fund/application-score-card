@@ -4,9 +4,9 @@
     "name": "elasticsearch"
   },
   "generatedDateTimeUtc": "2026-01-06T09:44:27.245Z",
-  "scorePercent": 0,
-  "scoreLabel": "Red",
-  "scoreSuccess": "failure",
+  "scorePercent": 71,
+  "scoreLabel": "Green",
+  "scoreSuccess": "almost-success",
   "scoringReviewer": "orchide",
   "scoringReviewDate": "2026-01-06T09:44:27.245Z",
   "areaScores": [
@@ -14,19 +14,18 @@
       "id": 1000,
       "title": "Documentation",
       "weight": 17,
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 50,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial",
       "scoreEntries": [
-        
         {
           "id": 1002,
           "title": "Architecture Documentation",
           "scorePercent": 70,
           "isOptional": false,
-          "scoreSuccess": "Success",
+          "scoreSuccess": "almost-success",
           "scoreHints": "System architecture and design documentation",
-          "details": "",
+          "details": "Need to add diagrams for data flow",
           "scoreLabel": "Green"
         },
         {
@@ -34,9 +33,9 @@
           "title": "Runbooks & Operations",
           "scorePercent": 30,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "",
+          "details": "Some procedures that are yet to be documented",
           "scoreLabel": "Yellow"
         }
       ]
@@ -45,37 +44,17 @@
       "id": 2000,
       "title": "Monitoring",
       "weight": 25,
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 2001,
           "title": "Application Monitoring",
           "scorePercent": 100,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Comprehensive application performance monitoring",
-          "details": "",
-          "scoreLabel": "Red"
-        },
-        {
-          "id": 2002,
-          "title": "Logging",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Centralized logging with structured format",
-          "details": "",
-          "scoreLabel": "Green"
-        },
-        {
-          "id": 2003,
-          "title": "Alerting & Notifications",
-          "scorePercent": 100,
-          "isOptional": false,
-          "scoreSuccess": "success",
-          "scoreHints": "Proactive alerting on key metrics",
           "details": "",
           "scoreLabel": "Green"
         },
@@ -95,16 +74,16 @@
       "id": 4000,
       "title": "Security",
       "weight": 12,
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 85,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 4001,
           "title": "Security Scanning",
           "scorePercent": 40,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-failure",
           "scoreHints": "Automated security vulnerability scanning",
           "details": "",
           "scoreLabel": "Yellow"
@@ -145,18 +124,18 @@
       "id": 6000,
       "title": "Operations",
       "weight": 12,
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 50,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial",
       "scoreEntries": [
         {
           "id": 6003,
           "title": "Maintenance Procedures",
-          "scorePercent": 100,
+          "scorePercent": 70,
           "isOptional": false,
-          "scoreSuccess": "success",
+          "scoreSuccess": "almost-success",
           "scoreHints": "Routine maintenance and updates",
-          "details": "",
+          "details": "We need to schedule updates more regularly",
           "scoreLabel": "Green"
         },
         {
@@ -164,10 +143,10 @@
           "title": "Knowledge Transfer",
           "scorePercent": 30,
           "isOptional": false,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-failure",
           "scoreHints": "Team knowledge sharing and transfer",
-          "details": "",
-          "scoreLabel": "Red"
+          "details": "Need to schedule training sessions more regularly",
+          "scoreLabel": "Yellow"
         }
       ]
     }
