@@ -1,0 +1,319 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "recruitment-platform-backend"
+  },
+  "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
+  "scorePercent": null,
+  "scoreLabel": null,
+  "scoreSuccess": "unknown",
+  "scoringReviewer": null,
+  "scoringReviewDate": null,
+  "areaScores": [
+    {
+      "id": 60000,
+      "title": "Documentation",
+      "weight": 20,
+      "scoreEntries": [
+        {
+          "id": 60001,
+          "title": "README & Setup Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Comprehensive setup and usage documentation",
+          "details": "TODO: Add project setup and running instructions in the readme"
+        },
+        {
+          "id": 60002,
+          "title": "Architecture Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "System architecture and design documentation",
+          "details": "TODO: Add tech docs and write a simple architecture documentations"
+        },
+        {
+          "id": 60003,
+          "title": "Project Overview",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "High-level overview describing the application's purpose, scope and audience",
+          "details": "TODO: Add to tech-docs"
+        },
+        {
+          "id": 60004,
+          "title": "Runbooks & Operations",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "TODO: Add runbooks and operational procedures to tech-docs"
+        },
+        {
+          "id": 60005,
+          "title": "Error Log Reference & Recovery Guide",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Common error logs documented with their meaning and recovery steps",
+          "details": "TODO: Add error log reference and recovery guide to tech-docs"
+        }
+      ]
+    },
+    {
+      "id": 60100,
+      "title": "Monitoring",
+      "weight": 29,
+      "scoreEntries": [
+        {
+          "id": 60101,
+          "title": "Application Monitoring",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Comprehensive application performance monitoring",
+          "details": "TODO: Logs are being collected"
+        },
+        {
+          "id": 60103,
+          "title": "Alerting & Notifications",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Proactive alerting on key metrics",
+          "details": "TODO: Missing alerts. Talks to @ivy.zioka"
+        },
+        {
+          "id": 60104,
+          "title": "Health Checks & Dashboards",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Health endpoints and monitoring dashboards",
+          "details": "TODO: Missing dashboard. Talks to @ivy.zioka"
+        },
+        {
+          "id": 60105,
+          "title": "Error Tracking (Sentry)",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Sentry integration added for error tracking and reporting",
+          "details": "TODO: Add sentry integration"
+        },
+        {
+          "id": 60106,
+          "title": "Elastic APM Integration",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
+          "details": "APM Integrated"
+        },
+        {
+          "id": 60107,
+          "title": "Log Collection (Elastic Autodiscovery Annotation)",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Logs collected via Elastic autodiscovery annotation on pods",
+          "details": "Logs are being collected via Elastic autodiscovery annotation on pods"
+        },
+        {
+          "id": 60108,
+          "title": "Monitoring Dashboard Links",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Links to monitoring dashboards added to catalog/documentation",
+          "details": "TODO: Add links to monitoring dashboards"
+        },
+        {
+          "id": 60109,
+          "title": "APM Dashboard Links",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Links to APM dashboards added to catalog/documentation",
+          "details": "TODO: Add links to APM dashboard"
+        }
+      ]
+    },
+    {
+      "id": 60200,
+      "title": "Quality",
+      "weight": 23,
+      "scoreEntries": [
+        {
+          "id": 60201,
+          "title": "Bugs",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 1,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Reliability issues detected by static analysis",
+          "details": "TODO: Raise bugs rating to an A"
+        },
+        {
+          "id": 60202,
+          "title": "Vulnerabilities",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 2,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Exploitable security issues detected by static analysis",
+          "details": "TODO: Reduce your vulnerability score"
+        },
+        {
+          "id": 60203,
+          "title": "Coverage",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Percentage of code covered by automated tests",
+          "details": "Well above 80%"
+        },
+        {
+          "id": 60204,
+          "title": "Duplications",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Percentage of duplicated lines of code",
+          "details": "Excellent"
+        },
+        {
+          "id": 60205,
+          "title": "Code Smells",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Maintainability issues detected by static analysis",
+          "details": "Excellent"
+        },
+        {
+          "id": 60206,
+          "title": "Hotspots",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Security-sensitive code requiring manual review",
+          "details": "Excellent"
+        }
+      ]
+    },
+    {
+      "id": 60300,
+      "title": "Security",
+      "weight": 14,
+      "scoreEntries": [
+        {
+          "id": 60301,
+          "title": "Security Scanning",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Automated security vulnerability scanning",
+          "details": "Dependabot setup"
+        },
+        {
+          "id": 60302,
+          "title": "Authentication & Authorization",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 1,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Proper identity and access management",
+          "details": "TODO: Add APIkey authentication to your apis talk to @orchide.irakoze"
+        },
+        {
+          "id": 60305,
+          "title": "Dependabot Automated Dependency Updates",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
+          "details": "TODO: Fix dependabot PRs and test and merge them"
+        },
+        {
+          "id": 60306,
+          "title": "Single Sign-On (SSO)",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Application secured with centralized Single Sign-On",
+          "details": "TODO: N/A"
+        }
+      ]
+    },
+    {
+      "id": 60500,
+      "title": "Operations",
+      "weight": 14,
+      "scoreEntries": [
+        {
+          "id": 60502,
+          "title": "Support Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Support procedures and knowledge base",
+          "details": "TODO: Add support docs"
+        },
+        {
+          "id": 60505,
+          "title": "Kubernetes Discoverability (Backstage)",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
+          "details": "Pods discoverable in backstage"
+        },
+        {
+          "id": 60506,
+          "title": "ArgoCD Sync Status",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "unknown",
+          "scoreHints": "ArgoCD application sync status captured and visible",
+          "details": "Discoverable in backstage"
+        },
+        {
+          "id": 60507,
+          "title": "Feedback Channels",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Configured channels for collecting user/stakeholder feedback",
+          "details": "Feedback email setup"
+        }
+      ]
+    }
+  ]
+}
