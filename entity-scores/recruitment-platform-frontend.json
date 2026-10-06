@@ -23,7 +23,7 @@
           "scorePercent": 3,
           "scoreSuccess": "almost-success",
           "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "TODO: add project setup instructions",
+          "details": "TODO: add project setup instructions to the README",
           "scoreLabel": "Green"
         },
         {
@@ -34,7 +34,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "System architecture and design documentation",
-          "details": "TODO: Add system architecture documentation",
+          "details": "TODO: Add system architecture documentation this should be added to the tech docs",
           "scoreLabel": "Red"
         },
         {
@@ -45,7 +45,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "TODO: Add runbooks and operational procedures",
+          "details": "TODO: Add runbooks and operational procedures. Add this to the techdocs",
           "scoreLabel": "Red"
         },
         {
@@ -56,7 +56,7 @@
           "scorePercent": null,
           "scoreSuccess": "unknown",
           "scoreHints": "High-level overview describing the application's purpose, scope and audience",
-          "details": "TODO: Add project overview documentation"
+          "details": "TODO: Add project overview documentation. Add this to techdocs"
         },
         {
           "id": 50005,
@@ -66,7 +66,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Common error logs documented with their meaning and recovery steps",
-          "details": "TODO: Add error log reference and recovery guide",
+          "details": "TODO: Add error log reference and recovery guide. add this to the techdocs",
           "scoreLabel": "Red"
         }
       ],
@@ -87,7 +87,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
-          "details": "TODO: Add elastic log collection annotation to the helm chart",
+          "details": "TODO: Add elastic log collection annotation to the helm chart. @ivy.zioka can help with this",
           "scoreLabel": "Red"
         },
         {
@@ -98,7 +98,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Proactive alerting on key metrics",
-          "details": "TODO: Add alerting and notification setup details",
+          "details": "TODO: Add alerting and notification setup details. @ivy.zioka can help with this",
           "scoreLabel": "Red"
         },
         {
@@ -109,7 +109,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "TODO: Add health checks and dashboard setup details",
+          "details": "TODO: Add health checks and dashboard setup details. @ivy.zioka can help with this",
           "scoreLabel": "Red"
         },
         {
@@ -120,7 +120,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Sentry integration added for error tracking and reporting",
-          "details": "TODO: sentry integration missing",
+          "details": "TODO: sentry integration missing. @abbas.abdulganiy can help with this.",
           "scoreLabel": "Red"
         },
         {
@@ -131,7 +131,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
-          "details": "TODO: ElasticAPM integration missing",
+          "details": "TODO: ElasticAPM integration missing. @abbas.abdulganiy can help with this.",
           "scoreLabel": "Red"
         },
         {
@@ -142,7 +142,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Logs collected via Elastic autodiscovery annotation on pods",
-          "details": "TODO: Add your assessment here",
+          "details": "TODO: Add your assessment here. @ivy.zioka can help with this",
           "scoreLabel": "Red"
         },
         {
@@ -153,7 +153,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Links to monitoring dashboards added to catalog/documentation",
-          "details": "TODO: missing dashboard links",
+          "details": "TODO: missing dashboard links. @ivy.zioka can help with this",
           "scoreLabel": "Red"
         },
         {
@@ -164,7 +164,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Links to APM dashboards added to catalog/documentation",
-          "details": "TODO: missing dashboard links",
+          "details": "TODO: missing dashboard links. @ivy.nzioka can help with this.",
           "scoreLabel": "Red"
         }
       ],
