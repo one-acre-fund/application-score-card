@@ -4,16 +4,17 @@
       "kind": "component",
       "name": "recruitmentplatform-backend"
     },
-    "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
-    "scorePercent": 45,
-    "scoreLabel": "Yellow",
-    "scoreSuccess": "almost-failure",
-    "scoringReviewer": "System Review",
-    "scoringReviewDate": "2026-10-06T11:57:32.468Z",
+    "generatedDateTimeUtc": "2026-10-06T11:45:48.379Z",
+    "scorePercent": 0,
+    "scoreLabel": "Red",
+    "scoreSuccess": "failure",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-06T11:45:48.379Z",
     "areaScores": [
       {
         "id": 60000,
         "title": "Documentation",
+
         "scorePercent": 5,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
