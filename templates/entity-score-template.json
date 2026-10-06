@@ -14,110 +14,121 @@
     {
       "id": 90000,
       "title": "Documentation",
-      "weight": 17,
+      "weight": 20,
       "scoreEntries": [
         {
           "id": 90001,
           "title": "README & Setup Documentation",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 3,
           "scoreSuccess": "unknown",
           "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: add project setup instructions"
         },
         {
           "id": 90002,
           "title": "Architecture Documentation",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "System architecture and design documentation",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Add system architecture documentation"
         },
         {
           "id": 90003,
           "title": "Project Overview",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
           "scoreHints": "High-level overview describing the application's purpose, scope and audience",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Add project overview documentation"
         },
         {
           "id": 90004,
           "title": "Runbooks & Operations",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Add runbooks and operational procedures"
         },
         {
           "id": 90005,
           "title": "Error Log Reference & Recovery Guide",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Common error logs documented with their meaning and recovery steps",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Add error log reference and recovery guide"
         }
       ]
     },
     {
       "id": 90100,
       "title": "Monitoring",
-      "weight": 25,
+      "weight": 29,
       "scoreEntries": [
         {
           "id": 90101,
           "title": "Application Monitoring",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Comprehensive application performance monitoring",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Add elastic log collection annotation to the helm chart"
         },
         {
           "id": 90103,
           "title": "Alerting & Notifications",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Proactive alerting on key metrics",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Add alerting and notification setup details"
         },
         {
           "id": 90104,
           "title": "Health Checks & Dashboards",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Add health checks and dashboard setup details"
         },
         {
           "id": 90105,
           "title": "Error Tracking (Sentry)",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Sentry integration added for error tracking and reporting",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: sentry integration missing"
         },
         {
           "id": 90106,
           "title": "Elastic APM Integration",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: ElasticAPM integration missing"
         },
         {
           "id": 90107,
           "title": "Log Collection (Elastic Autodiscovery Annotation)",
+          "weight": 3,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Logs collected via Elastic autodiscovery annotation on pods",
           "details": "TODO: Add your assessment here"
@@ -125,167 +136,173 @@
         {
           "id": 90108,
           "title": "Monitoring Dashboard Links",
+          "weight": 3,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Links to monitoring dashboards added to catalog/documentation",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: missing dashboard links"
         },
         {
           "id": 90109,
           "title": "APM Dashboard Links",
+          "weight": 3,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Links to APM dashboards added to catalog/documentation",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: missing dashboard links"
         }
       ]
     },
     {
       "id": 90200,
       "title": "Quality",
-      "weight": 20,
+      "weight": 23,
       "scoreEntries": [
         {
           "id": 90201,
           "title": "Bugs",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 4,
           "scoreSuccess": "unknown",
           "scoreHints": "Reliability issues detected by static analysis",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Excellent"
         },
         {
           "id": 90202,
           "title": "Vulnerabilities",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 4,
           "scoreSuccess": "unknown",
           "scoreHints": "Exploitable security issues detected by static analysis",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Excellent"
         },
         {
           "id": 90203,
           "title": "Coverage",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 4,
           "scoreSuccess": "unknown",
           "scoreHints": "Percentage of code covered by automated tests",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: coverage is above 80%"
         },
         {
           "id": 90204,
           "title": "Duplications",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 4,
           "scoreSuccess": "unknown",
           "scoreHints": "Percentage of duplicated lines of code",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: 2.9% neat"
         },
         {
           "id": 90205,
           "title": "Code Smells",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 4,
           "scoreSuccess": "unknown",
           "scoreHints": "Maintainability issues detected by static analysis",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Awesome"
         },
         {
           "id": 90206,
           "title": "Hotspots",
+          "weight": 3,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 3,
           "scoreSuccess": "unknown",
           "scoreHints": "Security-sensitive code requiring manual review",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Awesome"
         }
       ]
     },
     {
       "id": 90300,
       "title": "Security",
-      "weight": 12,
+      "weight": 14,
       "scoreEntries": [
         {
           "id": 90301,
           "title": "Security Scanning",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "4",
           "scoreHints": "Automated security vulnerability scanning",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Dependabot is configured and running"
         },
         {
           "id": 90302,
           "title": "Authentication & Authorization",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 4,
           "scoreSuccess": "unknown",
           "scoreHints": "Proper identity and access management",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: SSO configured"
         },
         {
           "id": 90305,
           "title": "Dependabot Automated Dependency Updates",
+          "weight": 6,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
-          "details": "TODO: Add your assessment here"
-        },
-        {
-          "id": 90306,
-          "title": "Single Sign-On (SSO)",
-          "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
-          "scoreHints": "Application secured with centralized Single Sign-On",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: PRs are failing checks and thus not tested or merged"
         }
       ]
     },
     {
       "id": 90500,
       "title": "Operations",
-      "weight": 12,
+      "weight": 14,
       "scoreEntries": [
         {
           "id": 90502,
           "title": "Support Documentation",
+          "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 0,
           "scoreSuccess": "unknown",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: docs missing"
         },
         {
           "id": 90505,
           "title": "Kubernetes Discoverability (Backstage)",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "4",
           "scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Pods discoverable"
         },
         {
           "id": 90506,
           "title": "ArgoCD Sync Status",
+          "weight": 3,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 3,
           "scoreSuccess": "unknown",
           "scoreHints": "ArgoCD application sync status captured and visible",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Argocd status discoverable"
         },
         {
           "id": 90507,
           "title": "Feedback Channels",
+          "weight": 3,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 3,
           "scoreSuccess": "unknown",
           "scoreHints": "Configured channels for collecting user/stakeholder feedback",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: email configured"
         }
       ]
     }

@@ -13,11 +13,12 @@
     {
       "id": 50000,
       "title": "Documentation",
-      "weight": 17,
+      "weight": 20,
       "scoreEntries": [
         {
           "id": 50001,
           "title": "README & Setup Documentation",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -27,6 +28,7 @@
         {
           "id": 50002,
           "title": "Architecture Documentation",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -36,6 +38,7 @@
         {
           "id": 50004,
           "title": "Runbooks & Operations",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -45,6 +48,7 @@
         {
           "id": 50003,
           "title": "Project Overview",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -54,6 +58,7 @@
         {
           "id": 50005,
           "title": "Error Log Reference & Recovery Guide",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -65,11 +70,12 @@
     {
       "id": 50100,
       "title": "Monitoring",
-      "weight": 25,
+      "weight": 29,
       "scoreEntries": [
         {
           "id": 50101,
           "title": "Application Monitoring",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -79,6 +85,7 @@
         {
           "id": 50103,
           "title": "Alerting & Notifications",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -88,6 +95,7 @@
         {
           "id": 50104,
           "title": "Health Checks & Dashboards",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -97,6 +105,7 @@
         {
           "id": 50105,
           "title": "Error Tracking (Sentry)",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -106,6 +115,7 @@
         {
           "id": 50106,
           "title": "Elastic APM Integration",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -115,6 +125,7 @@
         {
           "id": 50107,
           "title": "Log Collection (Elastic Autodiscovery Annotation)",
+          "weight": 3,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -124,6 +135,7 @@
         {
           "id": 50108,
           "title": "Monitoring Dashboard Links",
+          "weight": 3,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -133,6 +145,7 @@
         {
           "id": 50109,
           "title": "APM Dashboard Links",
+          "weight": 3,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -144,11 +157,12 @@
     {
       "id": 50200,
       "title": "Quality",
-      "weight": 20,
+      "weight": 23,
       "scoreEntries": [
         {
           "id": 50201,
           "title": "Bugs",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -158,6 +172,7 @@
         {
           "id": 50202,
           "title": "Vulnerabilities",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -167,6 +182,7 @@
         {
           "id": 50203,
           "title": "Coverage",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -176,6 +192,7 @@
         {
           "id": 50204,
           "title": "Duplications",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -185,6 +202,7 @@
         {
           "id": 50205,
           "title": "Code Smells",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -194,6 +212,7 @@
         {
           "id": 50206,
           "title": "Hotspots",
+          "weight": 3,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -205,11 +224,12 @@
     {
       "id": 50300,
       "title": "Security",
-      "weight": 12,
+      "weight": 14,
       "scoreEntries": [
         {
           "id": 50301,
           "title": "Security Scanning",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -219,6 +239,7 @@
         {
           "id": 50302,
           "title": "Authentication & Authorization",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -228,6 +249,7 @@
         {
           "id": 50305,
           "title": "Dependabot Automated Dependency Updates",
+          "weight": 3,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -237,6 +259,7 @@
         {
           "id": 50306,
           "title": "Single Sign-On (SSO)",
+          "weight": 3,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -248,11 +271,12 @@
     {
       "id": 50500,
       "title": "Operations",
-      "weight": 12,
+      "weight": 14,
       "scoreEntries": [
         {
           "id": 50502,
           "title": "Support Documentation",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -262,6 +286,7 @@
         {
           "id": 50505,
           "title": "Kubernetes Discoverability (Backstage)",
+          "weight": 4,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -271,6 +296,7 @@
         {
           "id": 50506,
           "title": "ArgoCD Sync Status",
+          "weight": 3,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
@@ -280,6 +306,7 @@
         {
           "id": 50507,
           "title": "Feedback Channels",
+          "weight": 3,
           "isOptional": false,
           "scorePercent": null,
           "scoreSuccess": "unknown",
