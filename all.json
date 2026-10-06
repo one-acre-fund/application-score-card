@@ -4,17 +4,16 @@
       "kind": "component",
       "name": "recruitmentplatform-backend"
     },
-    "generatedDateTimeUtc": "2026-10-06T11:45:48.379Z",
-    "scorePercent": 0,
-    "scoreLabel": "Red",
-    "scoreSuccess": "failure",
+    "generatedDateTimeUtc": "2026-10-06T12:02:28.324Z",
+    "scorePercent": 45,
+    "scoreLabel": "Yellow",
+    "scoreSuccess": "almost-failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2026-10-06T11:45:48.379Z",
+    "scoringReviewDate": "2026-10-06T12:02:28.324Z",
     "areaScores": [
       {
         "id": 60000,
         "title": "Documentation",
-
         "scorePercent": 5,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
@@ -54,12 +53,12 @@
       "kind": "component",
       "name": "recruitmentplatform-frontend"
     },
-    "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
+    "generatedDateTimeUtc": "2026-10-06T12:02:28.324Z",
     "scorePercent": 44,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2026-10-06T10:26:48.005Z",
+    "scoringReviewDate": "2026-10-06T12:02:28.324Z",
     "areaScores": [
       {
         "id": 50000,
