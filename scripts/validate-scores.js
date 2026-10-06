@@ -176,8 +176,8 @@ class ScoreValidator {
   }
 
   calculateScores(data) {
-    // Simple weighted average calculation
-    let totalScore = 0;
+    // Weighted sum calculation, mirroring calculate-scores.js
+    let totalWeightedScore = 0;
     let totalWeight = 0;
 
     // Guard against undefined or non-array areaScores
@@ -186,25 +186,22 @@ class ScoreValidator {
     }
 
     data.areaScores.forEach(area => {
-      let areaScore = 0;
-      let areaWeight = 0;
+      const areaWeight = typeof area.weight === 'number' ? area.weight : 0;
+      if (areaWeight === 0) return;
 
-      area.scoreEntries.forEach(entry => {
-        if (entry.scorePercent !== null && entry.scoreSuccess !== 'unknown' && !entry.isOptional) {
-          areaScore += entry.scorePercent;
-          areaWeight += 1;
-        }
-      });
+      const pointsEarned = area.scoreEntries.reduce((sum, entry) => {
+        if (entry.isOptional) return sum;
+        if (entry.scorePercent === null || entry.scoreSuccess === 'unknown') return sum;
+        return sum + entry.scorePercent;
+      }, 0);
 
-      if (areaWeight > 0) {
-        const avgAreaScore = areaScore / areaWeight;
-        totalScore += avgAreaScore;
-        totalWeight += 1;
-      }
+      const areaScore = (pointsEarned / areaWeight) * 100;
+      totalWeightedScore += areaScore * areaWeight;
+      totalWeight += areaWeight;
     });
 
     return {
-      overall: totalWeight > 0 ? totalScore / totalWeight : 0
+      overall: totalWeight > 0 ? totalWeightedScore / totalWeight : 0
     };
   }
 

@@ -4,10 +4,10 @@
     "name": "recruitment-platform-frontend"
   },
   "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
-  "scorePercent": 0,
-  "scoreLabel": "Red",
-  "scoreSuccess": "failure",
-  "scoringReviewer": null,
+  "scorePercent": 44,
+  "scoreLabel": "Yellow",
+  "scoreSuccess": "almost-failure",
+  "scoringReviewer": "bisonlou",
   "scoringReviewDate": null,
   "areaScores": [
     {
@@ -21,10 +21,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "almost-success",
           "scoreHints": "Comprehensive setup and usage documentation",
           "details": "TODO: add project setup instructions",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 50002,
@@ -54,10 +54,9 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": null,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "unknown",
           "scoreHints": "High-level overview describing the application's purpose, scope and audience",
-          "details": "TODO: Add project overview documentation",
-          "scoreLabel": "Red"
+          "details": "TODO: Add project overview documentation"
         },
         {
           "id": 50005,
@@ -71,7 +70,7 @@
           "scoreLabel": "Red"
         }
       ],
-      "scorePercent": 0,
+      "scorePercent": 15,
       "scoreLabel": "Red",
       "scoreSuccess": "failure"
     },
@@ -184,10 +183,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Reliability issues detected by static analysis",
           "details": "TODO: Excellent",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 50202,
@@ -195,10 +194,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Exploitable security issues detected by static analysis",
           "details": "TODO: Excellent",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 50203,
@@ -206,10 +205,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Percentage of code covered by automated tests",
           "details": "TODO: coverage is above 80%",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 50204,
@@ -217,10 +216,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Percentage of duplicated lines of code",
           "details": "TODO: 2.9% neat",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 50205,
@@ -228,10 +227,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Maintainability issues detected by static analysis",
           "details": "TODO: Awesome",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 50206,
@@ -239,15 +238,15 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Security-sensitive code requiring manual review",
           "details": "TODO: Awesome",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         }
       ],
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure"
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success"
     },
     {
       "id": 50300,
@@ -260,10 +259,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Automated security vulnerability scanning",
           "details": "TODO: Dependabot is configured and running",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 50302,
@@ -271,10 +270,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Proper identity and access management",
           "details": "TODO: SSO configured",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 50305,
@@ -293,15 +292,14 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": null,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "unknown",
           "scoreHints": "Application secured with centralized Single Sign-On",
-          "details": "TODO: Add your assessment here",
-          "scoreLabel": "Red"
+          "details": "TODO: Add your assessment here"
         }
       ],
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure"
+      "scorePercent": 57,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial"
     },
     {
       "id": 50500,
@@ -325,10 +323,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
           "details": "TODO: Pods discoverable",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 50506,
@@ -336,10 +334,10 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "ArgoCD application sync status captured and visible",
           "details": "TODO: Argocd status discoverable",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 50507,
@@ -347,15 +345,15 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "failure",
+          "scoreSuccess": "success",
           "scoreHints": "Configured channels for collecting user/stakeholder feedback",
           "details": "TODO: email configured",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         }
       ],
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure"
+      "scorePercent": 71,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success"
     }
   ]
 }
