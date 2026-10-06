@@ -147,7 +147,7 @@ class ScoreCalculator {
     // Sum the points earned by each scored entry (unassessed/optional entries contribute 0)
     const pointsEarned = area.scoreEntries.reduce((sum, entry) => {
       if (entry.isOptional) return sum;
-      if (entry.scoreSuccess === 'unknown' || entry.scorePercent === null || entry.scorePercent === undefined) {
+      if (entry.scorePercent === null || entry.scorePercent === undefined) {
         return sum;
       }
       return sum + entry.scorePercent;
@@ -247,7 +247,7 @@ class ScoreCalculator {
               // leave not-yet-assessed entries as 'unknown' instead of mislabeling them as failures
               if (updatedArea.scoreEntries) {
                 updatedArea.scoreEntries = updatedArea.scoreEntries.map(entry => {
-                  if (entry.scoreSuccess === 'unknown' || entry.scorePercent === null || entry.scorePercent === undefined) {
+                  if (entry.scorePercent === null || entry.scorePercent === undefined) {
                     const { scoreLabel, ...rest } = entry;
                     return { ...rest, scoreSuccess: 'unknown' };
                   }
