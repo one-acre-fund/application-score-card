@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "recruitment-platform-frontend"
     },
-    "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
+    "generatedDateTimeUtc": "2026-10-06T09:06:37.378Z",
     "scorePercent": 0,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "System Review",
-    "scoringReviewDate": "2026-10-06T10:09:36.815Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-06T09:06:37.378Z",
     "areaScores": [
       {
         "id": 50000,
