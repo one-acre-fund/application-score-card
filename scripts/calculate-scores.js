@@ -142,42 +142,41 @@ class ScoreCalculator {
   }
 
   processAreaScore(area) {
-    const scoredEntries = area.scoreEntries.filter(entry => 
-      entry.scoreSuccess !== 'unknown' && 
-      entry.scorePercent !== null && 
-      entry.scorePercent !== undefined &&
-      !entry.isOptional
-    );
+    const weight = typeof area.weight === 'number' ? area.weight : 0;
 
-    let areaScore = 0;
-    if (scoredEntries.length > 0) {
-      const totalScore = scoredEntries.reduce((sum, entry) => sum + entry.scorePercent, 0);
-      areaScore = totalScore / scoredEntries.length;
-    }
+    // Sum the points earned by each scored entry (unassessed/optional entries contribute 0)
+    const pointsEarned = area.scoreEntries.reduce((sum, entry) => {
+      if (entry.isOptional) return sum;
+      if (entry.scoreSuccess === 'unknown' || entry.scorePercent === null || entry.scorePercent === undefined) {
+        return sum;
+      }
+      return sum + entry.scorePercent;
+    }, 0);
+
+    // Express the points earned as a percentage of the area's total weight
+    const areaScore = weight > 0 ? (pointsEarned / weight) * 100 : 0;
 
     return {
       id: area.id,
       title: area.title,
+      weight,
       scorePercent: areaScore,
       scoreEntries: area.scoreEntries
     };
   }
 
   calculateOverallScore(areaScores) {
-    // Filter areas that have actual scores
-    const scoredAreas = areaScores.filter(area => area.scorePercent > 0);
-    
-    if (scoredAreas.length === 0) {
+    const totalWeight = areaScores.reduce((sum, area) => sum + (area.weight || 0), 0);
+
+    if (totalWeight === 0) {
       return { scorePercent: 0 };
     }
 
-    // Simple average of area scores
-    // You can implement weighted scoring here if needed
-    const totalScore = scoredAreas.reduce((sum, area) => sum + area.scorePercent, 0);
-    const averageScore = totalScore / scoredAreas.length;
+    // Weighted average of area scores, weighted by each area's share of the total weight
+    const weightedSum = areaScores.reduce((sum, area) => sum + area.scorePercent * (area.weight || 0), 0);
 
     return {
-      scorePercent: averageScore
+      scorePercent: weightedSum / totalWeight
     };
   }
 
@@ -240,13 +239,23 @@ class ScoreCalculator {
                 scoreSuccess: calculatedArea.scoreSuccess
               };
 
-              // Update scoreLabel for each scoreEntry based on its scorePercent
+              // Update scoreLabel for each scoreEntry based on its share of its own weight;
+              // leave not-yet-assessed entries as 'unknown' instead of mislabeling them as failures
               if (updatedArea.scoreEntries) {
-                updatedArea.scoreEntries = updatedArea.scoreEntries.map(entry => ({
-                  ...entry,
-                  scoreLabel: this.getScoreLabel(entry.scorePercent || 0),
-                  scoreSuccess: this.getScoreSuccess(entry.scorePercent || 0)
-                }));
+                updatedArea.scoreEntries = updatedArea.scoreEntries.map(entry => {
+                  if (entry.scoreSuccess === 'unknown' || entry.scorePercent === null || entry.scorePercent === undefined) {
+                    const { scoreLabel, ...rest } = entry;
+                    return { ...rest, scoreSuccess: 'unknown' };
+                  }
+
+                  const entryPercent = entry.weight ? (entry.scorePercent / entry.weight) * 100 : entry.scorePercent;
+
+                  return {
+                    ...entry,
+                    scoreLabel: this.getScoreLabel(entryPercent),
+                    scoreSuccess: this.getScoreSuccess(entryPercent)
+                  };
+                });
               }
 
               return updatedArea;

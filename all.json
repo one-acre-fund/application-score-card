@@ -4,17 +4,17 @@
       "kind": "component",
       "name": "recruitment-platform-frontend"
     },
-    "generatedDateTimeUtc": "2026-10-06T10:14:07.066Z",
-    "scorePercent": 2,
-    "scoreLabel": "Red",
-    "scoreSuccess": "failure",
+    "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
+    "scorePercent": 44,
+    "scoreLabel": "Yellow",
+    "scoreSuccess": "almost-failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2026-10-06T10:14:07.066Z",
+    "scoringReviewDate": "2026-10-06T10:26:48.005Z",
     "areaScores": [
       {
         "id": 50000,
         "title": "Documentation",
-        "scorePercent": 1,
+        "scorePercent": 15,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
@@ -28,23 +28,23 @@
       {
         "id": 50200,
         "title": "Quality",
-        "scorePercent": 4,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
         "id": 50300,
         "title": "Security",
-        "scorePercent": 3,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 57,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
       },
       {
         "id": 50500,
         "title": "Operations",
-        "scorePercent": 3,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 71,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
       }
     ]
   }
