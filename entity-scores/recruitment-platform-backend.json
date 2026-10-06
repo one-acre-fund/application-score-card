@@ -1,12 +1,12 @@
 {
   "entityRef": {
     "kind": "component",
-    "name": "recruitment-platform-backend"
+    "name": "recruitmentplatform-backend"
   },
   "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
-  "scorePercent": null,
-  "scoreLabel": null,
-  "scoreSuccess": "unknown",
+  "scorePercent": 45,
+  "scoreLabel": "Yellow",
+  "scoreSuccess": "almost-failure",
   "scoringReviewer": null,
   "scoringReviewDate": null,
   "areaScores": [
@@ -20,20 +20,22 @@
           "title": "README & Setup Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 1,
+          "scoreSuccess": "failure",
           "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "TODO: Add project setup and running instructions in the readme"
+          "details": "TODO: Add project setup and running instructions in the readme",
+          "scoreLabel": "Red"
         },
         {
           "id": 60002,
           "title": "Architecture Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
           "scoreHints": "System architecture and design documentation",
-          "details": "TODO: Add tech docs and write a simple architecture documentations"
+          "details": "TODO: Add tech docs and write a simple architecture documentations",
+          "scoreLabel": "Red"
         },
         {
           "id": 60003,
@@ -50,22 +52,27 @@
           "title": "Runbooks & Operations",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "TODO: Add runbooks and operational procedures to tech-docs"
+          "details": "TODO: Add runbooks and operational procedures to tech-docs",
+          "scoreLabel": "Red"
         },
         {
           "id": 60005,
           "title": "Error Log Reference & Recovery Guide",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
           "scoreHints": "Common error logs documented with their meaning and recovery steps",
-          "details": "TODO: Add error log reference and recovery guide to tech-docs"
+          "details": "TODO: Add error log reference and recovery guide to tech-docs",
+          "scoreLabel": "Red"
         }
-      ]
+      ],
+      "scorePercent": 5,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure"
     },
     {
       "id": 60100,
@@ -78,39 +85,43 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Comprehensive application performance monitoring",
-          "details": "TODO: Logs are being collected"
+          "details": "Logs are being collected",
+          "scoreLabel": "Green"
         },
         {
           "id": 60103,
           "title": "Alerting & Notifications",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
           "scoreHints": "Proactive alerting on key metrics",
-          "details": "TODO: Missing alerts. Talks to @ivy.zioka"
+          "details": "TODO: Missing alerts. Talks to @ivy.zioka",
+          "scoreLabel": "Red"
         },
         {
           "id": 60104,
           "title": "Health Checks & Dashboards",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "TODO: Missing dashboard. Talks to @ivy.zioka"
+          "details": "TODO: Missing dashboard. Talks to @ivy.zioka",
+          "scoreLabel": "Red"
         },
         {
           "id": 60105,
           "title": "Error Tracking (Sentry)",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
           "scoreHints": "Sentry integration added for error tracking and reporting",
-          "details": "TODO: Add sentry integration"
+          "details": "TODO: Add sentry integration",
+          "scoreLabel": "Red"
         },
         {
           "id": 60106,
@@ -118,9 +129,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
-          "details": "APM Integrated"
+          "details": "APM Integrated",
+          "scoreLabel": "Green"
         },
         {
           "id": 60107,
@@ -128,9 +140,10 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Logs collected via Elastic autodiscovery annotation on pods",
-          "details": "Logs are being collected via Elastic autodiscovery annotation on pods"
+          "details": "Logs are being collected via Elastic autodiscovery annotation on pods",
+          "scoreLabel": "Green"
         },
         {
           "id": 60108,
@@ -138,9 +151,10 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Links to monitoring dashboards added to catalog/documentation",
-          "details": "TODO: Add links to monitoring dashboards"
+          "details": "TODO: Add links to monitoring dashboards",
+          "scoreLabel": "Red"
         },
         {
           "id": 60109,
@@ -148,11 +162,15 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Links to APM dashboards added to catalog/documentation",
-          "details": "TODO: Add links to APM dashboard"
+          "details": "TODO: Add links to APM dashboard",
+          "scoreLabel": "Red"
         }
-      ]
+      ],
+      "scorePercent": 38,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure"
     },
     {
       "id": 60200,
@@ -165,9 +183,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 1,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Reliability issues detected by static analysis",
-          "details": "TODO: Raise bugs rating to an A"
+          "details": "TODO: Raise bugs rating to an A",
+          "scoreLabel": "Red"
         },
         {
           "id": 60202,
@@ -175,9 +194,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 2,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "partial",
           "scoreHints": "Exploitable security issues detected by static analysis",
-          "details": "TODO: Reduce your vulnerability score"
+          "details": "TODO: Reduce your vulnerability score",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 60203,
@@ -185,9 +205,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Percentage of code covered by automated tests",
-          "details": "Well above 80%"
+          "details": "Well above 80%",
+          "scoreLabel": "Green"
         },
         {
           "id": 60204,
@@ -195,9 +216,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Percentage of duplicated lines of code",
-          "details": "Excellent"
+          "details": "Excellent",
+          "scoreLabel": "Green"
         },
         {
           "id": 60205,
@@ -205,9 +227,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Maintainability issues detected by static analysis",
-          "details": "Excellent"
+          "details": "Excellent",
+          "scoreLabel": "Green"
         },
         {
           "id": 60206,
@@ -215,11 +238,15 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Security-sensitive code requiring manual review",
-          "details": "Excellent"
+          "details": "Excellent",
+          "scoreLabel": "Green"
         }
-      ]
+      ],
+      "scorePercent": 78,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success"
     },
     {
       "id": 60300,
@@ -232,9 +259,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Automated security vulnerability scanning",
-          "details": "Dependabot setup"
+          "details": "Dependabot setup",
+          "scoreLabel": "Green"
         },
         {
           "id": 60302,
@@ -242,9 +270,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 1,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Proper identity and access management",
-          "details": "TODO: Add APIkey authentication to your apis talk to @orchide.irakoze"
+          "details": "TODO: Add APIkey authentication to your apis talk to @orchide.irakoze",
+          "scoreLabel": "Red"
         },
         {
           "id": 60305,
@@ -252,9 +281,10 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
-          "details": "TODO: Fix dependabot PRs and test and merge them"
+          "details": "TODO: Fix dependabot PRs and test and merge them",
+          "scoreLabel": "Red"
         },
         {
           "id": 60306,
@@ -262,11 +292,15 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Application secured with centralized Single Sign-On",
-          "details": "TODO: N/A"
+          "details": "TODO: N/A",
+          "scoreLabel": "Green"
         }
-      ]
+      ],
+      "scorePercent": 57,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial"
     },
     {
       "id": 60500,
@@ -279,9 +313,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "TODO: Add support docs"
+          "details": "TODO: Add support docs",
+          "scoreLabel": "Red"
         },
         {
           "id": 60505,
@@ -289,9 +324,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
-          "details": "Pods discoverable in backstage"
+          "details": "Pods discoverable in backstage",
+          "scoreLabel": "Green"
         },
         {
           "id": 60506,
@@ -299,9 +335,10 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "ArgoCD application sync status captured and visible",
-          "details": "Discoverable in backstage"
+          "details": "Discoverable in backstage",
+          "scoreLabel": "Green"
         },
         {
           "id": 60507,
@@ -313,7 +350,10 @@
           "scoreHints": "Configured channels for collecting user/stakeholder feedback",
           "details": "Feedback email setup"
         }
-      ]
+      ],
+      "scorePercent": 50,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial"
     }
   ]
 }

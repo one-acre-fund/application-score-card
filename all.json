@@ -2,7 +2,7 @@
   {
     "entityRef": {
       "kind": "component",
-      "name": "recruitment-platform-backend"
+      "name": "recruitmentplatform-backend"
     },
     "generatedDateTimeUtc": "2026-10-06T11:45:48.379Z",
     "scorePercent": 0,
@@ -14,37 +14,38 @@
       {
         "id": 60000,
         "title": "Documentation",
-        "scorePercent": 0,
+
+        "scorePercent": 5,
         "scoreLabel": "Red",
         "scoreSuccess": "failure"
       },
       {
         "id": 60100,
         "title": "Monitoring",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 38,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
       },
       {
         "id": 60200,
         "title": "Quality",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 78,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
       },
       {
         "id": 60300,
         "title": "Security",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 57,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
       },
       {
         "id": 60500,
         "title": "Operations",
-        "scorePercent": 0,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 50,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
       }
     ]
   },
@@ -53,12 +54,12 @@
       "kind": "component",
       "name": "recruitmentplatform-frontend"
     },
-    "generatedDateTimeUtc": "2026-10-06T11:45:48.380Z",
+    "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
     "scorePercent": 44,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2026-10-06T11:45:48.380Z",
+    "scoringReviewDate": "2026-10-06T10:26:48.005Z",
     "areaScores": [
       {
         "id": 50000,
