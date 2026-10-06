@@ -2,14 +2,63 @@
   {
     "entityRef": {
       "kind": "component",
+      "name": "recruitment-platform-backend"
+    },
+    "generatedDateTimeUtc": "2026-10-06T11:45:48.379Z",
+    "scorePercent": 0,
+    "scoreLabel": "Red",
+    "scoreSuccess": "failure",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-06T11:45:48.379Z",
+    "areaScores": [
+      {
+        "id": 60000,
+        "title": "Documentation",
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 60100,
+        "title": "Monitoring",
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 60200,
+        "title": "Quality",
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 60300,
+        "title": "Security",
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 60500,
+        "title": "Operations",
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
       "name": "recruitmentplatform-frontend"
     },
-    "generatedDateTimeUtc": "2026-10-06T11:23:22.176Z",
+    "generatedDateTimeUtc": "2026-10-06T11:45:48.380Z",
     "scorePercent": 44,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2026-10-06T11:23:22.176Z",
+    "scoringReviewDate": "2026-10-06T11:45:48.380Z",
     "areaScores": [
       {
         "id": 50000,
