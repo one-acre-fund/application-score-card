@@ -1,10 +1,9 @@
 {
   "entityRef": {
     "kind": "component",
-    "name": "YOUR_ENTITY_NAME_HERE",
-    "namespace": "default"
+    "name": "recruitment-platform-frontend"
   },
-  "generatedDateTimeUtc": "2025-10-15T10:00:00Z",
+  "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
   "scorePercent": null,
   "scoreLabel": null,
   "scoreSuccess": "unknown",
@@ -12,12 +11,12 @@
   "scoringReviewDate": null,
   "areaScores": [
     {
-      "id": 90000,
+      "id": 50000,
       "title": "Documentation",
       "weight": 17,
       "scoreEntries": [
         {
-          "id": 90001,
+          "id": 50001,
           "title": "README & Setup Documentation",
           "isOptional": false,
           "scorePercent": null,
@@ -26,7 +25,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90002,
+          "id": 50002,
           "title": "Architecture Documentation",
           "isOptional": false,
           "scorePercent": null,
@@ -35,16 +34,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90003,
-          "title": "Project Overview",
-          "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
-          "scoreHints": "High-level overview describing the application's purpose, scope and audience",
-          "details": "TODO: Add your assessment here"
-        },
-        {
-          "id": 90004,
+          "id": 50004,
           "title": "Runbooks & Operations",
           "isOptional": false,
           "scorePercent": null,
@@ -53,7 +43,16 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90005,
+          "id": 50003,
+          "title": "Project Overview",
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "High-level overview describing the application's purpose, scope and audience",
+          "details": "TODO: Add your assessment here"
+        },
+        {
+          "id": 50005,
           "title": "Error Log Reference & Recovery Guide",
           "isOptional": false,
           "scorePercent": null,
@@ -64,12 +63,12 @@
       ]
     },
     {
-      "id": 90100,
+      "id": 50100,
       "title": "Monitoring",
       "weight": 25,
       "scoreEntries": [
         {
-          "id": 90101,
+          "id": 50101,
           "title": "Application Monitoring",
           "isOptional": false,
           "scorePercent": null,
@@ -78,7 +77,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90103,
+          "id": 50103,
           "title": "Alerting & Notifications",
           "isOptional": false,
           "scorePercent": null,
@@ -87,7 +86,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90104,
+          "id": 50104,
           "title": "Health Checks & Dashboards",
           "isOptional": false,
           "scorePercent": null,
@@ -96,7 +95,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90105,
+          "id": 50105,
           "title": "Error Tracking (Sentry)",
           "isOptional": false,
           "scorePercent": null,
@@ -105,7 +104,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90106,
+          "id": 50106,
           "title": "Elastic APM Integration",
           "isOptional": false,
           "scorePercent": null,
@@ -114,7 +113,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90107,
+          "id": 50107,
           "title": "Log Collection (Elastic Autodiscovery Annotation)",
           "isOptional": false,
           "scorePercent": null,
@@ -123,7 +122,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90108,
+          "id": 50108,
           "title": "Monitoring Dashboard Links",
           "isOptional": false,
           "scorePercent": null,
@@ -132,7 +131,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90109,
+          "id": 50109,
           "title": "APM Dashboard Links",
           "isOptional": false,
           "scorePercent": null,
@@ -143,12 +142,12 @@
       ]
     },
     {
-      "id": 90200,
+      "id": 50200,
       "title": "Quality",
       "weight": 20,
       "scoreEntries": [
         {
-          "id": 90201,
+          "id": 50201,
           "title": "Bugs",
           "isOptional": false,
           "scorePercent": null,
@@ -157,7 +156,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90202,
+          "id": 50202,
           "title": "Vulnerabilities",
           "isOptional": false,
           "scorePercent": null,
@@ -166,7 +165,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90203,
+          "id": 50203,
           "title": "Coverage",
           "isOptional": false,
           "scorePercent": null,
@@ -175,7 +174,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90204,
+          "id": 50204,
           "title": "Duplications",
           "isOptional": false,
           "scorePercent": null,
@@ -184,7 +183,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90205,
+          "id": 50205,
           "title": "Code Smells",
           "isOptional": false,
           "scorePercent": null,
@@ -193,7 +192,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90206,
+          "id": 50206,
           "title": "Hotspots",
           "isOptional": false,
           "scorePercent": null,
@@ -204,12 +203,12 @@
       ]
     },
     {
-      "id": 90300,
+      "id": 50300,
       "title": "Security",
       "weight": 12,
       "scoreEntries": [
         {
-          "id": 90301,
+          "id": 50301,
           "title": "Security Scanning",
           "isOptional": false,
           "scorePercent": null,
@@ -218,7 +217,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90302,
+          "id": 50302,
           "title": "Authentication & Authorization",
           "isOptional": false,
           "scorePercent": null,
@@ -227,7 +226,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90305,
+          "id": 50305,
           "title": "Dependabot Automated Dependency Updates",
           "isOptional": false,
           "scorePercent": null,
@@ -236,7 +235,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90306,
+          "id": 50306,
           "title": "Single Sign-On (SSO)",
           "isOptional": false,
           "scorePercent": null,
@@ -247,12 +246,12 @@
       ]
     },
     {
-      "id": 90500,
+      "id": 50500,
       "title": "Operations",
       "weight": 12,
       "scoreEntries": [
         {
-          "id": 90502,
+          "id": 50502,
           "title": "Support Documentation",
           "isOptional": false,
           "scorePercent": null,
@@ -261,7 +260,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90505,
+          "id": 50505,
           "title": "Kubernetes Discoverability (Backstage)",
           "isOptional": false,
           "scorePercent": null,
@@ -270,7 +269,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90506,
+          "id": 50506,
           "title": "ArgoCD Sync Status",
           "isOptional": false,
           "scorePercent": null,
@@ -279,7 +278,7 @@
           "details": "TODO: Add your assessment here"
         },
         {
-          "id": 90507,
+          "id": 50507,
           "title": "Feedback Channels",
           "isOptional": false,
           "scorePercent": null,
