@@ -221,6 +221,10 @@ class ScoreCalculator {
         }
         if (this.reviewer) {
           originalData.scoringReviewer = this.reviewer;
+          // A reviewer was just assigned, so make sure the review date isn't left blank
+          if (!originalData.scoringReviewDate) {
+            originalData.scoringReviewDate = now;
+          }
         }
 
         // Update area scores while preserving scoreEntries
