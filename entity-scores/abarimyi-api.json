@@ -1,0 +1,350 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "abarimyi-api"
+  },
+  "generatedDateTimeUtc": "2026-10-07T00:00:00.000Z",
+  "scorePercent": 43,
+  "scoreLabel": "Yellow",
+  "scoreSuccess": "almost-failure",
+  "scoringReviewer": null,
+  "scoringReviewDate": null,
+  "areaScores": [
+    {
+      "id": 70000,
+      "title": "Documentation",
+      "weight": 20,
+      "scoreEntries": [
+        {
+          "id": 70001,
+          "title": "README & Setup Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Comprehensive setup and usage documentation",
+          "details": "TODO: Add setup instructions to your readme",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 70002,
+          "title": "Architecture Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "System architecture and design documentation",
+          "details": "TODO: Add architecture documentation to your docs",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 70003,
+          "title": "Project Overview",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "High-level overview describing the application's purpose, scope and audience",
+          "details": "TODO: Add a high-level overview describing the application's purpose, scope and audience",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 70004,
+          "title": "Runbooks & Operations",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "TODO: Add operational procedures and troubleshooting guides",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 70005,
+          "title": "Error Log Reference & Recovery Guide",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Common error logs documented with their meaning and recovery steps",
+          "details": "TODO: Add common error logs documented with their meaning and recovery steps",
+          "scoreLabel": "Red"
+        }
+      ],
+      "scorePercent": 0,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure"
+    },
+    {
+      "id": 70100,
+      "title": "Monitoring",
+      "weight": 29,
+      "scoreEntries": [
+        {
+          "id": 70103,
+          "title": "Alerting & Notifications",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Proactive alerting on key metrics",
+          "details": "TODO: With the help of @ivy.nzioka setup alerts for the app",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 70104,
+          "title": "Health Checks & Dashboards",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Health endpoints and monitoring dashboards",
+          "details": "TODO: With the help of @ivy.nzioka setup a dashboard",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 70105,
+          "title": "Error Tracking (Sentry)",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 1,
+          "scoreSuccess": "failure",
+          "scoreHints": "Sentry integration added for error tracking and reporting",
+          "details": "TODO: I see a sentry project but it is not integrated to the app",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 70106,
+          "title": "Elastic APM Integration",
+          "weight": 5,
+          "isOptional": false,
+          "scorePercent": 2,
+          "scoreSuccess": "almost-failure",
+          "scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
+          "details": "TODO: Application does not appear in elastic",
+          "scoreLabel": "Yellow"
+        },
+        {
+          "id": 70107,
+          "title": "Log Collection (Elastic Autodiscovery Annotation)",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "almost-success",
+          "scoreHints": "Logs collected via Elastic autodiscovery annotation on pods",
+          "details": "TODO: Logs yet to be seen due to faulty monitoring platform",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 70108,
+          "title": "Monitoring Dashboard Links",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Links to monitoring dashboards added to catalog/documentation",
+          "details": "TODO: Add links to monitoring dashboards in the catalog/documentation",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 70109,
+          "title": "APM Dashboard Links",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Links to APM dashboards added to catalog/documentation",
+          "details": "TODO: Add links to APM dashboards in the catalog/documentation",
+          "scoreLabel": "Red"
+        }
+      ],
+      "scorePercent": 21,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure"
+    },
+    {
+      "id": 70200,
+      "title": "Quality",
+      "weight": 23,
+      "scoreEntries": [
+        {
+          "id": 70201,
+          "title": "Bugs",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 1,
+          "scoreSuccess": "failure",
+          "scoreHints": "Reliability issues detected by static analysis",
+          "details": "TODO: Reduce bugs",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 70202,
+          "title": "Vulnerabilities",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "success",
+          "scoreHints": "Exploitable security issues detected by static analysis",
+          "details": "",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 70203,
+          "title": "Coverage",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "success",
+          "scoreHints": "Percentage of code covered by automated tests",
+          "details": "",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 70204,
+          "title": "Duplications",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "success",
+          "scoreHints": "Percentage of duplicated lines of code",
+          "details": "",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 70205,
+          "title": "Code Smells",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "success",
+          "scoreHints": "Maintainability issues detected by static analysis",
+          "details": "",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 70206,
+          "title": "Hotspots",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "success",
+          "scoreHints": "Security-sensitive code requiring manual review",
+          "details": "",
+          "scoreLabel": "Green"
+        }
+      ],
+      "scorePercent": 87,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success"
+    },
+    {
+      "id": 70300,
+      "title": "Security",
+      "weight": 14,
+      "scoreEntries": [
+        {
+          "id": 70301,
+          "title": "Security Scanning",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "success",
+          "scoreHints": "Automated security vulnerability scanning",
+          "details": "TODO: Dependabot PRs setup",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 70302,
+          "title": "Authentication & Authorization",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Proper identity and access management",
+          "details": "TODO: Missing auth on APIs. possibly could use kong",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 70305,
+          "title": "Dependabot Automated Dependency Updates",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "success",
+          "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
+          "details": "TODO: PRs fixed and some merged",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 70306,
+          "title": "Single Sign-On (SSO)",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "success",
+          "scoreHints": "Application secured with centralized Single Sign-On",
+          "details": "TODO: N/A",
+          "scoreLabel": "Green"
+        }
+      ],
+      "scorePercent": 71,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success"
+    },
+    {
+      "id": 70500,
+      "title": "Operations",
+      "weight": 14,
+      "scoreEntries": [
+        {
+          "id": 70502,
+          "title": "Support Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Support procedures and knowledge base",
+          "details": "TODO: Add support documentation",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 70505,
+          "title": "Kubernetes Discoverability (Backstage)",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "success",
+          "scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
+          "details": "",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 70506,
+          "title": "ArgoCD Sync Status",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "success",
+          "scoreHints": "ArgoCD application sync status captured and visible",
+          "details": "",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 70507,
+          "title": "Feedback Channels",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Configured channels for collecting user/stakeholder feedback",
+          "details": "TODO: feeback email missing in catalog",
+          "scoreLabel": "Red"
+        }
+      ],
+      "scorePercent": 50,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial"
+    }
+  ]
+}
