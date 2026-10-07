@@ -2,14 +2,63 @@
   {
     "entityRef": {
       "kind": "component",
+      "name": "abarimyi-api"
+    },
+    "generatedDateTimeUtc": "2026-10-07T00:00:00.000Z",
+    "scorePercent": 43,
+    "scoreLabel": "Yellow",
+    "scoreSuccess": "almost-failure",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2026-10-07T08:57:07.151Z",
+    "areaScores": [
+      {
+        "id": 70000,
+        "title": "Documentation",
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 70100,
+        "title": "Monitoring",
+        "scorePercent": 21,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 70200,
+        "title": "Quality",
+        "scorePercent": 87,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 70300,
+        "title": "Security",
+        "scorePercent": 71,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "id": 70500,
+        "title": "Operations",
+        "scorePercent": 50,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
       "name": "recruitmentplatform-backend"
     },
-    "generatedDateTimeUtc": "2026-10-06T12:02:28.324Z",
+    "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
     "scorePercent": 45,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
-    "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2026-10-06T12:02:28.324Z",
+    "scoringReviewer": "System Review",
+    "scoringReviewDate": "2026-10-07T08:57:07.157Z",
     "areaScores": [
       {
         "id": 60000,
@@ -53,12 +102,12 @@
       "kind": "component",
       "name": "recruitmentplatform-frontend"
     },
-    "generatedDateTimeUtc": "2026-10-06T12:02:28.324Z",
+    "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
     "scorePercent": 44,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "bisonlou",
-    "scoringReviewDate": "2026-10-06T12:02:28.324Z",
+    "scoringReviewDate": "2026-10-06T10:26:48.005Z",
     "areaScores": [
       {
         "id": 50000,
