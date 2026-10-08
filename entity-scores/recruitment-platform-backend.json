@@ -3,12 +3,12 @@
     "kind": "component",
     "name": "recruitmentplatform-backend"
   },
-  "generatedDateTimeUtc": "2026-10-08T11:37:37.145Z",
+  "generatedDateTimeUtc": "2026-10-08T12:03:33.444Z",
   "scorePercent": 63,
   "scoreLabel": "Yellow",
   "scoreSuccess": "partial",
   "scoringReviewer": "GitHub Action",
-  "scoringReviewDate": "2026-10-08T11:37:37.145Z",
+  "scoringReviewDate": "2026-10-08T12:03:33.444Z",
   "areaScores": [
     {
       "id": 60000,
