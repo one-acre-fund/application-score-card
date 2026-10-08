@@ -3,12 +3,12 @@
     "kind": "component",
     "name": "recruitmentplatform-backend"
   },
-  "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
-  "scorePercent": 48,
+  "generatedDateTimeUtc": "2026-10-08T11:37:37.145Z",
+  "scorePercent": 63,
   "scoreLabel": "Yellow",
-  "scoreSuccess": "almost-failure",
-  "scoringReviewer": null,
-  "scoringReviewDate": null,
+  "scoreSuccess": "partial",
+  "scoringReviewer": "GitHub Action",
+  "scoringReviewDate": "2026-10-08T11:37:37.145Z",
   "areaScores": [
     {
       "id": 60000,
@@ -20,43 +20,44 @@
           "title": "README & Setup Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 1,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreSuccess": "success",
           "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "TODO: Add project setup and running instructions in the readme",
-          "scoreLabel": "Red"
+          "details": "",
+          "scoreLabel": "Green"
         },
         {
           "id": 60002,
           "title": "Architecture Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreSuccess": "success",
           "scoreHints": "System architecture and design documentation",
-          "details": "TODO: Add tech docs and write a simple architecture documentations",
-          "scoreLabel": "Red"
+          "details": "",
+          "scoreLabel": "Green"
         },
         {
           "id": 60003,
           "title": "Project Overview",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 4,
+          "scoreSuccess": "success",
           "scoreHints": "High-level overview describing the application's purpose, scope and audience",
-          "details": "TODO: Add to tech-docs"
+          "details": "",
+          "scoreLabel": "Green"
         },
         {
           "id": 60004,
           "title": "Runbooks & Operations",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreSuccess": "success",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "TODO: Add runbooks and operational procedures to tech-docs",
-          "scoreLabel": "Red"
+          "details": "",
+          "scoreLabel": "Green"
         },
         {
           "id": 60005,
@@ -70,9 +71,9 @@
           "scoreLabel": "Red"
         }
       ],
-      "scorePercent": 5,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure"
+      "scorePercent": 80,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success"
     },
     {
       "id": 60100,
