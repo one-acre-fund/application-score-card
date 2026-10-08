@@ -4,7 +4,7 @@
     "name": "recruitmentplatform-backend"
   },
   "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
-  "scorePercent": 45,
+  "scorePercent": 48,
   "scoreLabel": "Yellow",
   "scoreSuccess": "almost-failure",
   "scoringReviewer": null,
@@ -269,11 +269,11 @@
           "title": "Authentication & Authorization",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 1,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreSuccess": "success",
           "scoreHints": "Proper identity and access management",
-          "details": "TODO: Add APIkey authentication to your apis talk to @orchide.irakoze",
-          "scoreLabel": "Red"
+          "details": "The api had authorization so it is secure",
+          "scoreLabel": "Green"
         },
         {
           "id": 60305,
@@ -298,9 +298,9 @@
           "scoreLabel": "Green"
         }
       ],
-      "scorePercent": 57,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "partial"
+      "scorePercent": 79,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success"
     },
     {
       "id": 60500,

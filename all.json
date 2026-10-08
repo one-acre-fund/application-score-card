@@ -9,7 +9,7 @@
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "System Review",
-    "scoringReviewDate": "2026-10-07T08:57:07.151Z",
+    "scoringReviewDate": "2026-10-08T11:30:47.654Z",
     "areaScores": [
       {
         "id": 70000,
@@ -54,11 +54,11 @@
       "name": "recruitmentplatform-backend"
     },
     "generatedDateTimeUtc": "2026-10-06T00:00:00.000Z",
-    "scorePercent": 45,
+    "scorePercent": 48,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "System Review",
-    "scoringReviewDate": "2026-10-07T08:57:07.157Z",
+    "scoringReviewDate": "2026-10-08T11:30:47.661Z",
     "areaScores": [
       {
         "id": 60000,
@@ -84,9 +84,9 @@
       {
         "id": 60300,
         "title": "Security",
-        "scorePercent": 57,
-        "scoreLabel": "Yellow",
-        "scoreSuccess": "partial"
+        "scorePercent": 79,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
       },
       {
         "id": 60500,
