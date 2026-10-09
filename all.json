@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "abarimyi-api"
     },
-    "generatedDateTimeUtc": "2026-10-09T09:54:14.903Z",
+    "generatedDateTimeUtc": "2026-10-09T09:54:14.914Z",
     "scorePercent": 43,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-09T09:54:14.903Z",
+    "scoringReviewDate": "2026-10-09T09:54:14.914Z",
     "areaScores": [
       {
         "id": 70000,
@@ -53,12 +53,12 @@
       "kind": "component",
       "name": "hr-support-api"
     },
-    "generatedDateTimeUtc": "2026-10-09T09:54:14.904Z",
+    "generatedDateTimeUtc": "2026-10-09T09:54:14.915Z",
     "scorePercent": 61,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
     "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-09T09:54:14.904Z",
+    "scoringReviewDate": "2026-10-09T09:54:14.915Z",
     "areaScores": [
       {
         "id": 90000,
@@ -102,12 +102,12 @@
       "kind": "component",
       "name": "mabza"
     },
-    "generatedDateTimeUtc": "2026-10-09T09:54:14.904Z",
+    "generatedDateTimeUtc": "2026-10-09T09:54:14.916Z",
     "scorePercent": 34,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-09T09:54:14.904Z",
+    "scoringReviewDate": "2026-10-09T09:54:14.916Z",
     "areaScores": [
       {
         "id": 100000,
@@ -151,12 +151,12 @@
       "kind": "component",
       "name": "mbaza-core"
     },
-    "generatedDateTimeUtc": "2026-10-09T09:54:14.904Z",
+    "generatedDateTimeUtc": "2026-10-09T09:54:14.916Z",
     "scorePercent": 31,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-09T09:54:14.904Z",
+    "scoringReviewDate": "2026-10-09T09:54:14.916Z",
     "areaScores": [
       {
         "id": 80000,
@@ -200,12 +200,12 @@
       "kind": "component",
       "name": "recruitmentplatform-backend"
     },
-    "generatedDateTimeUtc": "2026-10-09T09:54:14.904Z",
+    "generatedDateTimeUtc": "2026-10-09T09:54:14.916Z",
     "scorePercent": 63,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
     "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-09T09:54:14.904Z",
+    "scoringReviewDate": "2026-10-09T09:54:14.916Z",
     "areaScores": [
       {
         "id": 60000,
@@ -249,12 +249,12 @@
       "kind": "component",
       "name": "recruitmentplatform-frontend"
     },
-    "generatedDateTimeUtc": "2026-10-09T09:54:14.905Z",
+    "generatedDateTimeUtc": "2026-10-09T09:54:14.917Z",
     "scorePercent": 61,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
     "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-09T09:54:14.905Z",
+    "scoringReviewDate": "2026-10-09T09:54:14.917Z",
     "areaScores": [
       {
         "id": 50000,

@@ -3,12 +3,12 @@
     "kind": "component",
     "name": "mabza"
   },
-  "generatedDateTimeUtc": "2026-10-09T00:00:00.000Z",
-  "scorePercent": null,
-  "scoreLabel": null,
-  "scoreSuccess": "unknown",
-  "scoringReviewer": null,
-  "scoringReviewDate": null,
+  "generatedDateTimeUtc": "2026-10-09T09:54:14.916Z",
+  "scorePercent": 34,
+  "scoreLabel": "Yellow",
+  "scoreSuccess": "almost-failure",
+  "scoringReviewer": "GitHub Action",
+  "scoringReviewDate": "2026-10-09T09:54:14.916Z",
   "areaScores": [
     {
       "id": 100000,
@@ -21,9 +21,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "TODO: Add a README with setup and usage instructions"
+          "details": "TODO: Add a README with setup and usage instructions",
+          "scoreLabel": "Red"
         },
         {
           "id": 100002,
@@ -31,9 +32,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "almost-success",
           "scoreHints": "System architecture and design documentation",
-          "details": "TODO: Architecture docs mostly in place, fill in remaining gaps"
+          "details": "TODO: Architecture docs mostly in place, fill in remaining gaps",
+          "scoreLabel": "Green"
         },
         {
           "id": 100003,
@@ -41,9 +43,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "almost-success",
           "scoreHints": "High-level overview describing the application's purpose, scope and audience",
-          "details": "TODO: Overview mostly complete, polish remaining sections"
+          "details": "TODO: Overview mostly complete, polish remaining sections",
+          "scoreLabel": "Green"
         },
         {
           "id": 100004,
@@ -51,9 +54,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "almost-success",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "TODO: Runbooks mostly documented, add remaining procedures"
+          "details": "TODO: Runbooks mostly documented, add remaining procedures",
+          "scoreLabel": "Green"
         },
         {
           "id": 100005,
@@ -61,11 +65,15 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "almost-success",
           "scoreHints": "Common error logs documented with their meaning and recovery steps",
-          "details": "TODO: Error reference mostly covered, add remaining known errors"
+          "details": "TODO: Error reference mostly covered, add remaining known errors",
+          "scoreLabel": "Green"
         }
-      ]
+      ],
+      "scorePercent": 60,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial"
     },
     {
       "id": 100100,
@@ -78,9 +86,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
-          "details": "TODO: Application monitoring not yet configured"
+          "details": "TODO: Application monitoring not yet configured",
+          "scoreLabel": "Red"
         },
         {
           "id": 100103,
@@ -88,9 +97,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Proactive alerting on key metrics",
-          "details": "TODO: No alerting rules configured yet"
+          "details": "TODO: No alerting rules configured yet",
+          "scoreLabel": "Red"
         },
         {
           "id": 100104,
@@ -98,9 +108,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "TODO: Add health check endpoints and dashboards"
+          "details": "TODO: Add health check endpoints and dashboards",
+          "scoreLabel": "Red"
         },
         {
           "id": 100105,
@@ -108,9 +119,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Sentry integration added for error tracking and reporting",
-          "details": "TODO: Sentry integration missing"
+          "details": "TODO: Sentry integration missing",
+          "scoreLabel": "Red"
         },
         {
           "id": 100106,
@@ -118,9 +130,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
-          "details": "TODO: Elastic APM integration missing"
+          "details": "TODO: Elastic APM integration missing",
+          "scoreLabel": "Red"
         },
         {
           "id": 100107,
@@ -128,9 +141,10 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Logs collected via Elastic autodiscovery annotation on pods",
-          "details": "TODO: Autodiscovery annotation added, confirm logs are flowing in Kibana"
+          "details": "TODO: Autodiscovery annotation added, confirm logs are flowing in Kibana",
+          "scoreLabel": "Green"
         },
         {
           "id": 100108,
@@ -138,9 +152,10 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Links to monitoring dashboards added to catalog/documentation",
-          "details": "TODO: Add monitoring dashboard links"
+          "details": "TODO: Add monitoring dashboard links",
+          "scoreLabel": "Red"
         },
         {
           "id": 100109,
@@ -148,11 +163,15 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Links to APM dashboards added to catalog/documentation",
-          "details": "TODO: Add APM dashboard links"
+          "details": "TODO: Add APM dashboard links",
+          "scoreLabel": "Red"
         }
-      ]
+      ],
+      "scorePercent": 10,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure"
     },
     {
       "id": 100200,
@@ -165,9 +184,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Reliability issues detected by static analysis",
-          "details": "TODO: SonarQube not yet integrated, bug count unknown"
+          "details": "TODO: SonarQube not yet integrated, bug count unknown",
+          "scoreLabel": "Red"
         },
         {
           "id": 100202,
@@ -175,9 +195,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Exploitable security issues detected by static analysis",
-          "details": "TODO: SonarQube not yet integrated, vulnerability count unknown"
+          "details": "TODO: SonarQube not yet integrated, vulnerability count unknown",
+          "scoreLabel": "Red"
         },
         {
           "id": 100203,
@@ -185,9 +206,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Percentage of code covered by automated tests",
-          "details": "TODO: Test coverage not yet reported via SonarQube"
+          "details": "TODO: Test coverage not yet reported via SonarQube",
+          "scoreLabel": "Red"
         },
         {
           "id": 100204,
@@ -195,9 +217,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Percentage of duplicated lines of code",
-          "details": "TODO: Duplication percentage not yet reported via SonarQube"
+          "details": "TODO: Duplication percentage not yet reported via SonarQube",
+          "scoreLabel": "Red"
         },
         {
           "id": 100205,
@@ -205,9 +228,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Maintainability issues detected by static analysis",
-          "details": "TODO: Code smell count not yet reported via SonarQube"
+          "details": "TODO: Code smell count not yet reported via SonarQube",
+          "scoreLabel": "Red"
         },
         {
           "id": 100206,
@@ -215,11 +239,15 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Security-sensitive code requiring manual review",
-          "details": "TODO: Security hotspots not yet reviewed, SonarQube not integrated"
+          "details": "TODO: Security hotspots not yet reviewed, SonarQube not integrated",
+          "scoreLabel": "Red"
         }
-      ]
+      ],
+      "scorePercent": 0,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure"
     },
     {
       "id": 100300,
@@ -242,9 +270,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "almost-success",
           "scoreHints": "Proper identity and access management",
-          "details": "TODO: Auth mostly configured, verify remaining access scopes"
+          "details": "TODO: Auth mostly configured, verify remaining access scopes",
+          "scoreLabel": "Green"
         },
         {
           "id": 100305,
@@ -252,9 +281,10 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
-          "details": "TODO: Dependabot configured, confirm PRs keep passing checks and merging"
+          "details": "TODO: Dependabot configured, confirm PRs keep passing checks and merging",
+          "scoreLabel": "Green"
         },
         {
           "id": 100306,
@@ -262,11 +292,15 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Application secured with centralized Single Sign-On",
-          "details": "TODO: SSO configured, confirm all routes are protected"
+          "details": "TODO: SSO configured, confirm all routes are protected",
+          "scoreLabel": "Green"
         }
-      ]
+      ],
+      "scorePercent": 64,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial"
     },
     {
       "id": 100500,
@@ -279,9 +313,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "almost-success",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "TODO: Support docs mostly complete, add remaining FAQs"
+          "details": "TODO: Support docs mostly complete, add remaining FAQs",
+          "scoreLabel": "Green"
         },
         {
           "id": 100505,
@@ -289,9 +324,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
-          "details": "TODO: Pods discoverable via the Backstage Kubernetes plugin"
+          "details": "TODO: Pods discoverable via the Backstage Kubernetes plugin",
+          "scoreLabel": "Green"
         },
         {
           "id": 100506,
@@ -299,9 +335,10 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "ArgoCD application sync status captured and visible",
-          "details": "TODO: ArgoCD sync status visible and tracked"
+          "details": "TODO: ArgoCD sync status visible and tracked",
+          "scoreLabel": "Green"
         },
         {
           "id": 100507,
@@ -309,11 +346,15 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Configured channels for collecting user/stakeholder feedback",
-          "details": "TODO: Add a feedback channel (e.g. Slack channel or email alias)"
+          "details": "TODO: Add a feedback channel (e.g. Slack channel or email alias)",
+          "scoreLabel": "Red"
         }
-      ]
+      ],
+      "scorePercent": 71,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success"
     }
   ]
 }
