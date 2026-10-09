@@ -1,0 +1,319 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "mbaza-core"
+  },
+  "generatedDateTimeUtc": "2026-10-09T00:00:00.000Z",
+  "scorePercent": null,
+  "scoreLabel": null,
+  "scoreSuccess": "unknown",
+  "scoringReviewer": null,
+  "scoringReviewDate": null,
+  "areaScores": [
+    {
+      "id": 80000,
+      "title": "Documentation",
+      "weight": 20,
+      "scoreEntries": [
+        {
+          "id": 80001,
+          "title": "README & Setup Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Comprehensive setup and usage documentation",
+          "details": "TODO: No README present, add setup and usage instructions"
+        },
+        {
+          "id": 80002,
+          "title": "Architecture Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "unknown",
+          "scoreHints": "System architecture and design documentation",
+          "details": "TODO: Architecture docs mostly in place, fill in remaining gaps"
+        },
+        {
+          "id": 80003,
+          "title": "Project Overview",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "unknown",
+          "scoreHints": "High-level overview describing the application's purpose, scope and audience",
+          "details": "TODO: Overview mostly complete, polish remaining sections"
+        },
+        {
+          "id": 80004,
+          "title": "Runbooks & Operations",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "TODO: Runbooks mostly documented, add remaining procedures"
+        },
+        {
+          "id": 80005,
+          "title": "Error Log Reference & Recovery Guide",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Common error logs documented with their meaning and recovery steps",
+          "details": "TODO: Error reference mostly covered, add remaining known errors"
+        }
+      ]
+    },
+    {
+      "id": 80100,
+      "title": "Monitoring",
+      "weight": 29,
+      "scoreEntries": [
+        {
+          "id": 80101,
+          "title": "Application Monitoring",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Comprehensive application performance monitoring",
+          "details": "TODO: Application monitoring not yet configured"
+        },
+        {
+          "id": 80103,
+          "title": "Alerting & Notifications",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Proactive alerting on key metrics",
+          "details": "TODO: No alerting rules configured yet"
+        },
+        {
+          "id": 80104,
+          "title": "Health Checks & Dashboards",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Health endpoints and monitoring dashboards",
+          "details": "TODO: Add health check endpoints and dashboards"
+        },
+        {
+          "id": 80105,
+          "title": "Error Tracking (Sentry)",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Sentry integration added for error tracking and reporting",
+          "details": "TODO: Sentry integration missing"
+        },
+        {
+          "id": 80106,
+          "title": "Elastic APM Integration",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
+          "details": "TODO: Elastic APM integration missing"
+        },
+        {
+          "id": 80107,
+          "title": "Log Collection (Elastic Autodiscovery Annotation)",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Logs collected via Elastic autodiscovery annotation on pods",
+          "details": "TODO: Elastic autodiscovery annotation not yet added to the helm chart"
+        },
+        {
+          "id": 80108,
+          "title": "Monitoring Dashboard Links",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Links to monitoring dashboards added to catalog/documentation",
+          "details": "TODO: Add monitoring dashboard links"
+        },
+        {
+          "id": 80109,
+          "title": "APM Dashboard Links",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Links to APM dashboards added to catalog/documentation",
+          "details": "TODO: Add APM dashboard links"
+        }
+      ]
+    },
+    {
+      "id": 80200,
+      "title": "Quality",
+      "weight": 23,
+      "scoreEntries": [
+        {
+          "id": 80201,
+          "title": "Bugs",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Reliability issues detected by static analysis",
+          "details": "TODO: SonarQube not yet integrated, bug count unknown"
+        },
+        {
+          "id": 80202,
+          "title": "Vulnerabilities",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Exploitable security issues detected by static analysis",
+          "details": "TODO: SonarQube not yet integrated, vulnerability count unknown"
+        },
+        {
+          "id": 80203,
+          "title": "Coverage",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Percentage of code covered by automated tests",
+          "details": "TODO: Test coverage not yet reported via SonarQube"
+        },
+        {
+          "id": 80204,
+          "title": "Duplications",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Percentage of duplicated lines of code",
+          "details": "TODO: Duplication percentage not yet reported via SonarQube"
+        },
+        {
+          "id": 80205,
+          "title": "Code Smells",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Maintainability issues detected by static analysis",
+          "details": "TODO: Code smell count not yet reported via SonarQube"
+        },
+        {
+          "id": 80206,
+          "title": "Hotspots",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Security-sensitive code requiring manual review",
+          "details": "TODO: Security hotspots not yet reviewed, SonarQube not integrated"
+        }
+      ]
+    },
+    {
+      "id": 80300,
+      "title": "Security",
+      "weight": 14,
+      "scoreEntries": [
+        {
+          "id": 80301,
+          "title": "Security Scanning",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Automated security vulnerability scanning",
+          "details": "TODO: Dependabot security scanning configured and running"
+        },
+        {
+          "id": 80302,
+          "title": "Authentication & Authorization",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 2,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Proper identity and access management",
+          "details": "TODO: Basic auth in place, SSO/RBAC improvements still needed"
+        },
+        {
+          "id": 80305,
+          "title": "Dependabot Automated Dependency Updates",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 1,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
+          "details": "TODO: Dependabot enabled but most PRs are failing checks and not merging"
+        },
+        {
+          "id": 80306,
+          "title": "Single Sign-On (SSO)",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 2,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Application secured with centralized Single Sign-On",
+          "details": "TODO: SSO partially configured, some routes still unprotected"
+        }
+      ]
+    },
+    {
+      "id": 80500,
+      "title": "Operations",
+      "weight": 14,
+      "scoreEntries": [
+        {
+          "id": 80502,
+          "title": "Support Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Support procedures and knowledge base",
+          "details": "TODO: Support docs mostly complete, add remaining FAQs"
+        },
+        {
+          "id": 80505,
+          "title": "Kubernetes Discoverability (Backstage)",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
+          "details": "TODO: Pods discoverable via the Backstage Kubernetes plugin"
+        },
+        {
+          "id": 80506,
+          "title": "ArgoCD Sync Status",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "unknown",
+          "scoreHints": "ArgoCD application sync status captured and visible",
+          "details": "TODO: ArgoCD sync status visible and tracked"
+        },
+        {
+          "id": 80507,
+          "title": "Feedback Channels",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Configured channels for collecting user/stakeholder feedback",
+          "details": "TODO: Add a feedback channel (e.g. Slack channel or email alias)"
+        }
+      ]
+    }
+  ]
+}
