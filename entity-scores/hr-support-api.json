@@ -1,0 +1,363 @@
+{
+	"entityRef": {
+		"kind": "component",
+		"name": "hr-support-api",
+		"namespace": "default"
+	},
+	"generatedDateTimeUtc": "2026-10-09T00:00:00Z",
+	"scorePercent": 61,
+	"scoreLabel": "Yellow",
+	"scoreSuccess": "partial",
+	"scoringReviewer": null,
+	"scoringReviewDate": null,
+	"areaScores": [
+		{
+			"id": 90000,
+			"title": "Documentation",
+			"weight": 20,
+			"scorePercent": 50,
+			"scoreLabel": "Yellow",
+			"scoreSuccess": "partial",
+			"scoreEntries": [
+				{
+					"id": 90001,
+					"title": "README & Setup Documentation",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 4,
+					"scoreSuccess": "success",
+					"scoreHints": "Comprehensive setup and usage documentation",
+					"details": "The README is strong: it explains what the service does, who it serves, how to run it locally with uv and PostgreSQL, how to run tests and linting, how deployment works, how configuration is sourced, key dependencies, ownership, personal data handling, and current limitations.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90002,
+					"title": "Architecture Documentation",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 1,
+					"scoreSuccess": "failure",
+					"scoreHints": "System architecture and design documentation",
+					"details": "There is an architecture document, but docs/architecture.md is still a placeholder template and does not yet describe the actual runtime components, request flow, or deployment topology in a useful level of detail.",
+					"scoreLabel": "Red"
+				},
+				{
+					"id": 90003,
+					"title": "Project Overview",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 4,
+					"scoreSuccess": "success",
+					"scoreHints": "High-level overview describing the application's purpose, scope and audience",
+					"details": "The repository clearly states that this is the backend API for the Staff Self-Service Portal replacing Zendesk and KissFlow, and it explains the current feature scope, users, and the major items that are built versus still planned.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90004,
+					"title": "Runbooks & Operations",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 1,
+					"scoreSuccess": "failure",
+					"scoreHints": "Operational procedures and troubleshooting guides",
+					"details": "There is some operational material in the README and a troubleshooting page exists, but docs/runbook.md is blank and the troubleshooting guidance is still generic. That leaves support and incident handling under-documented.",
+					"scoreLabel": "Red"
+				},
+				{
+					"id": 90005,
+					"title": "Error Log Reference & Recovery Guide",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 0,
+					"scoreSuccess": "failure",
+					"scoreHints": "Common error logs documented with their meaning and recovery steps",
+					"details": "The repo documents health checks and some deployment troubleshooting, but it does not yet provide a concrete error catalogue or recovery guide for common production failures, request-id tracing patterns, or likely upstream dependency issues.",
+					"scoreLabel": "Red"
+				}
+			]
+		},
+		{
+			"id": 90100,
+			"title": "Monitoring",
+			"weight": 29,
+			"scorePercent": 48,
+			"scoreLabel": "Yellow",
+			"scoreSuccess": "almost-failure",
+			"scoreEntries": [
+				{
+					"id": 90101,
+					"title": "Application Monitoring",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 4,
+					"scoreSuccess": "success",
+					"scoreHints": "Comprehensive application performance monitoring",
+					"details": "The service has strong baseline observability: structured ECS JSON logs, per-request X-Request-ID propagation, Prometheus metrics, body-size protection, and optional Elastic APM integration wired into the app and Helm chart.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90103,
+					"title": "Alerting & Notifications",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 0,
+					"scoreSuccess": "failure",
+					"scoreHints": "Proactive alerting on key metrics",
+					"details": "No alert rules, thresholds, escalation paths, or notification routing are documented in the repository. The monitoring document explicitly leaves dashboard and alert links to be added later.",
+					"scoreLabel": "Red"
+				},
+				{
+					"id": 90104,
+					"title": "Health Checks & Dashboards",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 3,
+					"scoreSuccess": "almost-success",
+					"scoreHints": "Health endpoints and monitoring dashboards",
+					"details": "The implementation is good on probes and metrics: GET /healthz, GET /readyz, and /metrics are present and wired into Kubernetes probes. The gap is dashboards and documentation, which are not linked or described in a concrete operational way.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90105,
+					"title": "Error Tracking (Sentry)",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 0,
+					"scoreSuccess": "failure",
+					"scoreHints": "Sentry integration added for error tracking and reporting",
+					"details": "I did not find Sentry configuration, dependencies, or integration code in this repository. Observability is centered on logs, Prometheus, and Elastic APM instead.",
+					"scoreLabel": "Red"
+				},
+				{
+					"id": 90106,
+					"title": "Elastic APM Integration",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 4,
+					"scoreSuccess": "success",
+					"scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
+					"details": "Elastic APM is explicitly supported in app/core/observability.py and enabled by Helm values through ELASTIC_APM_SERVER_URL and related environment variables.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90107,
+					"title": "Log Collection (Elastic Autodiscovery Annotation)",
+					"weight": 3,
+					"isOptional": false,
+					"scorePercent": 3,
+					"scoreSuccess": "success",
+					"scoreHints": "Logs collected via Elastic autodiscovery annotation on pods",
+					"details": "The Helm chart enables Elastic log collection through pod annotations, and the application emits structured JSON logs to stdout in the format the platform expects.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90108,
+					"title": "Monitoring Dashboard Links",
+					"weight": 3,
+					"isOptional": false,
+					"scorePercent": 0,
+					"scoreSuccess": "failure",
+					"scoreHints": "Links to monitoring dashboards added to catalog/documentation",
+					"details": "No Grafana or equivalent monitoring dashboard links are present in the README, docs, or Backstage catalog metadata.",
+					"scoreLabel": "Red"
+				},
+				{
+					"id": 90109,
+					"title": "APM Dashboard Links",
+					"weight": 3,
+					"isOptional": false,
+					"scorePercent": 0,
+					"scoreSuccess": "failure",
+					"scoreHints": "Links to APM dashboards added to catalog/documentation",
+					"details": "Elastic APM is configured, but no APM dashboard links are exposed in repository documentation or Backstage metadata for operator use.",
+					"scoreLabel": "Red"
+				}
+			]
+		},
+		{
+			"id": 90200,
+			"title": "Quality",
+			"weight": 23,
+			"scorePercent": 78,
+			"scoreLabel": "Green",
+			"scoreSuccess": "almost-success",
+			"scoreEntries": [
+				{
+					"id": 90201,
+					"title": "Bugs",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 3,
+					"scoreSuccess": "almost-success",
+					"scoreHints": "Reliability issues detected by static analysis",
+					"details": "The service appears to be engineered with care: typed schema boundaries, many endpoint tests, real database CI coverage, and a passing Sonar quality gate badge. I did not audit the live bug backlog, so this is strong but not perfect.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90202,
+					"title": "Vulnerabilities",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 3,
+					"scoreSuccess": "almost-success",
+					"scoreHints": "Exploitable security issues detected by static analysis",
+					"details": "The repo has Sonar analysis, linting, dependency management discipline, and a strong security posture in code and docs. I did not find explicit dependency vulnerability scan output in the repo, so this is high but not full marks.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90203,
+					"title": "Coverage",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 4,
+					"scoreSuccess": "success",
+					"scoreHints": "Percentage of code covered by automated tests",
+					"details": "Test coverage is a first-class part of the workflow: pytest runs in CI with coverage.xml preserved for Sonar, and the repository includes broad API and behavior tests across auth, tickets, dashboard, observability, storage, rich text, and attachments.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90204,
+					"title": "Duplications",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 3,
+					"scoreSuccess": "almost-success",
+					"scoreHints": "Percentage of duplicated lines of code",
+					"details": "The codebase is split into clear API, schema, model, and service layers, which suggests duplication is controlled. I did not inspect a duplication report directly, so this stays below full marks.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90205,
+					"title": "Code Smells",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 3,
+					"scoreSuccess": "almost-success",
+					"scoreHints": "Maintainability issues detected by static analysis",
+					"details": "The repo has consistent formatting, linting, strong inline rationale in tricky areas, and disciplined separation of concerns. The presence of placeholder docs and one or two operational gaps keeps this short of a top score.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90206,
+					"title": "Hotspots",
+					"weight": 3,
+					"isOptional": false,
+					"scorePercent": 2,
+					"scoreSuccess": "partial",
+					"scoreHints": "Security-sensitive code requiring manual review",
+					"details": "There are clearly sensitive areas, especially auth, token handling, attachments, and personal-data workflows. The repository shows careful implementation, but I did not find evidence in-repo of formal hotspot review outputs or a completed security risk assessment.",
+					"scoreLabel": "Yellow"
+				}
+			]
+		},
+		{
+			"id": 90300,
+			"title": "Security",
+			"weight": 14,
+			"scorePercent": 79,
+			"scoreLabel": "Green",
+			"scoreSuccess": "almost-success",
+			"scoreEntries": [
+				{
+					"id": 90301,
+					"title": "Security Scanning",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 2,
+					"scoreSuccess": "partial",
+					"scoreHints": "Automated security vulnerability scanning",
+					"details": "The repository uses Sonar and MegaLinter and has a clear security posture in AGENTS.md, but I did not find an explicit dedicated security scan stage for dependencies, containers, or IaC with surfaced results in this repo.",
+					"scoreLabel": "Yellow"
+				},
+				{
+					"id": 90302,
+					"title": "Authentication & Authorization",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 4,
+					"scoreSuccess": "success",
+					"scoreHints": "Proper identity and access management",
+					"details": "This is one of the strongest areas. Production authentication is Keycloak-only, route access is checked server-side, admin and HR permissions are explicit, and the code is careful about preventing development auth from leaking into production.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90305,
+					"title": "Dependabot Automated Dependency Updates",
+					"weight": 3,
+					"isOptional": false,
+					"scorePercent": 2,
+					"scoreSuccess": "partial",
+					"scoreHints": "Dependabot PRs automatically created, reviewed and merged",
+					"details": "The README explicitly says there is a monthly Dependabot Python update PR, grouped into one PR. That demonstrates automated update creation, but not full automatic review and merge.",
+					"scoreLabel": "Yellow"
+				},
+				{
+					"id": 90306,
+					"title": "Single Sign-On (SSO)",
+					"weight": 3,
+					"isOptional": false,
+					"scorePercent": 3,
+					"scoreSuccess": "success",
+					"scoreHints": "Application secured with centralized Single Sign-On",
+					"details": "The production sign-in model is centralized Keycloak SSO, with OIDC flows, callback handling, token validation, and explicit configuration per environment.",
+					"scoreLabel": "Green"
+				}
+			]
+		},
+		{
+			"id": 90500,
+			"title": "Operations",
+			"weight": 14,
+			"scorePercent": 57,
+			"scoreLabel": "Yellow",
+			"scoreSuccess": "partial",
+			"scoreEntries": [
+				{
+					"id": 90502,
+					"title": "Support Documentation",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 1,
+					"scoreSuccess": "failure",
+					"scoreHints": "Support procedures and knowledge base",
+					"details": "The README contains useful operational context, but the dedicated runbook is blank and troubleshooting remains thin. Support documentation exists only in partial form today.",
+					"scoreLabel": "Red"
+				},
+				{
+					"id": 90505,
+					"title": "Kubernetes Discoverability (Backstage)",
+					"weight": 4,
+					"isOptional": false,
+					"scorePercent": 4,
+					"scoreSuccess": "success",
+					"scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
+					"details": "The Backstage catalog metadata includes kubernetes label selector and namespace annotations, which is the correct setup for platform discoverability of workloads.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90506,
+					"title": "ArgoCD Sync Status",
+					"weight": 3,
+					"isOptional": false,
+					"scorePercent": 3,
+					"scoreSuccess": "success",
+					"scoreHints": "ArgoCD application sync status captured and visible",
+					"details": "The Backstage catalog metadata contains ArgoCD annotations, and the deployment model described in the README uses ArgoCD to deploy after CI updates Helm values.",
+					"scoreLabel": "Green"
+				},
+				{
+					"id": 90507,
+					"title": "Feedback Channels",
+					"weight": 3,
+					"isOptional": false,
+					"scorePercent": 0,
+					"scoreSuccess": "failure",
+					"scoreHints": "Configured channels for collecting user/stakeholder feedback",
+					"details": "I did not find a documented feedback mailbox, service-desk route, Slack channel, or other explicit user feedback mechanism in the repository or Backstage metadata.",
+					"scoreLabel": "Red"
+				}
+			]
+		}
+	]
+}
+
