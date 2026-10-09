@@ -3,12 +3,12 @@
     "kind": "component",
     "name": "recruitmentplatform-frontend"
   },
-  "generatedDateTimeUtc": "2026-10-08T12:03:33.445Z",
+  "generatedDateTimeUtc": "2026-10-09T09:54:14.917Z",
   "scorePercent": 61,
   "scoreLabel": "Yellow",
   "scoreSuccess": "partial",
   "scoringReviewer": "GitHub Action",
-  "scoringReviewDate": "2026-10-08T12:03:33.445Z",
+  "scoringReviewDate": "2026-10-09T09:54:14.917Z",
   "areaScores": [
     {
       "id": 50000,
