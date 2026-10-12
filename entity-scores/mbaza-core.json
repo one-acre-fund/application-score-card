@@ -4,9 +4,9 @@
     "name": "mbaza-core"
   },
   "generatedDateTimeUtc": "2026-10-09T09:54:14.916Z",
-  "scorePercent": 31,
-  "scoreLabel": "Yellow",
-  "scoreSuccess": "almost-failure",
+  "scorePercent": 672,
+  "scoreLabel": "Red",
+  "scoreSuccess": "failure",
   "scoringReviewer": "GitHub Action",
   "scoringReviewDate": "2026-10-09T09:54:14.916Z",
   "areaScores": [
@@ -20,10 +20,10 @@
           "title": "README & Setup Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
+          "scorePercent": 90,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "TODO: No README present, add setup and usage instructions",
+          "details": "README present, add setup and usage instructions",
           "scoreLabel": "Red"
         },
         {
@@ -31,49 +31,49 @@
           "title": "Architecture Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 3,
-          "scoreSuccess": "almost-success",
+          "scorePercent": 70,
+          "scoreSuccess": "failure",
           "scoreHints": "System architecture and design documentation",
-          "details": "TODO: Architecture docs mostly in place, fill in remaining gaps",
-          "scoreLabel": "Green"
+          "details": "Architecture docs in place",
+          "scoreLabel": "Red"
         },
         {
           "id": 80003,
           "title": "Project Overview",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 3,
-          "scoreSuccess": "almost-success",
+          "scorePercent": 80,
+          "scoreSuccess": "failure",
           "scoreHints": "High-level overview describing the application's purpose, scope and audience",
-          "details": "TODO: Overview mostly complete, polish remaining sections",
-          "scoreLabel": "Green"
+          "details": "Over view  in place",
+          "scoreLabel": "Red"
         },
         {
           "id": 80004,
           "title": "Runbooks & Operations",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 3,
-          "scoreSuccess": "almost-success",
+          "scorePercent": 50,
+          "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "TODO: Runbooks mostly documented, add remaining procedures",
-          "scoreLabel": "Green"
+          "details": " present Runbooks but no troubleshooting guides",
+          "scoreLabel": "Red"
         },
         {
           "id": 80005,
           "title": "Error Log Reference & Recovery Guide",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 3,
-          "scoreSuccess": "almost-success",
+          "scorePercent": 90,
+          "scoreSuccess": "failure",
           "scoreHints": "Common error logs documented with their meaning and recovery steps",
-          "details": "TODO: Error reference mostly covered, add remaining known errors",
-          "scoreLabel": "Green"
+          "details": "No present error logs",
+          "scoreLabel": "Red"
         }
       ],
-      "scorePercent": 60,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "partial"
+      "scorePercent": 1900,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure"
     },
     {
       "id": 80100,
@@ -85,7 +85,7 @@
           "title": "Application Monitoring",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
+          "scorePercent": 80,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
           "details": "TODO: Application monitoring not yet configured",
@@ -169,7 +169,7 @@
           "scoreLabel": "Red"
         }
       ],
-      "scorePercent": 0,
+      "scorePercent": 276,
       "scoreLabel": "Red",
       "scoreSuccess": "failure"
     },
@@ -324,22 +324,22 @@
           "title": "Kubernetes Discoverability (Backstage)",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 4,
-          "scoreSuccess": "success",
+          "scorePercent": 100,
+          "scoreSuccess": "failure",
           "scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
           "details": "TODO: Pods discoverable via the Backstage Kubernetes plugin",
-          "scoreLabel": "Green"
+          "scoreLabel": "Red"
         },
         {
           "id": 80506,
           "title": "ArgoCD Sync Status",
           "weight": 3,
           "isOptional": false,
-          "scorePercent": 3,
-          "scoreSuccess": "success",
+          "scorePercent": 100,
+          "scoreSuccess": "failure",
           "scoreHints": "ArgoCD application sync status captured and visible",
           "details": "TODO: ArgoCD sync status visible and tracked",
-          "scoreLabel": "Green"
+          "scoreLabel": "Red"
         },
         {
           "id": 80507,
@@ -353,9 +353,9 @@
           "scoreLabel": "Red"
         }
       ],
-      "scorePercent": 71,
-      "scoreLabel": "Green",
-      "scoreSuccess": "almost-success"
+      "scorePercent": 1450,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure"
     }
   ]
 }
