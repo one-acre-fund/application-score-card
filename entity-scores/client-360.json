@@ -346,9 +346,10 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 0,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "failure",
           "scoreHints": "Configured channels for collecting user/stakeholder feedback",
-          "details": "TODO: feedback setup in catalog"
+          "details": "TODO: feedback setup in catalog",
+          "scoreLabel": "Red"
         }
       ],
       "scorePercent": 29,
