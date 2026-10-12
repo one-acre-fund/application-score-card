@@ -1,0 +1,359 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "client-360",
+    "namespace": "default"
+  },
+  "generatedDateTimeUtc": "2025-10-15T10:00:00Z",
+  "scorePercent": 13,
+  "scoreLabel": "Red",
+  "scoreSuccess": "failure",
+  "scoringReviewer": null,
+  "scoringReviewDate": null,
+  "areaScores": [
+    {
+      "id": 90000,
+      "title": "Documentation",
+      "weight": 20,
+      "scoreEntries": [
+        {
+          "id": 90001,
+          "title": "README & Setup Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "success",
+          "scoreHints": "Comprehensive setup and usage documentation",
+          "details": "",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 90002,
+          "title": "Architecture Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreSuccess": "success",
+          "scoreHints": "System architecture and design documentation",
+          "details": "",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 90003,
+          "title": "Project Overview",
+          "weight": 1,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "High-level overview describing the application's purpose, scope and audience",
+          "details": "TODO: Fix the overview section as its not loading properly",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90004,
+          "title": "Runbooks & Operations",
+          "weight": 1,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "TODO: Add operational runbooks covering deployment, rollback, data refresh failures, database connectivity troubleshooting, and recovery verification.",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90005,
+          "title": "Error Log Reference & Recovery Guide",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 1,
+          "scoreSuccess": "failure",
+          "scoreHints": "Common error logs documented with their meaning and recovery steps",
+          "details": "TODO: Document common error messages and log examples, their meaning and likely causes, recovery steps, and checks to confirm recovery.",
+          "scoreLabel": "Red"
+        }
+      ],
+      "scorePercent": 45,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "almost-failure"
+    },
+    {
+      "id": 90100,
+      "title": "Monitoring",
+      "weight": 29,
+      "scoreEntries": [
+        {
+          "id": 90101,
+          "title": "Application Monitoring",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Comprehensive application performance monitoring",
+          "details": "TODO: With the help of @ivy.nzioka setup alerts for the app",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90103,
+          "title": "Alerting & Notifications",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Proactive alerting on key metrics",
+          "details": "TODO: With the help of @ivy.nzioka setup alerts for the app",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90104,
+          "title": "Health Checks & Dashboards",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "details": "TODO: With the help of @ivy.nzioka setup a dashboard",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90105,
+          "title": "Error Tracking (Sentry)",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Sentry integration added for error tracking and reporting",
+          "details": "TODO: Confirm Sentry error tracking is configured and receiving application events, then add the sentry.io/project-slug annotation to connect the project to Backstage.",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90106,
+          "title": "Elastic APM Integration",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
+          "details": "TODO: Application does not appear in elastic",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90107,
+          "title": "Log Collection (Elastic Autodiscovery Annotation)",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Logs collected via Elastic autodiscovery annotation on pods",
+          "details": "TODO: Resolve the failed Dev deployment, configure Elastic log autodiscovery annotations, and verify application logs are searchable in Elastic.",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90108,
+          "title": "Monitoring Dashboard Links",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Links to monitoring dashboards added to catalog/documentation",
+          "details": "TODO: Add links to monitoring dashboards in the catalog/documentation",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90109,
+          "title": "APM Dashboard Links",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Links to APM dashboards added to catalog/documentation",
+          "details": "TODO: Add links to APM dashboards in the catalog/documentation",
+          "scoreLabel": "Red"
+        }
+      ],
+      "scorePercent": 0,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure"
+    },
+    {
+      "id": 90200,
+      "title": "Quality",
+      "weight": 23,
+      "scoreEntries": [
+        {
+          "id": 90201,
+          "title": "Bugs",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Reliability issues detected by static analysis",
+          "details": "TODO: Configure static code analysis, review detected bugs, and resolve reliability issues",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90202,
+          "title": "Vulnerabilities",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Exploitable security issues detected by static analysis",
+          "details": "TODO: Bind the SonarQube project to the client-360 repository, configure analysis of the correct default branch in CI, and review and resolve detected vulnerabilities",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90203,
+          "title": "Coverage",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Percentage of code covered by automated tests",
+          "details": "TODO: Bind the SonarQube project to the client-360 repository, configure analysis of the correct default branch in CI, and add test to improve coverage",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90204,
+          "title": "Duplications",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Percentage of duplicated lines of code",
+          "details": "TODO: Bind the SonarQube project to the client-360 repository, configure analysis of the correct default branch in CI",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90205,
+          "title": "Code Smells",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Maintainability issues detected by static analysis",
+          "details": "TODO: Bind the SonarQube project to the client-360 repository, configure analysis of the correct default branch in CI",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90206,
+          "title": "Hotspots",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Security-sensitive code requiring manual review",
+          "details": "TODO: Review security hotspots identified by SonarQube on the correct default branch, resolve any confirmed security risks, and add a link to the review results in the catalog/documentation.",
+          "scoreLabel": "Red"
+        }
+      ],
+      "scorePercent": 0,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure"
+    },
+    {
+      "id": 90300,
+      "title": "Security",
+      "weight": 14,
+      "scoreEntries": [
+        {
+          "id": 90301,
+          "title": "Security Scanning",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Automated security vulnerability scanning",
+          "details": "TODO: Dependabot PRs setup",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90302,
+          "title": "Authentication & Authorization",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Proper identity and access management",
+          "details": "TODO: Missing auth on APIs. possibly could use kong"
+        },
+        {
+          "id": 90305,
+          "title": "Dependabot Automated Dependency Updates",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
+          "details": "TODO: Dependabot PRs setup",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90306,
+          "title": "Single Sign-On (SSO)",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Application secured with centralized Single Sign-On",
+          "details": "TODO: Application is not accessible therefore this cannot be scored",
+          "scoreLabel": "Red"
+        }
+      ],
+      "scorePercent": 0,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure"
+    },
+    {
+      "id": 90500,
+      "title": "Operations",
+      "weight": 14,
+      "scoreEntries": [
+        {
+          "id": 90502,
+          "title": "Support Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 1,
+          "scoreSuccess": "failure",
+          "scoreHints": "Support procedures and knowledge base",
+          "details": "TODO: Add support documenation. The tab is empty",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90505,
+          "title": "Kubernetes Discoverability (Backstage)",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "failure",
+          "scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
+          "details": "TODO: Add kubernetes annotation on catalog info",
+          "scoreLabel": "Red"
+        },
+        {
+          "id": 90506,
+          "title": "ArgoCD Sync Status",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreSuccess": "success",
+          "scoreHints": "ArgoCD application sync status captured and visible",
+          "details": "",
+          "scoreLabel": "Green"
+        },
+        {
+          "id": 90507,
+          "title": "Feedback Channels",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Configured channels for collecting user/stakeholder feedback",
+          "details": "TODO: feedback setup in catalog"
+        }
+      ],
+      "scorePercent": 29,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure"
+    }
+  ]
+}
