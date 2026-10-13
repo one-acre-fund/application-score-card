@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "abarimyi-api"
     },
-    "generatedDateTimeUtc": "2026-10-12T12:57:59.582Z",
+    "generatedDateTimeUtc": "2026-10-13T07:32:11.028Z",
     "scorePercent": 43,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-12T12:57:59.582Z",
+    "scoringReviewDate": "2026-10-13T07:32:11.028Z",
     "areaScores": [
       {
         "id": 70000,
@@ -53,12 +53,12 @@
       "kind": "component",
       "name": "client-360"
     },
-    "generatedDateTimeUtc": "2026-10-12T12:57:59.582Z",
+    "generatedDateTimeUtc": "2026-10-13T07:32:11.028Z",
     "scorePercent": 13,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-12T12:57:59.582Z",
+    "scoringReviewDate": "2026-10-13T07:32:11.028Z",
     "areaScores": [
       {
         "id": 90000,
@@ -102,12 +102,12 @@
       "kind": "component",
       "name": "hr-support-api"
     },
-    "generatedDateTimeUtc": "2026-10-12T12:57:59.583Z",
+    "generatedDateTimeUtc": "2026-10-13T07:32:11.029Z",
     "scorePercent": 61,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-12T12:57:59.583Z",
+    "scoringReviewDate": "2026-10-13T07:32:11.029Z",
     "areaScores": [
       {
         "id": 90000,
@@ -151,12 +151,12 @@
       "kind": "component",
       "name": "mabza"
     },
-    "generatedDateTimeUtc": "2026-10-12T12:57:59.583Z",
+    "generatedDateTimeUtc": "2026-10-13T07:32:11.029Z",
     "scorePercent": 34,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-12T12:57:59.583Z",
+    "scoringReviewDate": "2026-10-13T07:32:11.029Z",
     "areaScores": [
       {
         "id": 100000,
@@ -200,12 +200,12 @@
       "kind": "component",
       "name": "mbaza-core"
     },
-    "generatedDateTimeUtc": "2026-10-12T12:57:59.584Z",
+    "generatedDateTimeUtc": "2026-10-13T07:32:11.029Z",
     "scorePercent": 672,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-12T12:57:59.584Z",
+    "scoringReviewDate": "2026-10-13T07:32:11.029Z",
     "areaScores": [
       {
         "id": 80000,
@@ -249,12 +249,12 @@
       "kind": "component",
       "name": "recruitmentplatform-backend"
     },
-    "generatedDateTimeUtc": "2026-10-12T12:57:59.584Z",
+    "generatedDateTimeUtc": "2026-10-13T07:32:11.030Z",
     "scorePercent": 63,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-12T12:57:59.584Z",
+    "scoringReviewDate": "2026-10-13T07:32:11.030Z",
     "areaScores": [
       {
         "id": 60000,
@@ -298,12 +298,12 @@
       "kind": "component",
       "name": "recruitmentplatform-frontend"
     },
-    "generatedDateTimeUtc": "2026-10-12T12:57:59.584Z",
+    "generatedDateTimeUtc": "2026-10-13T07:32:11.032Z",
     "scorePercent": 61,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
     "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-12T12:57:59.584Z",
+    "scoringReviewDate": "2026-10-13T07:32:11.032Z",
     "areaScores": [
       {
         "id": 50000,
@@ -339,6 +339,55 @@
         "scorePercent": 71,
         "scoreLabel": "Green",
         "scoreSuccess": "almost-success"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
+      "name": "zs-cockpit-api"
+    },
+    "generatedDateTimeUtc": "2026-10-13T07:32:11.032Z",
+    "scorePercent": 291,
+    "scoreLabel": "Red",
+    "scoreSuccess": "failure",
+    "scoringReviewer": "orchide",
+    "scoringReviewDate": "2026-10-13T07:32:11.032Z",
+    "areaScores": [
+      {
+        "id": 70000,
+        "title": "Documentation",
+        "scorePercent": 0,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 70100,
+        "title": "Monitoring",
+        "scorePercent": 3,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 70200,
+        "title": "Quality",
+        "scorePercent": 274,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 70300,
+        "title": "Security",
+        "scorePercent": 50,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
+      },
+      {
+        "id": 70500,
+        "title": "Operations",
+        "scorePercent": 1571,
+        "scoreLabel": "Red",
+        "scoreSuccess": "failure"
       }
     ]
   }
