@@ -187,10 +187,10 @@
           "title": "Bugs",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 3,
+          "scorePercent": 0,
           "scoreSuccess": "almost-success",
           "scoreHints": "Reliability issues detected by static analysis",
-          "details": "The service appears to be engineered with care: typed schema boundaries, many endpoint tests, real database CI coverage, and a passing Sonar quality gate badge. I did not audit the live bug backlog, so this is strong but not perfect.",
+          "details": "Repo connected to a project on SonarCLoud but no present static analysis",
           "scoreLabel": "Green"
         },
         {
@@ -198,11 +198,10 @@
           "title": "Vulnerabilities",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 3,
+          "scorePercent": 0,
           "scoreSuccess": "almost-success",
           "scoreHints": "Exploitable security issues detected by static analysis",
-          "details": "The repo has Sonar analysis, linting, dependency management discipline, and a strong security posture in code and docs. I did not find explicit dependency vulnerability scan output in the repo, so this is high but not full marks.",
-          "scoreLabel": "Green"
+          "details": "Repo connected to a project on SonarCLoud but no present static analysis"
         },
         {
           "id": 90203,
