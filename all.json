@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "abarimyi-api"
     },
-    "generatedDateTimeUtc": "2026-10-20T14:17:26.134Z",
+    "generatedDateTimeUtc": "2026-10-20T14:24:06.434Z",
     "scorePercent": 43,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-20T14:17:26.134Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-20T14:24:06.434Z",
     "areaScores": [
       {
         "id": 70000,
@@ -53,12 +53,12 @@
       "kind": "component",
       "name": "client-360"
     },
-    "generatedDateTimeUtc": "2026-10-20T14:17:26.139Z",
+    "generatedDateTimeUtc": "2026-10-20T14:24:06.434Z",
     "scorePercent": 13,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-20T14:17:26.139Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-20T14:24:06.434Z",
     "areaScores": [
       {
         "id": 90000,
@@ -102,12 +102,12 @@
       "kind": "component",
       "name": "hr-support-api"
     },
-    "generatedDateTimeUtc": "2026-10-20T14:17:26.139Z",
+    "generatedDateTimeUtc": "2026-10-20T14:24:06.435Z",
     "scorePercent": 54,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-20T14:17:26.139Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-20T14:24:06.435Z",
     "areaScores": [
       {
         "id": 90000,
@@ -151,12 +151,12 @@
       "kind": "component",
       "name": "hr-support-web"
     },
-    "generatedDateTimeUtc": "2026-10-20T14:17:26.140Z",
+    "generatedDateTimeUtc": "2026-10-20T14:24:06.436Z",
     "scorePercent": 59,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-20T14:17:26.140Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-20T14:24:06.436Z",
     "areaScores": [
       {
         "id": 90000,
@@ -200,12 +200,12 @@
       "kind": "component",
       "name": "mabza"
     },
-    "generatedDateTimeUtc": "2026-10-20T14:17:26.140Z",
+    "generatedDateTimeUtc": "2026-10-20T14:24:06.436Z",
     "scorePercent": 34,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-20T14:17:26.140Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-20T14:24:06.436Z",
     "areaScores": [
       {
         "id": 100000,
@@ -249,12 +249,12 @@
       "kind": "component",
       "name": "mbaza-core"
     },
-    "generatedDateTimeUtc": "2026-10-20T14:17:26.143Z",
+    "generatedDateTimeUtc": "2026-10-20T14:24:06.436Z",
     "scorePercent": 672,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-20T14:17:26.143Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-20T14:24:06.436Z",
     "areaScores": [
       {
         "id": 80000,
@@ -298,12 +298,12 @@
       "kind": "component",
       "name": "recruitmentplatform-backend"
     },
-    "generatedDateTimeUtc": "2026-10-20T14:17:26.143Z",
+    "generatedDateTimeUtc": "2026-10-20T14:24:06.436Z",
     "scorePercent": 70,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-20T14:17:26.143Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-20T14:24:06.436Z",
     "areaScores": [
       {
         "id": 60000,
@@ -347,12 +347,12 @@
       "kind": "component",
       "name": "recruitmentplatform-frontend"
     },
-    "generatedDateTimeUtc": "2026-10-20T14:17:26.143Z",
+    "generatedDateTimeUtc": "2026-10-20T14:24:06.437Z",
     "scorePercent": 68,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-20T14:17:26.143Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-20T14:24:06.437Z",
     "areaScores": [
       {
         "id": 50000,
@@ -396,12 +396,12 @@
       "kind": "component",
       "name": "zs-cockpit-api"
     },
-    "generatedDateTimeUtc": "2026-10-20T14:17:26.144Z",
+    "generatedDateTimeUtc": "2026-10-20T14:24:06.437Z",
     "scorePercent": 291,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "GitHub Action",
-    "scoringReviewDate": "2026-10-20T14:17:26.144Z",
+    "scoringReviewer": "bisonlou",
+    "scoringReviewDate": "2026-10-20T14:24:06.437Z",
     "areaScores": [
       {
         "id": 70000,
