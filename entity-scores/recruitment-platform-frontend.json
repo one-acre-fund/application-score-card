@@ -284,7 +284,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
-          "details": "TODO: PRs are failing checks and thus not tested or merged",
+          "details": "TODO: PRs are failing checks and thus not tested or merged. Use the same sonar token for your main CI  for the failing sonar scans",
           "scoreLabel": "Red"
         },
         {
@@ -292,7 +292,7 @@
           "title": "Single Sign-On (SSO)",
           "weight": 3,
           "isOptional": false,
-          "scorePercent": null,
+          "scorePercent": 3,
           "scoreSuccess": "unknown",
           "scoreHints": "Application secured with centralized Single Sign-On",
           "details": "TODO: Add your assessment here"
@@ -312,13 +312,14 @@
           "title": "Support Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreSuccess": "success",
           "scoreHints": "Support procedures and knowledge base",
           "details": "TODO: docs missing",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
+          
           "id": 50505,
           "title": "Kubernetes Discoverability (Backstage)",
           "weight": 4,
