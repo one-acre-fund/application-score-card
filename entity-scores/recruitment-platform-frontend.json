@@ -4,7 +4,7 @@
     "name": "recruitmentplatform-frontend"
   },
   "generatedDateTimeUtc": "2026-10-09T09:54:14.917Z",
-  "scorePercent": 61,
+  "scorePercent": 68,
   "scoreLabel": "Yellow",
   "scoreSuccess": "partial",
   "scoringReviewer": "GitHub Action",
@@ -293,14 +293,15 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 3,
-          "scoreSuccess": "unknown",
+          "scoreSuccess": "success",
           "scoreHints": "Application secured with centralized Single Sign-On",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Add your assessment here",
+          "scoreLabel": "Green"
         }
       ],
-      "scorePercent": 57,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "partial"
+      "scorePercent": 79,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success"
     },
     {
       "id": 50500,
@@ -319,7 +320,6 @@
           "scoreLabel": "Green"
         },
         {
-          
           "id": 50505,
           "title": "Kubernetes Discoverability (Backstage)",
           "weight": 4,
@@ -353,9 +353,9 @@
           "scoreLabel": "Green"
         }
       ],
-      "scorePercent": 71,
+      "scorePercent": 100,
       "scoreLabel": "Green",
-      "scoreSuccess": "almost-success"
+      "scoreSuccess": "success"
     }
   ]
 }
