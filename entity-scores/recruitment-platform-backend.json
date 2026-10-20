@@ -3,12 +3,12 @@
     "kind": "component",
     "name": "recruitmentplatform-backend"
   },
-  "generatedDateTimeUtc": "2026-10-09T09:54:14.916Z",
-  "scorePercent": 63,
-  "scoreLabel": "Yellow",
-  "scoreSuccess": "partial",
+  "generatedDateTimeUtc": "2026-10-20T14:17:26.162Z",
+  "scorePercent": 70,
+  "scoreLabel": "Green",
+  "scoreSuccess": "almost-success",
   "scoringReviewer": "GitHub Action",
-  "scoringReviewDate": "2026-10-09T09:54:14.916Z",
+  "scoringReviewDate": "2026-10-20T14:17:26.162Z",
   "areaScores": [
     {
       "id": 60000,
@@ -284,7 +284,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
-          "details": "TODO: Fix dependabot PRs and test and merge them",
+          "details": "TODO: Fix dependabot PRs and test and merge them. You still have pip checks on a non-python repo. Remove this source",
           "scoreLabel": "Red"
         },
         {
@@ -313,11 +313,11 @@
           "title": "Support Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreSuccess": "success",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "TODO: Add support docs",
-          "scoreLabel": "Red"
+          "details": "",
+          "scoreLabel": "Green"
         },
         {
           "id": 60505,
@@ -346,15 +346,16 @@
           "title": "Feedback Channels",
           "weight": 3,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 3,
+          "scoreSuccess": "success",
           "scoreHints": "Configured channels for collecting user/stakeholder feedback",
-          "details": "Feedback email setup"
+          "details": "Feedback email setup",
+          "scoreLabel": "Green"
         }
       ],
-      "scorePercent": 50,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "partial"
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success"
     }
   ]
 }

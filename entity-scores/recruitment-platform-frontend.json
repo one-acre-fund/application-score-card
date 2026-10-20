@@ -3,12 +3,12 @@
     "kind": "component",
     "name": "recruitmentplatform-frontend"
   },
-  "generatedDateTimeUtc": "2026-10-09T09:54:14.917Z",
-  "scorePercent": 61,
+  "generatedDateTimeUtc": "2026-10-20T14:17:26.162Z",
+  "scorePercent": 68,
   "scoreLabel": "Yellow",
   "scoreSuccess": "partial",
   "scoringReviewer": "GitHub Action",
-  "scoringReviewDate": "2026-10-09T09:54:14.917Z",
+  "scoringReviewDate": "2026-10-20T14:17:26.162Z",
   "areaScores": [
     {
       "id": 50000,
@@ -284,7 +284,7 @@
           "scorePercent": 0,
           "scoreSuccess": "failure",
           "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
-          "details": "TODO: PRs are failing checks and thus not tested or merged",
+          "details": "TODO: PRs are failing checks and thus not tested or merged. Use the same sonar token for your main CI  for the failing sonar scans",
           "scoreLabel": "Red"
         },
         {
@@ -292,15 +292,16 @@
           "title": "Single Sign-On (SSO)",
           "weight": 3,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 3,
+          "scoreSuccess": "success",
           "scoreHints": "Application secured with centralized Single Sign-On",
-          "details": "TODO: Add your assessment here"
+          "details": "TODO: Add your assessment here",
+          "scoreLabel": "Green"
         }
       ],
-      "scorePercent": 57,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "partial"
+      "scorePercent": 79,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success"
     },
     {
       "id": 50500,
@@ -312,11 +313,11 @@
           "title": "Support Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreSuccess": "success",
           "scoreHints": "Support procedures and knowledge base",
           "details": "TODO: docs missing",
-          "scoreLabel": "Red"
+          "scoreLabel": "Green"
         },
         {
           "id": 50505,
@@ -352,9 +353,9 @@
           "scoreLabel": "Green"
         }
       ],
-      "scorePercent": 71,
+      "scorePercent": 100,
       "scoreLabel": "Green",
-      "scoreSuccess": "almost-success"
+      "scoreSuccess": "success"
     }
   ]
 }
