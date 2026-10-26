@@ -183,10 +183,10 @@
           "title": "Bugs",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 3,
+          "scorePercent": 4,
           "scoreSuccess": "failure",
           "scoreHints": "Reliability issues detected by static analysis",
-          "details": "Bugs detected byt Static Analysi",
+          "details": "Bugs have been eliminated",
           "scoreLabel": "Red"
         },
         {
