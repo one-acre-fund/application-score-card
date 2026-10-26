@@ -64,10 +64,10 @@
           "title": "Error Log Reference & Recovery Guide",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
+          "scorePercent": 3,
           "scoreSuccess": "failure",
           "scoreHints": "Common error logs documented with their meaning and recovery steps",
-          "details": "TODO: Add error log reference and recovery guide to tech-docs",
+          "details": "Error Log reference present ",
           "scoreLabel": "Red"
         }
       ],
@@ -183,10 +183,10 @@
           "title": "Bugs",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 1,
+          "scorePercent": 3,
           "scoreSuccess": "failure",
           "scoreHints": "Reliability issues detected by static analysis",
-          "details": "TODO: Raise bugs rating to an A",
+          "details": "Bugs detected byt Static Analysi",
           "scoreLabel": "Red"
         },
         {
@@ -194,7 +194,7 @@
           "title": "Vulnerabilities",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 2,
+          "scorePercent": 3,
           "scoreSuccess": "partial",
           "scoreHints": "Exploitable security issues detected by static analysis",
           "details": "TODO: Reduce your vulnerability score",
