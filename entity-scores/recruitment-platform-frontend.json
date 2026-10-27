@@ -85,10 +85,10 @@
           "title": "Application Monitoring",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
+          "scorePercent": 4,
           "scoreSuccess": "failure",
           "scoreHints": "Comprehensive application performance monitoring",
-          "details": "TODO: Add elastic log collection annotation to the helm chart. @ivy.zioka can help with this",
+          "details": "Application performance monitoring in places",
           "scoreLabel": "Red"
         },
         {
@@ -107,10 +107,10 @@
           "title": "Health Checks & Dashboards",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
+          "scorePercent": 4,
           "scoreSuccess": "failure",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "TODO: Add health checks and dashboard setup details. @ivy.zioka can help with this",
+          "details": "Health checks and Dashboards present",
           "scoreLabel": "Red"
         },
         {
@@ -129,10 +129,10 @@
           "title": "Elastic APM Integration",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
+          "scorePercent": 4,
           "scoreSuccess": "failure",
           "scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
-          "details": "TODO: ElasticAPM integration missing. @abbas.abdulganiy can help with this.",
+          "details": "APM Integrated",
           "scoreLabel": "Red"
         },
         {
