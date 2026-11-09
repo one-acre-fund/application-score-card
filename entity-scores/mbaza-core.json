@@ -3,93 +3,96 @@
     "kind": "component",
     "name": "mbaza-core"
   },
-  "generatedDateTimeUtc": "2026-10-09T09:54:14.916Z",
-  "scorePercent": 672,
-  "scoreLabel": "Red",
-  "scoreSuccess": "failure",
-  "scoringReviewer": "GitHub Action",
-  "scoringReviewDate": "2026-10-09T09:54:14.916Z",
+  "generatedDateTimeUtc": "2026-11-09T08:00:00.000Z",
+  "scorePercent": 85,
+  "scoreLabel": "Green",
+  "scoreSuccess": "success",
+  "scoringReviewer": "Pending team lead review meeting",
+  "scoringReviewDate": "2026-11-09T08:00:00.000Z",
   "areaScores": [
     {
       "id": 80000,
       "title": "Documentation",
       "weight": 20,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 80001,
           "title": "README & Setup Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 90,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Comprehensive setup and usage documentation",
-          "details": "README present, add setup and usage instructions",
-          "scoreLabel": "Red"
+          "details": "README covers setup, config, tests, migrations and deploy. Also docs/getting-started.md and docs/index.md."
         },
         {
           "id": 80002,
           "title": "Architecture Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 70,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "System architecture and design documentation",
-          "details": "Architecture docs in place",
-          "scoreLabel": "Red"
+          "details": "docs/architecture.md - API, auth, module structure."
         },
         {
           "id": 80003,
           "title": "Project Overview",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 80,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "High-level overview describing the application's purpose, scope and audience",
-          "details": "Over view  in place",
-          "scoreLabel": "Red"
+          "details": "README + docs/index.md cover purpose and who it's for."
         },
         {
           "id": 80004,
           "title": "Runbooks & Operations",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 50,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": " present Runbooks but no troubleshooting guides",
-          "scoreLabel": "Red"
+          "details": "docs/runbooks.md (deploy + migrations) and docs/error-reference.md (recovery)."
         },
         {
           "id": 80005,
           "title": "Error Log Reference & Recovery Guide",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 90,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Common error logs documented with their meaning and recovery steps",
-          "details": "No present error logs",
-          "scoreLabel": "Red"
+          "details": "docs/error-reference.md - startup/config errors, what they mean, how to fix."
         }
-      ],
-      "scorePercent": 1900,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure"
+      ]
     },
     {
       "id": 80100,
       "title": "Monitoring",
       "weight": 29,
+      "scorePercent": 76,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
       "scoreEntries": [
         {
           "id": 80101,
           "title": "Application Monitoring",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 80,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Comprehensive application performance monitoring",
-          "details": "TODO: Application monitoring not yet configured",
-          "scoreLabel": "Red"
+          "details": "Elastic APM running in deployed envs, Sentry added now too."
         },
         {
           "id": 80103,
@@ -97,54 +100,54 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 0,
+          "scoreLabel": "Red",
           "scoreSuccess": "failure",
           "scoreHints": "Proactive alerting on key metrics",
-          "details": "TODO: No alerting rules configured yet",
-          "scoreLabel": "Red"
+          "details": "No alerting rules. No org-wide alerting pattern to build on yet either."
         },
         {
           "id": 80104,
           "title": "Health Checks & Dashboards",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Health endpoints and monitoring dashboards",
-          "details": "TODO: Add health check endpoints and dashboards",
-          "scoreLabel": "Red"
+          "details": "/health and /health/ready wired to k8s liveness/readiness probes."
         },
         {
           "id": 80105,
           "title": "Error Tracking (Sentry)",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Sentry integration added for error tracking and reporting",
-          "details": "TODO: Sentry integration missing",
-          "scoreLabel": "Red"
+          "details": "Added Sentry, off unless SENTRY_DSN is set. Scrubs farmer/staff PII, tokens, request bodies before anything's sent."
         },
         {
           "id": 80106,
           "title": "Elastic APM Integration",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
-          "details": "TODO: Elastic APM integration missing",
-          "scoreLabel": "Red"
+          "details": "elastic-apm-node starts when ELASTIC_APM_SERVER_URL is set, confirmed running in dev."
         },
         {
           "id": 80107,
           "title": "Log Collection (Elastic Autodiscovery Annotation)",
           "weight": 3,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 3,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Logs collected via Elastic autodiscovery annotation on pods",
-          "details": "TODO: Elastic autodiscovery annotation not yet added to the helm chart",
-          "scoreLabel": "Red"
+          "details": "co.elastic.logs/* annotations are in helm/values.yaml."
         },
         {
           "id": 80108,
@@ -152,107 +155,107 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 0,
+          "scoreLabel": "Red",
           "scoreSuccess": "failure",
           "scoreHints": "Links to monitoring dashboards added to catalog/documentation",
-          "details": "TODO: Add monitoring dashboard links",
-          "scoreLabel": "Red"
+          "details": "No general dashboard link in catalog-info.yaml yet, just the APM one below."
         },
         {
           "id": 80109,
           "title": "APM Dashboard Links",
           "weight": 3,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 3,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Links to APM dashboards added to catalog/documentation",
-          "details": "TODO: Add APM dashboard links",
-          "scoreLabel": "Red"
+          "details": "Added oaf.org/apm-dashboard-dev-url to catalog-info.yaml, same as recruitment backend."
         }
-      ],
-      "scorePercent": 276,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure"
+      ]
     },
     {
       "id": 80200,
       "title": "Quality",
       "weight": 23,
+      "scorePercent": 91,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 80201,
           "title": "Bugs",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Reliability issues detected by static analysis",
-          "details": "TODO: SonarQube not yet integrated, bug count unknown",
-          "scoreLabel": "Red"
+          "details": "0 bugs per Sonar."
         },
         {
           "id": 80202,
           "title": "Vulnerabilities",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Exploitable security issues detected by static analysis",
-          "details": "TODO: SonarQube not yet integrated, vulnerability count unknown",
-          "scoreLabel": "Red"
+          "details": "0 vulnerabilities per Sonar."
         },
         {
           "id": 80203,
           "title": "Coverage",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Percentage of code covered by automated tests",
-          "details": "TODO: Test coverage not yet reported via SonarQube",
-          "scoreLabel": "Red"
+          "details": "94.8% coverage, quality gate OK now. Added tests for the migration scripts and sentry scrub that were leaving new code at 0%."
         },
         {
           "id": 80204,
           "title": "Duplications",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Percentage of duplicated lines of code",
-          "details": "TODO: Duplication percentage not yet reported via SonarQube",
-          "scoreLabel": "Red"
+          "details": "0% duplication per Sonar."
         },
         {
           "id": 80205,
           "title": "Code Smells",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 2,
+          "scoreLabel": "Yellow",
+          "scoreSuccess": "partial",
           "scoreHints": "Maintainability issues detected by static analysis",
-          "details": "TODO: Code smell count not yet reported via SonarQube",
-          "scoreLabel": "Red"
+          "details": "25 code smells, none blocking. Haven't gone through them yet."
         },
         {
           "id": 80206,
           "title": "Hotspots",
           "weight": 3,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 3,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Security-sensitive code requiring manual review",
-          "details": "TODO: Security hotspots not yet reviewed, SonarQube not integrated",
-          "scoreLabel": "Red"
+          "details": "0 open hotspots, 100% reviewed."
         }
-      ],
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure"
+      ]
     },
     {
       "id": 80300,
       "title": "Security",
       "weight": 14,
+      "scorePercent": 64,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial",
       "scoreEntries": [
         {
           "id": 80301,
@@ -260,10 +263,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 4,
+          "scoreLabel": "Green",
           "scoreSuccess": "success",
           "scoreHints": "Automated security vulnerability scanning",
-          "details": "TODO: Dependabot security scanning configured and running",
-          "scoreLabel": "Green"
+          "details": "Dependabot security scanning configured and running."
         },
         {
           "id": 80302,
@@ -271,10 +274,10 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 2,
+          "scoreLabel": "Yellow",
           "scoreSuccess": "partial",
           "scoreHints": "Proper identity and access management",
-          "details": "TODO: Basic auth in place, SSO/RBAC improvements still needed",
-          "scoreLabel": "Yellow"
+          "details": "Basic auth in place, SSO/RBAC improvements still needed."
         },
         {
           "id": 80305,
@@ -282,10 +285,10 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 1,
+          "scoreLabel": "Yellow",
           "scoreSuccess": "almost-failure",
           "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
-          "details": "TODO: Dependabot enabled but most PRs are failing checks and not merging",
-          "scoreLabel": "Yellow"
+          "details": "Dependabot enabled, but all 20 open PRs are currently failing checks and not merging."
         },
         {
           "id": 80306,
@@ -293,20 +296,20 @@
           "weight": 3,
           "isOptional": false,
           "scorePercent": 2,
+          "scoreLabel": "Yellow",
           "scoreSuccess": "partial",
           "scoreHints": "Application secured with centralized Single Sign-On",
-          "details": "TODO: SSO partially configured, some routes still unprotected",
-          "scoreLabel": "Yellow"
+          "details": "SSO partially configured, some routes still unprotected."
         }
-      ],
-      "scorePercent": 64,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "partial"
+      ]
     },
     {
       "id": 80500,
       "title": "Operations",
       "weight": 14,
+      "scorePercent": 93,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 80502,
@@ -314,48 +317,45 @@
           "weight": 4,
           "isOptional": false,
           "scorePercent": 3,
+          "scoreLabel": "Green",
           "scoreSuccess": "almost-success",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "TODO: Support docs mostly complete, add remaining FAQs",
-          "scoreLabel": "Green"
+          "details": "Support docs mostly complete, add remaining FAQs."
         },
         {
           "id": 80505,
           "title": "Kubernetes Discoverability (Backstage)",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 100,
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
-          "details": "TODO: Pods discoverable via the Backstage Kubernetes plugin",
-          "scoreLabel": "Red"
+          "details": "k8s label selector + namespace annotations in catalog-info.yaml, pods show up fine."
         },
         {
           "id": 80506,
           "title": "ArgoCD Sync Status",
           "weight": 3,
           "isOptional": false,
-          "scorePercent": 100,
-          "scoreSuccess": "failure",
+          "scorePercent": 3,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "ArgoCD application sync status captured and visible",
-          "details": "TODO: ArgoCD sync status visible and tracked",
-          "scoreLabel": "Red"
+          "details": "argocd annotations in catalog-info.yaml, app shows Synced/Healthy."
         },
         {
           "id": 80507,
           "title": "Feedback Channels",
           "weight": 3,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreSuccess": "failure",
+          "scorePercent": 3,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Configured channels for collecting user/stakeholder feedback",
-          "details": "TODO: Add a feedback channel (e.g. Slack channel or email alias)",
-          "scoreLabel": "Red"
+          "details": "Added feedback/email-to in catalog-info.yaml."
         }
-      ],
-      "scorePercent": 1450,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure"
+      ]
     }
   ]
 }
