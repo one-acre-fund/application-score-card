@@ -4,12 +4,12 @@
       "kind": "component",
       "name": "abarimyi-api"
     },
-    "generatedDateTimeUtc": "2026-10-27T15:47:46.649Z",
+    "generatedDateTimeUtc": "2026-11-09T08:50:07.274Z",
     "scorePercent": 43,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-27T15:47:46.649Z",
+    "scoringReviewer": "abbas-abdulganiy",
+    "scoringReviewDate": "2026-11-09T08:50:07.274Z",
     "areaScores": [
       {
         "id": 70000,
@@ -53,12 +53,12 @@
       "kind": "component",
       "name": "client-360"
     },
-    "generatedDateTimeUtc": "2026-10-27T15:47:46.650Z",
+    "generatedDateTimeUtc": "2026-11-09T08:50:07.274Z",
     "scorePercent": 13,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-27T15:47:46.650Z",
+    "scoringReviewer": "abbas-abdulganiy",
+    "scoringReviewDate": "2026-11-09T08:50:07.274Z",
     "areaScores": [
       {
         "id": 90000,
@@ -102,12 +102,12 @@
       "kind": "component",
       "name": "hr-support-api"
     },
-    "generatedDateTimeUtc": "2026-10-27T15:47:46.650Z",
+    "generatedDateTimeUtc": "2026-11-09T08:50:07.275Z",
     "scorePercent": 54,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-27T15:47:46.650Z",
+    "scoringReviewer": "abbas-abdulganiy",
+    "scoringReviewDate": "2026-11-09T08:50:07.275Z",
     "areaScores": [
       {
         "id": 90000,
@@ -151,12 +151,12 @@
       "kind": "component",
       "name": "hr-support-web"
     },
-    "generatedDateTimeUtc": "2026-10-27T15:47:46.650Z",
+    "generatedDateTimeUtc": "2026-11-09T08:50:07.276Z",
     "scorePercent": 59,
     "scoreLabel": "Yellow",
     "scoreSuccess": "partial",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-27T15:47:46.650Z",
+    "scoringReviewer": "abbas-abdulganiy",
+    "scoringReviewDate": "2026-11-09T08:50:07.276Z",
     "areaScores": [
       {
         "id": 90000,
@@ -200,12 +200,12 @@
       "kind": "component",
       "name": "mabza"
     },
-    "generatedDateTimeUtc": "2026-10-27T15:47:46.651Z",
+    "generatedDateTimeUtc": "2026-11-09T08:50:07.276Z",
     "scorePercent": 34,
     "scoreLabel": "Yellow",
     "scoreSuccess": "almost-failure",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-27T15:47:46.651Z",
+    "scoringReviewer": "abbas-abdulganiy",
+    "scoringReviewDate": "2026-11-09T08:50:07.276Z",
     "areaScores": [
       {
         "id": 100000,
@@ -247,28 +247,28 @@
   {
     "entityRef": {
       "kind": "component",
-      "name": "mbaza-core"
+      "name": "mbaza"
     },
-    "generatedDateTimeUtc": "2026-10-27T15:47:46.651Z",
-    "scorePercent": 672,
-    "scoreLabel": "Red",
-    "scoreSuccess": "failure",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-27T15:47:46.651Z",
+    "generatedDateTimeUtc": "2026-11-09T08:50:07.277Z",
+    "scorePercent": 50,
+    "scoreLabel": "Yellow",
+    "scoreSuccess": "partial",
+    "scoringReviewer": "abbas-abdulganiy",
+    "scoringReviewDate": "2026-11-09T08:50:07.277Z",
     "areaScores": [
       {
         "id": 80000,
         "title": "Documentation",
-        "scorePercent": 1900,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       },
       {
         "id": 80100,
         "title": "Monitoring",
-        "scorePercent": 276,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 38,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "almost-failure"
       },
       {
         "id": 80200,
@@ -287,9 +287,58 @@
       {
         "id": 80500,
         "title": "Operations",
-        "scorePercent": 1450,
-        "scoreLabel": "Red",
-        "scoreSuccess": "failure"
+        "scorePercent": 71,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "component",
+      "name": "mbaza-core"
+    },
+    "generatedDateTimeUtc": "2026-11-09T08:50:07.276Z",
+    "scorePercent": 85,
+    "scoreLabel": "Green",
+    "scoreSuccess": "success",
+    "scoringReviewer": "abbas-abdulganiy",
+    "scoringReviewDate": "2026-11-09T08:50:07.276Z",
+    "areaScores": [
+      {
+        "id": 80000,
+        "title": "Documentation",
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 80100,
+        "title": "Monitoring",
+        "scorePercent": 76,
+        "scoreLabel": "Green",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "id": 80200,
+        "title": "Quality",
+        "scorePercent": 91,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 80300,
+        "title": "Security",
+        "scorePercent": 64,
+        "scoreLabel": "Yellow",
+        "scoreSuccess": "partial"
+      },
+      {
+        "id": 80500,
+        "title": "Operations",
+        "scorePercent": 93,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
       }
     ]
   },
@@ -298,12 +347,12 @@
       "kind": "component",
       "name": "recruitmentplatform-backend"
     },
-    "generatedDateTimeUtc": "2026-10-27T15:47:46.652Z",
+    "generatedDateTimeUtc": "2026-11-09T08:50:07.277Z",
     "scorePercent": 77,
     "scoreLabel": "Green",
     "scoreSuccess": "almost-success",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-27T15:47:46.652Z",
+    "scoringReviewer": "abbas-abdulganiy",
+    "scoringReviewDate": "2026-11-09T08:50:07.277Z",
     "areaScores": [
       {
         "id": 60000,
@@ -347,12 +396,12 @@
       "kind": "component",
       "name": "recruitmentplatform-frontend"
     },
-    "generatedDateTimeUtc": "2026-10-27T15:47:46.652Z",
+    "generatedDateTimeUtc": "2026-11-09T08:50:07.277Z",
     "scorePercent": 80,
     "scoreLabel": "Green",
     "scoreSuccess": "success",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-27T15:47:46.652Z",
+    "scoringReviewer": "abbas-abdulganiy",
+    "scoringReviewDate": "2026-11-09T08:50:07.277Z",
     "areaScores": [
       {
         "id": 50000,
@@ -396,12 +445,12 @@
       "kind": "component",
       "name": "zs-cockpit-api"
     },
-    "generatedDateTimeUtc": "2026-10-27T15:47:46.652Z",
+    "generatedDateTimeUtc": "2026-11-09T08:50:07.277Z",
     "scorePercent": 291,
     "scoreLabel": "Red",
     "scoreSuccess": "failure",
-    "scoringReviewer": "orchide",
-    "scoringReviewDate": "2026-10-27T15:47:46.652Z",
+    "scoringReviewer": "abbas-abdulganiy",
+    "scoringReviewDate": "2026-11-09T08:50:07.277Z",
     "areaScores": [
       {
         "id": 70000,
