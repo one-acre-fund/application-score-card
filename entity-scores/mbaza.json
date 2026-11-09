@@ -1,0 +1,356 @@
+{
+  "entityRef": {
+    "kind": "component",
+    "name": "mbaza"
+  },
+  "generatedDateTimeUtc": "2026-11-09T08:00:00.000Z",
+  "scorePercent": 50,
+  "scoreLabel": "Yellow",
+  "scoreSuccess": "partial",
+  "scoringReviewer": "Pending team lead review meeting",
+  "scoringReviewDate": "2026-11-09T08:00:00.000Z",
+  "areaScores": [
+    {
+      "id": 80000,
+      "title": "Documentation",
+      "weight": 20,
+      "scorePercent": 100,
+      "scoreLabel": "Green",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 80001,
+          "title": "README & Setup Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
+          "scoreHints": "Comprehensive setup and usage documentation",
+          "details": "README covers getting started, scripts, project structure."
+        },
+        {
+          "id": 80002,
+          "title": "Architecture Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
+          "scoreHints": "System architecture and design documentation",
+          "details": "docs/architecture.md - static Vite/React bundle, nginx, no server code."
+        },
+        {
+          "id": 80003,
+          "title": "Project Overview",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
+          "scoreHints": "High-level overview describing the application's purpose, scope and audience",
+          "details": "README + docs/index.md cover purpose and who it's for."
+        },
+        {
+          "id": 80004,
+          "title": "Runbooks & Operations",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
+          "scoreHints": "Operational procedures and troubleshooting guides",
+          "details": "docs/runbooks.md covers the deploy flow."
+        },
+        {
+          "id": 80005,
+          "title": "Error Log Reference & Recovery Guide",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
+          "scoreHints": "Common error logs documented with their meaning and recovery steps",
+          "details": "docs/error-reference.md - ImagePullBackOff and other common startup issues."
+        }
+      ]
+    },
+    {
+      "id": 80100,
+      "title": "Monitoring",
+      "weight": 29,
+      "scorePercent": 38,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial",
+      "scoreEntries": [
+        {
+          "id": 80101,
+          "title": "Application Monitoring",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 2,
+          "scoreLabel": "Yellow",
+          "scoreSuccess": "partial",
+          "scoreHints": "Comprehensive application performance monitoring",
+          "details": "Sentry covers errors now, but it's a static SPA - no perf/APM agent to speak of."
+        },
+        {
+          "id": 80103,
+          "title": "Alerting & Notifications",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreLabel": "Red",
+          "scoreSuccess": "failure",
+          "scoreHints": "Proactive alerting on key metrics",
+          "details": "No alerting rules. Same org-wide gap as mbaza-core."
+        },
+        {
+          "id": 80104,
+          "title": "Health Checks & Dashboards",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 2,
+          "scoreLabel": "Yellow",
+          "scoreSuccess": "partial",
+          "scoreHints": "Health endpoints and monitoring dashboards",
+          "details": "GET / is the liveness/readiness check (just nginx serving the bundle), no real dashboard."
+        },
+        {
+          "id": 80105,
+          "title": "Error Tracking (Sentry)",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
+          "scoreHints": "Sentry integration added for error tracking and reporting",
+          "details": "Added Sentry (build-time VITE_SENTRY_DSN, off unless set). Scrubs PII/tokens before sending."
+        },
+        {
+          "id": 80106,
+          "title": "Elastic APM Integration",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreLabel": "Red",
+          "scoreSuccess": "failure",
+          "scoreHints": "Elastic APM integrated for distributed tracing and performance monitoring",
+          "details": "No backend runtime here to run the APM agent against."
+        },
+        {
+          "id": 80107,
+          "title": "Log Collection (Elastic Autodiscovery Annotation)",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
+          "scoreHints": "Logs collected via Elastic autodiscovery annotation on pods",
+          "details": "co.elastic.logs/* annotations are in helm/values.yaml."
+        },
+        {
+          "id": 80108,
+          "title": "Monitoring Dashboard Links",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreLabel": "Red",
+          "scoreSuccess": "failure",
+          "scoreHints": "Links to monitoring dashboards added to catalog/documentation",
+          "details": "None added yet."
+        },
+        {
+          "id": 80109,
+          "title": "APM Dashboard Links",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreLabel": "Red",
+          "scoreSuccess": "failure",
+          "scoreHints": "Links to APM dashboards added to catalog/documentation",
+          "details": "No APM agent running, nothing to link."
+        }
+      ]
+    },
+    {
+      "id": 80200,
+      "title": "Quality",
+      "weight": 23,
+      "scorePercent": 0,
+      "scoreLabel": "Red",
+      "scoreSuccess": "failure",
+      "scoreEntries": [
+        {
+          "id": 80201,
+          "title": "Bugs",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Reliability issues detected by static analysis",
+          "details": "Fixed the Sonar project key this cycle, but the org's hit its LOC quota so the analysis hasn't actually processed yet. No real numbers until that clears."
+        },
+        {
+          "id": 80202,
+          "title": "Vulnerabilities",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Exploitable security issues detected by static analysis",
+          "details": "Same as Bugs - blocked on the org LOC quota, not measured yet."
+        },
+        {
+          "id": 80203,
+          "title": "Coverage",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreLabel": "Red",
+          "scoreSuccess": "failure",
+          "scoreHints": "Percentage of code covered by automated tests",
+          "details": "No test files in the repo at all (package.json just runs node --test with nothing to find). Real gap, not a reporting issue."
+        },
+        {
+          "id": 80204,
+          "title": "Duplications",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Percentage of duplicated lines of code",
+          "details": "Blocked on the Sonar LOC quota, not measured yet."
+        },
+        {
+          "id": 80205,
+          "title": "Code Smells",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Maintainability issues detected by static analysis",
+          "details": "Blocked on the Sonar LOC quota, not measured yet."
+        },
+        {
+          "id": 80206,
+          "title": "Hotspots",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": null,
+          "scoreSuccess": "unknown",
+          "scoreHints": "Security-sensitive code requiring manual review",
+          "details": "Blocked on the Sonar LOC quota, not measured yet."
+        }
+      ]
+    },
+    {
+      "id": 80300,
+      "title": "Security",
+      "weight": 14,
+      "scorePercent": 64,
+      "scoreLabel": "Yellow",
+      "scoreSuccess": "partial",
+      "scoreEntries": [
+        {
+          "id": 80301,
+          "title": "Security Scanning",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
+          "scoreHints": "Automated security vulnerability scanning",
+          "details": "Dependabot configured and running."
+        },
+        {
+          "id": 80302,
+          "title": "Authentication & Authorization",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 2,
+          "scoreLabel": "Yellow",
+          "scoreSuccess": "partial",
+          "scoreHints": "Proper identity and access management",
+          "details": "Google OAuth with a domain allowlist, not real SSO/RBAC."
+        },
+        {
+          "id": 80305,
+          "title": "Dependabot Automated Dependency Updates",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 1,
+          "scoreLabel": "Yellow",
+          "scoreSuccess": "almost-failure",
+          "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
+          "details": "11 open PRs, all failing checks, none merging."
+        },
+        {
+          "id": 80306,
+          "title": "Single Sign-On (SSO)",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 2,
+          "scoreLabel": "Yellow",
+          "scoreSuccess": "partial",
+          "scoreHints": "Application secured with centralized Single Sign-On",
+          "details": "Same Google OAuth setup as mbaza-core, not centralized SSO."
+        }
+      ]
+    },
+    {
+      "id": 80500,
+      "title": "Operations",
+      "weight": 14,
+      "scorePercent": 71,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
+      "scoreEntries": [
+        {
+          "id": 80502,
+          "title": "Support Documentation",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 0,
+          "scoreLabel": "Red",
+          "scoreSuccess": "failure",
+          "scoreHints": "Support procedures and knowledge base",
+          "details": "docs/support.md is still just the TODO placeholder."
+        },
+        {
+          "id": 80505,
+          "title": "Kubernetes Discoverability (Backstage)",
+          "weight": 4,
+          "isOptional": false,
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
+          "scoreHints": "Kubernetes pods/workloads discoverable via the Backstage Kubernetes plugin",
+          "details": "k8s label selector + namespace annotations in catalog-info.yaml."
+        },
+        {
+          "id": 80506,
+          "title": "ArgoCD Sync Status",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
+          "scoreHints": "ArgoCD application sync status captured and visible",
+          "details": "argocd annotations in catalog-info.yaml."
+        },
+        {
+          "id": 80507,
+          "title": "Feedback Channels",
+          "weight": 3,
+          "isOptional": false,
+          "scorePercent": 3,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
+          "scoreHints": "Configured channels for collecting user/stakeholder feedback",
+          "details": "Added feedback/email-to in catalog-info.yaml."
+        }
+      ]
+    }
+  ]
+}
