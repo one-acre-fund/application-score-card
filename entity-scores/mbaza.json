@@ -3,10 +3,10 @@
     "kind": "component",
     "name": "mbaza"
   },
-  "generatedDateTimeUtc": "2026-11-09T08:00:00.000Z",
-  "scorePercent": 50,
-  "scoreLabel": "Yellow",
-  "scoreSuccess": "partial",
+  "generatedDateTimeUtc": "2026-11-11T09:00:00.000Z",
+  "scorePercent": 73,
+  "scoreLabel": "Green",
+  "scoreSuccess": "almost-success",
   "scoringReviewer": "Pending team lead review meeting",
   "scoringReviewDate": "2026-11-09T08:00:00.000Z",
   "areaScores": [
@@ -177,29 +177,31 @@
       "id": 80200,
       "title": "Quality",
       "weight": 23,
-      "scorePercent": 0,
-      "scoreLabel": "Red",
-      "scoreSuccess": "failure",
+      "scorePercent": 74,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
       "scoreEntries": [
         {
           "id": 80201,
           "title": "Bugs",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 4,
+          "scoreSuccess": "success",
           "scoreHints": "Reliability issues detected by static analysis",
-          "details": "Fixed the Sonar project key this cycle, but the org's hit its LOC quota so the analysis hasn't actually processed yet. No real numbers until that clears."
+          "details": "0 bugs per Sonar, now that the one-acre-fund_mbaza-ui project is public and analysis actually runs (was blocked by the org LOC quota - private projects counted against it, public ones don't).",
+          "scoreLabel": "Green"
         },
         {
           "id": 80202,
           "title": "Vulnerabilities",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 4,
+          "scoreSuccess": "success",
           "scoreHints": "Exploitable security issues detected by static analysis",
-          "details": "Same as Bugs - blocked on the org LOC quota, not measured yet."
+          "details": "0 vulnerabilities per Sonar, same unblock as Bugs.",
+          "scoreLabel": "Green"
         },
         {
           "id": 80203,
@@ -210,37 +212,40 @@
           "scoreLabel": "Red",
           "scoreSuccess": "failure",
           "scoreHints": "Percentage of code covered by automated tests",
-          "details": "No test files in the repo at all (package.json just runs node --test with nothing to find). Real gap, not a reporting issue."
+          "details": "0% coverage per real Sonar data (previously unmeasured, blocked by the same quota issue). No test files in the repo beyond one CI smoke test - a real gap, not a reporting one."
         },
         {
           "id": 80204,
           "title": "Duplications",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 2,
+          "scoreSuccess": "partial",
           "scoreHints": "Percentage of duplicated lines of code",
-          "details": "Blocked on the Sonar LOC quota, not measured yet."
+          "details": "20.1% duplicated lines per Sonar. Real number now available; haven't gone through it yet.",
+          "scoreLabel": "Yellow"
         },
         {
           "id": 80205,
           "title": "Code Smells",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 4,
+          "scoreSuccess": "success",
           "scoreHints": "Maintainability issues detected by static analysis",
-          "details": "Blocked on the Sonar LOC quota, not measured yet."
+          "details": "0 code smells per Sonar.",
+          "scoreLabel": "Green"
         },
         {
           "id": 80206,
           "title": "Hotspots",
           "weight": 3,
           "isOptional": false,
-          "scorePercent": null,
-          "scoreSuccess": "unknown",
+          "scorePercent": 3,
+          "scoreSuccess": "success",
           "scoreHints": "Security-sensitive code requiring manual review",
-          "details": "Blocked on the Sonar LOC quota, not measured yet."
+          "details": "0 security hotspots per Sonar.",
+          "scoreLabel": "Green"
         }
       ]
     },
@@ -248,9 +253,9 @@
       "id": 80300,
       "title": "Security",
       "weight": 14,
-      "scorePercent": 64,
-      "scoreLabel": "Yellow",
-      "scoreSuccess": "partial",
+      "scorePercent": 79,
+      "scoreLabel": "Green",
+      "scoreSuccess": "almost-success",
       "scoreEntries": [
         {
           "id": 80301,
@@ -279,11 +284,11 @@
           "title": "Dependabot Automated Dependency Updates",
           "weight": 3,
           "isOptional": false,
-          "scorePercent": 1,
-          "scoreLabel": "Yellow",
-          "scoreSuccess": "almost-failure",
+          "scorePercent": 3,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
-          "details": "11 open PRs, all failing checks, none merging."
+          "details": "All 11 open PRs resolved: 9 merged after fixing the stale/missing Sonar project key and one real lint bug that were blocking CI; 2 closed by Dependabot itself after repeated rebase attempts. One merged bump (tailwindcss 4) broke the production build - reverted; a real v4 migration needs its own deliberate PR."
         },
         {
           "id": 80306,
@@ -302,20 +307,20 @@
       "id": 80500,
       "title": "Operations",
       "weight": 14,
-      "scorePercent": 71,
+      "scorePercent": 100,
       "scoreLabel": "Green",
-      "scoreSuccess": "almost-success",
+      "scoreSuccess": "success",
       "scoreEntries": [
         {
           "id": 80502,
           "title": "Support Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
-          "scoreLabel": "Red",
-          "scoreSuccess": "failure",
+          "scorePercent": 4,
+          "scoreLabel": "Green",
+          "scoreSuccess": "success",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "docs/support.md is still just the TODO placeholder."
+          "details": "docs/support.md now has real content: who to contact, how to report issues, what to include."
         },
         {
           "id": 80505,
