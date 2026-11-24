@@ -31,10 +31,10 @@
           "title": "Architecture Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
+          "scorePercent": 3,
           "scoreSuccess": "failure",
           "scoreHints": "System architecture and design documentation",
-          "details": "TODO: Add architecture documentation to your docs",
+          "details": "System architecture avaialble via Notion",
           "scoreLabel": "Red"
         },
         {
@@ -42,10 +42,10 @@
           "title": "Project Overview",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
+          "scorePercent": 4,
           "scoreSuccess": "failure",
           "scoreHints": "High-level overview describing the application's purpose, scope and audience",
-          "details": "TODO: Add a high-level overview describing the application's purpose, scope and audience",
+          "details": "Project overview available on Notion",
           "scoreLabel": "Red"
         },
         {
@@ -53,10 +53,10 @@
           "title": "Runbooks & Operations",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
+          "scorePercent": 2,
           "scoreSuccess": "failure",
           "scoreHints": "Operational procedures and troubleshooting guides",
-          "details": "TODO: Add operational procedures and troubleshooting guides",
+          "details": "Two Operation Runbooks were found in repo ",
           "scoreLabel": "Red"
         },
         {
@@ -175,7 +175,7 @@
           "scorePercent": 1,
           "scoreSuccess": "failure",
           "scoreHints": "Reliability issues detected by static analysis",
-          "details": "TODO: Reduce bugs",
+          "details": "Reduce bugs so far two detected",
           "scoreLabel": "Red"
         },
         {
@@ -251,7 +251,7 @@
           "scorePercent": 4,
           "scoreSuccess": "success",
           "scoreHints": "Automated security vulnerability scanning",
-          "details": "TODO: Dependabot PRs setup",
+          "details": "Automated securite scanning present",
           "scoreLabel": "Green"
         },
         {
@@ -259,10 +259,10 @@
           "title": "Authentication & Authorization",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
+          "scorePercent": 4,
           "scoreSuccess": "failure",
           "scoreHints": "Proper identity and access management",
-          "details": "TODO: Missing auth on APIs. possibly could use kong",
+          "details": "Authentication and Authorization handled by Keycloak",
           "scoreLabel": "Red"
         },
         {
@@ -273,7 +273,7 @@
           "scorePercent": 3,
           "scoreSuccess": "success",
           "scoreHints": "Dependabot PRs automatically created, reviewed and merged",
-          "details": "TODO: PRs fixed and some merged",
+          "details": "PRs fixed and some merged",
           "scoreLabel": "Green"
         },
         {
@@ -284,7 +284,7 @@
           "scorePercent": 3,
           "scoreSuccess": "success",
           "scoreHints": "Application secured with centralized Single Sign-On",
-          "details": "TODO: N/A",
+          "details": "App secured via Keycloak",
           "scoreLabel": "Green"
         }
       ],
@@ -302,10 +302,10 @@
           "title": "Support Documentation",
           "weight": 4,
           "isOptional": false,
-          "scorePercent": 0,
+          "scorePercent": 2,
           "scoreSuccess": "failure",
           "scoreHints": "Support procedures and knowledge base",
-          "details": "TODO: Add support documentation",
+          "details": "Some support proceedures exist",
           "scoreLabel": "Red"
         },
         {
